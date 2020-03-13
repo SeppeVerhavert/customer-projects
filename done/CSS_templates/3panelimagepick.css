@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap");
+.answer-container.question-image-choice .answer:last-child {
+    margin-left: 25%;
+}
+
+.card-content-item .text-container {
+    font-family: "Libre Baskerville";
+}

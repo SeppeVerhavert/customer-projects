@@ -1,0 +1,27 @@
+#widget_163 path.highcharts-grid-line {
+    stroke: none;
+}
+
+#title-page {
+    background: #000000 url(https://d211yo6vt4n0fx.cloudfront.net/media-library/production/61960/Wz8iPEdoRaqwcNTlqrkR_simone_hutsch_TPixIUNcQ7I_unsplash_min.jpg) no-repeat center;
+    background-size: cover;
+    height: 1122px;
+}
+
+#page_1 {
+    width: auto;
+    height: 1122px;
+    max-height: 1122px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    page-break-after: always;
+    background-image: url(https://d211yo6vt4n0fx.cloudfront.net/media-library/production/61960/NbxkXhCKSGWxUIzaP7No_Copy_of_Yellow_and_Salmon_Autism_Event_Poster__1_.png);
+    padding: 50px;
+    text-align: justify;
+}
+
+.page-header-space,
+.page-footer-space {
+    height: 0px;
+}
