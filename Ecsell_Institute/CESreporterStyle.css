@@ -1,0 +1,536 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap);
+
+/* -----    -----     GLOBAL ELEMENTS     -----    ----- */
+
+
+/* -----     TABLE ELEMENTS     ----- */
+
+table#container thead {
+    display: none !important;
+}
+
+table#container tfoot {
+    display: none !important;
+}
+
+
+/* -----     TEXT STYLING     ----- */
+
+.extra-bold {
+    font-weight: 900;
+    line-height: 1;
+}
+
+.bold {
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+a {
+    color: black;
+}
+
+.color-text {
+    width: 70%;
+    margin: auto;
+}
+
+.yellow-text {
+    color: #ffd84d;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.red-text {
+    color: #eccacf;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.green-text {
+    color: #8ad0c3;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.blue-text {
+    color: #aed3e7;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+
+/* -----     FOOTER     ----- */
+
+.footer-container {
+    height: 1500px;
+    width: 993px;
+    position: fixed;
+    bottom: -10px;
+    right: -10px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-image: url(https://i.imgur.com/I4n45On.png);
+}
+
+
+/* -----    -----     -----     PAGES     -----    -----     ----- */
+
+
+/* -----     BANNER BACKGROUNDS     ----- */
+
+#page_1,
+#page_2,
+#page_4,
+#page_5,
+#page_6,
+#page_7,
+#page_8,
+#page_9,
+#page_10,
+#page_11,
+#page_12,
+#page_13,
+#page_14,
+#page_15,
+#page_16,
+#page_17,
+#page_18 {
+    height: 1361.5px !important;
+    max-height: 1361.5px !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+#page_3 {
+    height: 1300px !important;
+    max-height: 1300px !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+
+/* ORANGE SMALL */
+
+#page_1 {
+    background-image: url(https://i.imgur.com/aObRkga.png);
+}
+
+
+/* GREY SMALL */
+
+#page_2 {
+    background-image: url(https://i.imgur.com/Du3uXAh.png);
+}
+
+
+/* GREY HORIZONTAL */
+
+#page_3,
+#page_18 {
+    background-image: url(https://i.imgur.com/MXnEoj2.png);
+}
+
+
+/* GREY */
+
+#page_4,
+#page_5,
+#page_6 {
+    background-image: url(https://i.imgur.com/r555Jwp.png);
+}
+
+
+/* YELLOW */
+
+#page_7,
+#page_8 {
+    background-image: url(https://i.imgur.com/7xEfBMm.png);
+}
+
+
+/* PINK */
+
+#page_9,
+#page_10,
+#page_11,
+#page_12 {
+    background-image: url(https://i.imgur.com/XzQHd0q.png);
+}
+
+
+/* GREEN */
+
+#page_13,
+#page_14,
+#page_15 {
+    background-image: url(https://i.imgur.com/y0NbiRF.png);
+}
+
+
+/* BLUE */
+
+#page_16,
+#page_17 {
+    background-image: url(https://i.imgur.com/im6hqXR.png);
+}
+
+
+/* -----    -----     PAGE 1     -----    ----- */
+
+#page_1 .page-container-row {
+    padding-left: 170px;
+    padding-top: 85px;
+}
+
+#widget_1 div {
+    line-height: 2em;
+    letter-spacing: .15rem;
+    padding-bottom: 50px;
+}
+
+#widget_1 div.font-xlarge {
+    padding-bottom: 0px;
+    font-size: 57px !important;
+    line-height: normal;
+}
+
+#widget_1 div.font-xlarge.extra-bold {
+    padding-bottom: 10px;
+}
+
+#widget_1 div:nth-child(3) {
+    padding-bottom: 120px;
+}
+
+
+/* -----    -----     PAGE 2     -----    ----- */
+
+#page_2 .page-container-row {
+    padding-left: 170px;
+    padding-top: 60px;
+}
+
+.report-info {
+    margin-left: 25px;
+    max-width: 70%;
+    line-height: 24px !important;
+}
+
+.report-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 80%;
+    padding: 15px 0 15px 0;
+}
+
+.yellow-text,
+.red-text,
+.green-text,
+.blue-text {
+    justify-self: end;
+    padding-right: 10px;
+}
+
+.report-info-grid .text {
+    line-height: 1.8em;
+}
+
+
+/* -----    -----     PAGE 3     -----    ----- */
+
+
+/* HEADER */
+
+#page_3 .theme-score-header {
+    font-size: 31px;
+    line-height: normal;
+    padding-left: 60px;
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+
+/* LEFT COLUMN */
+
+#page_3 #widget_5 .theme-score-container {
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+#page_3 #widget_5 .results-block {
+    margin: 0;
+}
+
+
+/* RIGHT COLUMN */
+
+#page_3 #widget_6 .theme-score-container {
+    padding-left: 25px;
+    padding-top: 237px;
+}
+
+#page_3 #widget_6 .results-block {
+    margin: 0;
+    width: 84%;
+}
+
+
+/* SCORE BLOCK */
+
+#page_3 .theme-score .title {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#page_3 .theme-score .subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#page_3 .theme-score .results-block {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    font-size: 16px;
+}
+
+#page_3 .theme-score .score-name {
+    font-size: 18px;
+    font-weight: 200;
+    padding: 10px;
+    justify-self: end;
+    align-self: center;
+}
+
+#page_3 .theme-score .score-result {
+    margin: 0;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: normal;
+    justify-self: start;
+}
+
+
+/* -----     LARGE BANNER TEXT     ----- */
+
+.banner-text {
+    margin-top: 70px;
+    margin-left: 60px;
+    width: 300px;
+    line-height: normal;
+}
+
+.banner-subtitle {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.banner-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.banner-title.long {
+    width: 115%;
+}
+
+.banner-hr {
+    border-bottom: 4px solid #ffffff;
+    width: 70px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.banner-info-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.banner-info-text {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.results-block {
+    margin-top: 30px;
+}
+
+.results-block .score-name {
+    font-size: 17px;
+}
+
+.results-block .score-result {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding: 3px;
+}
+
+
+/* -----     RIGHT COLUMN MARGIN TOP     ----- */
+
+#widget_9 {
+    margin-top: -835px;
+}
+
+#widget_12,
+#widget_15,
+#widget_27 {
+    margin-top: -500px;
+}
+
+#widget_18,
+#widget_39 {
+    margin-top: -735px;
+}
+
+#widget_21,
+#widget_24,
+#widget_48 {
+    margin-top: -815px;
+}
+
+#widget_30 {
+    margin-top: -750px;
+}
+
+#widget_33 {
+    margin-top: -485px;
+}
+
+#widget_36,
+#widget_45 {
+    margin-top: -800px;
+}
+
+#widget_42 {
+    margin-top: -435px;
+}
+
+
+/* -----     RESULT-GRIDS COLORS     ----- */
+
+.result-grid .subtitle.grey {
+    background-color: #d9d9d9;
+}
+
+.result-grid .row-title.grey {
+    background-color: #f1f1f1;
+}
+
+.result-grid .subtitle.yellow {
+    background-color: #ffd84d;
+}
+
+.result-grid .row-title.yellow {
+    background-color: #fff4b4;
+}
+
+.result-grid .subtitle.pink {
+    background-color: #eccacf;
+}
+
+.result-grid .row-title.pink {
+    background-color: #ffe7eb;
+}
+
+.result-grid .subtitle.green {
+    background-color: #8ad0c3;
+}
+
+.result-grid .row-title.green {
+    background-color: #cbf4ec;
+}
+
+.result-grid .subtitle.blue {
+    background-color: #aed3e7;
+}
+
+.result-grid .row-title.blue {
+    background-color: #e6f2fa;
+}
+
+
+/* -----     RESULT-GRIDS     ----- */
+
+.result-grid-container {
+    width: 90%;
+    font-size: 9px;
+    line-height: normal;
+}
+
+.result-grid-title {
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.result-grid {
+    display: grid;
+    grid-template-columns: 140px 1fr 1fr 70px 1fr 1fr;
+}
+
+.result-grid.grid-3 {
+    grid-template-columns: 140px 1fr 1fr 1fr;
+}
+
+.result-grid .subtitle {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.result-grid .subtitle.padding-top {
+    padding: 10px 0px 10px 0px;
+}
+
+.result-grid .score {
+    font-size: 10px;
+    justify-self: center;
+    line-height: 1.8;
+}
+
+.result-grid .row-title {
+    font-size: 10px;
+    line-height: 1.8;
+    text-align: end;
+    padding-right: 10px;
+}
+
+
+/* -----    -----     FINAL PAGE     -----    ----- */
+
+#page_18 .theme-score-header {
+    font-size: 31px;
+    line-height: normal;
+    padding-left: 60px;
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+#page_18 .open-questions-container {
+    padding: 100px;
+    padding-right: 182px;
+    box-sizing: border-box;
+}
+
+#page_18 .open-question-block {
+    padding-bottom: 150px;
+}
+
+#page_18 .open-question.title {
+    padding-bottom: 15px;
+}

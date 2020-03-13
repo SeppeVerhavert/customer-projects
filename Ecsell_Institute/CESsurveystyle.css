@@ -1,0 +1,221 @@
+/*
+Color Theme Swatches in Hex 
+.EcSell-Institute-1-hex { color: #444444; }
+.EcSell-Institute-2-hex { color: #F77123; }
+.EcSell-Institute-3-hex { color: #F3964E; }
+.EcSell-Institute-4-hex { color: #F2F2F2; }
+.EcSell-Institute-5-hex { color: #FFFFFF; }
+*/
+
+/* ----------------------   TITLE SCREEN    --------------------------- */
+
+.card-logo {
+    margin: 0 auto 0 auto;
+}
+
+.card-content .container p {
+    margin-bottom: 3em;
+}
+
+@media (max-width: 320px) {
+    .card-content .container p {
+        margin-bottom: 1em;
+    }
+}
+
+.intro .font-xlarge {
+    padding-bottom: 1em;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #444444;
+    border-bottom: 2px solid #F77123;
+}
+
+@media (max-width: 320px) {
+    .intro .font-xlarge {
+        padding-bottom: 0.3em;
+    }
+}
+
+.surveyOwner {
+    color: #F2F2F2;
+    margin-bottom: 0 !important;
+}
+
+@media (min-width: 700px) {
+    .theme-layout-left .card-content {
+        padding: 0 0 4em 0;
+    }
+}
+
+/* ----------------------   QUESTIONS    --------------------------- */
+
+.chapterTitle {
+    margin-bottom: 2.5em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    border-bottom: 2px solid #F77123;
+}
+
+.answer {
+    margin-bottom: .5em;
+}
+
+.answer-content {
+    padding: .5em .5em .5em 3em;
+}
+
+.answer .radio,
+.answer .checkbox {
+    left: 1em;
+    top: 1em;
+}
+
+.radio:checked+.answer-content:before {
+    left: 1em;
+}
+
+.answer-container .button,
+.answer-result .answer-content,
+.checkbox:checked+.answer-content,
+.gauge-bar .bar:after,
+.radio:checked+.answer-content {
+    background-color: rgba(68, 68, 68, .5);
+    color: #444444;
+}
+
+.rangeslider__value-bubble {
+    background-color: rgb(68, 68, 68);
+}
+
+.question {
+    margin-bottom: 1em;
+    font-size: x-large;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 320px) {
+    .font-xlarge .chapterTitle {
+        margin-bottom: 1em;
+    }
+}
+
+/* ----------------------   QUESTION 15    --------------------------- */
+
+#content15 .card-body {
+    padding: 0;
+}
+
+@media only screen and (min-width: 321px) {
+    #content15 .card-content {
+        padding: 0 1em;
+    }
+}
+
+/* ----------------------   QUESTION 24    --------------------------- */
+
+#content23 .card-body {
+    padding: 0;
+}
+
+@media only screen and (min-width: 321px) {
+    #content23 .card-content {
+        padding: 0 1em;
+    }
+}
+
+/* ----------------------   QUESTION 64    --------------------------- */
+
+#content59 .card-body {
+    padding: 0;
+}
+
+#content59 .card-content .chapterTitle {
+    margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 321px) {
+    #content59 .card-content {
+        padding: 0 1em;
+    }
+}
+
+/* ----------------------   FINAL SLIDE    --------------------------- */
+
+.slide-type-final .card-body {
+    padding: 0;
+}
+
+.slide-type-final .card-body .card-content {
+    padding: 0;
+}
+
+@media only screen and (max-width: 320px) {
+    .slide-type-final .card-body .card-content {
+        padding: 1em;
+    }
+
+    .slide-type-final .card-content .container p {
+        margin-bottom: 2em;
+    }
+
+    .button.finish {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* ----------------------   MOBILE MEDIA QUERRIES    --------------------------- */
+
+/* ----------------------   TITLE SCREEN    --------------------------- */
+@media (max-width: 425px) {
+    .card-content .container p {
+        margin-bottom: 1em;
+    }
+}
+@media (max-width: 425px) {
+    .intro .font-xlarge {
+        padding-bottom: 0.3em;
+    }
+}
+/* ----------------------   QUESTIONS    --------------------------- */
+@media only screen and (max-width: 425px) {
+    .font-xlarge .chapterTitle {
+        margin-bottom: 1em;
+    }
+}
+/* ----------------------   QUESTION 15    --------------------------- */
+@media only screen and (max-width: 425px) {
+    #content15 .card-content {
+        padding: 0 1em 5em;
+    }
+}
+/* ----------------------   QUESTION 24    --------------------------- */
+@media only screen and (max-width: 425px) {
+    #content23 .card-content {
+        padding: 0 1em 5em;
+    }
+}
+/* ----------------------   QUESTION 64    --------------------------- */
+@media only screen and (max-width: 425px) {
+    #content59 .card-content {
+        padding: 0 1em 5em;
+    }
+}
+/* ----------------------   FINAL SLIDE    --------------------------- */
+@media only screen and (max-width: 425px) {
+    .slide-type-final .card-body .card-content {
+        padding: 1em;
+    }
+
+    .slide-type-final .card-content .container p {
+        margin-bottom: 2em;
+    }
+
+    .button.finish {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
