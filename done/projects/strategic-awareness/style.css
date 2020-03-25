@@ -1,0 +1,22 @@
+/* ----- COVER PAGE ----- */
+
+.fr-view img.fr-dib {
+    margin: -850px auto !important;
+}
+
+section.title-page .logo {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 250px auto;
+}
+
+section.title-page .bottom-container {
+    padding-top: 1450px;
+}
+
+
+/* ----- FINAL PAGE ----- */
+
+section.final-page .top-container {
+    margin: 900px auto 0 auto;
+}
