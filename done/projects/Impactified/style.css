@@ -44,15 +44,31 @@
 #page_34 {
     height: 1122px;
     max-height: 1122px;
-    background-position: right, center;
+    background-position: 100% 12%, 100% -50%;
     background-size: 10%, cover;
     background-repeat: no-repeat;
-    background-image: url(https://d211yo6vt4n0fx.cloudfront.net/media-library/production/61960/7SUy8QqC5mtCuZG7CQvg_profile.png), url(https://d211yo6vt4n0fx.cloudfront.net/media-library/production/61960/2nqpunrMSg6kE0c9Q3PT_Copy_of_Yellow_and_Salmon_Autism_Event_Poster__4_.png);
-    padding: 30px 140px 0px 180px;
+    background-image: url(https://d211yo6vt4n0fx.cloudfront.net/media-library/production/61960/7SUy8QqC5mtCuZG7CQvg_profile.png), url(https://surveyanyplace.s3.amazonaws.com/custom/impactified/Impactified+new+background.png);
+    padding: 50px 140px 50px 180px;
     text-align: justify;
 }
 
 .page-header-space,
 .page-footer-space {
     height: 0px;
+}
+
+.font-xlarge {
+    margin-top: 200px;
+}
+
+#widget_127 span div:nth-child(8) {
+    line-height: 1.4em;
+}
+
+#widget_129 span div:nth-child(6) {
+    line-height: 1.4em;
+}
+
+#widget_129 span div:nth-child(8) {
+    line-height: 1.4em;
 }
