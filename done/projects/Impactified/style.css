@@ -5,7 +5,7 @@
 #title-page {
     background: url(https://d211yo6vt4n0fx.cloudfront.net/media-library/production/61960/Wz8iPEdoRaqwcNTlqrkR_simone_hutsch_TPixIUNcQ7I_unsplash_min.jpg) no-repeat center center;
     background-size: cover;
-    height: 1121px;
+    height: 1120px;
 }
 
 #page_1,
@@ -42,33 +42,12 @@
 #page_32,
 #page_33,
 #page_34 {
-    height: 1122px;
-    max-height: 1122px;
+    height: 1022px;
+    max-height: 1022px;
     background-position: 100% 12%, 100% -50%;
     background-size: 10%, cover;
     background-repeat: no-repeat;
     background-image: url(https://d211yo6vt4n0fx.cloudfront.net/media-library/production/61960/7SUy8QqC5mtCuZG7CQvg_profile.png), url(https://surveyanyplace.s3.amazonaws.com/custom/impactified/Impactified+new+background.png);
     padding: 50px 140px 50px 180px;
     text-align: justify;
-}
-
-.page-header-space,
-.page-footer-space {
-    height: 0px;
-}
-
-.font-xlarge {
-    margin-top: 200px;
-}
-
-#widget_127 span div:nth-child(8) {
-    line-height: 1.4em;
-}
-
-#widget_129 span div:nth-child(6) {
-    line-height: 1.4em;
-}
-
-#widget_129 span div:nth-child(8) {
-    line-height: 1.4em;
 }
