@@ -1,0 +1,150 @@
+body {
+    -webkit-text-stroke: 0px;
+}
+
+
+/*
+.font-xsmall {
+  font-size: 12px;
+  display: block;
+  line-height: 1.5;
+}
+
+.font-small {
+  font-size: 14px;
+  display: block;
+  line-height: 1.5;
+}
+
+.font-medium {
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+}
+.font-large {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  display: block;
+}
+
+.font-xlarge {
+  font-size: 30px;
+  font-weight: 900;
+  display: block;
+}*/
+
+.button:hover,
+.card-content .button:hover {
+    background-color: #05518a;
+}
+
+.card-content {
+    line-height: inherit;
+    padding: 0 3em 3em;
+}
+
+.description-box {
+    background: #f2f3f5;
+    padding: 1.5em;
+    border-radius: 4px;
+}
+
+.card-content a:hover {
+    color: #05518a;
+}
+
+.answer-container:not(.rating),
+.result-content {
+    font-size: 1.1em;
+}
+
+.answer {
+    margin-bottom: 0.5em;
+}
+
+.answer-content {
+    padding: 0.6em 0.2em 0.6em 2.6em;
+    border-color: rgba(255, 255, 255, 0) !important;
+    background: #f2f3f5;
+    line-height: 1.2;
+}
+
+.checkbox:checked+.answer-content {
+    border-color: #0B6F55 !important;
+    background-color: #05518a;
+}
+
+.radio:checked+.answer-content {
+    background-color: #05518a;
+}
+
+.card-content .card-content-item:first-child {
+    margin-top: 1.7em;
+}
+
+.text-container {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.media-container img,
+.card-media img {
+    max-height: 60%
+}
+
+.card-content span.font-xsmall {
+    line-height: 1.5 !important;
+    display: block;
+    padding-top: 1.5rem;
+    color: #5e676e !important;
+}
+
+.chosen-container .chosen-results li {
+    padding: 0.4em 0.2em;
+}
+
+.chosen-container .chosen-results li.highlighted {
+    background: #0B6F55;
+    border-radius: 4px;
+}
+
+
+/*Not applicable */
+
+.not-applicable-container .radio:checked+.answer-content,
+.not-applicable-container .answer-content {
+    font-size: 1em;
+    min-height: 0em;
+    border-color: rgba(255, 255, 255, 0) !important;
+    border: 2px solid;
+}
+
+.not-applicable-container.container {
+    margin-top: .5em !important;
+    font-size: 1.1em !important;
+}
+
+.not-applicable-container .radio {
+    width: 1.6em;
+    height: 1.6em;
+}
+
+.not-applicable-container .answer {
+    display: block;
+    background: #f2f3f5;
+    border-radius: 4px;
+}
+
+.not-applicable-container .radio:checked+.answer-content {
+    background: #0B6F55;
+    color: #fff;
+}
+
+.search-choice-close {
+    color: #002642;
+}
+
+.slide-type-final .card-logo img {
+    padding: 10px 0;
+}
