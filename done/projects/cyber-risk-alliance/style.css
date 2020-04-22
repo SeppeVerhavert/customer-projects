@@ -22,7 +22,7 @@
 }
 
 body {
-    font-family: "GraphikLight";
+    font-family: "GraphikLight" !important;
 }
 
 
@@ -36,14 +36,27 @@ body {
 
 .intro-card-title {
     font-size: 3.5em;
+    color: #e87613;
 }
 
 .intro-card-text {
     font-size: 1.6em;
 }
 
-.card-actions {
-    right: 67% !important;
+
+/* ----- BUTTON ----- */
+
+.card.intro-card .card-actions {
+    right: 40% !important;
+}
+
+#status-message,
+.button,
+.card-content .button,
+.media-overlay-container {
+    background: #e87613;
+    color: #fcfaf7;
+    font-weight: bold !important;
 }
 
 
@@ -57,6 +70,30 @@ body {
 
 /* ----- MEDIA QUERIES ----- */
 
+@media (min-width: 2000px) {
+    .theme-layout-compact .card {
+        max-width: 60em;
+    }
+    .card.intro-card {
+        margin: 12% 2% auto !important;
+    }
+    .intro-card-title {
+        font-size: 6.5em;
+    }
+    .intro-card-text {
+        font-size: 3em;
+    }
+    .card.intro-card .card-actions {
+        right: 70% !important;
+    }
+    .card.intro-card#status-message,
+    .button,
+    .card-content .button,
+    .media-overlay-container {
+        font-size: 1.5em;
+    }
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
     .alt-background {
         background-size: 200% 100% !important;
@@ -67,8 +104,8 @@ body {
     .alt-background {
         background-image: url("https://d211yo6vt4n0fx.cloudfront.net/survey/BF5mKV5BRMdBF0YjcCaJpBHQnqdFHjV0/images/u9nwNVZ6Te8fZ40a5kOJ_Blue_background_MWB_quiz_questions.jpg") !important;
     }
-    .card-actions {
-        right: 0 !important;
+    .card.intro-card .card-actions {
+        right: 0% !important;
     }
     .card.intro-card {
         margin: auto !important;
