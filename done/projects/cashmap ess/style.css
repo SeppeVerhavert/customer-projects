@@ -1,0 +1,62 @@
+/*1.1 Cover page*/
+
+body#title-page {
+    background-image: url(https://https-imgs.s3.amazonaws.com/survey-anyplace/cashmap-ess-report-cover-center.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.covertext {
+    line-height: 1.1;
+}
+
+
+/*hyperlink controls*/
+
+
+/*color: blue, purple, red = Variable color of hyperlink. Color names (e.g. blue) or hex codes (e.g. #4169E1)can be used.*/
+
+a:link {
+    color: #f08d20;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #f08d20;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d9d9d6;
+    text-decoration: none;
+}
+
+
+/*center align text in table header and rows*/
+
+td,
+th {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*numbered lists*/
+
+ol li {
+    padding-bottom: 10px;
+}
+
+
+/*bulleted lists*/
+
+ul li {
+    padding-bottom: 10px;
+}
+
+
+/*KPI COLOR*/
+
+.kpi .percentage {
+    color: #f08d20;
+}
