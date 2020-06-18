@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "GT Walsheim Pro";
+    src: url("//db.onlinewebfonts.com/t/0abeb2471faeb5269db428b9eac2075e.eot");
+    src: url("//db.onlinewebfonts.com/t/0abeb2471faeb5269db428b9eac2075e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0abeb2471faeb5269db428b9eac2075e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0abeb2471faeb5269db428b9eac2075e.woff") format("woff"), url("//db.onlinewebfonts.com/t/0abeb2471faeb5269db428b9eac2075e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0abeb2471faeb5269db428b9eac2075e.svg#GT Walsheim Pro Regular") format("svg");
+}
+
+@font-face {
+    font-family: "GT Walsheim Pro Light";
+    src: url("//db.onlinewebfonts.com/t/1006eedb0e2fc86da0e0e58d55270c83.eot");
+    src: url("//db.onlinewebfonts.com/t/1006eedb0e2fc86da0e0e58d55270c83.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1006eedb0e2fc86da0e0e58d55270c83.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1006eedb0e2fc86da0e0e58d55270c83.woff") format("woff"), url("//db.onlinewebfonts.com/t/1006eedb0e2fc86da0e0e58d55270c83.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1006eedb0e2fc86da0e0e58d55270c83.svg#GT Walsheim Pro Light") format("svg");
+}
+
+html,
+body,
+div {
+    font-family: GT Walsheim Pro, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.text-container {
+    font-family: GT Walsheim Pro, sans-serif !important;
+}
+
+.font-xlarge {
+    font-weight: 900;
+}
+
+.font-large {
+    font-weight: 500 !important;
+}
+
+#content0 {
+    background-image: url(https://green-hat.com.au/wp-content/uploads/2020/05/bg@3x.png);
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+#content0 .card-wrapper {
+    background-image: url(https://green-hat.com.au/wp-content/uploads/2020/05/DXC-AWS_hz_4c_wht_rgb@3x.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#content0 .card-logo {
+    display: none;
+}
+
+.intro-card {
+    background: transparent !important;
+    color: white !important;
+}
+
+.adaptive-white img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.light {
+    font-family: 'GT Walsheim Pro Light', sans-serif !important;
+}
+
+.integrated {
+    margin: 10px 10px 20px 10px;
+}
+
+.intro-question {
+    font-size: 27px !important;
+    line-height: 28px !important;
+    margin-bottom: 10px;
+}
+
+.intro-answer {
+    margin-bottom: 20px;
+}
+
+#content0 .form-item {
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.card-actions .button+.button {
+    border-radius: 0px !important;
+}
+
+.input,
+.radio,
+.checkbox,
+.select,
+select {
+    border-width: 1px;
+    background: white;
+    border-radius: 0px;
+}
+
+.answer-content,
+.answer-result,
+.checkbox,
+.input,
+.radio,
+.select {
+    border-color: #707070;
+    border-width: 1px;
+}
+
+.answer .radio,
+.answer .checkbox {
+    border-color: black;
+}
+
+.answers-container {
+    width: 80%;
+    margin: auto;
+}
+
+.section-heading {
+    color: #666666;
+    border-bottom: 1px solid #707070;
+    font-weight: bold;
+    width: 90%;
+    margin: 0px auto 0px auto;
+    padding-bottom: 20px;
+    font-size: 25px;
+    line-height: 28px;
+}
+
+::placeholder {
+    color: #707070;
+}
+
+.range-legend .rangeslider__low-value,
+.range-legend .rangeslider__high-value {
+    font-size: 15px;
+}
+
+.image-answers .image img {
+    height: 100px !important;
+}
+
+.image-answers .answer-content {
+    border: 0px solid white;
+    background: white;
+}

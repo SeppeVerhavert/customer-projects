@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Gotham Book";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/crs/GothamBook.ttf");
+}
+
+body {
+    font-family: "Gotham Book" !important;
+}

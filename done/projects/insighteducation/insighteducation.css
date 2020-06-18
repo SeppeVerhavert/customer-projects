@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@font-face {
+    font-family: "Avenir";
+    font-weight: normal;
+    font-style: normal;
+    src: url("https://d211yo6vt4n0fx.cloudfront.net/custom/insighteducationgroup/fonts/AvenirLTStd-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Avenir";
+    font-weight: 700;
+    font-style: bold;
+    src: url("https://d211yo6vt4n0fx.cloudfront.net/custom/insighteducationgroup/fonts/AvenirLTStd-Book.otf") format("opentype");
+}
+
+body,
+p,
+span {
+    font-family: 'Avenir', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Avenir', sans-serif !important;
+}
+
+#title-page {
+    background-image: url("https://i.imgur.com/dtxqU1E.png");
+    background-size: 810px 1122px;
+    background-repeat: no-repeat;
+}
+
+.background_item {
+    background-size: 100% 100%;
+}

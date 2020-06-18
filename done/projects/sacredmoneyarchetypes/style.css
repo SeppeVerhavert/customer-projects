@@ -1,0 +1,10 @@
+.ranking-table .row:nth-child(1),
+.ranking-table .row:nth-child(2),
+.ranking-table .row:nth-child(3) {
+    color: #ff007b;
+}
+
+.ranking-table .row:nth-child(8) {
+    color: #ff007b;
+    font-weight: bold;
+}
