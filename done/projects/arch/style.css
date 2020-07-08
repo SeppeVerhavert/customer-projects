@@ -1,0 +1,27 @@
+.column_chart .highcharts-yaxis-grid .highcharts-grid-line:nth-child(3) {
+    stroke: red;
+}
+
+.column_chart .highcharts-yaxis-grid .highcharts-grid-line:nth-child(5) {
+    stroke: yellow;
+}
+
+.column_chart .highcharts-yaxis-grid .highcharts-grid-line:nth-child(7) {
+    stroke: green;
+}
+
+#widget_4 .highcharts-yaxis-grid .highcharts-grid-line {
+    stroke: black;
+}
+
+#widget_4 .highcharts-yaxis-grid .highcharts-grid-line:nth-child(7) {
+    stroke: red;
+}
+
+#widget_4 .highcharts-yaxis-grid .highcharts-grid-line:nth-child(9) {
+    stroke: yellow;
+}
+
+#widget_4 .highcharts-yaxis-grid .highcharts-grid-line:nth-child(13) {
+    stroke: green;
+}

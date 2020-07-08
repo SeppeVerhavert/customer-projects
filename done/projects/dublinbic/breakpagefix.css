@@ -1,0 +1,25 @@
+.page {
+    height: 1122px;
+    width: 810px;
+    margin: 5px 0px 0px 0px !important;
+}
+
+.widget .kpi,
+.template-widget .kpi {
+    margin: 8px 1%;
+}
+
+.page-header-space,
+.page-footer-space {
+    height: 0px;
+}
+
+.footer-container {
+    height: 0px;
+    width: 95%;
+}
+
+.header-container {
+    height: 0px;
+    width: 95%;
+}

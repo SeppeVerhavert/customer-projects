@@ -1,0 +1,22 @@
+/* --- PAGEBREAK FIX --- */
+
+.page {
+    height: 1122px;
+    width: 810px;
+    margin: 50px 0px 0px 0px !important;
+}
+
+.page-header-space,
+.page-footer-space {
+    height: 0px;
+}
+
+.footer-container {
+    height: 30px;
+    width: 98%;
+}
+
+.header-container {
+    height: 30px;
+    width: 98%;
+}
