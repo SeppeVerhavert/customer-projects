@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8,
+p,
+li,
+ul,
+ol {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.font-xlarge,
+.font-large {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#status-message.active,
+.card {
+    box-shadow: 7px 7px 14px rgba(0, 0, 0, .15);
+}
+
+.card-content-item .text-container {
+    text-align: start;
+}
