@@ -8,3 +8,11 @@
     color: #ff007b;
     font-weight: bold;
 }
+
+.ranking-table .row .col {
+    text-align: left;
+}
+
+.ranking-table .row .col:last-child {
+    text-align: center;
+}
