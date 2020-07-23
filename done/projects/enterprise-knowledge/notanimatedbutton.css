@@ -1,0 +1,5 @@
+.button:not(:disabled):not(.disabled).glow {
+    -webkit-animation: submitAnswersMobile 0s none !important;
+    -moz-animation: submitAnswersMobile 0s none !important;
+    animation: submitAnswersMobile 0s none !important;
+}
