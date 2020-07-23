@@ -1,22 +1,29 @@
-document.addEventListener('DOMContentLoaded', function() {
-    let widget = document.getElementById("widget_16");
-    let tr = widget.children[1].children[1].children[0];
-    for (let i = 0; i < tr.children.length; i++) {
-        let innerText = tr.children[i].innerHTML.split('•');
-        let newText = [];
-        if (!innerText[0].length > 0) {
-            innerText.shift();
-        }
-        for (let j = 0; j < innerText.length; j++) {
-            if (j === 0) {
-                let breakText = "• " + innerText[j];
-                newText.push(breakText);
-            } else {
-                let breakText = "<br><br>" + "• " + innerText[j];
-                newText.push(breakText);
-            }
-        }
-        tr.children[i].innerHTML = (newText.join(""));
-        tr.children[i].style = "vertical-align: top;";
+// document.addEventListener('DOMContentLoaded', function() {
+let widget = document.getElementById("widget_16");
+let table = widget.children[1].children[1];
+
+for (let i = table.children.length - 1; i > 0; i--) {
+    if (table.children[i].innerHTML === "<td></td> <td></td>") {
+        table.deleteRow(i);
     }
-});
+}
+
+for (let i = 0; i < table.children.length; i++) {
+    let tr = table.children[i];
+    for (let j = 0; j < tr.children.length; j++) {
+        const re = /\r?\n/
+        let innerText = tr.children[j].innerHTML.split(re);
+        let newText = [];
+        for (let j = 0; j < innerText.length; j++) {
+            if (innerText[j], /\W/.test(innerText[j][0])) {
+                innerText[j].replace(/\W/g, '');
+                console.log(innerText[j]);
+            }
+            let breakText = innerText[j] + "<br><br>";
+            newText.push(breakText);
+        }
+        tr.children[j].innerHTML = (newText.join(""));
+        tr.children[j].style = "vertical-align: top;";
+    };
+}
+// });
