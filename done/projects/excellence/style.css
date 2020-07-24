@@ -1,1 +1,8 @@
-vertical-align: top;
+.template-widget.table tbody {
+    line-height: 1.5;
+}
+
+#widget_13.template-widget.table tbody,
+#widget_14.template-widget.table tbody {
+    line-height: initial;
+}
