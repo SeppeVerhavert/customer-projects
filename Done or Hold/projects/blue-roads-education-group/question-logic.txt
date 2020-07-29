@@ -1,0 +1,143 @@
+// Q+1
+
+Q3
+if answer on Q2 = A1
+
+Q4
+if answer on Q2 = A2
+
+Q5
+if answer on Q2 = A3
+
+Q6
+if answer on Q2 = A4
+
+Q7 (IMAGE)
+
+Q8
+if answer on Q3 = A2 or A1
+
+Q9
+if answer on Q3 = A3
+
+Q10
+if answer on Q3 = A4
+
+Q11 (IMAGE)
+
+Q12
+if answer on Q4 = A1
+
+Q13
+if answer on Q4 = A2
+
+Q14
+if answer on Q4 = A3
+
+Q15
+if answer on Q4 = A4
+
+Q16
+if answer on Q5 = A1
+
+Q17
+if answer on Q5 = A2
+
+Q18 (IMAGE)
+
+Q19
+if answer on Q6 != A1
+
+Q20
+if answer on Q6 != A2
+
+Q21
+if answer on Q6 != A3
+
+Q22
+if answer on Q6 != A4
+
+Q23
+if answer on Q6 != A5
+
+Q24
+if answer on Q7 != A1
+
+Q25
+if answer on Q7 != A2
+
+Q26
+if answer on Q7 != A3
+
+Q27
+if answer on Q7 != A4
+
+Q28
+if answer on Q7 != A5
+
+Q29 (IMAGE)
+
+Q30
+if answer on Q8 = A1
+
+Q31
+if answer on Q8 = A2
+
+Q32
+if answer on Q8 = A3
+
+Q33
+if answer on Q8 = A4
+
+Q34
+if answer on Q8 = A5
+
+Q35
+if answer on Q9 = A1
+
+Q36
+if answer on Q9 = A2
+
+Q37
+if answer on Q9 = A3
+
+Q38
+if answer on Q9 = A4
+
+Q39
+if answer on Q9 = A5
+
+Q40 (IMAGE)
+
+Q41
+if answer on Q10 = A1
+
+Q42
+if answer on Q10 = A2
+
+Q43
+if answer on Q10 = A3
+
+Q44
+if answer on Q10 = A4
+
+Q45 (IMAGE)
+
+Q46
+if answer on Q11 = A1
+
+Q47
+if answer on Q11 = A2
+
+Q48
+if answer on Q11 = A3
+
+Q49 (IMAGE)
+
+Q50
+
+Q51 (IMAGE)
+
+Q52
+
+Q53 (IMAGE)

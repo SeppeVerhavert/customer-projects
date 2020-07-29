@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+
+/* ----------   NAV BAR   ---------- */
+
+.menu-container {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    right: 1.5em;
+    top: 1.5em;
+    margin: 0;
+    padding: 50px 10px;
+}
+
+.menu-item {
+    color: #fec030 !important;
+    padding: 10px;
+}
+
+.menu-item p {
+    font-weight: 300;
+}
+
+
+/* ----------   MARGIN-TOP   ---------- */
+
+.margin-top {
+    margin-top: 20%;
+}
+
+
+/* ----------   BUTTONS   ---------- */
+
+.button {
+    border-radius: 3px;
+}
+
+.consult-button {
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    color: #00204f;
+    background-color: #fec030;
+    border-radius: 3px;
+}
+
+
+/* ----------   FONTS   ---------- */
+
+.header1 {
+    font-size: 36px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+.header2 {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    color: rgba(56, 181, 173, 1);
+}
+
+.header3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.header4 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #38b5ad;
+}
+
+.header5 {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.create-plan {
+    display: none;
+}
+
+
+/* ----------   SLIDERS   ---------- */
+
+.answer-container:not(.no-answer) .rangeslider--horizontal {
+    background-color: white;
+}
+
+.rangeslider__fill {
+    background-color: #fec030;
+}
+
+.rangeslider__handle:before {
+    background-color: #fec030;
+}
+
+
+/* ----------   SLIDER MARKERS   ---------- */
+
+.slider-marker {
+    z-index: 1;
+    display: flex;
+    margin-top: -5px !important;
+}
+
+.marker {
+    background-color: #fec030;
+    border-radius: 50%;
+    margin-left: 19%;
+    height: .35em;
+    width: .35em;
+}
+
+.marker.first {
+    margin-left: 0%;
+    background-color: none;
+}
+
+
+/* ----------   KEY AREAS   ---------- */
+
+.key-areas {
+    color: white;
+    -webkit-text-stroke-width: 0px;
+    font-size: 20px;
+    font-weight: 900;
+    width: 100%;
+    display: flex;
+}
+
+.key-area {
+    margin: 1px;
+    width: 20%;
+    padding: 12px 6px;
+    background-image: url(https://i.imgur.com/upwH2qf.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70px;
+}
+
+.key-area.active {
+    background-image: url(https://i.imgur.com/p7R3KpC.png);
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: no-repeat;
+}
+
+
+/* ----------   DATA CAPTURE FORM   ---------- */
+
+.answer-content,
+.input,
+.radio,
+.checkbox,
+.select,
+select {
+    border-width: 2px;
+}
+
+.answer[for="answer-32-7"] {
+    -webkit-text-stroke-width: 0px;
+}
+
+
+/* ----------   CONTACT INFO   ---------- */
+
+.contact-info {
+    font-size: 14px;
+}
+
+
+/* ----------   YOU ARE HERE LINE   ---------- */
+
+.line-box {
+    width: 20%;
+    background-image: url(https://i.imgur.com/wqniEUp.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.line-box.active {
+    background-image: url(https://i.imgur.com/2cDBtYe.png);
+}
+
+.active-text {
+    margin-top: -25px;
+}
+
+
+/* ----------   RESULT PAGE BOXES   ---------- */
+
+.box {
+    width: 50%;
+    margin: auto;
+    color: #38b5ad;
+    border: 3px solid #38b5ad;
+}
+
+.box-flex {
+    display: flex;
+    align-items: stretch;
+    -webkit-text-stroke-width: 0px;
+}
+
+.stage-box {
+    margin-left: 1px;
+    width: 20%;
+    color: #ffffff;
+    background-color: #38b5ad;
+    box-sizing: content-box;
+}
+
+.stage-box:first-child {
+    margin-left: 0px;
+}
+
+.active-box {
+    color: #38b5ad;
+    background-color: white;
+}
+
+.box-title {
+    padding: 10px 1px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.box-score {
+    padding: 10px;
+}
+
+.box-exp {
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+
+/* ----------   MEDIA QUERRIES   ---------- */
+
+
+/* ----------   SMALL LAPTOP   ---------- */
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .margin-top {
+        margin-top: 25%;
+    }
+    .header1 {
+        font-size: 31px;
+    }
+    .key-area {
+        padding: 9px 6px;
+    }
+    .key-area-title {
+        font-size: 12px;
+    }
+    .box-flex {
+        width: 150%;
+        margin-left: -25%;
+    }
+    .box-title {
+        padding: 10px 2px;
+        font-size: 16px;
+    }
+}
+
+
+/* ----------   TABLET   ---------- */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .menu-container {
+        width: 95%;
+        top: 8em;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    .margin-top {
+        margin-top: 15%;
+    }
+    .key-area-title {
+        font-size: 15px;
+    }
+    .box-flex {
+        width: 100%;
+        margin-left: 0;
+    }
+    .box-title {
+        font-size: 16px;
+    }
+}
+
+
+/* ----------   LOW TABLETS & MOBILE   ---------- */
+
+@media screen and (max-width: 767px) {
+    .create-plan {
+        display: block;
+    }
+    .menu-container {
+        width: 90%;
+        top: -3em;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    .key-areas {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .key-area {
+        display: none;
+    }
+    .key-area.active {
+        display: block;
+        height: auto;
+        margin: 0 0 20px 0;
+        padding: 0;
+        width: -webkit-fill-available;
+        background-image: none;
+    }
+    .key-area-title {
+        padding: 12px;
+        font-size: 24px;
+        font-weight: 600;
+        color: #38b5ad;
+        border: 3px solid #38b5ad;
+    }
+    .box-flex {
+        display: block;
+    }
+    .box {
+        width: 90%;
+    }
+    .line-box {
+        display: none;
+    }
+    .stage-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .box {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .menu-container {
+        top: -1em;
+    }
+}

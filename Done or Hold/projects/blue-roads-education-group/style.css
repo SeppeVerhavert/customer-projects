@@ -1,0 +1,90 @@
+.font-xlarge {
+    font-size: 24px !important;
+    color: #0088e2 !important;
+    font-weight: 600 !important;
+}
+
+a {
+    font-size: 24px !important;
+    color: #6dba79 !important;
+    font-weight: 600 !important;
+    line-height: normal;
+}
+
+.green-text {
+    font-size: 24px !important;
+    color: #0088e2 !important;
+    font-weight: 600 !important;
+}
+
+.keep-ratio-7 {
+    max-width: 180px !important;
+    max-height: 180px !important;
+    width: 180px !important;
+    height: 180px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-12 {
+    max-width: 180px !important;
+    max-height: 360px !important;
+    width: 180px !important;
+    height: 360px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-18 {
+    max-width: 520px !important;
+    max-height: 360px !important;
+    width: 520px !important;
+    height: 360px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-34 {
+    max-width: 520px !important;
+    max-height: 360px !important;
+    width: 520px !important;
+    height: 360px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-41 {
+    max-width: 520px !important;
+    max-height: 360px !important;
+    width: 520px !important;
+    height: 360px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-48 {
+    max-width: 520px !important;
+    max-height: 180px !important;
+    width: 520px !important;
+    height: 180px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-54 {
+    max-width: 520px !important;
+    max-height: 360px !important;
+    width: 520px !important;
+    height: 360px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-59 {
+    max-width: 430px !important;
+    max-height: 360px !important;
+    width: 430px !important;
+    height: 360px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-65 {
+    max-width: 180px !important;
+    max-height: 270px !important;
+    width: 180px !important;
+    height: 270px !important;
+    border-radius: 20px !important;
+}

@@ -1,0 +1,8 @@
+table.header thead,
+table.banded thead {
+    background: #ebebeb !important;
+}
+
+.template-widget.table td {
+    text-align: end;
+}

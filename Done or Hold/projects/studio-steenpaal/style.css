@@ -1,0 +1,175 @@
+#title-page {
+    background-image: url("https://surveyanyplace.s3.amazonaws.com/custom/Studio+Steenpaal/IVPEO_2019-01_rapportomslag.png");
+    background-size: 810px 1123px;
+    background-repeat: no-repeat;
+}
+
+#final-page {
+    background-image: url("https://surveyanyplace.s3.amazonaws.com/custom/Studio+Steenpaal/IVPEO_2019-01_rapport-rug.png");
+    background-size: 810px 1123px;
+    background-repeat: no-repeat;
+}
+
+.header-container {
+    padding-left: 30px;
+    width: 100%;
+    background: rgb(28, 44, 84);
+    background: linear-gradient(180deg, rgba(28, 44, 84, 1)95%, rgba(255, 255, 255, 1)100%);
+    height: 6%;
+}
+
+.header-container header {
+    color: #ffff;
+}
+
+.footer-container {
+    background: rgb(28, 44, 84);
+    background: linear-gradient(0deg, rgba(28, 44, 84, 1)95%, rgba(255, 255, 255, 1)100%);
+    height: 8%;
+    width: 100%
+}
+
+.footer-container footer {
+    color: #ffff;
+    text-indent: 33px;
+}
+
+#page_2,
+#page_3,
+#page_4,
+#page_5,
+#page_6,
+#page_7,
+#page_8 {
+    padding-top: 10em;
+}
+
+#widget_1 {
+    width: 57%
+}
+
+#widget_2 {
+    width: 33%
+}
+
+#widget_2 {
+    padding-left: 50px
+}
+
+#widget_3 {
+    width: 50%
+}
+
+#widget_3 {
+    padding-right: 50px
+}
+
+#widget_5 {
+    padding-top: 50px
+}
+
+#widget_8 {
+    width: 40%
+}
+
+#widget_8 {
+    padding-top: 50px
+}
+
+#widget_9 {
+    padding-right: 50px;
+}
+
+#widget_9 {
+    padding-top: 50px
+}
+
+#widget_10 {
+    padding-right: 50px;
+    width: 50%
+}
+
+#widget_11 {
+    padding-right: 50px;
+    width: 50%
+}
+
+#widget_13 {
+    width: 40%
+}
+
+#widget_13 {
+    padding-top: 50px
+}
+
+#widget_14 {
+    padding-right: 50px
+}
+
+#widget_15 {
+    padding-right: 50px
+}
+
+#widget_16 {
+    padding-right: 50px
+}
+
+#widget_18 {
+    width: 40%
+}
+
+#widget_18 {
+    padding-top: 50px
+}
+
+#widget_19 {
+    padding-right: 50px
+}
+
+#widget_20 {
+    padding-right: 50px
+}
+
+#widget_21 {
+    padding-right: 50px
+}
+
+#widget_23 {
+    width: 40%
+}
+
+#widget_23 {
+    padding-top: 50px
+}
+
+#widget_24 {
+    padding-right: 50px
+}
+
+#widget_25 {
+    padding-right: 50px
+}
+
+#widget_26 {
+    padding-right: 50px
+}
+
+#widget_28 {
+    width: 40%
+}
+
+#widget_28 {
+    padding-top: 50px
+}
+
+#widget_29 {
+    padding-right: 50px
+}
+
+#widget_30 {
+    padding-right: 50px
+}
+
+#widget_31 {
+    padding-right: 50px
+}

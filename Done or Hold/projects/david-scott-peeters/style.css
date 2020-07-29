@@ -1,0 +1,16 @@
+section.title-page {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 !important;
+    height: 1122px !important;
+    max-height: 1122px !important;
+    background-repeat: no-repeat;
+    min-height: 0 !important;
+    border: none !important;
+    padding-top: 30px;
+    overflow: hidden;
+    background-position: left top, left bottom;
+    background-size: auto 1122px, 793px 1122px;
+    background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 595 842'%3E%3Cdefs%3E%3Cstyle%3E.cls-1,.cls-2,.cls-3%7Bfill-rule:evenodd;%7D.cls-1%7Bfill:url(%23linear-gradient);%7D.cls-2%7Bfill:%231b1c1d;%7D.cls-3%7Bfill:url(%23linear-gradient-2);%7D%3C/style%3E%3ClinearGradient id='linear-gradient' x1='575.56' y1='797.17' x2='414.65' y2='617.97' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0.1' stop-color='%231b1c1d'/%3E%3Cstop offset='0.97' stop-color='%237f6746'/%3E%3C/linearGradient%3E%3ClinearGradient id='linear-gradient-2' x1='389.66' y1='348' x2='52.64' y2='-101.36' xlink:href='%23linear-gradient'/%3E%3C/defs%3E%3Ctitle%3EREPORTR TEMPLATE%3C/title%3E%3Cpath class='cls-1' d='M595,842V464.27C525.19,504.05,355.2,621,297.46,842Z'/%3E%3Cpath class='cls-2' d='M595,842V628.72C463.28,685.61,346.33,798.25,304,842Z'/%3E%3Cpath class='cls-3' d='M0,0V450.24c120.87-137.9,308.71-275.38,595-341.8V0Z'/%3E%3Cpath class='cls-2' d='M0,65.52C61.85,39.58,130.29,17.42,206.05.14H0Z'/%3E%3C/svg%3E"), url("https://surveyanyplace.s3.amazonaws.com/custom/David+Scott+Peters/chefs-cooking-in-the-kitchen-PT3E69P.jpg");
+}

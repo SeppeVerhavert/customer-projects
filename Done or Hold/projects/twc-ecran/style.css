@@ -1,0 +1,21 @@
+.alt-background {
+    background-image: url(https://i.imgur.com/QNvYmuY.jpg) !important;
+    background-size: contain !important;
+    background-color: white !important;
+}
+
+#content0 .container.text-container {
+    visibility: hidden;
+}
+
+#content0 .card {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#content1 .button.prev {
+    pointer-events: none;
+}
+
+#content0.slide-type-final .card {
+    background-color: rgba(255, 255, 255, 0.25);
+}

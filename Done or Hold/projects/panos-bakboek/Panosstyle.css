@@ -1,0 +1,45 @@
+.font-xlarge {
+    color: #f59e28;
+    text-align: center;
+    padding: 1em;
+    font-size: 32px !important;
+}
+
+.page {
+    padding-top: 20px;
+}
+
+section.page.title-page .font-xlarge {
+    font-size: 55px !important;
+}
+
+section.page.title-page {
+    width: auto;
+    height: 1122px;
+    max-height: 1122px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    page-break-after: always;
+    page-break-inside: avoid;
+    border: 4mm solid #f59e28 !important;
+    background: no-repeat url(https://d211yo6vt4n0fx.cloudfront.net/survey/31894/reporting-dashboard/1646/background_image.png) left bottom;
+}
+
+tr td:nth-child(5) {
+    max-width: 280px;
+    padding: 4px;
+}
+
+tr td:nth-child(5) img {
+    max-width: 280px;
+}
+
+.table table img {
+    max-width: 100%;
+}
+
+.table table th,
+.table table td {
+    min-width: 60px;
+}
