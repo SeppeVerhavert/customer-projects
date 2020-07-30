@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 }
                 tr.children[j].innerHTML = (newText.join(""));
-                tr.children[j].style = "vertical-align: top;";
+                tr.children[j].style = "vertical-align: top; line-height: 1.5; font-size: 14px !important;";
             };
         }
     }
