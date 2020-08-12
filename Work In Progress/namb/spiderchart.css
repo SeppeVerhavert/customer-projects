@@ -34,3 +34,14 @@
 .highcharts-grid.highcharts-yaxis-grid .highcharts-grid-line {
     stroke-width: 3px;
 }
+
+.highcharts-point {
+    stroke-width: 2;
+    stroke: darkgrey;
+}
+
+.highcharts-series.highcharts-series-1.highcharts-line-series,
+.highcharts-markers.highcharts-series-1.highcharts-line-series.highcharts-tracker {
+    transform: rotate(345deg);
+    transform-origin: center;
+}
