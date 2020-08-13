@@ -13,6 +13,14 @@ window.MathJax = {
     }
 };
 
+function changeHintBtn() {
+    if (document.querySelector('.rsActiveSlide .question-hint') == null) {
+        return;
+    } else {
+        console.log('change');
+    }
+}
+
 var script = document.createElement('script');
 
 script.id = "MathJax-script";
@@ -21,7 +29,8 @@ script.onload = function() {
     MathJax.config.startup.ready();
 
     App.Slides.registerEvent('rsOnUpdateNav', function() {
-        MathJax.typeset()
+        MathJax.typeset();
+        changeHintBtn();
     });
 };
 

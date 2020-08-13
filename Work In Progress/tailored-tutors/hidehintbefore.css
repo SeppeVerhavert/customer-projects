@@ -1,0 +1,7 @@
+.icon.icon-question-hint {
+    font-family: 'Poppins', sans-serif;
+}
+
+.icon.icon-question-hint::before {
+    content: none;
+}
