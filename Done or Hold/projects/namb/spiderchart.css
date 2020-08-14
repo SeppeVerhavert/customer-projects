@@ -40,8 +40,15 @@
     stroke: darkgrey;
 }
 
+.highcharts-axis-labels.highcharts-xaxis-labels,
 .highcharts-series.highcharts-series-1.highcharts-line-series,
 .highcharts-markers.highcharts-series-1.highcharts-line-series.highcharts-tracker {
-    transform: rotate(345deg);
+    transform: rotate(346deg);
     transform-origin: center;
+}
+
+.highcharts-axis-labels.highcharts-xaxis-labels text {
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: rotate(14deg);
 }
