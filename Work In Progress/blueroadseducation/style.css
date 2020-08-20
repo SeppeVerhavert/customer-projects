@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+.font-xlarge {
+    font-size: 24px !important;
+    color: #0088e2 !important;
+    font-weight: 600 !important;
+}
+
+a {
+    font-size: 20px !important;
+    color: #6dba79 !important;
+    font-weight: 600 !important;
+    line-height: normal;
+}
+
+.green-text {
+    font-size: 24px !important;
+    color: #0088e2 !important;
+    font-weight: 600 !important;
+}
+
+.keep-ratio-7 {
+    max-width: 180px !important;
+    max-height: 180px !important;
+    width: 180px !important;
+    height: 180px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-12 {
+    max-width: 180px !important;
+    max-height: 360px !important;
+    width: 180px !important;
+    height: 360px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-18 {
+    max-width: 520px !important;
+    max-height: 360px !important;
+    width: 520px !important;
+    height: 360px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-34 {
+    max-width: 520px !important;
+    max-height: 520px !important;
+    width: 520px !important;
+    height: 520px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-41 {
+    max-width: 520px !important;
+    max-height: 360px !important;
+    width: 520px !important;
+    height: 360px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-48 {
+    max-width: 520px !important;
+    max-height: 180px !important;
+    width: 520px !important;
+    height: 180px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-54 {
+    max-width: 520px !important;
+    max-height: 360px !important;
+    width: 520px !important;
+    height: 360px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-59 {
+    max-width: 430px !important;
+    max-height: 360px !important;
+    width: 430px !important;
+    height: 360px !important;
+    border-radius: 20px !important;
+}
+
+.keep-ratio-65 {
+    max-width: 180px !important;
+    max-height: 270px !important;
+    width: 180px !important;
+    height: 270px !important;
+    border-radius: 20px !important;
+}
+
+
+/* section.title-page {
+    background-image: url("https://images.unsplash.com/photo-1572457982130-843bfd78ce9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+
+/* section.title-page {
+    background-image: url("https://images.unsplash.com/photo-1541897174996-d68b4a8055c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+section.title-page {
+    background-image: url("https://images.unsplash.com/photo-1489640818597-89b1edc97db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
