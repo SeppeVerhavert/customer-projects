@@ -1,0 +1,117 @@
+/*---- Version: 1.2 ----*/
+
+.card-body {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.card-content .card-content-item:first-child {
+    /*Question 4 - let form items to sit next to each other */
+    margin-top: 0;
+}
+
+hr {
+    opacity: 0;
+    margin: 0.5em 0;
+}
+
+.hide-element,
+hr:nth-child(2) {
+    display: none;
+}
+
+.answer-content,
+select,
+textarea,
+input {
+    font-size: 0.9em;
+}
+
+#question-1::before {
+    content: "";
+    height: 85px;
+    background-image: url("https://assets.surveyanyplace.com/demo/reportr-logo_white.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    display: block;
+    margin-bottom: 1em;
+}
+
+#question-2 span {
+    font-size: 0.75em;
+}
+
+#question-5 .form-item:nth-child(1) {
+    width: 48%;
+    margin-right: 2%;
+    display: block;
+    float: left;
+}
+
+#question-5 .form-item:nth-child(2) {
+    width: 50%;
+    float: left;
+}
+
+#question-4 hr {
+    width: 100%;
+    opacity: 0.5;
+    margin-bottom: 1.5em;
+}
+
+.reportr-logo {
+    /*Logo on final screen*/
+    width: 45%;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 320px) {
+    .card-content {
+        margin: .8em 0 4em 0;
+    }
+}
+
+@media (min-width: 375px) {
+    .card-content {
+        margin: .8em 0 5em 0;
+    }
+}
+
+@media (min-width: 768px) {
+    #question-1:before {
+        display: none;
+    }
+    .card-logo img {
+        max-height: 5em !important;
+    }
+    #question-5 .form-item:nth-child(1) {
+        width: 25%;
+        margin-right: 2%;
+        display: block;
+        float: left;
+    }
+    #question-5 .form-item:nth-child(2) {
+        width: 25%;
+        margin-right: 2%;
+        float: left;
+    }
+    #question-5 .form-item:nth-child(3) {
+        width: 46%;
+        float: left;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card-content {
+        margin: .8em 0 0;
+    }
+}
+
+
+/*     -----     Resize texterea     -----     */
+
+textarea.form-item-answer {
+    height: 60px;
+}
