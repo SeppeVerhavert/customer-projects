@@ -1,0 +1,8 @@
+Name;Type (spreadsheet, plain or custom_api);Data freshness (realtime, 1h, 4h, 12h or 1d);Value (if type is plain);Spreadsheet ID (if type is spreadsheet);Cell (if type is spreadsheet);Filter value (if type is spreadsheet);Comparison value (if type is spreadsheet);Endpoint (if type is custom_api);Tree (if type is custom_api)
+EXTERNAL_FIELD_GSAR_PRAKTIJKTEST_SPOT_REPAIR_CUSTOM_SCORE_PERCENTAGE;spreadsheet;realtime;;1LyGYBoZR3jYbOqDp1ydippCILei76CkC82f0WU-IlQY;Calculations2!B38;;;;
+EXTERNAL_FIELD_GSAR_PRAKTIJKTEST_DENT_REPAIR_CUSTOM_SCORE_PERCENTAGE;spreadsheet;realtime;;1LyGYBoZR3jYbOqDp1ydippCILei76CkC82f0WU-IlQY;Calculations2!B39;;;;
+EXTERNAL_FIELD_GSAR_PRAKTIJKTEST_GLASS_REPAIR_CUSTOM_SCORE_PERCENTAGE;spreadsheet;realtime;;1LyGYBoZR3jYbOqDp1ydippCILei76CkC82f0WU-IlQY;Calculations2!B40;;;;
+EXTERNAL_FIELD_GSAR_PRAKTIJKTEST_KOPLAMPHERSTELLING_CUSTOM_SCORE_PERCENTAGE;spreadsheet;realtime;;1LyGYBoZR3jYbOqDp1ydippCILei76CkC82f0WU-IlQY;Calculations2!B41;;;;
+EXTERNAL_FIELD_GSAR_PRAKTIJKTEST_KUNSTSTOFHERSTELLING_CUSTOM_SCORE_PERCENTAGE;spreadsheet;realtime;;1LyGYBoZR3jYbOqDp1ydippCILei76CkC82f0WU-IlQY;Calculations2!B42;;;;
+EXTERNAL_FIELD_GSAR_PRAKTIJKTEST_VELGHERSTELLING_CUSTOM_SCORE_PERCENTAGE;spreadsheet;realtime;;1LyGYBoZR3jYbOqDp1ydippCILei76CkC82f0WU-IlQY;Calculations2!B43;;;;
+EXTERNAL_FIELD_GSAR_PRAKTIJKTEST_DUURZAAMHEID_CUSTOM_SCORE_PERCENTAGE;spreadsheet;realtime;;1LyGYBoZR3jYbOqDp1ydippCILei76CkC82f0WU-IlQY;Calculations2!B44;;;;
