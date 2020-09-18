@@ -16,27 +16,19 @@
 
 #title-page {
     background-image: url("https://i.ibb.co/v3QpcTN/4-01.png");
-    background-size: 810px 1121px;
+    background-size: 810px 1122px;
     background-repeat: no-repeat;
 }
 
 
 /* TITLE PAGE TEXT */
 
-
-/* .container-cover {
-    text-align: center;
-    position: relative;
-    margin: 0;
-}
-
 .text-cover {
-    position: relative;
-    top: 910px;
+    padding-top: 950px;
     text-align: center;
     font-size: 39px;
     color: #ad8e59;
-} */
+}
 
 
 /* -----     ----- PAGE 1 -----     ----- */
