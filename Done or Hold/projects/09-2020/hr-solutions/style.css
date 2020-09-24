@@ -1,0 +1,123 @@
+section.title-page .logo {
+    max-width: 125px;
+    max-height: 125px;
+    float: right;
+    margin: 50px 50px;
+    width: 100%;
+}
+
+section.final-page .logo {
+    max-width: 80px;
+    max-height: 80px;
+    float: right;
+    margin: 50px 50px;
+    width: 100%;
+}
+
+section.title-page .top-container {
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 50px;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #000000;
+    padding-bottom: 0.5em;
+    border-bottom: none !important;
+}
+
+section.title-page .bottom-container {
+    margin-top: 550px;
+    background-color: rgba(246, 246, 246, 0.7);
+    padding: 30px;
+    text-align: center;
+}
+
+section.title-page {
+    display: block;
+    box-sizing: border-box;
+    width: 842px !important;
+    margin: 0 !important;
+    height: 1191px !important;
+    max-height: 1191px !important;
+    background-repeat: no-repeat;
+    min-height: 0 !important;
+    border: none !important;
+    padding-top: 0;
+    overflow: hidden;
+    background-image: url("https://assets.surveyanyplace.com/media-library/production/64180/HRSolutions Branding/hWPVcu7nT4i7szzGLw5s_front_cover_covid_risk_assessment.jpg");
+}
+
+section.final-page {
+    display: block;
+    box-sizing: border-box;
+    width: 842px;
+    margin: 0 !important;
+    height: 1191px !important;
+    max-height: 1191px !important;
+    background-repeat: no-repeat;
+    min-height: 0 !important;
+    border: none !important;
+    padding-top: 0;
+    overflow: hidden;
+    background-image: url("https://assets.surveyanyplace.com/media-library/production/64180/HRSolutions Branding/bb3aRFfTIWU86KyLgllg_back_cover_covid_risk_assessment.jpg");
+}
+
+section.final-page .top-container {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 780px;
+    line-height: 1.5;
+    max-width: 100%;
+    color: #ffffff;
+}
+
+section#page_1 {
+    background-color: #FFffff;
+}
+
+.header-container {
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: #eb247c;
+    color: #ffffff !important;
+    border-bottom: none;
+}
+
+.header-container header {
+    margin: 0;
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-left: 20px;
+}
+
+.footer-container {
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+    border-top: 4px solid #eb247c;
+    background-color: #000000;
+}
+
+.footer-container footer {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+    padding-bottom: 18px;
+    padding-left: 20px;
+}
+
+.widget .kpi,
+.template-widget .kpi {
+    padding: 24px 12px 8px;
+    width: 240px;
+    margin: 3px 0.5%;
+}
