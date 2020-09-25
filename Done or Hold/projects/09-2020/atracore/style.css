@@ -1,0 +1,241 @@
+:root {
+    --white-accent: #ffffff63;
+    --red-accent: #e01f2d;
+    --green-accent: rgba(41, 175, 38, 0.8);
+}
+
+
+/* IMPORTS */
+
+
+/* @font-face {
+    font-family: 'Teko';
+    src: url(https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap);
+} */
+
+@font-face {
+    font-family: 'Rock Salt';
+    src: url(https://surveyanyplace.s3.amazonaws.com/custom/atracore/RockSalt-Regular.ttf);
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap'); */
+
+
+/* GENERAL */
+
+.font-xlarge {
+    /* font-family: 'Karla', sans-serif; */
+    font-family: 'Rock Salt', cursive !important;
+}
+
+.upper-text {
+    border-bottom: 1px solid var(--white-accent);
+    padding: 0 0 2rem 0;
+}
+
+
+/* questions & answers*/
+
+hr {
+    border-top: 0 !important;
+    margin: 1rem auto !important;
+}
+
+#question-2,
+#question-3,
+#question-4,
+#question-5,
+#question-7,
+#question-8,
+#question-9,
+#question-11,
+#question-12,
+#question-13 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: normal;
+}
+
+.container.answers-container,
+.container.text-container {
+    flex-basis: 1rem;
+}
+
+.question-text {
+    text-align: center;
+}
+
+.answer-container.container.question-text-choice.text-choice.column-single {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+label.answer {
+    flex-basis: 36%;
+}
+
+hr:nth-child(2),
+#question-1>div.container.answers-container,
+#question-6>div.container.answers-container,
+#question-10>div.container.answers-container {
+    display: none;
+}
+
+
+/* MY NAV bullets */
+
+.myNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 4rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.myNavItem {
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 15px;
+    background: #ffffff;
+}
+
+.red {
+    background: var(--red-accent) !important;
+}
+
+
+/* BUTTONS */
+
+.button {
+    background: transparent !important;
+    border: 2px solid var(--white-accent) !important;
+    border-radius: 11px !important;
+}
+
+.prev,
+.next {
+    padding: 3px !important;
+    display: flex !important;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 2rem !important;
+    min-width: 6rem !important;
+}
+
+.card-actions-item {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+    display: flex !important;
+}
+
+.answer-content {
+    text-transform: uppercase;
+}
+
+.radio:checked+.answer-content {
+    border-color: var(--white-accent) !important;
+}
+
+.radio:checked+.answer-content:before {
+    content: " " !important;
+}
+
+.radio:checked+.yes_green {
+    background-color: var(--green-accent);
+}
+
+.radio:checked+.no_red {
+    background-color: var(--red-accent);
+}
+
+.radio {
+    visibility: hidden;
+}
+
+div#status-message {
+    background: black !important;
+}
+
+
+/* RESPONSIVENESS */
+
+@media (min-width: 375px) {
+    .card-actions .button+.button {
+        margin: 0 0 0 2.5rem;
+    }
+}
+
+@media (min-width: 500px) {
+    #question-2,
+    #question-3,
+    #question-4,
+    #question-5,
+    #question-7,
+    #question-8,
+    #question-9,
+    #question-11,
+    #question-12,
+    #question-13 {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container.text-container {
+        flex-basis: 39rem;
+    }
+    .container.answers-container {
+        flex-basis: 20rem;
+    }
+    .question-text {
+        text-align: left;
+    }
+    .myNav {
+        width: 8rem;
+        height: 5rem;
+    }
+    .myNavItem {
+        height: 0.9rem;
+        width: 0.9rem;
+    }
+    .text-choice .answer-content {
+        padding: .8em 1.8em .8em 1.8em !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .theme-layout-compact .card {
+        max-width: 80% !important;
+        height: 94% !important;
+    }
+}
+
+
+/* SCROLL BAR */
+
+.vertical-center {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow-y: overlay;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+}
+
+ ::-webkit-scrollbar-thumb {
+    display: none !important;
+}
+
+ ::-webkit-scrollbar-track {
+    display: none !important;
+}
