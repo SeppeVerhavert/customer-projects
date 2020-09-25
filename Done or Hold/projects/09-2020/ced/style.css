@@ -1,0 +1,19 @@
+.footer-container {
+    border-top: none;
+}
+
+.footer-container footer {
+    width: 100%;
+}
+
+#widget_2.template-widget.table {
+    margin-bottom: 25px;
+}
+
+#widget_4.template-widget.text {
+    margin-top: 25px;
+}
+
+section.title-page .logo {
+    max-width: 470px;
+}
