@@ -1,0 +1,4 @@
+.row.reports-detail-question table thead th:nth-child(2),
+.row.reports-detail-question table tbody tr td:nth-child(2) {
+    display: none !important;
+}

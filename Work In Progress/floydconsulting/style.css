@@ -1,0 +1,3 @@
+.theme-layout-compact .card:not(.intro-card) .card-logo img {
+    max-height: 10em;
+}
