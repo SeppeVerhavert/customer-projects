@@ -1,0 +1,4 @@
+#widget_15 table th:nth-child(2),
+#widget_15 table td:nth-child(2) {
+    width: 20%;
+}
