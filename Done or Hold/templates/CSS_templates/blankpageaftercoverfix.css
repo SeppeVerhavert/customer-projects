@@ -2,3 +2,12 @@
     width: 810px;
     height: 1121px;
 }
+
+
+/* OR */
+
+#title-page {
+    background-color: #231f20;
+    background-size: cover;
+    width: 810px;
+}
