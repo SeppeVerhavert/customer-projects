@@ -1,0 +1,197 @@
+/* card */
+
+.theme-layout-compact .card {
+    max-height: auto;
+    background-color: #fff;
+}
+
+.theme-font-size-small .text-container {
+    color: #08253e;
+}
+
+.card-content {
+    padding: 0 24px 80px 24px;
+}
+
+
+/* next and prev buttons */
+
+.card-actions {
+    bottom: 0;
+    padding: 10px 0 20px 0;
+    background-color: #fff;
+}
+
+.card-actions .card-actions-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.theme-rounded-corners .card-actions .button {
+    width: 201px;
+    height: 48px;
+    border-radius: 6px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.campaign-survey-button.done,
+.campaign-survey-button.inactive,
+.card-actions .prev,
+.card-actions .refresh {
+    background-color: #fff;
+}
+
+.next {
+    background: #6ac6c2;
+    text-transform: none;
+    color: #fff;
+}
+
+.prev {
+    border: 1px solid #08253e;
+    text-transform: none;
+    color: #08253e;
+}
+
+
+/* logo */
+
+.theme-layout-compact .card:not(.intro-card) .card-logo img {
+    max-width: 8em;
+}
+
+.theme-layout-compact .card-logo img {
+    max-width: 8em;
+}
+
+
+/* answers */
+
+.answer-content {
+    border: none;
+    padding: 18px 0 0 44px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #08253e;
+}
+
+.text-choice .radio:checked+.answer-content::before {
+    width: 28px;
+    height: 28px;
+    background-color: #08253e;
+    border-radius: 100px;
+    position: absolute;
+    left: 0;
+    margin-left: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-choice .answer-content {
+    padding: 18px 0 0 44px;
+}
+
+.text-choice .radio,
+.text-choice .checkbox {
+    left: 0;
+    width: 28px;
+    height: 28px;
+    border: 2px solid #08253e;
+}
+
+.answer-container .button,
+.answer-result .answer-content,
+.checkbox:checked+.answer-content,
+.gauge-bar .bar::after,
+.order-list .selected,
+.radio:checked+.answer-content,
+.rangeslider__value-bubble,
+.ui-state-default .checkbox:checked+.answer-content {
+    background-color: #fff;
+    border-radius: 6px;
+    color: #08253e;
+}
+
+
+/* incorrect answers */
+
+.answer.correct .radio+.answer-content::before,
+.answer.correct .checkbox+.answer-content::before,
+.answer.incorrect .radio+.answer-content::before,
+.answer.incorrect .checkbox+.answer-content::before,
+.radio:checked+.answer-content::before,
+.checkbox:checked+.answer-content::before {
+    left: 4px;
+}
+
+
+/* results screen */
+
+.card-content .container+div,
+.card-content .container>.container {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.card-content .container+div,
+.card-content .container>.container span {
+    margin-top: 30px;
+}
+
+
+/* text - general */
+
+.card-content .container+div,
+.card-content .container>.container span {
+    color: #08253e;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.container .text-container {
+    text-align: left;
+    font-size: 24px;
+    line-height: 32px;
+    color: #08253e;
+}
+
+.theme-font-size-xlarge .text-container {
+    text-align: left;
+    font-size: 24px;
+    line-height: 32px;
+    color: #08253e;
+}
+
+
+/* buttons - general */
+
+.theme-layout-compact .slide-type-final .button-container .button {
+    font-size: 18px;
+    padding: 8px 28px;
+    background-color: #6ac6c2;
+    color: #fff;
+    text-transform: none;
+    border-radius: 6px;
+}
+
+#status-message,
+.button,
+.card-content .button,
+.grid .bar .inner,
+.media-overlay-container {
+    padding: 8px 28px;
+    background-color: #6ac6c2;
+    color: #fff;
+    text-transform: none;
+    border-radius: 6px;
+}
+
+.gauge-bar .bar:after {
+    background-color: #6ac6c2;
+    color: #fff;
+}
