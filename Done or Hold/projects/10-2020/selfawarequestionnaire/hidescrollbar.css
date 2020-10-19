@@ -1,0 +1,8 @@
+.ElementsApp,
+.ElementsApp .InputElement {
+    color: blue;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
