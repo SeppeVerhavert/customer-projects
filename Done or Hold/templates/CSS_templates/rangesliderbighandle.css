@@ -1,0 +1,6 @@
+.rangeslider__handle:before {
+    top: 0em;
+    left: 0em;
+    width: 3em;
+    height: 3em;
+}
