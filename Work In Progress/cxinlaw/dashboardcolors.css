@@ -1,0 +1,19 @@
+.highcharts-pie-series .highcharts-point.highcharts-color-0 {
+    fill: pink;
+}
+
+.highcharts-pie-series .highcharts-point.highcharts-color-1 {
+    fill: green;
+}
+
+.highcharts-pie-series .highcharts-point.highcharts-color-2 {
+    fill: red;
+}
+
+.highcharts-pie-series .highcharts-point.highcharts-color-3 {
+    fill: blue;
+}
+
+.highcharts-pie-series .highcharts-point.highcharts-color-4 {
+    fill: yellow;
+}
