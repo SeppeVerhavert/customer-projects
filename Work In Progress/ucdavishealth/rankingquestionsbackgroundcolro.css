@@ -1,0 +1,5 @@
+.dragging .ui-state-default .checkbox:checked+.answer-content,
+.ui-state-default .answer-content,
+.ui-state-disabled .answer-content {
+    background-color: #151d33;
+}
