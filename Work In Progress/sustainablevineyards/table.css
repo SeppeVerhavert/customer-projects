@@ -1,8 +1,13 @@
+#widget_8 table th,
+#widget_8 table td {
+    padding: 7px !important;
+}
+
 #widget_28 table th:nth-child(2),
 #widget_28 table td:nth-child(2) {
     width: 50%;
 }
 
 #widget_28 table td:nth-child(2) {
-    height: 100px;
+    height: 80px;
 }
