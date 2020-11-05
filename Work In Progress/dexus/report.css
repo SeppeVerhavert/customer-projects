@@ -4,11 +4,15 @@
 }
 
 #widget_27 img {
-    height: 450px;
+    height: 410px;
     margin: 0px auto 0 auto;
 }
 
 .font-xlarge,
 .font-large {
     font-weight: bold;
+}
+
+#widget_13 table tbody tr td:nth-child(2) {
+    text-align: center;
 }
