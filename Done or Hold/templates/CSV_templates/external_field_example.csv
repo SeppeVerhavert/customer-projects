@@ -1,0 +1,4 @@
+Name;Type (spreadsheet, plain or custom_api);Data freshness (realtime, 1h, 4h, 12h or 1d);Value (if type is plain);Spreadsheet ID (if type is spreadsheet);Cell (if type is spreadsheet);Filter value (if type is spreadsheet);Comparison value (if type is spreadsheet);Endpoint (if type is custom_api);Tree (if type is custom_api)
+EXAMPLE_SHEETS;spreadsheet;realtime;;120DjZu81_miPybTu11kWP_uDYnZvzrsG4KPEe4DLnpI;Sheet1!B1;Sheet1!B1:C1;;;
+EXAMPLE_PLAIN;plain;1d;10;;;;;;
+EXAMPLE_CUSTOM_API;custom_api;4h;;;;;;https://jsonplaceholder.typicode.com/todos;[0].title

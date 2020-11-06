@@ -1,0 +1,2 @@
+Title;Formula;Include all survey responses in this formula calculation;Rounded;
+Duration score;*|DURATION|* + 50;TRUE;FALSE;
