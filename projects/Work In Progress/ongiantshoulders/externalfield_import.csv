@@ -1,4 +1,15 @@
 Name;Type (spreadsheet, plain or custom_api);Data freshness (realtime, 1h, 4h, 12h or 1d);Value (if type is plain);Spreadsheet ID (if type is spreadsheet);Cell (if type is spreadsheet);Filter value (if type is spreadsheet);Comparison value (if type is spreadsheet);Endpoint (if type is custom_api);Tree (if type is custom_api)
-EXAMPLE_SHEETS;spreadsheet;realtime;;120DjZu81_miPybTu11kWP_uDYnZvzrsG4KPEe4DLnpI;Sheet1!B1;Sheet1!B1:C1;;;
-EXAMPLE_PLAIN;plain;1d;10;;;;;;
-EXAMPLE_CUSTOM_API;custom_api;4h;;;;;;https://jsonplaceholder.typicode.com/todos;[0].title
+CARE_SAFETYGROUP_PERSON1_TOTAL;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!G1;;;;
+CARE_SAFETYGROUP_PERSON2_TOTAL;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!G2;;;;
+CARE_SAFETYGROUP_PERSON3_TOTAL;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!G3;;;;
+CARE_SAFETYGROUP_PERSON4_TOTAL;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!G4;;;;
+CARE_SAFETYGROUP_PERSON5_TOTAL;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!G5;;;;
+CARE_CAREGROUP_CALM_TOTAL;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!G7;;;;
+CARE_ACCEPTED_CALM_TOTAL;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!G8;;;;
+CARE_RESONATE_CALM_TOTAL;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!G9;;;;
+CARE_ENERGETIC_CALM_TOTAL;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!G10;;;;
+CARE_RELATIONALTIMESPLIT_PERSON1;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!C12;;;;
+CARE_RELATIONALTIMESPLIT_PERSON2;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!C13;;;;
+CARE_RELATIONALTIMESPLIT_PERSON3;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!C14;;;;
+CARE_RELATIONALTIMESPLIT_PERSON4;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!C15;;;;
+CARE_RELATIONALTIMESPLIT_PERSON5;spreadsheet;realtime;;1MixLxyxwni8zqkFumKK4i-gxXkXgOLePgaHpfaAeXVE;Worksheet1!C16;;;;
