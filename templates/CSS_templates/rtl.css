@@ -1,106 +1,49 @@
-/* .lang-456 Farsi */
+/*     -----     -----     .lang-43     -----     -----     */
 
-
-/* .lang-552 Arabic */
-
-
-/* .lang-553 Dari */
-
-
-/* .lang-554 Assyrian */
-
-.lang-456 .answer-content,
-.lang-552 .answer-content,
-.lang-553 .answer-content,
-.lang-554 .answer-content {
+.lang-43 .answer-content {
     text-align: right;
     padding: .3em 2em .3em .3em;
 }
 
-.lang-456 .answer .radio,
-.lang-456 .answer .checkbox,
-.lang-552 .answer .radio,
-.lang-552 .answer .checkbox,
-.lang-553 .answer .radio,
-.lang-553 .answer .checkbox,
-.lang-554 .answer .radio,
-.lang-554 .answer .checkbox {
+.lang-43 .answer .radio,
+.lang-43 .answer .checkbox {
     left: auto;
     right: .6em;
     margin-right: 0;
     margin-left: .5em;
 }
 
-.lang-456 .answer.correct .radio+.answer-content:before,
-.lang-456 .answer.correct .checkbox+.answer-content:before,
-.lang-456 .answer.incorrect .radio+.answer-content:before,
-.lang-456 .answer.incorrect .checkbox+.answer-content:before,
-.lang-456 .radio:checked+.answer-content:before,
-.lang-456 .checkbox:checked+.answer-content:before,
-.lang-552 .answer.correct .radio+.answer-content:before,
-.lang-552 .answer.correct .checkbox+.answer-content:before,
-.lang-552 .answer.incorrect .radio+.answer-content:before,
-.lang-552 .answer.incorrect .checkbox+.answer-content:before,
-.lang-552 .radio:checked+.answer-content:before,
-.lang-552 .checkbox:checked+.answer-content:before,
-.lang-553 .answer.correct .radio+.answer-content:before,
-.lang-553 .answer.correct .checkbox+.answer-content:before,
-.lang-553 .answer.incorrect .radio+.answer-content:before,
-.lang-553 .answer.incorrect .checkbox+.answer-content:before,
-.lang-553 .radio:checked+.answer-content:before,
-.lang-553 .checkbox:checked+.answer-content:before,
-.lang-554 .answer.correct .radio+.answer-content:before,
-.lang-554 .answer.correct .checkbox+.answer-content:before,
-.lang-554 .answer.incorrect .radio+.answer-content:before,
-.lang-554 .answer.incorrect .checkbox+.answer-content:before,
-.lang-554 .radio:checked+.answer-content:before,
-.lang-554 .checkbox:checked+.answer-content:before {
+.lang-43 .answer.correct .radio+.answer-content:before,
+.lang-43 .answer.correct .checkbox+.answer-content:before,
+.lang-43 .answer.incorrect .radio+.answer-content:before,
+.lang-43 .answer.incorrect .checkbox+.answer-content:before,
+.lang-43 .radio:checked+.answer-content:before,
+.lang-43 .checkbox:checked+.answer-content:before {
     left: auto;
     right: .6em;
 }
 
-.lang-456 .card-actions-item,
-.lang-552 .card-actions-item,
-.lang-553 .card-actions-item,
-.lang-554 .card-actions-item {
+.lang-43 .card-actions-item {
     transform: rotate(180deg);
 }
 
-.lang-456 .button.next,
-.lang-552 .button.next,
-.lang-553 .button.next,
-.lang-554 .button.next {
+.lang-43 .button.next {
     transform: rotate(180deg);
 }
 
-.lang-456 .button.next:not(:disabled):not(.disabled):hover,
-.lang-456 .button.next:not(:disabled):not(.disabled):focus,
-.lang-552 .button.next:not(:disabled):not(.disabled):hover,
-.lang-552 .button.next:not(:disabled):not(.disabled):focus,
-.lang-553 .button.next:not(:disabled):not(.disabled):hover,
-.lang-553 .button.next:not(:disabled):not(.disabled):focus,
-.lang-554 .button.next:not(:disabled):not(.disabled):hover,
-.lang-554 .button.next:not(:disabled):not(.disabled):focus {
+.lang-43 .button.next:not(:disabled):not(.disabled):hover,
+.lang-43 .button.next:not(:disabled):not(.disabled):focus {
     transform: rotate(180deg) scale(1.05);
 }
 
-.lang-456 #progress,
-.lang-456 #session-upload-progress,
-.lang-552 #progress,
-.lang-552 #session-upload-progress,
-.lang-553 #progress,
-.lang-553 #session-upload-progress,
-.lang-554 #progress,
-.lang-554 #session-upload-progress {
+.lang-43 #progress,
+.lang-43 #session-upload-progress {
     left: auto;
     right: 0;
     text-align: left;
 }
 
-.lang-456 .progress-bar .progress-numbers:after,
-.lang-552 .progress-bar .progress-numbers:after,
-.lang-553 .progress-bar .progress-numbers:after,
-.lang-554 .progress-bar .progress-numbers:after {
+.lang-43 .progress-bar .progress-numbers:after {
     content: "";
     position: absolute;
     z-index: 1;
@@ -114,9 +57,6 @@
     border-bottom: .7em solid transparent;
 }
 
-.lang-456 .progress-bar .progress-numbers:after,
-.lang-552 .progress-bar .progress-numbers:after,
-.lang-553 .progress-bar .progress-numbers:after,
-.lang-554 .progress-bar .progress-numbers:after {
+.lang-43 .progress-bar .progress-numbers:after {
     border-right-color: #f04e23;
 }
