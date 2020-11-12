@@ -1,0 +1,5 @@
+.question-image-choice .image.cover,
+.question-image-choice .label {
+    background-color: #fff !important;
+    color: #000 !important;
+}
