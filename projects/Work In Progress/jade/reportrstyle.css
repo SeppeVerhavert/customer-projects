@@ -1,62 +1,227 @@
-/* PAGE 1 */
+/* ADDED BY SA */
 
-.underline {
-    border-bottom: 3px solid black;
-    width: 100%;
-    display: block;
-}
-
-#widget_2 table {
+#widget_4 table {
     border-spacing: 10px;
     border-collapse: separate;
+    font-size: 14px;
 }
 
-#widget_2 table th,
-#widget_2 table td {
-    border: none !important;
+#widget_4 table td {
+    border: none;
 }
 
-#widget_2 table th:nth-child(2),
-#widget_2 table td:nth-child(2) {
-    font-weight: bold;
-}
-
-#widget_2 table th:nth-child(2),
-#widget_2 table td:nth-child(2),
-#widget_2 table th:nth-child(3),
-#widget_2 table td:nth-child(3) {
+#widget_4 table td {
+    width: 33%;
+    height: 30px;
     text-align: center;
 }
 
-#widget_2 table td:nth-child(3) {
+#widget_4 table tr:nth-child(2) td::nth-child(1) {
+    background-color: #f08080;
+}
+
+#widget_4 table tr:nth-child(2) td::nth-child(2) {
+    background-color: lightgrey;
+}
+
+#widget_4 table tr:nth-child(2) td::nth-child(3) {
     background-color: #90ee90;
 }
 
 
-/* PAGE 2 */
+/* HONEST CONVERSATIONS BAR CHART */
 
-#widget_5 table {
+#widget_22,
+#widget_23,
+#widget_24 {
+    transform: scale(0.97, 1);
+}
+
+#widget_22 .chart-wrapper,
+#widget_23 .chart-wrapper,
+#widget_24 .chart-wrapper {
+    transform: translateX(12px);
+}
+
+
+/* CLARITY & ALLIGNMENT BAR CHART */
+
+#widget_25,
+#widget_26,
+#widget_27 {
+    transform: scale(0.94, 1);
+}
+
+#widget_25 .chart-wrapper,
+#widget_26 .chart-wrapper,
+#widget_27 .chart-wrapper {
+    transform: translateX(22px);
+}
+
+
+/* TEAM ENERGY BAR CHART */
+
+#widget_28,
+#widget_29,
+#widget_30 {
+    transform: scale(0.88, 1);
+}
+
+#widget_28 .chart-wrapper,
+#widget_29 .chart-wrapper,
+#widget_30 .chart-wrapper {
+    transform: translateX(40px);
+}
+
+
+/* LEARNING & RENEWAL BAR CHART */
+
+#widget_31,
+#widget_32,
+#widget_33 {
+    transform: scale(0.94, 1);
+}
+
+#widget_31 .chart-wrapper,
+#widget_32 .chart-wrapper,
+#widget_33 .chart-wrapper {
+    transform: translateX(20px);
+}
+
+
+/* TOP 6 LOWEST 6 TABLES */
+
+#widget_70 table,
+#widget_71 table,
+#widget_74 table,
+#widget_75 table {
     border-spacing: 10px;
     border-collapse: separate;
+    font-size: 14px;
 }
 
-#widget_5 table th,
-#widget_5 table td {
-    border: none !important;
+#widget_70 table td,
+#widget_74 table td {
+    border: none;
 }
 
-#widget_5 table th:nth-child(2),
-#widget_5 table td:nth-child(2) {
-    font-weight: bold;
+#widget_70 table td:nth-child(1),
+#widget_71 table td:nth-child(1),
+#widget_74 table td:nth-child(1),
+#widget_75 table td:nth-child(1) {
+    width: 60%;
+    height: 30px;
 }
 
-#widget_5 table th:nth-child(2),
-#widget_5 table td:nth-child(2),
-#widget_5 table th:nth-child(3),
-#widget_5 table td:nth-child(3) {
+#widget_70 table td:nth-child(2),
+#widget_70 table td:nth-child(3),
+#widget_71 table td:nth-child(2),
+#widget_71 table td:nth-child(3),
+#widget_74 table td:nth-child(2),
+#widget_74 table td:nth-child(3),
+#widget_75 table td:nth-child(2),
+#widget_75 table td:nth-child(3) {
+    width: 20%;
+    height: 30px;
     text-align: center;
 }
 
-#widget_5 table td:nth-child(3) {
+#widget_71 table td:nth-child(3) {
+    background-color: #90ee90;
+}
+
+#widget_75 table td:nth-child(3) {
     background-color: #f08080;
+}
+
+
+/* ------------------------------------- */
+
+h1 {
+    font-size: 68px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: left;
+}
+
+#widget_6,
+#widget_7,
+#widget_8,
+#widget_9,
+#widget_10,
+#widget_11,
+#widget_12,
+#widget_13,
+#widget_14,
+#widget_15,
+#widget_56 {
+    font: 16px/1em Roboto, 'NotoColorEmoji', sans-serif;
+    border-collapse: collapse;
+    font-size: 14px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#widget_6,
+#widget_8,
+#widget_10,
+#widget_12,
+#widget_14 {
+    width: 30%;
+    padding-right: 10px;
+}
+
+#widget_7,
+#widget_9,
+#widget_11,
+#widget_13,
+#widget_15 {
+    width: 70%;
+    padding-left: 10px;
+    max-width: 100%;
+    line-height: 1.5em;
+}
+
+#widget_51 {
+    font: 16px/1em Roboto, 'NotoColorEmoji', sans-serif;
+    border-collapse: collapse;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+#widget_56 {
+    vertical-align: top;
+    width: 100%;
+    padding-right: 10px;
+}
+
+#widget_69,
+#widget_72,
+
+/* #widget_74, */
+
+#widget_76 {
+    float: left;
+    width: 40%;
+}
+
+
+/* #widget_70, */
+
+
+/* #widget_73, */
+
+
+/* #widget_75, */
+
+#widget_77 {
+    float: right;
+    width: 60%;
 }
