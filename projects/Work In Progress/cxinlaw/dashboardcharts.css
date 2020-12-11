@@ -1,0 +1,69 @@
+/* _____ PIE CHARTS _____ */
+
+.highcharts-pie-series .highcharts-point.highcharts-color-0,
+.highcharts-legend-item.highcharts-pie-series.highcharts-color-0 .highcharts-point {
+    fill: #C8463C;
+}
+
+.highcharts-pie-series .highcharts-point.highcharts-color-1,
+.highcharts-legend-item.highcharts-pie-series.highcharts-color-1 .highcharts-point {
+    fill: #F59A22;
+}
+
+.highcharts-pie-series .highcharts-point.highcharts-color-2,
+.highcharts-legend-item.highcharts-pie-series.highcharts-color-2 .highcharts-point {
+    fill: #F1C151;
+}
+
+.highcharts-pie-series .highcharts-point.highcharts-color-3,
+.highcharts-legend-item.highcharts-pie-series.highcharts-color-3 .highcharts-point {
+    fill: #69A55C;
+}
+
+.highcharts-pie-series .highcharts-point.highcharts-color-4,
+.highcharts-legend-item.highcharts-pie-series.highcharts-color-4 .highcharts-point {
+    fill: #4A648F;
+}
+
+
+/* _____ BAR CHARTS _____ */
+
+.highcharts-series.highcharts-bar-series.highcharts-tracker .highcharts-point:nth-child(1),
+.highcharts-series.highcharts-bar-series.highcharts-tracker .highcharts-point:nth-child(6) {
+    fill: #C8463C;
+}
+
+.highcharts-series.highcharts-bar-series.highcharts-tracker .highcharts-point:nth-child(2),
+.highcharts-series.highcharts-bar-series.highcharts-tracker .highcharts-point:nth-child(7) {
+    fill: #F59A22;
+}
+
+.highcharts-series.highcharts-bar-series.highcharts-tracker .highcharts-point:nth-child(3),
+.highcharts-series.highcharts-bar-series.highcharts-tracker .highcharts-point:nth-child(8) {
+    fill: #F1C151;
+}
+
+.highcharts-series.highcharts-bar-series.highcharts-tracker .highcharts-point:nth-child(4),
+.highcharts-series.highcharts-bar-series.highcharts-tracker .highcharts-point:nth-child(9) {
+    fill: #69A55C;
+}
+
+.highcharts-series.highcharts-bar-series.highcharts-tracker .highcharts-point:nth-child(5),
+.highcharts-series.highcharts-bar-series.highcharts-tracker .highcharts-point:nth-child(10) {
+    fill: #4A648F;
+}
+
+
+/* _____ NPS CHARTS _____ */
+
+.col-12.col-md-6.highcharts-point:nth-child(67) .highcharts-series-0 .highcharts-point {
+    fill: #69A55C;
+}
+
+.col-12.col-md-6.highcharts-point:nth-child(67) .highcharts-series-1 .highcharts-point {
+    fill: #F59A22;
+}
+
+.col-12.col-md-6.highcharts-point:nth-child(67) .highcharts-series-2 .highcharts-point {
+    fill: #C8463C;
+}
