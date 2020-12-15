@@ -56,14 +56,17 @@
 
 /* _____ NPS CHARTS _____ */
 
-.col-12.col-md-6.highcharts-point:nth-child(67) .highcharts-series-0 .highcharts-point {
+.col-12.col-md-6:nth-child(1) .highcharts-container .highcharts-series-group .highcharts-series-0 .highcharts-point,
+.col-12.col-md-6:nth-child(1) .highcharts-container .highcharts-legend .highcharts-series-0 .highcharts-point {
     fill: #69A55C;
 }
 
-.col-12.col-md-6.highcharts-point:nth-child(67) .highcharts-series-1 .highcharts-point {
+.col-12.col-md-6:nth-child(1) .highcharts-container .highcharts-series-group .highcharts-series-1 .highcharts-point,
+.col-12.col-md-6:nth-child(1) .highcharts-container .highcharts-legend .highcharts-series-1 .highcharts-point {
     fill: #F59A22;
 }
 
-.col-12.col-md-6.highcharts-point:nth-child(67) .highcharts-series-2 .highcharts-point {
+.col-12.col-md-6:nth-child(1) .highcharts-container .highcharts-series-group .highcharts-series-2 .highcharts-point,
+.col-12.col-md-6:nth-child(1) .highcharts-container .highcharts-legend .highcharts-series-2 .highcharts-point {
     fill: #C8463C;
 }
