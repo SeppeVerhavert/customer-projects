@@ -1,0 +1,19 @@
+@media (min-width: 1400px) {
+    .interactive-image-container img,
+    .interactive-image-container .answer-value-text-wrapper {
+        width: 170%;
+    }
+}
+
+#content0 .container.text-container .container div {
+    text-align: center !important;
+}
+
+.container.text-container p {
+    text-align: left !important;
+}
+
+#content0 .container.text-container .container div span,
+.container.text-container p span {
+    color: rgb(0, 25, 101) !important;
+}
