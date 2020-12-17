@@ -1,0 +1,54 @@
+h1 {
+    font-size: 30px;
+    font-weight: 200;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #393a45;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#footer {
+    border-top: 1px solid #d5dee0;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+#footer p {
+    color: #54565a;
+    font-size: 11px;
+    text-align: center;
+}
+
+.response {
+    background-color: #0f97C4;
+    color: #fff;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.report {
+    background-color: #295587;
+    color: #fff;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.report p {
+    color: #fff;
+}
+
+
+/* _____     ADDED BY SA     _____ */
+
+#title-page {
+    background-image: url("https://assets.surveyanyplace.com/survey/b58a7e80-65a2-4c02-9bd0-c3c2811a2d46/templates/801fda03-9e12-4cd0-a268-c73d498fe75b/h0Nu03foSGaCjoXCN0z1_assessment8_5x11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 810px;
+}
