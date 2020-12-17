@@ -1,0 +1,234 @@
+@font-face {
+    font-family: "Neo Sans Std";
+    src: url("//db.onlinewebfonts.com/t/d32a95636e0ca6b820633d96a09a65a0.eot");
+    src: url("//db.onlinewebfonts.com/t/d32a95636e0ca6b820633d96a09a65a0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d32a95636e0ca6b820633d96a09a65a0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d32a95636e0ca6b820633d96a09a65a0.woff") format("woff"), url("//db.onlinewebfonts.com/t/d32a95636e0ca6b820633d96a09a65a0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d32a95636e0ca6b820633d96a09a65a0.svg#Neo Sans Std") format("svg");
+}
+
+* {
+    font-family: "Neo Sans Std";
+    border: none;
+}
+
+
+/* hides scroll bar at side */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* makes content fit page */
+
+.vertical-center {
+    height: fit-content;
+}
+
+
+/* hides shadow behind status box */
+
+#status-message.active,
+.card {
+    box-shadow: none;
+}
+
+
+/* logo size */
+
+.theme-layout-compact .card:not(.intro-card) .card-logo img {
+    max-height: 10em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* intro hashtag colour */
+
+.hashtag {
+    color: #ff9e18;
+}
+
+
+/* hides logo on question pages */
+
+#content2.slide-type-question .card-logo {
+    opacity: 0;
+    height: 0px;
+}
+
+#content3.slide-type-question .card-logo {
+    opacity: 0;
+    height: 0px;
+}
+
+#content4.slide-type-question .card-logo {
+    opacity: 0;
+    height: 0px;
+}
+
+#content5.slide-type-question .card-logo {
+    opacity: 0;
+    height: 0px;
+}
+
+#content6.slide-type-question .card-logo {
+    opacity: 0;
+    height: 0px;
+}
+
+#content7.slide-type-question .card-logo {
+    opacity: 0;
+    height: 0px;
+}
+
+#content8.slide-type-question .card-logo {
+    opacity: 0;
+    height: 0px;
+}
+
+.card-container {
+    margin-top: -6%;
+}
+
+.container .text-container {
+    margin-top: -10%;
+}
+
+
+/* makes image answers larger */
+
+.image-answers .image {
+    padding-top: 42%
+}
+
+.image-answers .answer {
+    margin-bottom: 0;
+}
+
+.answer-content,
+.answer-result,
+.checkbox,
+.input,
+.radio,
+.select {
+    border-color: transparent;
+}
+
+
+/* image answer selected background colour */
+
+.answer-container .button,
+.answer-result .answer-content,
+.checkbox:checked+.answer-content,
+.gauge-bar .bar:after,
+.order-list .selected,
+.radio:checked+.answer-content,
+.rangeslider__value-bubble,
+.ui-state-default .checkbox:checked+.answer-content {
+    background-color: #27318b;
+}
+
+
+/* next button */
+
+.card-actions .card-actions-item {
+    /* -webkit-justify-content: space-between; */
+    justify-content: space-between;
+}
+
+.button.next {
+    padding-top: 10px;
+    width: fit-content;
+    z-index: 2;
+}
+
+
+/* prev button */
+
+.button.prev {
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px 15px 0.5px 15px;
+    z-index: 2;
+}
+
+
+/* outcomes */
+
+.card-media {
+    height: 0;
+    opacity: 0;
+}
+
+.media-container {
+    /* height: 0;
+    opacity: 0;     */
+}
+
+.media-item-container:not(.intro-card) .image-container.card:not(.intro-card) {
+    opacity: 0;
+}
+
+.card-body {}
+
+
+/* .card-body:not(.intro-card .card-container) {
+    background-color: #27318b;
+    border-radius: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    color: white;
+} */
+
+#content0.rsContent.card-wrapper.card-dialog.slide-type-final>.card-body {
+    background-color: #27318b;
+    border-radius: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    /* next button */
+    /* .button.next {
+        border-radius: 12px;
+        text-align: center;
+        padding: 10px;
+    } */
+}
+
+
+/* change elements when window is 768px wide or less */
+
+@media (max-width: 768px) {
+    .card:not(.intro-card) .card-logo {
+        opacity: 1;
+        height: fit-content;
+        margin-top: 2%;
+    }
+    .card-actions .card-actions-item {
+        /* -webkit-justify-content: space-between; */
+        justify-content: space-between;
+    }
+    /* next button */
+    /* .button.next {
+        border-radius: 12px;
+        text-align: center;
+        padding: 15px 15px 0.5px 15px;
+        padding: 10px;
+    } */
+    /* result page */
+    /* :not(.landscape) .card:not(.intro-card) .card-logo {
+        height: 0;
+        justify-content: center;
+        opacity: 0;
+    } */
+}
+
+
+/* _____     ADDED BY SA     _____ */
+
+#content0.slide-type-final .card-container {
+    background-color: #7fffd4;
+}
