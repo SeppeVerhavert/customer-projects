@@ -1,0 +1,12 @@
+#widget_2 .datylon-container,
+#widget_2 .datylon-container svg,
+#widget_3 .datylon-container,
+#widget_3 .datylon-container svg,
+#widget_4 .datylon-container,
+#widget_4 .datylon-container svg,
+#widget_5 .datylon-container,
+#widget_5 .datylon-container svg,
+#widget_6 .datylon-container,
+#widget_6 .datylon-container svg {
+    width: 100% !important;
+}
