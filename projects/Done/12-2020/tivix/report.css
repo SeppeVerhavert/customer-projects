@@ -1,0 +1,112 @@
+/*---------------------------------------------A. GENERAL LAYOUT---------------------------------------------*/
+
+section.title-page {
+    background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 595 842'%3E%3Cdefs%3E%3Cstyle%3E.cls-1,.cls-2,.cls-3%7Bfill-rule:evenodd;%7D.cls-1%7Bfill:url(%23linear-gradient);%7D.cls-2%7Bfill:%2329243d;%7D.cls-3%7Bfill:url(%23linear-gradient-2);%7D%3C/style%3E%3ClinearGradient id='linear-gradient' preserveAspectRatio='xMidYMid meet' x1='575.56' y1='797.17' x2='414.65' y2='617.97' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0.1' stop-color='%2329243d'/%3E%3Cstop offset='0.97' stop-color='%23362f4f'/%3E%3C/linearGradient%3E%3ClinearGradient id='linear-gradient-2' x1='389.66' y1='348' x2='52.64' y2='-101.36' xlink:href='%23linear-gradient'/%3E%3C/defs%3E%3Ctitle%3EREPORTR TEMPLATE%3C/title%3E%3Cpath class='cls-1' d='M595,842V464.27C525.19,504.05,355.2,621,297.46,842Z'/%3E%3Cpath class='cls-2' d='M595,842V628.72C463.28,685.61,346.33,798.25,304,842Z'/%3E%3Cpath class='cls-3' d='M0,0V450.24c120.87-137.9,308.71-275.38,595-341.8V0Z'/%3E%3Cpath class='cls-2' d='M0,65.52C61.85,39.58,130.29,17.42,206.05.14H0Z'/%3E%3C/svg%3E"), url("https://downloads.intercomcdn.com/i/o/273524019/45f59675193c2b38740ae884/Tivix_London_002_Full-Res-compressor.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page_2,
+#page_3,
+#page_4,
+#page_5 {
+    padding-left: 25mm;
+    padding-right: 25mm;
+}
+
+section.title-page .top-container {
+    max-width: 500px;
+    line-height: 0.8 !important;
+    margin-top: 74px !important;
+}
+
+.content-container.management-dynamics {
+    padding-top: 1.5em;
+}
+
+.content-container.overall-assessment-score-heading,
+.content-container.empower-your-teams-cons {
+    width: 187%;
+}
+
+#widget_4 {
+    margin-top: 30px;
+}
+
+#widget_8 {
+    /*Performance Overview*/
+    padding-top: 15px;
+}
+
+
+/*---------------------------------------------B. TYPOGRAPHY---------------------------------------------*/
+
+
+/*-----------------B1 Heading-----------------*/
+
+.cover-container h1 {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+
+h2.category-title {
+    margin-bottom: 2.5em;
+}
+
+h3 {
+    font-size: 1.8em;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+h4 {
+    font-size: 1.6em;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+
+/*-----------------B2 Cover Text Styling-----------------*/
+
+.cover-respondent {
+    font-size: 0.6em;
+    text-transform: capitalize;
+    line-height: 1.5em;
+}
+
+.respondent-name {
+    color: #777;
+}
+
+.content-container p {
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.column {
+    width: 95%;
+}
+
+.right-column {
+    margin-left: 1.2em;
+}
+
+
+/* _____     ADDED BY SA     _____ */
+
+#widget_58,
+#widget_59 {
+    margin-top: 35px;
+}
