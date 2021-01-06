@@ -1,0 +1,16 @@
+p,
+li {
+    line-height: 2em;
+}
+
+.footer-container {
+    height: 50px;
+}
+
+.footer-container footer {
+    left: 17%;
+}
+
+a {
+    color: #316da8;
+}
