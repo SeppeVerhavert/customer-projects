@@ -1,0 +1,467 @@
+/* ADDED BY SA */
+
+
+/* CLARITY & ALLIGNMENT BAR CHART */
+
+#widget_22,
+#widget_23,
+#widget_24 {
+    transform: scale(0.97, 1);
+}
+
+#widget_22 .chart-wrapper,
+#widget_23 .chart-wrapper,
+#widget_24 .chart-wrapper {
+    transform: translateX(25px);
+}
+
+
+/* HONEST CONVERSATIONS BAR CHART */
+
+#widget_25,
+#widget_26,
+#widget_27 {
+    transform: scale(0.94, 1);
+}
+
+#widget_25 .chart-wrapper,
+#widget_26 .chart-wrapper,
+#widget_27 .chart-wrapper {
+    transform: translateX(10px);
+}
+
+
+/* TEAM ENERGY BAR CHART */
+
+#widget_28,
+#widget_29,
+#widget_30 {
+    transform: scale(0.88, 1);
+}
+
+#widget_28 .chart-wrapper,
+#widget_29 .chart-wrapper,
+#widget_30 .chart-wrapper {
+    transform: translateX(40px);
+}
+
+
+/* LEARNING & AGILITY BAR CHART */
+
+#widget_31,
+#widget_32,
+#widget_33 {
+    transform: scale(0.94, 1);
+}
+
+#widget_31 .chart-wrapper,
+#widget_32 .chart-wrapper,
+#widget_33 .chart-wrapper {
+    transform: translateX(26px);
+}
+
+
+/* TOP 6 HIGHEST and LOWEST 6 TABLES */
+
+#widget_73 table,
+#widget_74 table,
+#widget_78 table,
+#widget_79 table {
+    border-spacing: 15px;
+    border-collapse: separate;
+    font-size: 16px;
+}
+
+#widget_73 table td,
+#widget_78 table td {
+    border: none;
+}
+
+#widget_73 table td:nth-child(1),
+#widget_74 table td:nth-child(1),
+#widget_78 table td:nth-child(1),
+#widget_79 table td:nth-child(1) {
+    width: 60%;
+    height: 28px;
+}
+
+#widget_73 table td:nth-child(2),
+#widget_73 table td:nth-child(3),
+#widget_74 table td:nth-child(2),
+#widget_74 table td:nth-child(3),
+#widget_78 table td:nth-child(2),
+#widget_78 table td:nth-child(3),
+#widget_79 table td:nth-child(2),
+#widget_79 table td:nth-child(3) {
+    width: 20%;
+    height: 28px;
+    text-align: center;
+}
+
+#widget_74 table td:nth-child(3) {
+    background-color: #90ee90;
+}
+
+#widget_79 table td:nth-child(3) {
+    background-color: #f08080;
+}
+
+
+/* ------------------------------------- */
+
+h1 {
+    font-size: 68px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: left;
+}
+
+#widget_6,
+#widget_7,
+#widget_8,
+#widget_9,
+#widget_10,
+#widget_11,
+#widget_12,
+#widget_13,
+#widget_14,
+#widget_15,
+#widget_56 {
+    font: 16px/1em Roboto, 'NotoColorEmoji', sans-serif;
+    border-collapse: collapse;
+    font-size: 14px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#widget_6,
+#widget_8,
+#widget_10,
+#widget_12,
+#widget_14 {
+    width: 30%;
+    padding-right: 10px;
+}
+
+#widget_7,
+#widget_9,
+#widget_11,
+#widget_13,
+#widget_15 {
+    width: 70%;
+    padding-left: 10px;
+    max-width: 100%;
+    line-height: 1.5em;
+}
+
+#widget_51 {
+    font: 16px/1em Roboto, 'NotoColorEmoji', sans-serif;
+    border-collapse: collapse;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+#widget_56 {
+    vertical-align: top;
+    width: 100%;
+    padding-right: 10px;
+}
+
+
+/* Added by Jade - padding for sub-dimensions, images and boxes*/
+
+
+/* MEANINGFUL RELATIONSHIP-SUB BAR CHARTS - H,M,L */
+
+#widget_92,
+#widget_93,
+#widget_94,
+#widget_100,
+#widget_101,
+#widget_102,
+#widget_108,
+#widget_109,
+#widget_110 {
+    transform: scale(1.35, 1);
+}
+
+#widget_92 .chart-wrapper,
+#widget_93 .chart-wrapper,
+#widget_94 .chart-wrapper,
+#widget_100 .chart-wrapper,
+#widget_101 .chart-wrapper,
+#widget_102 .chart-wrapper,
+#widget_108 .chart-wrapper,
+#widget_109 .chart-wrapper,
+#widget_110 .chart-wrapper {
+    transform: translateX(-20px);
+}
+
+
+/* MEANINGFUL RELATIONSHIP-SUB images*/
+
+#widget_91 .image-container-91,
+#widget_99 .image-container-99,
+#widget_107 .image-container-107 {
+    text-align: right;
+    line-height: 5;
+    transform: translateX(-50px);
+}
+
+
+/* MEANINGFUL RELATIONSHIP-box margin*/
+
+#widget_98,
+#widget_106,
+#widget_114 {
+    padding: 10px;
+}
+
+#widget_148,
+#widget_155,
+#widget_156,
+#widget_163,
+#widget_164,
+#widget_171,
+#widget_187,
+#widget_194,
+#widget_195,
+#widget_218,
+#widget_225 #widget_226,
+#widget_233,
+#widget_249,
+#widget_256,
+#widget_257,
+#widget_264 {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+
+/* open-ended responses */
+
+#widget_268 table td {
+    border: none;
+    height: 50px;
+}
+
+#widget_268 table tr:nth-child(2),
+#widget_268 table tr:nth-child(4),
+#widget_268 table tr:nth-child(6) {
+    background-color: #DCDCDC;
+}
+
+
+/* table for improving team energy */
+
+#widget_291 table tbody td,
+#widget_295 table tbody td {
+    padding: 10px;
+}
+
+
+/* table for team challange*/
+
+#widget_305 table td {
+    height: 90px;
+    padding: 10px;
+}
+
+#widget_305 table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+#widget_305 table tr:nth-child(1) td {
+    background-color: #fae4ac;
+}
+
+
+/* gauge chart */
+
+#widget_82,
+#widget_84,
+#widget_86,
+#widget_125,
+#widget_127,
+#widget_129 {
+    vertical-align: top;
+}
+
+
+/*range of high and low score*/
+
+.horizontalline {
+    width: 100%;
+    height: 12px;
+    border-top: 1px solid black
+}
+
+
+/*average color*/
+
+#widget_119 table,
+#widget_120 table,
+#widget_121 table,
+#widget_123 table,
+#widget_124 table,
+#widget_125 table,
+#widget_127 table,
+#widget_128 table,
+#widget_129 table {
+    border-spacing: 10px;
+    border-collapse: separate;
+    font-size: 14px;
+}
+
+#widget_119 table td,
+#widget_120 table td,
+#widget_121 table td,
+#widget_123 table td,
+#widget_124 table td,
+#widget_125 table td,
+#widget_127 table td,
+#widget_128 table td,
+#widget_129 table td {
+    border: none;
+}
+
+#widget_119 table td,
+#widget_120 table td,
+#widget_121 table td,
+#widget_123 table td,
+#widget_124 table td,
+#widget_125 table td,
+#widget_127 table td,
+#widget_128 table td,
+#widget_129 table td {
+    width: 33%;
+    height: 30px;
+    text-align: center;
+}
+
+
+/*above 2.3*/
+
+#widget_119 table td:nth-child(2),
+#widget_123 table td:nth-child(2),
+#widget_127 table td:nth-child(2),
+#widget_131 table td:nth-child(2) {
+    background-color: #51a931;
+}
+
+
+/*between 1.6-2.3 */
+
+#widget_120 table td:nth-child(2),
+#widget_124 table td:nth-child(2),
+#widget_128 table td:nth-child(2),
+#widget_132 table td:nth-child(2) {
+    background-color: #e79439;
+}
+
+
+/*below 1.6*/
+
+#widget_121 table td:nth-child(2),
+#widget_125 table td:nth-child(2),
+#widget_129 table td:nth-child(2),
+#widget_133 table td:nth-child(2) {
+    background-color: #ce0000;
+}
+
+
+/*min and max color*/
+
+#widget_119 table td:nth-child(1),
+#widget_119 table td:nth-child(3),
+#widget_120 table td:nth-child(1),
+#widget_120 table td:nth-child(3),
+#widget_121 table td:nth-child(1),
+#widget_121 table td:nth-child(3),
+#widget_123 table td:nth-child(1),
+#widget_123 table td:nth-child(3),
+#widget_124 table td:nth-child(1),
+#widget_124 table td:nth-child(3),
+#widget_125 table td:nth-child(1),
+#widget_125 table td:nth-child(3),
+#widget_127 table td:nth-child(1),
+#widget_127 table td:nth-child(3),
+#widget_128 table td:nth-child(1),
+#widget_128 table td:nth-child(3),
+#widget_129 table td:nth-child(1),
+#widget_129 table td:nth-child(3),
+#widget_131 table td:nth-child(1),
+#widget_131 table td:nth-child(3),
+#widget_132 table td:nth-child(1),
+#widget_132 table td:nth-child(3),
+#widget_133 table td:nth-child(1),
+#widget_133 table td:nth-child(3) {
+    background-color: #D3D3D3;
+}
+
+.page-container-row table,
+.page-container-row th,
+.page-container-row td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+/* ADDED BY SA */
+
+
+/* RANGE BAR CHART */
+
+#page_27 .page-container-row .column-left {
+    width: 55%;
+}
+
+#page_27 .page-container-row .column-right {
+    width: 45%;
+}
+
+#page_27 .column-left table {
+    border-collapse: separate !important;
+    border-spacing: 10px;
+}
+
+#page_27 .column-left table ol li {
+    font-size: x-large;
+}
+
+#page_27 .column-left table td {
+    border: none;
+}
+
+#page_27 .column-left table tr td:first-child {
+    width: 85%;
+    vertical-align: middle;
+}
+
+#page_27 .column-left table tr:nth-child(2) td:last-child,
+#page_27 .column-left table tr:nth-child(3) td:last-child,
+#page_27 .column-left table tr:nth-child(4) td:last-child,
+#page_27 .column-left table tr:nth-child(5) td:last-child {
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    background-color: #90ee90 !important;
+}
+
+.datylon-container {
+    padding-top: 40px;
+}
+
+
+/* #widget_279 .datylon-container,
+#widget_279 .datylon-container svg {
+    width: 350px !important;
+} */

@@ -1,0 +1,17 @@
+.font-xlarge .font-xlarge {
+    font-size: 120%;
+}
+
+.answer-container .button,
+.answer-result .answer-content,
+.checkbox:checked+.answer-content,
+.gauge-bar .bar:after,
+.order-list .selected,
+.radio:checked+.answer-content,
+.rangeslider__value-bubble,
+.ui-state-default .checkbox:checked+.answer-content,
+.dragging .ui-state-default .checkbox:checked+.answer-content,
+.ui-state-default .answer-content,
+.ui-state-disabled .answer-content {
+    color: #112933;
+}
