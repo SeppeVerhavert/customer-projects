@@ -1,3 +1,12 @@
-<p><span style="color: var(--font-color); font-size: 16.8px;"><strong>______________________________________________________________________________________________________________________________</strong></span><br></p>
-
-<p style="width: 100%;border-top: 2px solid #474444;"><br></p>
+<div v-if="*|f29_result|* > 2.39">
+    <p>Understanding how to work in a way that gets the best out of each other is a strong predictor of performance. Your team has a high level of interpersonal awareness which suggests that team members understand each other's intentions, perspectives and
+        strengths, which reduces mistrust and leads to more productive strengths based partnerships. </p>
+</div>
+<div v-if="*|f29_result|* < 2.40 && *|f12_result|* > 1.59 ">
+    <p>A medium level of interpersonal awareness suggests that team members may need further support in understanding each other's intentions, values and strengths to reach efficiency and effectiveness. Teams that are able to build better interpersonal awareness
+        can cut through ambiguity in interpersonal interactions, which should reduce mistrust and lead to more productive partnerships.</p>
+</div>
+<div v-if="*|f29_result|* < 1.60">
+    <p>We judge ourselves on our intentions but others on their actions. This creates an interpersonal gap and gives rise to misunderstandings. Lack of interpersonal awareness in the team may suggest that team members do not understand each other's intentions,
+        perspectives and unique talents which may cause a negative and political climate, characterized by low trust and conflict.</p>
+</div>
