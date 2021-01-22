@@ -1,0 +1,10 @@
+#content0.slide-type-intro .card-logo {
+    opacity: 1;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .card:not(.intro-card) .card-logo {
+        display: inline-block;
+    }
+}
