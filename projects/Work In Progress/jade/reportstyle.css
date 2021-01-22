@@ -573,3 +573,33 @@ h2 {
 #widget_279 .datylon-container svg {
     width: 350px !important;
 } */
+
+#page_22 {
+    background-image: url(https://assets.surveyanyplace.com/survey/8541829d-6682-4f50-baf8-25bce6803d9a/templates/bdef8ca1-e7cd-4222-a49c-b716f4d07e56/kpt3oTVIQxWUFSbuCspg_1.png);
+    background-size: 1075px 1535px;
+    width: 1075px;
+    height: 1535px;
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-origin: unset;
+    top: -75px;
+    left: 0px;
+}
+
+#widget_320 img {
+    visibility: hidden;
+}
+
+
+/* #widget_320 img {
+    width: 1090px;
+    height: 1500px;
+    z-index: 2;
+    top: -75px;
+    left: 0px;
+} */
+
+hr {
+    border: 1px solid #242425;
+    page-break-after: avoid !important;
+}
