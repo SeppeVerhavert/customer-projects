@@ -1,0 +1,338 @@
+.not-applicable-container {
+    text-align: center;
+    margin-top: 1.5em !important;
+    font-size: large;
+}
+
+.answer-container {
+    margin-top: 2em !important;
+}
+
+#language-container .answer-container {
+    margin-top: 0 !important;
+}
+
+
+/* hide 2nd & 3rd star, for specific questions */
+
+#question-3 .star-rating label:nth-of-type(2),
+#question-3 .star-rating input:nth-of-type(2),
+#question-3 .star-rating label:nth-of-type(3),
+#question-3 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-4 .star-rating label:nth-of-type(2),
+#question-4 .star-rating input:nth-of-type(2),
+#question-4 .star-rating label:nth-of-type(3),
+#question-4 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-10 .star-rating label:nth-of-type(2),
+#question-10 .star-rating input:nth-of-type(2),
+#question-10 .star-rating label:nth-of-type(3),
+#question-10 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-11 .star-rating label:nth-of-type(2),
+#question-11 .star-rating input:nth-of-type(2),
+#question-11 .star-rating label:nth-of-type(3),
+#question-11 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-14 .star-rating label:nth-of-type(2),
+#question-14 .star-rating input:nth-of-type(2),
+#question-14 .star-rating label:nth-of-type(3),
+#question-14 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-15 .star-rating label:nth-of-type(2),
+#question-15 .star-rating input:nth-of-type(2),
+#question-15 .star-rating label:nth-of-type(3),
+#question-15 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-16 .star-rating label:nth-of-type(2),
+#question-16 .star-rating input:nth-of-type(2),
+#question-16 .star-rating label:nth-of-type(3),
+#question-16 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-17 .star-rating label:nth-of-type(2),
+#question-17 .star-rating input:nth-of-type(2),
+#question-17 .star-rating label:nth-of-type(3),
+#question-17 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-18 .star-rating label:nth-of-type(2),
+#question-18 .star-rating input:nth-of-type(2),
+#question-18 .star-rating label:nth-of-type(3),
+#question-18 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-19 .star-rating label:nth-of-type(2),
+#question-19 .star-rating input:nth-of-type(2),
+#question-19 .star-rating label:nth-of-type(3),
+#question-19 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-20 .star-rating label:nth-of-type(2),
+#question-20 .star-rating input:nth-of-type(2),
+#question-20 .star-rating label:nth-of-type(3),
+#question-20 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-21 .star-rating label:nth-of-type(2),
+#question-21 .star-rating input:nth-of-type(2),
+#question-21 .star-rating label:nth-of-type(3),
+#question-21 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-22 .star-rating label:nth-of-type(2),
+#question-22 .star-rating input:nth-of-type(2),
+#question-22 .star-rating label:nth-of-type(3),
+#question-22 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-23 .star-rating label:nth-of-type(2),
+#question-23 .star-rating input:nth-of-type(2),
+#question-23 .star-rating label:nth-of-type(3),
+#question-23 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-25 .star-rating label:nth-of-type(2),
+#question-25 .star-rating input:nth-of-type(2),
+#question-25 .star-rating label:nth-of-type(3),
+#question-25 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-26 .star-rating label:nth-of-type(2),
+#question-26 .star-rating input:nth-of-type(2),
+#question-26 .star-rating label:nth-of-type(3),
+#question-26 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-27 .star-rating label:nth-of-type(2),
+#question-27 .star-rating input:nth-of-type(2),
+#question-27 .star-rating label:nth-of-type(3),
+#question-27 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-28 .star-rating label:nth-of-type(2),
+#question-28 .star-rating input:nth-of-type(2),
+#question-28 .star-rating label:nth-of-type(3),
+#question-28 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-29 .star-rating label:nth-of-type(2),
+#question-29 .star-rating input:nth-of-type(2),
+#question-29 .star-rating label:nth-of-type(3),
+#question-29 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-31 .star-rating label:nth-of-type(2),
+#question-31 .star-rating input:nth-of-type(2),
+#question-31 .star-rating label:nth-of-type(3),
+#question-31 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-35 .star-rating label:nth-of-type(2),
+#question-35 .star-rating input:nth-of-type(2),
+#question-35 .star-rating label:nth-of-type(3),
+#question-35 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-36 .star-rating label:nth-of-type(2),
+#question-36 .star-rating input:nth-of-type(2),
+#question-36 .star-rating label:nth-of-type(3),
+#question-36 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-38 .star-rating label:nth-of-type(2),
+#question-38 .star-rating input:nth-of-type(2),
+#question-38 .star-rating label:nth-of-type(3),
+#question-38 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-41 .star-rating label:nth-of-type(2),
+#question-41 .star-rating input:nth-of-type(2),
+#question-41 .star-rating label:nth-of-type(3),
+#question-41 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-42 .star-rating label:nth-of-type(2),
+#question-42 .star-rating input:nth-of-type(2),
+#question-42 .star-rating label:nth-of-type(3),
+#question-42 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-43 .star-rating label:nth-of-type(2),
+#question-43 .star-rating input:nth-of-type(2),
+#question-43 .star-rating label:nth-of-type(3),
+#question-43 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-45 .star-rating label:nth-of-type(2),
+#question-45 .star-rating input:nth-of-type(2),
+#question-45 .star-rating label:nth-of-type(3),
+#question-45 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-47 .star-rating label:nth-of-type(2),
+#question-47 .star-rating input:nth-of-type(2),
+#question-47 .star-rating label:nth-of-type(3),
+#question-47 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-49 .star-rating label:nth-of-type(2),
+#question-49 .star-rating input:nth-of-type(2),
+#question-49 .star-rating label:nth-of-type(3),
+#question-49 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-51 .star-rating label:nth-of-type(2),
+#question-51 .star-rating input:nth-of-type(2),
+#question-51 .star-rating label:nth-of-type(3),
+#question-51 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-52 .star-rating label:nth-of-type(2),
+#question-52 .star-rating input:nth-of-type(2),
+#question-52 .star-rating label:nth-of-type(3),
+#question-52 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-53 .star-rating label:nth-of-type(2),
+#question-53 .star-rating input:nth-of-type(2),
+#question-53 .star-rating label:nth-of-type(3),
+#question-53 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+#question-54 .star-rating label:nth-of-type(2),
+#question-54 .star-rating input:nth-of-type(2),
+#question-54 .star-rating label:nth-of-type(3),
+#question-54 .star-rating input:nth-of-type(3) {
+    display: none;
+}
+
+
+/* hide 2nd star, for specific questions */
+
+#question-24 .star-rating label:nth-of-type(2),
+#question-24 .star-rating input:nth-of-type(2) {
+    display: none;
+}
+
+#question-40 .star-rating label:nth-of-type(2),
+#question-40 .star-rating input:nth-of-type(2) {
+    display: none;
+}
+
+#question-44 .star-rating label:nth-of-type(2),
+#question-44 .star-rating input:nth-of-type(2) {
+    display: none;
+}
+
+#question-46 .star-rating label:nth-of-type(2),
+#question-46 .star-rating input:nth-of-type(2) {
+    display: none;
+}
+
+
+/* not applicable button */
+
+.not-applicable-container .radio,
+.not-applicable-container .radio:checked {
+    width: 1em;
+    height: 1em;
+}
+
+.not-applicable-container .answer-content,
+.not-applicable-container .radio:checked+.answer-content,
+.not-applicable-container .answer-content {
+    font-size: 1em;
+}
+
+
+/* custom previous button */
+
+.prev-2 {
+    background-color: rgba(245, 158, 40, .5);
+}
+
+
+/** Optimize width of leaderboard and of EOS dashboad iframe on final screen */
+
+.embed-survey {
+    max-height: 650px !important;
+}
+
+.leaderboard .card-logo,
+.slide-type-final .card-logo {
+    display: none;
+}
+
+.leaderboard .card-content,
+.slide-type-final .card-content {
+    max-width: 100%;
+}
+
+
+/* .slide-type-final .card-container, */
+
+.leaderboard .card-container {
+    max-width: 100%;
+    padding-right: 0em;
+}
+
+@media (min-width: 600px) {
+    .theme-layout-left .slide-type-final .card-body>form {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .theme-layout-left .leaderboard .card-body>* {
+        max-width: 95%;
+    }
+    .theme-layout-left .slide-type-final .card-container {
+        padding-right: 2em;
+    }
+}
+
+@media (min-width: 960px) {
+    .theme-layout-left .slide-type-final .card-container {
+        padding-right: 3em;
+    }
+}
