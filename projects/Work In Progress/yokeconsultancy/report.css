@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Canela Light";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/yokeconsultancy/Canela-Light.otf");
+}
+
+#test1 {
+    font-family: "Canela Light" !important;
+}
+
+@font-face {
+    font-family: "Effra Std";
+    src: url("https: //surveyanyplace.s3.amazonaws.com/custom/yokeconsultancy/Effra_Std_Bd.ttf");
+}
+
+#test2 {
+    font-family: "Effra Std" !important;
+}
+
+.title-page .logo {
+    margin: auto;
+}
+
+.gauge_widget .chart-wrapper {
+    margin: -50px auto 0 !important;
+}
+
+.gauge_widget .chart-wrapper .highcharts-background {
+    fill: none;
+}
+
+.highcharts-label.highcharts-data-label.highcharts-data-label-color-0.highcharts-tracker span div span::after {
+    content: " %";
+}
+
+.header-container header p {
+    margin-left: 215px;
+}
+
+.footer-container footer p {
+    margin-left: 265px;
+}
