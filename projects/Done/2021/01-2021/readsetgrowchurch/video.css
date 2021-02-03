@@ -1,0 +1,14 @@
+video {
+    max-width: 40em;
+    width: 150%;
+    margin: 10% 100px 0 -100px;
+}
+
+@media only screen and (max-width: 600px) {
+    iframe,
+    video {
+        max-width: 24em;
+        width: 100%;
+        margin: 0;
+    }
+}
