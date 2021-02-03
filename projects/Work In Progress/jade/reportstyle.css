@@ -1,77 +1,54 @@
-/* ADDED BY SA */
-
-
 /* MEANINGFUL RS BAR CHART */
 
-#widget_19,
-#widget_20,
-#widget_21 {
+#widget_19 {
     transform: scale(0.99, 1);
 }
 
-#widget_19 .chart-wrapper,
-#widget_20 .chart-wrapper,
-#widget_21 .chart-wrapper {
+#widget_19 .chart-wrapper {
     transform: translateX(0px);
 }
 
 
 /* CLARITY & ALLIGNMENT BAR CHART */
 
-#widget_22,
-#widget_23,
-#widget_24 {
+#widget_22 {
     transform: scale(0.93, 1);
 }
 
-#widget_22 .chart-wrapper,
-#widget_23 .chart-wrapper,
-#widget_24 .chart-wrapper {
+#widget_22 .chart-wrapper {
     transform: translateX(20px);
 }
 
 
 /* HONEST CONVERSATIONS BAR CHART */
 
-#widget_25,
-#widget_26,
-#widget_27 {
+#widget_25 {
     transform: scale(0.96, 1);
 }
 
-#widget_25 .chart-wrapper,
-#widget_26 .chart-wrapper,
-#widget_27 .chart-wrapper {
+#widget_25 .chart-wrapper {
     transform: translateX(10px);
 }
 
 
 /* TEAM ENERGY BAR CHART */
 
-#widget_28,
-#widget_29,
-#widget_30 {
+#widget_28 {
     transform: scale(0.87, 1);
 }
 
-#widget_28 .chart-wrapper,
-#widget_29 .chart-wrapper,
-#widget_30 .chart-wrapper {
+#widget_28 .chart-wrapper {
     transform: translateX(42px);
 }
 
 
 /* LEARNING & AGILITY BAR CHART */
 
-#widget_31,
-#widget_32,
-#widget_33 {
+#widget_31 {
     transform: scale(0.92, 1);
 }
 
-#widget_31 .chart-wrapper,
-#widget_32 .chart-wrapper,
-#widget_33 .chart-wrapper {
+#widget_31 .chart-wrapper {
     transform: translateX(26px);
 }
 
@@ -120,9 +97,6 @@
 #widget_79 table td:nth-child(3) {
     background-color: #f08080;
 }
-
-
-/* ------------------------------------- */
 
 h1 {
     font-size: 68px;
@@ -188,20 +162,6 @@ h2 {
     width: 100%;
     padding-right: 10px;
 }
-
-
-/*#widget_69,
-#widget_72,
-
- #widget_74, 
-
-#widget_76 {
-    float: left;
-    width: 40%;
-}*/
-
-
-/*-----start---added by Jade-----*/
 
 
 /*padding for sub-dimensions, images and boxes*/
@@ -402,16 +362,7 @@ h2 {
 }
 
 
-/*-----end---added by Jade-----*/
-
-
 /*range of high and low score*/
-
-.horizontalline {
-    width: 100%;
-    height: 12px;
-    border-top: 1px solid black
-}
 
 
 /*average color*/
@@ -517,73 +468,42 @@ h2 {
 }
 
 
-/* #widget_73, */
-
-
-/* #widget_75, */
-
-
-/* ADDED BY SA */
-
-
 /* RANGE BAR CHART */
 
-#page_27 .page-container-row .column-left {
+#page_6 .page-container-row .column-left {
     width: 55%;
 }
 
-#page_27 .page-container-row .column-right {
+#page_6 .page-container-row .column-right {
     width: 45%;
 }
 
-#page_27 .column-left table {
+#page_6 .column-left table {
     border-collapse: separate !important;
     border-spacing: 10px;
 }
 
-#page_27 .column-left table ol li {
-    font-size: x-large;
+#page_6 .column-left table ol li {
+    font-size: large;
 }
 
-#page_27 .column-left table td {
+#page_6 .column-left table td {
     border: none;
 }
 
-#page_27 .column-left table tr td:first-child {
+#page_6 .column-left table tr td:first-child {
     width: 85%;
     vertical-align: middle;
 }
 
-#page_27 .column-left table tr:nth-child(2) td:last-child,
-#page_27 .column-left table tr:nth-child(3) td:last-child,
-#page_27 .column-left table tr:nth-child(4) td:last-child,
-#page_27 .column-left table tr:nth-child(5) td:last-child {
+#page_6 .column-left table tr:nth-child(2) td:last-child,
+#page_6 .column-left table tr:nth-child(3) td:last-child,
+#page_6 .column-left table tr:nth-child(4) td:last-child,
+#page_6 .column-left table tr:nth-child(5) td:last-child {
     text-align: center;
     vertical-align: middle;
     height: 30px;
     background-color: #90ee90 !important;
-}
-
-.datylon-container {
-    padding-top: 40px;
-}
-
-
-/* #widget_279 .datylon-container,
-#widget_279 .datylon-container svg {
-    width: 350px !important;
-} */
-
-#page_22 {
-    background-image: url(https://assets.surveyanyplace.com/survey/8541829d-6682-4f50-baf8-25bce6803d9a/templates/bdef8ca1-e7cd-4222-a49c-b716f4d07e56/kpt3oTVIQxWUFSbuCspg_1.png);
-    background-size: 1075px 1535px;
-    width: 1075px;
-    height: 1535px;
-    background-repeat: no-repeat;
-    z-index: 2;
-    background-origin: unset;
-    top: -75px;
-    left: 0px;
 }
 
 #widget_320 img {
@@ -602,4 +522,16 @@ h2 {
 hr {
     border: 1px solid #242425;
     page-break-after: avoid !important;
+}
+
+#page_22 {
+    background-image: url(https://assets.surveyanyplace.com/survey/8541829d-6682-4f50-baf8-25bce6803d9a/templates/bdef8ca1-e7cd-4222-a49c-b716f4d07e56/kpt3oTVIQxWUFSbuCspg_1.png);
+    background-size: 1075px 1535px;
+    width: 1075px;
+    height: 1535px;
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-origin: unset;
+    top: -75px;
+    left: 0px;
 }
