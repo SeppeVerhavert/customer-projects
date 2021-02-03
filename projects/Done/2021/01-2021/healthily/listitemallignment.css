@@ -1,0 +1,7 @@
+.text-container ul,
+.branding-container ul,
+.result-container ul {
+    list-style: disc;
+    margin-bottom: 1em;
+    text-align: left;
+}
