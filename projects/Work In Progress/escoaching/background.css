@@ -1,0 +1,59 @@
+#body {
+    background-image: none;
+    background-color: #ffffff;
+}
+
+.card-body {
+    width: 100%;
+    text-align: left;
+}
+
+.theme-layout-left .card-actions {
+    padding-left: 1.5em;
+    right: auto;
+}
+
+.button.finish {
+    margin-top: 5em;
+}
+
+@media (min-width: 600px) {
+    .theme-layout-left .card-logo,
+    .theme-layout-left .card-body>form {
+        margin-left: 0;
+    }
+    .theme-layout-left .card-actions {
+        padding-left: 1.2em;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 767px) {
+    .theme-layout-left .card-logo,
+    .theme-layout-left .card-body>form {
+        margin-left: 1.5em;
+    }
+    .theme-layout-left .card-actions {
+        padding-left: 1.5em;
+    }
+}
+
+@media (min-width: 768px) {
+    #body {
+        background-image: url('//d211yo6vt4n0fx.cloudfront.net/survey/sotlEwDymfiiUdgSHArRl2ztJTO3C3PA/images/VNjKa8zRTTiIdXbNQqdQ_Group_3.png');
+    }
+    .card-body {
+        width: 80%;
+    }
+    .theme-layout-left .card-actions {
+        left: 0.8em;
+    }
+}
+
+@media (min-width: 960px) {
+    .card-body {
+        width: 50%;
+    }
+    .theme-layout-left .card-actions {
+        left: 1.8em;
+    }
+}
