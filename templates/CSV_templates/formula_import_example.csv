@@ -1,2 +1,2 @@
 Title;Formula;Include all survey responses in this formula calculation;Rounded;
-Duration score;*|DURATION|* + 50;TRUE;FALSE;
+Purpose;(*|qb7_custom_score|*+*|qb8_custom_score|*+*|qb9_custom_score|*+*|qb10_custom_score|*+*|qb172_custom_score|*+*|qb12_custom_score|*+*|qb13_custom_score|*+*|qb14_custom_score|*+*|qb15_custom_score|*+*|qb16_custom_score|*+*|qb17_custom_score|*+*|qb18_custom_score|*+*|qb11_custom_score|*)/13;FALSE;FALSE;	

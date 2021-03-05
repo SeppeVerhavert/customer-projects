@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Canela Light";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/yokeconsultancy/Canela-Light.otf");
+}
+
+#test1 {
+    font-family: "Canela Light" !important;
+}
+
+@font-face {
+    font-family: "Effra Std";
+    src: url("https: //surveyanyplace.s3.amazonaws.com/custom/yokeconsultancy/Effra_Std_Bd.ttf");
+}
+
+#test2 {
+    font-family: "Effra Std" !important;
+}
+
+.title-page .logo {
+    margin: auto;
+}
+
+.gauge_widget .chart-wrapper {
+    margin: -80px auto -30px !important;
+}
+
+.gauge_widget .chart-wrapper .highcharts-background {
+    fill: none;
+}
+
+.highcharts-label.highcharts-data-label.highcharts-data-label-color-0.highcharts-tracker span div span::after {
+    content: " %";
+}
+
+
+/* .header-container header p {
+    margin-left: 260px;
+}
+
+.footer-container footer p {
+    margin-left: 275px;
+} */
+
+
+/* .header-container {
+    background-image: url(https://starbots-creative.co.uk/wp-content/uploads/2021/02/YOKE-REPORT-HEADER-LRGE.jpg);
+    background-size: cover;
+    width: inherit;
+    height: 160px;
+} */
+
+.page-header-space {
+    background-image: url(https://starbots-creative.co.uk/wp-content/uploads/2021/02/YOKE-REPORT-HEADER-LRGE.jpg);
+    background-size: 100% 100%;
+    height: 100px;
+}
+
+.header-container p {
+    margin-left: 260px;
+}
