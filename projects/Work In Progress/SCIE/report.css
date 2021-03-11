@@ -1,0 +1,44 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+h2,
+h3 {
+    text-align: left;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p,
+table#spider-description,
+table.q-as {
+    font-size: 16px;
+}
+
+table#spider-description thead {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+table#spider-description td {
+    padding: 10px;
+}
+
+table.q-as {
+    width: 50%;
+}
+
+table.q-as tr td,
+table.q-as th {
+    padding: 10px;
+}
+
+table.q-as tr:first-child,
+table.q-as tr:last-child {
+    width: 100px;
+}
+
+table#container td {
+    padding: 10px;
+}
