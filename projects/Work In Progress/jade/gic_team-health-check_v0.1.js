@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const barcharts = document.getElementsByClassName("template-widget bar");
     const gaugecharts = document.getElementsByClassName("template-widget gauge_widget");
-    // BARCHARTS COLOR CHANGE
     let i, j;
+    // BARCHARTS COLOR CHANGE
     for (i = 0; i < barcharts.length; i++) {
         let dataLabelSeries = barcharts[i].children[1].children[0].children[0].children[0].children[14].children;
         let legend = barcharts[i].children[1].children[0].children[0].children[0].children[15];
@@ -27,6 +27,18 @@ document.addEventListener("DOMContentLoaded", function() {
                     legendStyle['fill'] = '#9bbb59';
                 }
             }
+        }
+    }
+    // GAUGECHARTS COLOR CHANGE
+    for (i = 0; i < gaugecharts.length; i++) {
+        let dataLabel = gaugecharts[i].children[1].children[0].children[0].children[1].children[0].children[0].innerText;
+        let gaugeStyle = gaugecharts[i].children[1].children[0].children[0].children[0].children[9].children[0].children[0].style;
+        if (dataLabel < 1.60) {
+            gaugeStyle['fill'] = '#c00000';
+        } else if (1.60 <= dataLabel && dataLabel < 2.40) {
+            gaugeStyle['fill'] = '#f79646';
+        } else if (2.40 <= dataLabel) {
+            gaugeStyle['fill'] = '#9bbb59';
         }
     }
 });
