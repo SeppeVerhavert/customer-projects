@@ -1,41 +1,32 @@
-// Team Health Check
-// Version: 0.1
-
 document.addEventListener("DOMContentLoaded", function() {
-    // Range Chart settings
-    // - Set font-family to sans-serif
-    // - Dynamic label color
-
-    // Select all widgets containing the Range Chart.
-    // Code line below works if the report is only using one type of Datylon chart (SA-4).
-    // If there are other Datylon charts present, find another solution to select the Range Charts.
-    const rangeCharts = document.getElementsByClassName("datylon");
+    const barcharts = document.getElementsByClassName("template-widget bar");
+    const gaugecharts = document.getElementsByClassName("template-widget gauge_widget");
+    // BARCHARTS COLOR CHANGE
     let i, j;
-
-    for (i = 0; i < rangeCharts.length; i++ ) {
-        const rangeChart = rangeCharts[i];
-        // select all text elements of the chart
-        const chartTextElements = rangeChart.getElementsByTagName("text");
-
-        for (j = 0; j < chartTextElements.length; j++) {
-            const chartTextElement = chartTextElements[j];
-            // set font-family for all text elements
-            chartTextElement.style.fontFamily = "sans-serif";
-        }
-
-        /*for (j = 0; j < yAxisLabelTexts.length; j++) {
-            const labelText = yAxisLabelTexts[j];
-            const labelTextValue = Number(labelText.textContent);
-            const labelRectangle = yAxisLabelRectangles[j];
-            labelText.setAttribute('x', '0.6');
-
-            if (labelTextValue < 1.6) {
-                // change label color to red
-                labelRectangle.style.fill = "#DF1919";
-            } else if (labelTextValue >= 1.6 && labelTextValue <= 2.1) {
-                // change label color to orange
-                labelRectangle.style.fill = "#E87628";
+    for (i = 0; i < barcharts.length; i++) {
+        let dataLabelSeries = barcharts[i].children[1].children[0].children[0].children[0].children[14].children;
+        let legend = barcharts[i].children[1].children[0].children[0].children[0].children[15];
+        let barSeries = barcharts[i].children[1].children[0].children[0].children[0].children[10].children[0].children;
+        for (j = 0; j < dataLabelSeries.length; j++) {
+            let legendValue = dataLabelSeries[j].children[0].children[1].innerHTML;
+            let barStyle = barSeries[j].style;
+            if (legendValue < 1.60) {
+                barStyle['fill'] = '#c00000';
+            } else if (1.60 <= legendValue && legendValue < 2.40) {
+                barStyle['fill'] = '#f79646';
+            } else if (2.40 <= legendValue) {
+                barStyle['fill'] = '#9bbb59';
             }
-        }*/
+            if (legend.classList.contains('highcharts-legend')) {
+                let legendStyle = legend.children[1].children[0].children[0].children[1].style
+                if (legendValue < 1.60) {
+                    legendStyle['fill'] = '#c00000';
+                } else if (1.60 <= legendValue && legendValue < 2.40) {
+                    legendStyle['fill'] = '#f79646';
+                } else if (2.40 <= legendValue) {
+                    legendStyle['fill'] = '#9bbb59';
+                }
+            }
+        }
     }
 });
