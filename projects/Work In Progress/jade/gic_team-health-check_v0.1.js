@@ -45,7 +45,7 @@ window.addEventListener("load", function() {
         }
         // AVG TABLE COLOR CHANGE
         for (i = 0; i < avgtable.length; i++) {
-            let cellValue = parseInt(avgtable[i].innerText);
+            let cellValue = avgtable[i].innerText;
             let cellStyle = avgtable[i].style;
             if (cellValue < 1.60) {
                 cellStyle['background-color'] = '#c00000';
