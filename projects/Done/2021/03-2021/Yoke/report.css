@@ -32,28 +32,13 @@
     content: " %";
 }
 
-
-/* .header-container header p {
-    margin-left: 260px;
-}
-
-.footer-container footer p {
-    margin-left: 275px;
-} */
-
-
-/* .header-container {
-    background-image: url(https://yokeconsultancy.com/wp-content/uploads/2021/03/YOKE-REPORT-COVER-header-v2.jpg);
-    background-size: cover;
-    width: inherit;
-    height: 160px;
-} */
-
 * .page-header-space {
-    background-image: url(https://yokeconsultancy.com/wp-content/uploads/2021/03/YOKE-REPORT-COVER-header-v2.jpg);
+    background-image: url(https://i.imgur.com/tX43fKk.png);
     background-size: 100% 100%;
-    height: 150px;
+    background-repeat: no-repeat;
+    height: 80px;
     position: relative;
+    background-position: top;
 }
 
 .page:nth-child(1) .page-header-space {
@@ -69,4 +54,14 @@
 section.title-page .logo {
     max-width: 750px;
     max-height: 750px;
+}
+
+.footer-container {
+    margin-left: 635px;
+}
+
+section.title-page p,
+section.title-page .bottom-container div,
+section.title-page .bottom-container div {
+    display: block;
 }
