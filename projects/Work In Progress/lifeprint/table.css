@@ -1,0 +1,46 @@
+#widget_9 table {
+    width: 30%
+}
+
+
+/* COMMON */
+
+#widget_9 table th,
+#widget_9 table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#widget_9 table th {
+    color: #ffffff
+}
+
+
+/* HEADER + BANDED */
+
+#widget_9 table.header thead,
+#widget_9 table.banded thead {
+    background: #0904a1;
+}
+
+
+/* BANDED */
+
+#widget_9 table.banded tr:nth-child(even) {
+    background: #715aa9;
+}
+
+
+/* COLUMN */
+
+#widget_9 table.column th:nth-child(1),
+#widget_9 table.column td:nth-child(1) {
+    background: #0904a1;
+    font-weight: bold;
+    color: #ffffff
+}
+
+#widget_9 table.column th {
+    text-align: left;
+    font-weight: 200;
+}
