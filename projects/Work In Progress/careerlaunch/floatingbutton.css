@@ -1,0 +1,12 @@
+.card-actions .next {
+    width: unset;
+}
+
+.rsContent .card-actions {
+    position: relative;
+    left: unset;
+    right: unset;
+    bottom: unset;
+    top: unset;
+    padding-bottom: 24px;
+}
