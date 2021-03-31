@@ -1,0 +1,10 @@
+.card-content a {
+    color: #37a7aa;
+    text-decoration: underline;
+}
+
+.card-content-item .text-container .font-small {
+    font-size: .8em;
+    line-height: .8em;
+    color: #04040480;
+}
