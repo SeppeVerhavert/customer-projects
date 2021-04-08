@@ -1,0 +1,7 @@
+section.title-page p {
+    display: block !important;
+}
+
+section.title-page .bottom-container {
+    padding-top: 650px;
+}
