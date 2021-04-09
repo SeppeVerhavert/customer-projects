@@ -10,3 +10,21 @@
     top: unset;
     padding-bottom: 24px;
 }
+
+.card-content {
+    padding: 0 1em 0.3em;
+}
+
+.vertical-center {
+    display: block;
+}
+
+@media (min-width: 1200px) {
+    .theme-layout-centered .card-body {
+        padding: 2em 0 0em;
+    }
+}
+
+.rsContent .card-actions {
+    padding-bottom: 0px;
+}
