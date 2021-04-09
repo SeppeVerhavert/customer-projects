@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ITC Avant Garde Gothic Std Book'), url(https://rovzh.nl/wp-content/themes/rovzh/assets/fonts/itc-avant-garde-gothic-std-book-58957161d80eb.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ITC Avant Garde Gothic Std Bold'), url(https://rovzh.nl/wp-content/themes/rovzh/assets/fonts/itc-avant-garde-gothic-std-bold-589572c7e9955.woff) format('woff')
+}
+
+body {
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    color: #000;
+    background: #fff;
+    font-size: .9rem
+}
+
+strong {
+    font-family: 'ITC Avant Garde Gothic Std Bold'
+}
+
+.font-large,
+strong {
+    font-family: "AvantGarde", "helvetica", "verdana", sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
+p {
+    font-family: "AvantGarde", "helvetica", "verdana", sans-serif;
+    font-weight: 300;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+figure {
+    margin: 0;
+}
+
+iframe {
+    width: -webkit-fill-available;
+    height: 400px;
+    max-width: 1000px;
+    max-height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    iframe {
+        width: -webkit-fill-available;
+        height: 400px;
+        max-width: 1000px;
+        max-height: 200px;
+    }
+}
