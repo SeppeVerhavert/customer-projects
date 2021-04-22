@@ -1,0 +1,231 @@
+<!DOCTYPE html><head><meta charset="utf-8"/><title>&amp;
+ForAll Diagnostic PDF</title><meta content="width=device-width, initial-scale=1.0" name="template"/><style text="text/css">html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+section.title-page .top-container,
+section.title-page .bottom-container {
+    line-height: 1.2 !important;
+    text-align: left;
+    padding: 50px;
+}
+
+section.title-page p,
+section.title-page .bottom-container div,
+section.title-page .bottom-container div {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+section.title-page .top-container {
+    font-size: 45px;
+    text-transform: none;
+    color: #000000;
+}
+
+section.title-page .bottom-container {
+    font-size: 25px;
+    margin-top: 0;
+    color: #53e076;
+    padding: 50px;
+}
+
+section.title-page .logo {
+    max-width: 250px;
+    max-height: 450px;
+    padding: 50px 0;
+    width: 100%;
+}
+
+section.final-page .top-container {
+    margin-top: 100px;
+    line-height: 1.5;
+    max-width: 560px;
+    color: #000000;
+    padding-left: 50px
+}
+
+
+}
+</style><style text="text/css">body {
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: #000000;
+}
+section,
+fieldset,
+img {
+    display: block;
+    box-sizing: border-box;
+}
+table {
+    width: 100%;
+    max-width: 100%;
+    font-size: 12px;
+    border-color: #ccc;
+    border-collapse: collapse;
+}
+table thead,
+.table thead,
+table tr,
+.table tr {
+    page-break-inside: avoid !important;
+}
+
+/* Prevent that thead is printed on every page */
+table thead {
+    display: table-row-group;
+}
+.page-container {
+    page-break-after: always;
+}
+.page-container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+table#container {
+    border: none;
+}
+table#container tr,
+table#container thead {
+    page-break-inside: avoid !important;
+}
+table#container td {
+    padding: 0;
+}
+table#container thead {
+    display: table-header-group !important;
+}
+.font-xsmall {
+    font-size: 12px !important;
+}
+.font-small {
+    font-size: 15px !important;
+}
+.font-medium {
+    font-size: 18px !important;
+}
+.font-large {
+    font-size: 26px !important;
+    line-height: 1.2em
+}
+.font-xlarge {
+    font-size: 46px !important;
+    line-height: 1.2em
+}
+.page {
+    width: 100%;
+    margin: 0 auto;
+}
+#page_1 {
+    padding-top: 0mm;
+    padding-bottom: 0mm;
+    padding-right: 0mm;
+    padding-left: 0mm;
+}
+.background_item {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 0;
+}
+.page {
+    z-index: 4;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+/*
+     * HEADER
+     */
+.header-container {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    align: : right z-index: 2;
+}
+
+/*
+     * COLUMN LAYOUT
+     */
+.page-container-row {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.page-container-row .column-center {
+    margin: 0 auto;
+    width: 100%;
+}
+.page-container-row .column-right {
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.page-container-row .column-left {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+/*
+     * WIDGETS
+     */
+.template-widget.text {
+    max-width: 100%;
+    word-wrap: break-word;
+    line-height: 1.5em;
+}
+.template-widget.text img {
+    max-width: 100%;
+}
+.template-widget.kpi {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+}
+.template-widget.top_flop table {
+    page-break-inside: avoid !important;
+}
+.formula-ranking-container h3,
+.formula-ranking-container p {
+    text-align: left;
+}
+.formula-ranking-container p {
+    margin: 0.5em 0;
+}
+.template-widget table#table-widget thead {
+    display: table-row-group !important;
+}
+</style><style text="text/css">@import url(https://fonts.googleapis.com/css?family=DM+Sans);
+@font-face {
+    font-family: 'NotoColorEmoji';
+    /* Puppeteer needs local file */
+    
+    src: url(//assets.surveyanyplace.com/app/fonts/google/noto-color-emoji/fonts/NotoColorEmoji.ttf) format('truetype');
+}
+body {
+    font: 16px/1em DM Sans, 'NotoColorEmoji', sans-serif;
+}
+</head><body id="title-page"></section></body></html>section.title-page p {
+    display: block !important;
+}
