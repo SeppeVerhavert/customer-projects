@@ -1,0 +1,13 @@
+.formula-ranking-description img {
+    width: 700px;
+}
+
+#widget_6 p,
+#widget_21 p {
+    font-size: 14px !important;
+    line-height: 1.5em;
+}
+
+.formula-ranking-container p {
+    margin: 1em 0;
+}
