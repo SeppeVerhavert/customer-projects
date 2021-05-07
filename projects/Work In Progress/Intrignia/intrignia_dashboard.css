@@ -1,0 +1,14 @@
+.reports-detail-content div:nth-child(3) {
+    display: none
+}
+
+.row.reports-detail-question table thead th:nth-child(2),
+.row.reports-detail-question table tbody tr td:nth-child(2) {
+    display: none !important;
+}
+
+.modal-content .menu-list-group li:nth-child(1),
+.modal-content .menu-list-group li:nth-child(2),
+.modal-content .menu-list-group li:nth-child(4) {
+    display: none;
+}
