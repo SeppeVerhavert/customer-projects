@@ -1,0 +1,46 @@
+#widget_47 table {
+    width: 100%
+}
+
+
+/* COMMON */
+
+#widget_47 table th,
+#widget_47 table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#widget_47 table th {
+    color: #000000
+}
+
+
+/* HEADER + BANDED */
+
+#widget_47 table.header thead,
+#widget_47 table.banded thead {
+    background: #40a3a3;
+}
+
+
+/* BANDED */
+
+#widget_47 table.banded tr:nth-child(even) {
+    background: #715aa9;
+}
+
+
+/* COLUMN */
+
+#widget_47 table.column th:nth-child(1),
+#widget_47 table.column td:nth-child(1) {
+    background: #40a3a3;
+    font-weight: bold;
+    color: #000000
+}
+
+#widget_47 table.column th {
+    text-align: left;
+    font-weight: 200;
+}
