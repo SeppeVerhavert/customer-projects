@@ -1,0 +1,56 @@
+/* _____     COVER PAGE     ______ */
+
+section.title-page .logo {
+    max-height: 55px;
+    padding: 0px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+section.title-page .top-container,
+section.title-page .bottom-container {
+    margin-left: 40px;
+    max-width: 500px;
+    text-align: left;
+}
+
+section.title-page .top-container {
+    margin-top: 60px !important;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+section.title-page .bottom-container {
+    margin-left: 55%;
+}
+
+section.title-page .bottom-container div {
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: unset !important;
+}
+
+
+/* _____     PAGE CONTENT     ______ */
+
+.template-widget.table table tbody tr td:not(:nth-of-type(1)) {
+    width: 15%;
+    text-align: center;
+}
+
+
+/* _____     FINAL PAGE     ______ */
+
+section.final-page .logo {
+    max-height: 50px;
+    padding: 0px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+section.final-page {
+    background-image: url("https://i.imgur.com/0LSfdMs.png");
+}

@@ -1,0 +1,5 @@
+Name;Type (spreadsheet, plain or custom_api);Data freshness (realtime, 1h, 4h, 12h or 1d);Value (if type is plain);Spreadsheet ID (if type is spreadsheet);Cell (if type is spreadsheet);Filter value (if type is spreadsheet);Comparison value (if type is spreadsheet);Endpoint (if type is custom_api);Tree (if type is custom_api)
+GLOBAL_NC;spreadsheet;realtime;;1rHv93_43shwdnQlANdNZydiJg351LgkxfjOfRn9_470;Sheet1!B4;;;;
+GLOBAL_PA;spreadsheet;realtime;;1rHv93_43shwdnQlANdNZydiJg351LgkxfjOfRn9_470;Sheet1!B5;;;;
+GLOBAL_MA;spreadsheet;realtime;;1rHv93_43shwdnQlANdNZydiJg351LgkxfjOfRn9_470;Sheet1!B6;;;;
+GLOBAL_FA;spreadsheet;realtime;;1rHv93_43shwdnQlANdNZydiJg351LgkxfjOfRn9_470;Sheet1!B7;;;;
