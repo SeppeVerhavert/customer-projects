@@ -1,0 +1,366 @@
+/**************************--COVER PAGE--**************************/
+
+section.title-page {
+    width: auto;
+    height: 1126px;
+    background-image: url("https://d211yo6vt4n0fx.cloudfront.net/custom/willory/cover/willory_cover_scaled.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: -28px;
+}
+
+.cover-page.company-name {
+    color: #ffffff;
+    font-weight: 800;
+    position: relative;
+    text-align: center;
+    top: 2.5em;
+}
+
+
+/**************************--HEADER & FOOTER--**************************/
+
+.header-container header {
+    width: 792px;
+    height: 46px;
+    background-image: url("https://d211yo6vt4n0fx.cloudfront.net/custom/willory/header-footer/willory_header.png");
+    background-size: 100%;
+}
+
+.footer-container footer {
+    width: 792px;
+    height: 45px;
+    background-image: url("https://d211yo6vt4n0fx.cloudfront.net/custom/willory/header-footer/willory_footer.png");
+    background-size: 100%;
+}
+
+header div,
+footer div {
+    display: none;
+}
+
+.page-header-space {
+    height: 75px;
+}
+
+
+/**************************--TYPOGRAPHY--**************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+    text-align: left;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+h4 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.heading {
+    background-color: #400694;
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+
+.subheading {
+    background-color: #d5bafc;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+#widget_21 .subheading,
+#widget_23 .subheading {
+    /*Overview Of Results: Strengths & Growth Opportunities*/
+    margin-bottom: 1em;
+}
+
+#widget_23 .subheading {
+    margin-top: 1.5em;
+}
+
+.overview-heading {
+    font-size: 1.1em;
+    background-color: #c3c3c3;
+    margin: 0;
+    padding: 0.5em;
+}
+
+.overview-section h6 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+.overview-section p {
+    margin: 0 0.5em 0 0;
+}
+
+.section-score {
+    color: #c00000;
+    font-weight: 600;
+    margin: 0;
+}
+
+.practice-heading {
+    color: #5f4b8b;
+}
+
+ul {
+    margin: 0.4em;
+}
+
+
+/**************************-- LAYOUT & SPACING WIDGETS/PAGES--**************************/
+
+#widget_56
+/*Talent Acquisition*/
+
+,
+#widget_57
+/*Talent Acquisition spider chart*/
+
+,
+#widget_135
+/*Compensation*/
+
+,
+#widget_136
+/*Compensation spider chart*/
+
+,
+#widget_314
+/*Engagement*/
+
+,
+#widget_315
+/*Engagement spider chart*/
+
+,
+#widget_338
+/*Off-Boarding*/
+
+,
+#widget_339
+/*Off-Boarding spider chart*/
+
+,
+#widget_366
+/*Compliance*/
+
+,
+#widget_367
+/*Compliance spider chart*/
+
+,
+#widget_390
+/*Systems*/
+
+,
+#widget_391
+/*Systems spider chart*/
+
+,
+#widget_418
+/*Recommendation - Functions & Structure*/
+
+,
+#widget_419
+/*Recommendation - Talent Acquisition*/
+
+,
+#widget_420
+/*Recommendation - Onboarding*/
+
+,
+#widget_421
+/*Recommendation - Compensation*/
+
+,
+#widget_422
+/*Recommendation - Benefits*/
+
+,
+#widget_423
+/*Recommendation - Time & Attendance*/
+
+,
+#widget_424
+/*Recommendation - Payroll*/
+
+,
+#widget_425
+/*Recommendation - Talent Development*/
+
+,
+#widget_426
+/*Recommendation - Engagement*/
+
+,
+#widget_427
+/*Recommendation - Off-Boarding*/
+
+,
+#widget_428
+/*Recommendation - Compliance*/
+
+,
+#widget_429
+/*Recommendation - Systemss*/
+
+{
+    page-break-inside: avoid;
+}
+
+#widget_1 {
+    /*Contents*/
+    width: 90%;
+    margin: 0 auto;
+}
+
+#widget_20 {
+    /*Overview of Results introduction*/
+    margin-bottom: 2em;
+}
+
+
+/**************************--TABLE OF CONTENTS--**************************/
+
+table.table-of-contents tr {
+    height: 30px;
+}
+
+.contents-sub-section {
+    margin-left: 1em;
+}
+
+.table-of-contents a {
+    font-weight: 600;
+    color: #400694;
+}
+
+.table-of-contents .contents-sub-section a {
+    font-weight: 400;
+}
+
+
+/**************************--ABOUT YOUR ORGANIZATION--**************************/
+
+.organization-overview {
+    display: flex;
+    background-color: #eceef1;
+    margin-top: 1em;
+}
+
+.overview-left {
+    width: 38%;
+}
+
+.overview-right {
+    width: 62%;
+}
+
+.overview-content {
+    padding: 1em;
+}
+
+.overview-content img {
+    max-height: 225px;
+}
+
+.overview-left {
+    border-right: 1px solid #c3c3c3;
+}
+
+.overview-section {
+    margin-bottom: 2em;
+}
+
+.overview-right .overview-section:nth-child(2) {
+    margin-bottom: 0;
+}
+
+#systems-information {
+    margin-top: 50px;
+}
+
+#systems-information th {
+    background-color: #c3c3c3;
+    font-size: 1.3em;
+    text-align: left;
+    border: 1px solid #c3c3c3;
+    padding: 0.5em;
+}
+
+#systems-information td {
+    font-size: 14px;
+    padding: 1em !important;
+}
+
+.system-area td:nth-child(odd) {
+    width: 50%;
+}
+
+
+/**************************--OVERVIEW OF RESULTS--**************************/
+
+#widget_20 .highcharts-axis-labels span:nth-child(1),
+#widget_20 .highcharts-axis-labels span:nth-child(6),
+#widget_20 .highcharts-axis-labels span:nth-child(12) {
+    opacity: 1 !important;
+}
+
+
+/**************************--INDIVIDUAL SECTION SUMMARY--**************************/
+
+.practice-section {
+    display: flex;
+    margin-top: 2em;
+}
+
+.practice-section p {
+    padding-left: 1em;
+    display: block;
+    margin: auto 0;
+}
+
+
+/**************************--RECOMMENDATION TABLES--**************************/
+
+.recommendation-table {
+    font-size: 13px;
+    margin: 25px auto;
+}
+
+.recommendation-table thead {
+    font-size: 14px;
+}
+
+.recommendation-table td {
+    padding: 0.5em !important;
+}
+
+.recommendation-invisible {
+    display: none;
+}
+
+.column-category {
+    width: 15%;
+    text-align: center;
+}
+
+.column-recommendation {
+    width: 50%;
+}
