@@ -1,0 +1,52 @@
+</style>
+<table align="center" id="table-widget" class="header">
+    <thead>
+        <tr>
+            <th>VOCATION SUBDOMAINS</th>
+            <th>SCORE</th>
+            <th>STATUS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Vigour (V)</td>
+            <td>*|f22_result|* %</td>
+            <td v-if="*|f22_result|* < 40">CRITICAL</td>
+            <td v-if="39.99 < *|f22_result|* && *|f22_result|* < 70">PRIORITY</td>
+            <td v-if="69.99 < *|f22_result|* && *|f22_result|* < 86">ATTENTION</td>
+            <td v-if="85.99 < *|f22_result|*">OPTIMAL</td>
+        </tr>
+        <tr>
+            <td>Dedication (D)</td>
+            <td>*|f23_result|* %</td>
+            <td v-if="*|f23_result|* < 40">CRITICAL</td>
+            <td v-if="39.99 < *|f23_result|* && *|f23_result|* < 70">PRIORITY</td>
+            <td v-if="69.99 < *|f23_result|* && *|f23_result|* < 86">ATTENTION</td>
+            <td v-if="85.99 < *|f23_result|*">OPTIMAL</td>
+        </tr>
+        <tr>
+            <td>Absorption (A)</td>
+            <td>*|f24_result|* %</td>
+            <td v-if="*|f24_result|* < 40">CRITICAL</td>
+            <td v-if="39.99 < *|f24_result|* && *|f24_result|* < 70">PRIORITY</td>
+            <td v-if="69.99 < *|f24_result|* && *|f24_result|* < 86">ATTENTION</td>
+            <td v-if="85.99 < *|f24_result|*">OPTIMAL</td>
+        </tr>
+        <tr>
+            <td>Engagement (Eng)</td>
+            <td>*|f25_result|* %</td>
+            <td v-if="*|f25_result|* < 40">CRITICAL</td>
+            <td v-if="39.99 < *|f25_result|* && *|f25_result|* < 70">PRIORITY</td>
+            <td v-if="69.99 < *|f25_result|* && *|f25_result|* < 86">ATTENTION</td>
+            <td v-if="85.99 < *|f25_result|*">OPTIMAL</td>
+        </tr>
+        <tr>
+            <td>Vocational Alignment (VA)</td>
+            <td>*|f26_result|* %</td>
+            <td v-if="*|f26_result|* < 40">CRITICAL</td>
+            <td v-if="39.99 < *|f26_result|* && *|f26_result|* < 70">PRIORITY</td>
+            <td v-if="69.99 < *|f26_result|* && *|f26_result|* < 86">ATTENTION</td>
+            <td v-if="85.99 < *|f26_result|*">OPTIMAL</td>
+        </tr>
+    </tbody>
+</table>
