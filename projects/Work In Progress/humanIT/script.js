@@ -1,7 +1,9 @@
 docReady(function() {
     var overallacmtext = document.getElementById('overallACM');
-    var overalladvacetext = document.getElementById('overallAdvice');
-    var overallacm = "";
+    var coverExt_1 = document.getElementById('coverNC');
+    var coverExt_2 = document.getElementById('coverPA');
+    var coverExt_3 = document.getElementById('coverMA');
+    var coverExt_4 = document.getElementById('coverFA');
 
     var block1 = document.getElementById('block1').innerText;
     var block2 = document.getElementById('block2').innerText;
@@ -191,26 +193,64 @@ docReady(function() {
     // ADJUST GLOBAL ACM TEXT
     overallacmtext.innerText += overallacm = setglobalACM();
     if (overallacm === "Not Compliant") {
-        overalladvacetext.innerHTML = "*|EXTERNAL_FIELD_GLOBAL_NC|*"
+        coverExt_1.style.display = 'inherit';
     } else if (overallacm === "Partly") {
-        overalladvacetext.innerHTML = "*|EXTERNAL_FIELD_GLOBAL_PA|*"
+        coverExt_2.style.display = 'inherit';
     } else if (overallacm === "Mostly") {
-        overalladvacetext.innerHTML = "*|EXTERNAL_FIELD_GLOBAL_MA|*"
+        coverExt_3.style.display = 'inherit';
     } else if (overallacm === "Mostly") {
-        overalladvacetext.innerHTML = "*|EXTERNAL_FIELD_GLOBAL_FA|*"
+        coverExt_4.style.display = 'inherit';
     }
 
     // Populate table - third column
     for (var i = 1; i < table.rows.length; i++) {
-        table.rows[i].cells[2].innerHTML = blocksValues[i - 1];
+        table.rows[i].cells[7].innerHTML = blocksValues[i - 1];
     }
 
-    // Populate table - second column
+    // // Populate table - second column
     for (var i = 1; i < table.rows.length; i++) {
-        if (overallacm === "Partly" || overallacm === "Mostly" || overallacm === "Fully") {
-            table.rows[i].cells[1].innerHTML = "PartlyMostlyFully"
-        } else if (overallacm === "Not Compliant") {
-            table.rows[i].cells[1].innerHTML = "Not Compliant"
+        if (overallacm === "Not Compliant") {
+            if (!table.rows[i].cells[7].innerHTML.includes('Not Compliant')) {
+                table.rows[i].cells[2].style.display = 'none';
+                table.rows[i].cells[3].style.display = 'none';
+                table.rows[i].cells[4].style.display = 'none';
+                table.rows[i].cells[5].style.display = 'none';
+                table.rows[i].cells[6].style.display = 'none';
+            } else if (table.rows[i].cells[7].innerHTML.includes('Not Compliant')) {
+                table.rows[i].cells[1].style.display = 'none';
+                table.rows[i].cells[3].style.display = 'none';
+                table.rows[i].cells[4].style.display = 'none';
+                table.rows[i].cells[5].style.display = 'none';
+                table.rows[i].cells[6].style.display = 'none';
+            }
+        } else if (overallacm === "Partly") {
+            if (!table.rows[i].cells[7].innerHTML.includes('Partly')) {
+                table.rows[i].cells[1].style.display = 'none';
+                table.rows[i].cells[2].style.display = 'none';
+                table.rows[i].cells[4].style.display = 'none';
+                table.rows[i].cells[5].style.display = 'none';
+                table.rows[i].cells[6].style.display = 'none';
+            } else if (table.rows[i].cells[7].innerHTML.includes('Partly')) {
+                table.rows[i].cells[1].style.display = 'none';
+                table.rows[i].cells[2].style.display = 'none';
+                table.rows[i].cells[3].style.display = 'none';
+                table.rows[i].cells[5].style.display = 'none';
+                table.rows[i].cells[6].style.display = 'none';
+            }
+        } else if (overallacm === "Mostly") {
+            if (!table.rows[i].cells[7].innerHTML.includes('Mostly')) {
+                table.rows[i].cells[1].style.display = 'none';
+                table.rows[i].cells[2].style.display = 'none';
+                table.rows[i].cells[3].style.display = 'none';
+                table.rows[i].cells[4].style.display = 'none';
+                table.rows[i].cells[6].style.display = 'none';
+            } else if (table.rows[i].cells[7].innerHTML.includes('Mostly')) {
+                table.rows[i].cells[1].style.display = 'none';
+                table.rows[i].cells[2].style.display = 'none';
+                table.rows[i].cells[3].style.display = 'none';
+                table.rows[i].cells[4].style.display = 'none';
+                table.rows[i].cells[5].style.display = 'none';
+            }
         }
     }
 });

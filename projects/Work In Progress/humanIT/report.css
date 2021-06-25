@@ -1,0 +1,40 @@
+.coverEXT {
+    display: none;
+}
+
+#widget_10 table {
+    width: 100%
+}
+
+
+/* COMMON */
+
+#widget_10 table th,
+#widget_10 table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#widget_10 table th {
+    background: #e08706;
+    color: #000000
+}
+
+
+/* COLUMN */
+
+#widget_10 table.column th:nth-child(1),
+#widget_10 table.column td:nth-child(1) {
+    background: #e08706;
+    font-weight: bold;
+    color: #000000
+}
+
+#widget_10 table.column th {
+    text-align: left;
+    font-weight: 200;
+}
+
+.template-widget #table-widget thead tr th:first-child {
+    width: 25%;
+}
