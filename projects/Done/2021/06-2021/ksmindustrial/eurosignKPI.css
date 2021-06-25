@@ -1,0 +1,7 @@
+.formula_kpi .percentage:before {
+    content: "€ ";
+}
+
+#widget_21 .percentage:before {
+    content: "";
+}
