@@ -1,0 +1,4 @@
+.icon-prev:before {
+    font-family: "appfont" !important;
+    content: "test";
+}
