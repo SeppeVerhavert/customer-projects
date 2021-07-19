@@ -1,0 +1,283 @@
+/*---- Digital Business Transformation Report | Version: 1.0 ----*/
+
+
+/* ADDED BY SA */
+
+section.title-page .bottom-container .cover-page__summary {
+    display: block;
+}
+
+
+/*-----------------------BACKGROUND GRAPHIC ELEMENT-----------------------*/
+
+#title-page,
+#page_1,
+#page_2 {
+    background-image: url("https://assets.surveyanyplace.com/custom/my-engine-lab/digital-business-transformation/page-background/techspace_digital-business-transformation_page-background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#title-page {
+    height: 1080px;
+    background-size: contain;
+}
+
+#page_1,
+#page_2 {
+    height: 1022px;
+    background-size: cover;
+}
+
+#page_2 {
+    position: relative;
+    top: 100px;
+}
+
+
+/*-----------------------COVER PAGE-----------------------*/
+
+section.title-page {
+    color: #000000;
+}
+
+section.title-page .top-container {
+    text-transform: capitalize;
+    margin-top: 1em;
+}
+
+h1 {
+    font-size: 0.9em;
+    padding-top: 60px;
+    margin-bottom: 25px;
+}
+
+h4 {
+    font-size: 0.3em;
+    font-weight: 300;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 1rem;
+}
+
+.cover-page__banner {
+    height: 335px;
+    color: #000000;
+    margin: 0 -8px;
+}
+
+.banner_column1 {
+    width: 36%;
+    height: inherit;
+    background-color: #FBD4B5;
+    border-right: 0.5px solid #818181;
+    padding: 0 5rem;
+    float: left;
+}
+
+.banner_column2 {
+    width: 44%;
+    height: inherit;
+    background-image: url("https://assets.surveyanyplace.com/custom/my-engine-lab/digital-business-transformation/techspace_digital-business-transformation_cover-image.svg");
+    background-size: cover;
+    float: left;
+    display: grid;
+}
+
+.banner_information {
+    font-size: 0.35em;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 1.5em !important;
+}
+
+#assessmentScore {
+    font-size: 1em;
+    margin: auto 11rem;
+}
+
+.cover-page__summary {
+    width: 82%;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.cover-page__summary h5 {
+    font-size: 0.7em;
+    font-weight: 300;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+}
+
+.cover-page__summary p {
+    font-size: 0.6em;
+}
+
+.cover-page__logo {
+    text-align: right;
+    margin: 2rem;
+    padding-top: 1rem;
+    border-top: 0.5px solid #000000;
+}
+
+.cover-page__logo img {
+    width: 25%;
+}
+
+
+/*-----------------------RESULTS PAGE-----------------------*/
+
+.results-page__banner {
+    width: 95%;
+    margin: 0 30px;
+    padding-top: 85px;
+}
+
+.results_column {
+    width: 38%;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 0 5%;
+    float: left;
+}
+
+.results_column:first-child {
+    border-right: 0.5px solid #000000;
+}
+
+.results_category_information {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    top: -14px;
+}
+
+.results_category_information.people {
+    background-image: url("https://assets.surveyanyplace.com/custom/my-engine-lab/digital-business-transformation/category-banner/techspace_digital-business-transformation_category-banner-people.svg");
+}
+
+.results_category_information.technology {
+    background-image: url("https://assets.surveyanyplace.com/custom/my-engine-lab/digital-business-transformation/category-banner/techspace_digital-business-transformation_category-banner-technology.svg");
+}
+
+.results_category_information.customer-experience {
+    background-image: url("https://assets.surveyanyplace.com/custom/my-engine-lab/digital-business-transformation/category-banner/techspace_digital-business-transformation_category-banner-customer-experience.svg");
+}
+
+.results_category_information.business-data-insights {
+    background-image: url("https://assets.surveyanyplace.com/custom/my-engine-lab/digital-business-transformation/category-banner/techspace_digital-business-transformation_category-banner-insights.svg");
+}
+
+.results_category_information p {
+    padding-top: 120px;
+}
+
+.results_category h2 {
+    font-size: 1.6em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.category_score {
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+/*-----------------------FINAL PAGE-----------------------*/
+
+section.final-page {
+    height: 1136px;
+    max-height: 1080px;
+    background-image: url("https://assets.surveyanyplace.com/custom/my-engine-lab/digital-business-transformation/page-background/techspace_digital-business-transformation_final-page-background.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 65%;
+}
+
+section.final-page .top-container {
+    max-width: 85%;
+    color: #000000;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.final-page h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: left;
+}
+
+.final-page__banner {
+    font-size: 0.9em;
+    height: 600px;
+}
+
+.final_column1 {
+    height: 55%;
+    font-size: 0.9em;
+    background-color: #F2F2F2;
+    padding: 2rem;
+}
+
+p.final_cta {
+    width: 32%;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.final_image {
+    width: 275px;
+    height: 270px;
+    background-image: url("https://assets.surveyanyplace.com/custom/my-engine-lab/digital-business-transformation/techspace_digital-business-transformation_final-cover_image.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 38%;
+    right: 12%;
+}
+
+.final-page h5 {
+    width: 45%;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #000000;
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+}
+
+.final_column2 {
+    height: 40%;
+    background-color: #FBD4B5;
+    padding: 2rem;
+}
+
+.final_contact,
+.final_info {
+    font-size: 0.9em;
+}
+
+.final_info {
+    margin-top: 2.5rem;
+}
+
+.final_contact,
+.final-page__footer p {
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+}
+
+.final-page__footer {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 115px;
+}
+
+.highlight {
+    color: #FBD4B5;
+}
