@@ -1,0 +1,122 @@
+.fr-view table td,
+.fr-view table th {
+    border: none;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    border-width: 0px;
+    border-color: white;
+    float: center;
+}
+
+p {
+    line-height: 15px;
+    margin: 10px;
+}
+
+li {
+    line-height: 15px;
+    margin: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 28px;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: cadetblue;
+}
+
+.header-container {
+    background-color: #18315A;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-container {
+    background-color: #18315A;
+    text-align: right;
+    font-size: 12px;
+    width: 100%;
+    margin: 0;
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.normal-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.cover-page {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.3em;
+    text-align: center;
+    text-transform: none;
+}
+
+.block1 {
+    float: left;
+    width: 50%;
+}
+
+.center-image {
+    display: block;
+    margin: auto;
+    align-content: center;
+}
+
+.numeros-tabela {
+    font-size: 18px;
+}
+
+section.title-page .top-container {
+    font-size: 30px;
+    color: #5c6e8e;
+}
+
+section.title-page .bottom-container {
+    font-size: 25px;
+    margin-top: 0;
+    color: #c2d9fa;
+}
+
+section.title-page .logo {
+    padding: 50px 0;
+    width: 100%;
+}
+
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+
+.footer-container footer {
+    text-align: right;
+    color: whitesmoke;
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+    background-color: #18315A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.page-footer-space {
+    height: 50px;
+}
