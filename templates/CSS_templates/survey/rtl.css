@@ -1,5 +1,9 @@
 /*     -----     -----     .lang-43     -----     -----     */
 
+.ltr {
+    direction: rtl;
+}
+
 .lang-43 .answer-content {
     text-align: right;
     padding: .3em 2em .3em .3em;
@@ -27,7 +31,12 @@
     transform: rotate(180deg);
 }
 
-.lang-43 .button.next {
+.lang-43 #content0 .card-actions-item {
+    transform: rotate(0deg);
+}
+
+.lang-43 .button.next,
+.lang-43 .button.next.glow {
     transform: rotate(180deg);
 }
 
