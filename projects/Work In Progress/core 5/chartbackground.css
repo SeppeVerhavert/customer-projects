@@ -1,0 +1,11 @@
+.highcharts-container {
+    position: relative;
+    background-image: url(https://i.imgur.com/fos7UTc.png);
+    background-size: 88% 82%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.highcharts-background {
+    fill: none;
+}
