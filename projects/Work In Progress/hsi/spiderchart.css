@@ -42,7 +42,7 @@
 }
 
 .footer-container {
-    margin-left: 635px;
+    margin-left: 270px;
 }
 
 .page:nth-child(1) .page-header-space {
@@ -82,8 +82,29 @@ section.title-page .bottom-container div {
 }
 
 .chart-wrapper,
-#widget_18 .chart-container,
+#widget_20 .chart-container,
 .highcharts-container,
 .highcharts-root {
-    width: 350px !important;
+    width: 400px !important;
+}
+
+.highcharts-container .highcharts-root {
+    font-family: 'Montserrat' !important;
+}
+
+.highcharts-legend text,
+.battery-container p {
+    font-size: 13px !important;
+}
+
+.highcharts-axis-labels.highcharts-xaxis-labels text {
+    font-size: 10px !important;
+}
+
+.highcharts-xaxis-labels text:nth-child(1) {
+    transform: translateY(-15px);
+}
+
+.highcharts-xaxis-labels text:nth-child(5) {
+    transform: translateY(10px);
 }
