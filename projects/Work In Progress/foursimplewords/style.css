@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.footer-container {
+    height: 50px;
+}
+
+.header-container {
+    border-bottom: none;
+}
+
+footer {
+    width: 100%;
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.flex-container p:nth-child(2) {
+    align-self: center;
+    justify-self: end;
+}
+
+table thead tr th {
+    width: 20%;
+}
