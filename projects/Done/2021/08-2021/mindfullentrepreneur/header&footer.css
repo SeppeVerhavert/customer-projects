@@ -1,0 +1,26 @@
+.header-container {
+    background-image: url("https://www.mindfulentrepreneur.ca/wp-content/uploads/2021/08/header.jpg") !important;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.footer-container {
+    background-image: url("https://www.mindfulentrepreneur.ca/wp-content/uploads/2021/08/footer.jpg") !important;
+}
+
+section.final-page {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 !important;
+    height: 1122px !important;
+    max-height: 1122px !important;
+    background-repeat: no-repeat;
+    min-height: 0 !important;
+    border: none !important;
+    overflow: hidden;
+    background-position: left top, right bottom;
+    background-size: cover;
+    background-image: url("http://intentionalwealth.biz/wp-content/uploads/2021/08/Backpagebg.jpg");
+}
