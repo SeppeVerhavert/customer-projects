@@ -1,0 +1,9 @@
+footer {
+    display: grid;
+    grid-template-columns: 3fr 2.15fr;
+}
+
+footer p:nth-child(2) {
+    align-self: center;
+    justify-self: end;
+}
