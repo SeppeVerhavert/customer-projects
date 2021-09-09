@@ -1,0 +1,23 @@
+#widget_14,
+#widget_16 {
+    line-height: 1.4em;
+}
+
+#widget_30 {
+    padding-top: 775px;
+}
+
+
+/* .bottom-container.fr-view img {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+} */
+
+.page_break img {
+    height: 1121px;
+}
+
+.top-container.fr-view {
+    border-bottom: none !important;
+}
