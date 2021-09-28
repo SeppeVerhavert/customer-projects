@@ -1,0 +1,232 @@
+docReady(function() {
+
+	const categories = {
+		'Clothing & Textiles': [3, 3, 4, 2, 3.4, 3, 2, 4, 3, 4, 3, 3, 3, 3, 2, 3, 3, 2, 3, 3, 3.5, 3, 3, 4, 5, 2, 4, 2, 4, 4, 4, 4, 4, 2, 3, 4, 3, 4, 3, 3, 3.7],
+		'Construction & Infrastructure': [3, 3, 4, 2, 3.4, 3, 2, 4, 3, 4, 3, 3, 3, 3, 2, 3, 3, 2, 3, 3, 3.5, 3, 3, 4, 5, 2, 4, 2, 4, 4, 4, 4, 4, 2, 3, 4, 3, 4, 3, 3, 3.7],
+		'Consumer Goods / Retail': [4, 4, 4, 3, 4, 4, 3, 4, 3.5, 4, 3, 3, 3, 3, 3, 3, 2.5, 3, 3, 4, 4, 2, 3, 3, 4, 2, 4, 3, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 4, 3, 3],
+		'Education': [3.08, 3.46, 3.75, 2.51, 3.4, 3.28, 2.5, 3.75, 3.08, 3.86, 3.17, 3.25, 2.92, 3.08, 2.5, 3, 3.13, 2.5, 3.08, 3.3, 3.5, 3.08, 3.17, 3.67, 4.33, 2.58, 3.9, 2.5, 3.75, 3.75, 3.75, 3.75, 3.75, 2.37, 3.08, 3.42, 3.08, 3.6, 3.42, 3.08, 3.43],
+		'Finance': [4, 4, 4, 2.6, 4, 4, 2.5, 4, 4, 4, 3, 3, 3, 4, 3, 3, 3.5, 2.5, 4, 4, 4, 3, 4, 4, 4, 2, 4, 3, 4, 4, 4, 4, 3, 2.4, 3, 3, 3, 3.6, 4, 3, 3],
+		'Food & Beverage / Agriculture': [4, 4, 4, 3, 4, 4, 3, 4, 3.5, 4, 3, 3, 3, 3, 3, 3, 2.5, 3, 3, 4, 4, 2, 3, 3, 4, 2, 4, 3, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 4, 3, 3],
+		'Health, Wellness & Beauty': [3.08, 3.46, 3.75, 2.51, 3.4, 3.28, 2.5, 3.75, 3.08, 3.86, 3.17, 3.25, 2.92, 3.08, 2.5, 3, 3.13, 2.5, 3.08, 3.3, 3.5, 3.08, 3.17, 3.67, 4.33, 2.58, 3.9, 2.5, 3.75, 3.75, 3.75, 3.75, 3.75, 2.37, 3.08, 3.42, 3.08, 3.6, 3.42, 3.08, 3.43],
+		'Healthcare & Medical Tech': [3, 3, 2, 2, 3, 3, 2.5, 2, 2.5, 2.5, 3, 3, 3, 2, 2, 3, 3.5, 2.5, 2, 3, 3, 4, 3, 4, 5, 1, 4, 2, 3, 3, 3, 3, 4, 2, 3, 3, 3, 3.6, 3, 3, 3.3],
+		'Information Technology (IT)': [4, 4, 4, 3, 3.4, 4, 3, 4, 3.5, 4.2, 3, 4, 3, 3, 4, 3, 4, 3, 3, 4, 4, 4, 4, 4, 5, 5, 3.9, 4, 4, 4, 4, 4, 5, 3, 4, 4, 4, 4, 4, 4, 4.3],
+		'Machinery and Parts, Equipment': [3, 3, 4, 2.25, 2.7, 2.5, 2.5, 4, 3.25, 3.6, 3, 3, 3, 3.5, 2, 3.5, 3, 2.5, 3.5, 2.5, 2.75, 3, 3, 3.5, 4, 2.5, 3.5, 2, 4, 4, 4, 4, 3.5, 2, 2.5, 3, 2.5, 3.5, 3, 2.5, 3],
+		'Mainstreet / Restaurants': [3.08, 3.46, 3.75, 2.51, 3.4, 3.28, 2.5, 3.75, 3.08, 3.86, 3.17, 3.25, 2.92, 3.08, 2.5, 3, 3.13, 2.5, 3.08, 3.3, 3.5, 3.08, 3.17, 3.67, 4.33, 2.58, 3.9, 2.5, 3.75, 3.75, 3.75, 3.75, 3.75, 2.37, 3.08, 3.42, 3.08, 3.6, 3.42, 3.08, 3.43],
+		'Manufacturing': [3, 3, 4, 2, 3.4, 3, 2, 4, 3, 4, 3, 3, 3, 3, 2, 3, 3, 2, 3, 3, 3.5, 3, 3, 4, 5, 2, 4, 2, 4, 4, 4, 4, 4, 2, 3, 4, 3, 4, 3, 3, 3.7],
+		'Materials': [3, 3, 4, 2.5, 2, 2, 3, 4, 3.5, 3.2, 3, 3, 3, 4, 2, 4, 3, 3, 4, 2, 2, 3, 3, 3, 3, 3, 3, 2, 4, 4, 4, 4, 3, 2, 2, 2, 2, 3, 3, 2, 2.3],
+		'Not for Profit / Public Service': [3.08, 3.46, 3.75, 2.51, 3.4, 3.28, 2.5, 3.75, 3.08, 3.86, 3.17, 3.25, 2.92, 3.08, 2.5, 3, 3.13, 2.5, 3.08, 3.3, 3.5, 3.08, 3.17, 3.67, 4.33, 2.58, 3.9, 2.5, 3.75, 3.75, 3.75, 3.75, 3.75, 2.37, 3.08, 3.42, 3.08, 3.6, 3.42, 3.08, 3.43],
+		'Oil & gas / Energy': [1, 3.5, 3, 3, 3.4, 3.3, 3, 3, 1.5, 4.1, 3, 4, 3, 2, 2, 2, 2.5, 3, 2, 3.3, 3.5, 2, 3, 4, 4, 4, 3.9, 2, 3, 3, 3, 3, 4, 3, 4, 3, 4, 4, 5, 4, 3.7],
+		'Other': [3.08, 3.46, 3.75, 2.51, 3.4, 3.28, 2.5, 3.75, 3.08, 3.86, 3.17, 3.25, 2.92, 3.08, 2.5, 3, 3.13, 2.5, 3.08, 3.3, 3.5, 3.08, 3.17, 3.67, 4.33, 2.58, 3.9, 2.5, 3.75, 3.75, 3.75, 3.75, 3.75, 2.37, 3.08, 3.42, 3.08, 3.6, 3.42, 3.08, 3.43],
+		'Power & Utilities': [2, 4, 4, 2, 3.4, 3, 2, 4, 2.5, 4.3, 4, 3, 2, 3, 4, 4, 3, 2, 3, 3.3, 3.5, 3, 3, 3, 5, 3, 4, 4, 3, 3, 3, 3, 4, 2, 3, 4, 3, 3, 3, 3, 3.7],
+		'Real Estate': [3, 3, 4, 3, 3.4, 3, 2, 4, 3, 4, 3, 3, 3, 3, 2, 3, 3, 2, 3, 3, 3.5, 3, 3, 4, 5, 2, 4, 2, 4, 4, 4, 4, 4, 2, 3, 4, 3, 4, 3, 3, 3.7],
+		'Services (Marketing, Sales, HR, Legal, Consulting & Training)': [4, 4, 4, 2.8, 3.7, 4, 2.75, 4, 3.75, 4.1, 3, 3.5, 3, 3.5, 3.5, 3, 3.75, 2.75, 3.5, 4, 4, 3.5, 4, 4, 4.5, 3.5, 3.95, 3.5, 4, 4, 4, 4, 4, 2.7, 3.5, 3.5, 3.5, 3.8, 4, 3.5, 3.65],
+		'Telecommunications': [4, 4, 4, 3, 4, 4, 3, 4, 4, 4, 4, 4, 3, 4, 2, 2, 3.5, 3, 4, 4, 4, 4, 3, 3, 2, 3, 4, 2, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+		'Transport, Logistics & Warehousing': [3, 3, 4, 2, 3.4, 3, 2, 4, 3, 4, 3, 3, 3, 3, 2, 3, 3, 2, 3, 3, 3.5, 3, 3, 4, 5, 2, 4, 2, 4, 4, 4, 4, 4, 2, 3, 4, 3, 4, 3, 3, 3.7]
+	};
+
+	const capabilities = {
+		'Clothing & Textiles': [3.08, 3.2, 2.78, 3.13, 3.4, 4, 3.25, 3.7],
+		'Construction & Infrastructure': [3.08, 3.2, 2.78, 3.13, 3.4, 4, 3.25, 3.7],
+		'Consumer Goods / Retail': [3.8, 3.7, 2.94, 3.25, 3.2, 4, 3.13, 3],
+		'Education': [3.24, 3.29, 2.96, 3.26, 3.4, 3.75, 3.22, 3.43],
+		'Finance': [3.72, 3.7, 3.22, 3.75, 3.4, 4, 3.13, 3],
+		'Food & Beverage / Agriculture': [3.8, 3.7, 2.94, 3.25, 3.2, 4, 3.13, 3],
+		'Health, Wellness & Beauty': [3.24, 3.29, 2.96, 3.26, 3.4, 3.75, 3.22, 3.43],
+		'Healthcare & Medical Tech': [2.6, 2.5, 2.67, 3.25, 3.2, 3, 3.08, 3.3],
+		'Information Technology (IT)': [3.68, 3.74, 3.33, 4, 4.38, 4, 4, 4.3],
+		'Machinery and Parts, Equipment': [2.99, 3.17, 3, 2.81, 3.1, 4, 2.81, 3],
+		'Mainstreet / Restaurants': [3.24, 3.29, 2.96, 3.26, 3.4, 3.75, 3.22, 3.43],
+		'Manufacturing': [3.08, 3.2, 2.78, 3.13, 3.4, 4, 3.25, 3.7],
+		'Materials': [2.9, 3.14, 3.22, 2.5, 2.8, 4, 2.38, 2.3],
+		'Not for Profit / Public Service': [3.24, 3.29, 2.96, 3.26, 3.4, 3.75, 3.22, 3.43],
+		'Oil & gas / Energy': [2.78, 2.98, 2.61, 2.95, 3.58, 3, 3.88, 3.7],
+		'Other': [3.24, 3.29, 2.96, 3.26, 3.4, 3.75, 3.22, 3.43],
+		'Power & Utilities': [3.08, 3.16, 3.11, 3.2, 3.8, 3, 3.13, 3.7],
+		'Real Estate': [3.28, 3.2, 2.78, 3.13, 3.4, 4, 3.25, 3.7],
+		'Services (Marketing, Sales, HR, Legal, Consulting & Training)': [3.7, 3.72, 3.28, 3.88, 3.89, 4, 3.56, 3.65],
+		'Telecommunications': [3.8, 3.8, 3.28, 3.75, 2.8, 4, 3, 3],
+		'Transport, Logistics & Warehousing': [3.08, 3.2, 2.78, 3.13, 3.4, 4, 3.25, 3.7]
+	};
+
+	const pillars = {
+		'Clothing & Textiles': [3.08, 3.2, 2.78, 3.13, 3.4],
+		'Construction & Infrastructure': [3.08, 3.2, 2.78, 3.13, 3.4],
+		'Consumer Goods / Retail': [3.8, 3.7, 2.94, 3.25, 3.2],
+		'Education': [3.24, 3.29, 2.96, 3.26, 3.4],
+		'Finance': [3.72, 3.7, 3.22, 3.75, 3.4],
+		'Food & Beverage / Agriculture': [3.8, 3.7, 2.94, 3.25, 3.2],
+		'Health, Wellness & Beauty': [3.24, 3.29, 2.96, 3.26, 3.4],
+		'Healthcare & Medical Tech': [2.6, 2.5, 2.67, 3.25, 3.2],
+		'Information Technology (IT)': [3.68, 3.74, 3.33, 4, 4.38],
+		'Machinery and Parts, Equipment': [2.99, 3.17, 3, 2.81, 3.1],
+		'Mainstreet / Restaurants': [3.24, 3.29, 2.96, 3.26, 3.4],
+		'Manufacturing': [3.08, 3.2, 2.78, 3.13, 3.4],
+		'Materials': [2.9, 3.14, 3.22, 2.5, 2.8],
+		'Not for Profit / Public Service': [3.24, 3.29, 2.96, 3.26, 3.4],
+		'Oil & gas / Energy': [2.78, 2.98, 2.61, 2.95, 3.58],
+		'Other': [3.24, 3.29, 2.96, 3.26, 3.4],
+		'Power & Utilities': [3.08, 3.16, 3.11, 3.2, 3.8],
+		'Real Estate': [3.28, 3.2, 2.78, 3.13, 3.4],
+		'Services (Marketing, Sales, HR, Legal, Consulting & Training)': [3.7, 3.72, 3.28, 3.88, 3.89],
+		'Telecommunications': [3.8, 3.8, 3.28, 3.75, 2.8],
+		'Transport, Logistics & Warehousing': [3.08, 3.2, 2.78, 3.13, 3.4]
+	};
+
+	const averages = {
+		'Clothing & Textiles': {
+			value: 3.12,
+			class: ''
+		},
+		'Construction & Infrastructure': 3.12, //
+		'Consumer Goods / Retail': 3.12,
+		'Education': 3.36,
+		'Finance': 3.12,
+		'Food & Beverage / Agriculture': 3.42,
+		'Health, Wellness & Beauty': 3.26,
+		'Healthcare & Medical Tech': 3.27,
+		'Information Technology (IT)': 3.39,
+		'Machinery and Parts, Equipment': 3.19,
+		'Mainstreet / Restaurants': 3.38,
+		'Manufacturing': 3.23,
+		'Materials': 3.18,
+		'Not for Profit / Public Service': 3.41,
+		'Oil & gas / Energy': 3.19,
+		'Other': 3.56,
+		'Power & Utilities': 3.33,
+		'Real Estate': 3.57,
+		'Services (Marketing, Sales, HR, Legal, Consulting & Training)': 3.46,
+		'Telecommunications': 3.52,
+		'Transport, Logistics & Warehousing': 3.56
+	};
+
+	var category = $('#industry').text();
+
+	// date format
+	if (document.getElementById('responsedate')) {
+		let responsedate = document.getElementById('responsedate').innerText;
+		const dates = responsedate.split(' ');
+		let month = dates[0].slice(0, 3);
+		let day = parseInt(dates[1].split(',')[0]);
+		let day2 = (day < 10) ? "0" + day : day;
+
+		var elementsDate = document.querySelectorAll('.date');
+		for (var i = 0; i < elementsDate.length; i++) {
+			elementsDate[i].innerHTML = month + " " + day2 + ", " + dates[2];
+		}
+	}
+
+	var benchaver = averages[category];
+
+
+	var resultTable = $('.paralel-right .divTable');
+	var pathTable = $('.page-content > .divTable');
+
+	resultTable.find('.divTableRow .divTableCell:nth-child(3)').each(function(i, a){
+		$(a).text(capabilities[category][i]);
+	});
+
+	pathTable.find('.divTableRow .divTableCell:nth-child(3)').each(function(i, a){
+		$(a).text(pillars[category][i]);
+	});
+
+	var varianceTables = $('.divTable2');
+
+	varianceTables.find('.score').each(function() {
+		var v = parseInt($(this).text());
+
+		$(this).html(v + '.0');
+
+	});
+
+	varianceTables.find('.divTableRow2 .divTableCell2:nth-child(4)').each(function(i, a) {
+		$(a).text(categories[category][i] + (categories[category][i] == parseInt(categories[category][i]) ? '.0' : ''));
+	});
+
+	varianceTables.find('.divTableRow2 .divTableCell2:nth-child(5)').each(function() {
+		var v = parseFloat($(this).prev().prev().text())-parseFloat($(this).prev().text());
+		v = Math.round((v + Number.EPSILON) * 100) / 100; // round to 2 decimals
+		var isNegative = v < 0 ? true : false;
+
+		$(this).html('<div class="variance-bar"><div class="wrap"><div class="negative"></div><div class="positive"></div></div></div><div class="variance-score">' + v + (v == parseInt(v) ? '.0' : '') + '</div>');
+
+		if (isNegative) {
+			$(this).find('.negative').addClass('active').append('<span></span>');
+			$(this).find('.active span').css('width', Math.abs(v)*20 + '%');
+		}
+		else {
+			$(this).find('.positive').addClass('active').append('<span></span>');
+			$(this).find('.active span').css('width', Math.abs(v)*20 + '%');
+		}
+
+	});
+
+
+	$('#widget_2').detach().appendTo('.chart-score');
+
+	// DNA section
+	if (document.getElementById('overall-score')) {
+		let overallscore = parseFloat(document.getElementById('overall-score').innerText);
+		if (overallscore >= 1 && overallscore < 1.8) {
+			document.getElementById('dna-type').innerHTML = "Digital Novice";
+			document.getElementById('dna-desc').innerHTML = "Digital Novices are just starting out on their transformation journeys. Their current processes are mostly manual with great potential for automation.";
+		} else if (overallscore >= 1.8 && overallscore < 2.6) {
+			document.getElementById('dna-type').innerHTML = "Digital Explorer";
+			document.getElementById('dna-desc').innerHTML = "Digital Explorers have started to use technology and process automation to help their organization, albeit through a siloed approach.";
+		} else if (overallscore >= 2.6 && overallscore < 3.4) {
+			document.getElementById('dna-type').innerHTML = "Digital Intermediary";
+			document.getElementById('dna-desc').innerHTML = "Digital intermediaries use automation, technology and data to assist with decision making with increasing levels of departmental coordination.";
+		} else if (overallscore >= 3.4 && overallscore < 4.2) {
+			document.getElementById('dna-type').innerHTML = "Digital Innovator";
+			document.getElementById('dna-desc').innerHTML = "Digital innovators have a culture that is open to change and new ideas and have successfully incorporated technology & process automation in their business.";
+		} else if (overallscore >= 4.2 && overallscore <= 5) {
+			document.getElementById('dna-type').innerHTML = "Digital Leader";
+			document.getElementById('dna-desc').innerHTML = "Digital Leaders have successfully adopted technology and process automation to connect their departments with strong governance and alignment in place.";
+		}
+	}
+
+	// color score values
+	var elementsScore = document.querySelectorAll('.score');
+	for (var i = 0; i < elementsScore.length; i++) {
+		let tempScore = elementsScore[i].innerText;
+		if (parseFloat(tempScore) > 0 && parseFloat(tempScore) < 1.5) {
+			elementsScore[i].className +=  " red";
+		} else if (parseFloat(tempScore) >= 1.5 && parseFloat(tempScore) < 3.5) {
+			elementsScore[i].className +=  " orange";
+		} else if (parseFloat(tempScore) >= 3.5 && parseFloat(tempScore) <= 5) {
+			elementsScore[i].className +=  " green";
+		}
+	}
+
+	var waitForCharts = setInterval(function(){
+		if ($('#widget_2 #container_2 .highcharts-container').length) {
+			// $('#widget_2 #container_2').append('<div id="benchmark-score">3.84</div>');
+			console.log(benchaver);
+			$('#widget_2 #container_2').append('<div id="benchmark-score" class="score-323">' + benchaver +'</div>');
+			$('#widget_2 #container_2').append('<div id="benchmark-ind" class="ind-323"></div>');
+			clearInterval(waitForCharts);
+		}
+	}, 100);
+
+	$('.page-content').each(function(i, a){
+		$(a).append('<div class="pagenum">PAGE | 0' + (i+1) + '</div>');
+	})
+
+});
+
+function docReady(fn) {
+
+	console.log("pretimeout");
+
+	if (document.readyState === "complete" || document.readyState === "interactive") {
+		// call on next available tick
+		setTimeout(fn, 1);
+
+	} else {
+		document.addEventListener("DOMContentLoaded", fn, false);
+		/////////////////////////////////////////////////////////////////
+		//********************* **********************//
+		window.addEventListener('load', (event) => {
+			console.log('DOM fully loaded and parsed');
+		});
+	}
+}
