@@ -1,5 +1,5 @@
 Name;Type (spreadsheet, plain or custom_api);Data freshness (realtime, 1h, 4h, 12h or 1d);Value (if type is plain);Spreadsheet ID (if type is spreadsheet);Cell (if type is spreadsheet);Filter value (if type is spreadsheet);Comparison value (if type is spreadsheet);Endpoint (if type is custom_api);Tree (if type is custom_api)
-EXTERNAL_FIELD_NIBC_Q2_SELF;spreadsheet;realtime;;1hxWN41XwlsOJbxvUWcC-YESNgvNzMfJVtwqGz0koV0w;Calculations!C:C;*|intro_field2_response|*;;;
+EXTERNAL_FIELD_NIBC_Q2_SELF;spreadsheet;realtime;;1hxWN41XwlsOJbxvUWcC-YESNgvNzMfJVtwqGz0koV0w;Calculations!A1:C1000;*|intro_field2_response|*;;;
 EXTERNAL_FIELD_NIBC_Q2_MANAGER;spreadsheet;realtime;;1hxWN41XwlsOJbxvUWcC-YESNgvNzMfJVtwqGz0koV0w;Calculations!D:D;*|intro_field2_response|*;;;
 EXTERNAL_FIELD_NIBC_Q2_COLLEAGUE;spreadsheet;realtime;;1hxWN41XwlsOJbxvUWcC-YESNgvNzMfJVtwqGz0koV0w;Calculations!E:E;*|intro_field2_response|*;;;
 EXTERNAL_FIELD_NIBC_Q3_SELF;spreadsheet;realtime;;1hxWN41XwlsOJbxvUWcC-YESNgvNzMfJVtwqGz0koV0w;Calculations!F:F;*|intro_field2_response|*;;;
