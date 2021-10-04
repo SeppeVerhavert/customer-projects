@@ -1,0 +1,84 @@
+/* ____ ADDED BY SA _____ */
+
+
+/* COVER PAGE */
+
+.top-container.fr-view p {
+    margin: auto;
+}
+
+
+/* HEADER & FOOTER */
+
+.page-header-space,
+.page-footer-space {
+    height: 50px;
+}
+
+
+/* RESPONDENT TABLE */
+
+.custom_results_by_respondent_table {
+    padding-bottom: 2em;
+}
+
+
+/* CUSTOM TABLES */
+
+.template-widget table th,
+.template-widget table td {
+    border: 1px solid #ccc !important;
+    padding: 6px !important;
+}
+
+.template-widget table thead {
+    background-color: #35444c;
+    color: white;
+}
+
+.template-widget.text table thead tr:first-child th:first-child {
+    background-color: #fff !important;
+    border: none !important;
+}
+
+.template-widget table thead tr:nth-child(2) th:nth-child(2) {
+    background-color: #ee4621 !important;
+}
+
+.template-widget table thead tr:nth-child(2) th:nth-child(3) {
+    background-color: #27384b !important;
+}
+
+.template-widget table thead tr:nth-child(2) th:nth-child(4) {
+    background-color: #9bd6e2 !important;
+}
+
+.template-widget table th:not(:first-child) {
+    width: 10%;
+}
+
+#widget_6.template-widget table th {
+    width: 33%;
+}
+
+.fr-view table th {
+    background: none !important;
+}
+
+#widget_16 {
+    margin-bottom: 20px;
+}
+
+#widget_14 thead th:nth-child(2),
+#widget_14 thead th:nth-child(3),
+#widget_16 thead th:nth-child(2),
+#widget_16 thead th:nth-child(3) {
+    width: 15%;
+}
+
+
+/* CLASS USED FOR SCRIPT */
+
+.invisible {
+    display: none;
+}
