@@ -1,0 +1,140 @@
+/* FONTS */
+
+@import url('http://fonts.cdnfonts.com/css/modernline-personal-use');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+@font-face {
+    font-family: 'modernline - Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    src: local('modernline - Personal Use'), url('https://fonts.cdnfonts.com/s/40958/modernline.woff') format('woff');
+}
+
+
+/* All */
+
+.modernline {
+    font-family: 'modernline - Personal Use';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.modernline-red {
+    font-family: 'modernline - Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    color: #750003;
+}
+
+.red {
+    color: #750003;
+}
+
+p {
+    margin: 45px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div,
+li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div-top>p {
+    height: 130px;
+    padding: 20px;
+    background: black;
+}
+
+.div-top .logo-top {
+    height: 100%;
+}
+
+div.player-video {
+    top: 581px;
+    left: 513px;
+    z-index: 2;
+}
+
+.div-big-red {
+    height: 250px;
+    background-color: #750003;
+    color: #FFFFFF;
+}
+
+.div-big-red p {
+    margin: 0px;
+}
+
+.div-big-red a {
+    color: #ffffff !important;
+    border-bottom: 1px solid;
+}
+
+.div-big-red .modernline {
+    color: #FFFFFF;
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+.div-smaller-red {
+    height: 150px;
+    background-color: #750003;
+    color: #FFFFFF;
+}
+
+.div-smaller-red p {
+    padding: 20px;
+}
+
+.div-list ul li {
+    text-align: left;
+}
+
+.big-link {
+    color: #750003;
+}
+
+.final-words p:nth-child(1) {
+    color: #000000;
+    margin-bottom: 0px;
+    padding-right: 270px;
+}
+
+.final-words p:nth-child(2) {
+    color: #000000;
+    margin: 0px 0px 18px 0;
+    padding-left: 270px;
+}
+
+.div-bottom-black {
+    height: 100px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 25px;
+}
+
+.div-bottom-black p {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.div-bottom-black p a {
+    color: #ffffff;
+}
+
+
+/* _____ ADDED BY SA _____ */
+
+@media (max-width: 768px) {
+    .player-video iframe {
+        width: fit-content;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 426px) {
+    .player-video iframe {
+        width: -webkit-fill-available;
+        height: auto;
+    }
+}
