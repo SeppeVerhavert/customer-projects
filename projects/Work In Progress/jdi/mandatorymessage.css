@@ -1,0 +1,3 @@
+.icon-mandatory::before {
+    content: "*" !important;
+}

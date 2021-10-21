@@ -1,0 +1,126 @@
+/* All */
+
+#body {
+    -webkit-text-stroke: 0;
+}
+
+.card-logo {
+    background-color: none;
+    padding: 5px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.vertical-center {
+    overflow: auto;
+}
+
+.vertical-center::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.card-content .text-container p:nth-child(2) {
+    /*-webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;*/
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 1px solid #ccc;
+    -moz-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+}
+
+.intro .card-content .text-container p:nth-child(2),
+.outro .card-content .text-container p:nth-child(2) {
+    column-width: inherit !important;
+    column-count: inherit !important;
+    column-gap: inherit !important;
+    column-rule: none !important;
+}
+
+
+/* to decrease the gap and avoid scroll*/
+
+hr {
+    margin: 0.5em auto;
+}
+
+
+/* First page */
+
+#content0,
+#content1 {
+    background: url(https://assets.surveyanyplace.com/media-library/production/88320/Hexagon/rL4jfTnFRIK48wEfzejA_Surveyanyplace_Landing_Page_option_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content0 .intro .text-container p {
+    color: white;
+}
+
+
+/*  to hide the logo after page 3*/
+
+.card:not(.intro) .card-logo {
+    display: none;
+}
+
+
+/* Slider */
+
+.rangeslider__fill,
+.rangeslider__handle:before {
+    background-color: #bad879;
+}
+
+
+/* Preloading bg images */
+
+body::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/residential_illustration.png) url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/utility_illustration.png) url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/highway_illustration.png) url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/commercial_illustration.png) url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/bridge_illustration.png) url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/tunnel_illustration.png) url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/airport_illustration.png)
+}
+
+
+/* Backgrounds */
+
+.rsSlide>div {
+    background-size: cover;
+}
+
+.bg-1 {
+    background-image: url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/residential_illustration.png);
+}
+
+.bg-2 {
+    background-image: url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/utility_illustration.png);
+}
+
+.bg-3 {
+    background-image: url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/highway_illustration.png);
+}
+
+.bg-4 {
+    background-image: url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/commercial_illustration.png);
+}
+
+.bg-5 {
+    background-image: url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/bridge_illustration.png);
+}
+
+.bg-6 {
+    background-image: url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/tunnel_illustration.png);
+}
+
+.bg-7 {
+    background-image: url(https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/hexagon/airport_illustration.png);
+}
