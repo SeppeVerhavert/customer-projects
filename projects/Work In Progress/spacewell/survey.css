@@ -1,0 +1,7 @@
+.card-content hr {
+    display: none;
+}
+
+.container.answers-container {
+    margin-top: 0!important;
+}

@@ -1,77 +1,77 @@
 <p class="font-medium"><strong>Critique Style</strong></p>
-<p class="font-medium">*|contact_first_name|* *|contact_last_name|* has scored in the superior performance range on the Critique scale, suggesting that *|contact_first_name|* is a highly analytical individual who will enjoy the rational side of analysing information and critically
-    reviewing the logical reasoning behind an argument. It is also likely that *|contact_first_name|* bases his decisions on facts alone. It is likely that *|contact_first_name|* is able to keep behavioural goals in mind and provide a clear rationale
-    that fits the goals for self and others. Such scores tend to indicate an individual who is not easily distracted from their objectives, whether they be surpassing personal targets or convincing someone to take a course of action.</p>
-<div v-if="*|f1_result|* > Agree"></div>
-<div v-if="*|f1_result|* > ? && *|f1_result|* <Strongly agree">
+<div v-if="*|f1_result|* = 5">
+    <p>*|contact_first_name|* *|contact_last_name|* has scored in the superior performance range on the Critique scale, suggesting that *|contact_first_name|* is a highly analytical individual who will enjoy the rational side of analysing information and
+        critically reviewing the logical reasoning behind an argument. It is also likely that *|contact_first_name|* bases his decisions on facts alone. It is likely that *|contact_first_name|* is able to keep behavioural goals in mind and provide a clear
+        rationale that fits the goals for self and others. Such scores tend to indicate an individual who is not easily distracted from their objectives, whether they be surpassing personal targets or convincing someone to take a course of action.</p>
+</div>
+<div v-if="*|f1_result|* = 4">
     <p> *|contact_first_name|* *|contact_last_name|* scored in the above-average performance range on the Critique scale, meaning *|contact_first_name|* should be comfortable with analytical thinking and critically reviewing the logical reasoning behind an
         argument. It is also likely that *|contact_first_name|* bases his decisions on more than facts alone. *|contact_first_name|* is likely to provide a clear rationale for their thinking. Such scores tend to indicate an individual who is focused on
         their objectives. </p>
 </div>
-<div v-if="*|f1_result|* > Disagree && *|f1_result|* <Agree">
+<div v-if="*|f1_result|* = '3'">
     <p> *|contact_first_name|* *|contact_last_name|* obtained an average performance score on the Critique scale, indicating that *|contact_first_name|* will display modest levels of analytical skills and a fact-based approach to problem-solving. *|contact_first_name|*
         is likely to be comfortable with using logical reasoning yet it won't be their first preference. *|contact_first_name|* is likely to perform well on tasks that require a moderate degree of interaction with analytical and logical reasoning. Such
         scores tend to indicate an individual who is comfortable with understanding the rational side of issues. </p>
 </div>
-<div v-if="*|f1_result|* > Strongly disagree && *|f1_result|* <?">
+<div v-if="*|f1_result|* = 2">
     <p> *|contact_first_name|* *|contact_last_name|* has scored in the below-average performance on the Crique scale, suggesting that *|contact_first_name|* is not an overly analytical individual and doesn't enjoy the rational side of analysing information
         and critically reviewing the logic behind an argument. It is also likely that they struggle to maintain focus on tasks that require analytical and logical reasoning. Such scores tend to indicate an individual who can be distracted from their objectives,
         whether they be surpassing personal targets or convincing someone to take a course of action. </p>
 </div>
-<div v-if="*|f1_result|* < Disagree">
+<div v-if="*|f1_result|* = 1">
     <p> *|contact_first_name|* *|contact_last_name|* scored in the poor performance range for the Critique scale, which suggests that *|contact_first_name|* may face difficulties when critiquing the logic and the reasoning behind an argument. *|contact_first_name|*
-        may tend to not invest the time to search for the facts. *|contact_first_name|* may be particularly susceptible to distractions, and would benefit from regular reminders about balancing emotion with reason when solving problems. Such scores tend
-        to indicate an individual who doesn't possess an analytical and facts-based approach to problem-solving.</p>
-    <p></p>
-    <p><strong>Explore Style</strong></p>
+        may tend to not invest the time to search emotion with reason when solving problems. Such scores tend to indicate an individual who doesn't possess an analytical and facts-based approach to problem-solving.</p>
 </div>
-<div v-if="*|f2_result|* > Agree">
+<p></p>
+<p><strong>Explore Style</strong></p>
+<div v-if="*|f2_result|* = 5">
     <p>*|contact_first_name|* *|contact_last_name|* has scored in the superior performance range on the Explore scale, suggesting that *|contact_first_name|* naturally and proactively seeks out opportunity to learn new things. It is also likely that *|contact_first_name|*
         trusts their intuition when solving novel or complex problems. It is likely that *|contact_first_name|* is practical in the application of their knowledge. Such scores tend to indicate an individual that is fluid in their approach to tackling
         new and complex challenges.</p>
 </div>
-<div v-if="*|f2_result|* > ? && *|f2_result|* <Strongly agree">
+<div v-if="*|f2_result|* = 4">
     <p>*|contact_first_name|* *|contact_last_name|* scored in the above-average performance range on the Explore scale, meaning *|contact_first_name|* should be comfortable proactively seeking out new things. It is also likely that *|contact_first_name|*
         is beginning to trust their intuition when working in uncertainty and ambiguity. *|contact_first_name|* is also likely to be comfortable with practical problem-solving. Such scores tend to indicate an individual who is comfortable with being fluid
         in their approach to solving novel and complex challenges.</p>
 </div>
-<div v-if="*|f2_result|* > Disagree && *|f2_result|* <Agree">
+<div v-if="*|f2_result|* = 3">
     <p>*|contact_first_name|* *|contact_last_name|* obtained an average performance score on the Explore scale, indicating that *|contact_first_name|* will display modest levels of exploratory skills and is likely to not have a strong drive to explore the
         unknown. *|contact_first_name|* is likely to be comfortable with taking a practical approach to problem-solving but it is not likely to be their first preference. *|contact_first_name|* is also likely to perform well on tasks that require a moderate
         degree of new learning and to call on intuition. Such scores tend to indicate an individual who can use a growth mindset and intuitive approach. </p>
 </div>
-<div v-if="*|f2_result|* > Strongly disagree && *|f2_result|* <?">
+<div v-if="*|f2_result|* = 2">
     <p>*|contact_first_name|* *|contact_last_name|* has scored in the below-average performance on the Explore scale, which suggests that *|contact_first_name|* is not an overly adventurous individual and doesn't intuitively seek out new ways of doing things.
         It is also likely that *|contact_first_name|* isn't as applied in his knowledge as many others. Such scores tend to indicate an individual that prefers the known to the unknown. </p>
 </div>
-<div v-if="*|f2_result|* < Disagree">
+<div v-if="*|f2_result|* = 1">
     <p>*|contact_first_name|* *|contact_last_name|* scored in the poor performance range for the Explore scale, which suggests that *|contact_first_name|* may find it difficult to actively seek out new ways to do things. *|contact_first_name|* may not trust
         their own intuition in solving novel problems. *|contact_first_name|* may be particularly susceptible to over-intellectualising the unknown, and would benefit from building trust with their gut instincts. Such scores tend to indicate an individual
         that finds it hard to act intuitively and proactively. </p>
-    <p></p>
-    <p><strong>Envision Style</strong></p>
 </div>
-<div v-if="*|f3_result|* > Agree">
+<p></p>
+<p><strong>Envision Style</strong></p>
+<div v-if="*|f3_result|* = 5">
     <p>*|contact_first_name|* *|contact_last_name|* has scored in the superior performance range on the Envision scale, suggesting that *|contact_first_name|* enjoys formulating many original ideas. It is also likely that *|contact_first_name|* can quickly
         develop concepts based on theory. It is likely that *|contact_first_name|* set strategies based on a clear future vision that they are compelled to drive forward. Such scores tend to indicate an individual that is visionary and able to navigate
         uncertainty and set the direction for self and others. </p>
 </div>
-<div v-if="*|f3_result|* > ? && *|f3_result|* <Strongly agree">
+<div v-if="*|f3_result|* = 4">
     <p>*|contact_first_name|* *|contact_last_name|* scored in the above-average performance range on the Envision scale, meaning *|contact_first_name|* should be comfortable with formulating original ideas and strategies connect to a vision. It is also likely
         that *|contact_first_name|* bases their concepts on a theory. *|contact_first_name|* is likely to provide a clear rationale for their vision to drive it forward. Such scores tend to indicate an individual who is more innovative and strategic than
         most people. </p>
 </div>
-<div v-if="*|f3_result|* > Disagree && *|f3_result|* <Agree">
+<div v-if="*|f3_result|* = 3">
     <p>*|contact_first_name|* *|contact_last_name|* obtained an average performance score on the Envision scale, indicating that *|contact_first_name|* will display modest levels of skills in formulating strategies and original ideas based on theories. *|contact_first_name|*
         is likely to be comfortable with using conceptualisation but it is unlikely to be their first preference. *|contact_first_name|* is likely to perform well on tasks that require a moderate degree of interaction with ideation and strategising. Such
         scores tend to indicate an individual who is comfortable with understanding the strategic side of progress yet *|contact_first_name|* may not naturally turn it into a driving vision. </p>
 </div>
-<div v-if="*|f3_result|* > Stronlgy disagree && *|f3_result|* <?">
+<div v-if="*|f3_result|* = 2">
     <p>*|contact_first_name|* *|contact_last_name|* has scored in the below-average performance on the Envision scale, suggesting that *|contact_first_name|* is not overly a visionary and doesn't enjoy conceptual nor strategic thinking. It is also likely
         that *|contact_first_name|* struggles to maintain focus on tasks that require brainstorming alternative approaches to problem-solving. Such scores tend to indicate an individual who can be frustrated by conceptualisation as opposed to operationalisation.
     </p>
 </div>
-<div v-if="*|f3_result|* < Disagree">
+<div v-if="*|f3_result|* = 1">
     <p>*|contact_first_name|* *|contact_last_name|* scored in the poor performance range for the Envision scale, which suggests that *|contact_first_name|* may face difficulties when formulating original ideas. *|contact_first_name|* may not tend to base
         concepts on theory and struggle to set strategies for a future vision. Such scores tend to indicate an individual who struggles to navigate uncertainty and set the direction for self and others.</p>
 </div>
