@@ -1,0 +1,4 @@
+.widget-container.barchart-widget .grid .dividers,
+.widget-container.barchart-widget .grid .scales {
+    display: none;
+}

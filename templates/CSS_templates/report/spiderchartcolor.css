@@ -1,0 +1,11 @@
+.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(1) {
+    fill: #a67aa5;
+}
+
+.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(2) {
+    fill: #4b65a9;
+}
+
+.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(3) {
+    fill: #8484ca;
+}
