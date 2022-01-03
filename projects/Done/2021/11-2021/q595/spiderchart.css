@@ -1,0 +1,55 @@
+#widget_2.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(1) {
+    fill: #333b50;
+}
+
+#widget_2.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(2) {
+    fill: #0fa3b1;
+}
+
+#widget_2.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(3) {
+    fill: #ffbe0b;
+}
+
+#widget_2template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(4) {
+    fill: #ff6f61;
+}
+
+#widget_2.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(5) {
+    fill: #4e6ca0;
+}
+
+
+/* WIdget 2 */
+
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(1),
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(2),
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(3),
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(4) {
+    fill: #333b50;
+}
+
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(5),
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(6),
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(7) {
+    fill: #0fa3b1;
+}
+
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(8),
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(9),
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(10),
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(11) {
+    fill: #ffbe0b;
+}
+
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(12),
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(13),
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(14),
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(15) {
+    fill: #ff6f61;
+}
+
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(16),
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(17),
+#widget_3.template-widget.spiderchart .highcharts-series-group .highcharts-point:nth-child(18) {
+    fill: #4e6ca0;
+}

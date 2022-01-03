@@ -1,0 +1,16 @@
+.circle-container {
+    width: 20em;
+    display: inline-block;
+    max-width: 10em;
+    max-height: 8em;
+    text-align: center;
+    margin: 0 1em 2em 0px;
+}
+
+.progress-circle {
+    margin: 10px;
+}
+
+#widget_11 {
+    font-size: 16px;
+}

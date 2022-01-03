@@ -1,0 +1,7 @@
+.card-content ol {
+    text-align: start;
+}
+
+.card-content ol li {
+    padding-left: 15px;
+}
