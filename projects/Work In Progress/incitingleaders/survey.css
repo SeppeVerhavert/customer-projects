@@ -1,0 +1,12 @@
+.button-rating-widget label:nth-child(1),
+.button-rating-widget label:nth-child(7),
+.button-rating-widget label:nth-child(8),
+.button-rating-widget label:nth-child(9),
+.button-rating-widget label:nth-child(10),
+.button-rating-widget label:nth-child(11) {
+    display: none;
+}
+
+.icon-mandatory::before {
+    content: "" !important;
+}

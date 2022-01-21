@@ -1,0 +1,281 @@
+/* --- FONTS --- */
+
+
+/* Custom chart */
+
+#gtext text {
+    font-family: 'Lato' !important;
+}
+
+
+/* Bar chart */
+
+.template-widget.bar svg.highcharts-root {
+    font-family: 'Lato' !important;
+}
+
+
+/* highcharts-axis-labels.highcharts-xaxis-labels */
+
+
+/* --- Custom chart --- */
+
+
+/* Chart labels */
+
+.data-group .category-labels g:nth-child(4) .wrapped text {
+    transform: translate(-20px, -20px) rotate(315deg);
+}
+
+.data-group .category-labels g:nth-child(1) .wrapped text {
+    transform: translate(20px, -20px) rotate(45deg);
+}
+
+.data-group .category-labels g:nth-child(2) .wrapped text {
+    transform: translate(20px, 20px) rotate(315deg);
+}
+
+.data-group .category-labels g:nth-child(3) .wrapped text {
+    transform: translate(-20px, 20px) rotate(45deg);
+}
+
+
+/* Chart Data */
+
+#Circle line {
+    stroke: #000 !important;
+}
+
+#Circle line:nth-child(1) {
+    transform-origin: 50% 50% !important;
+    transform: skew(-10deg, 8deg) !important;
+}
+
+#Circle line:nth-child(6) {
+    transform-origin: 50% 50% !important;
+    transform: skew(7deg, -9deg) !important;
+}
+
+#Circle line:nth-child(7) {
+    display: none !important;
+}
+
+#Circle line:nth-child(9) {
+    transform-origin: 50% 50% !important;
+    transform: skew(-6deg, 16deg) !important;
+}
+
+#Circle line:nth-child(10) {
+    transform-origin: 50% 50% !important;
+    transform: skew(-12deg, 16deg) !important;
+}
+
+#Circle line:nth-child(11) {
+    display: none !important;
+}
+
+
+/* Chart grid */
+
+
+/* g#Circle g circle,
+g#Circle circle:nth-child(4) {
+    display: none;
+} */
+
+
+/* CUSTOM CHART COLORS */
+
+#Layer_1 ellipse {
+    stroke: #f2f2f2 !important;
+}
+
+#Circle_Categories_Labels .data-group .category-labels text {
+    fill: #000;
+}
+
+.category-labels g:nth-child(1) .wrapped text {
+    fill: #119090;
+}
+
+.category-labels g:nth-child(2) .wrapped text {
+    fill: #e7a431;
+}
+
+.category-labels g:nth-child(3) .wrapped text {
+    fill: #094a5a;
+}
+
+.category-labels g:nth-child(4) .wrapped text {
+    fill: #e31717;
+}
+
+
+/* --- RATER DISTRIBUTION --- */
+
+
+/* Small tables */
+
+#widget_9 table.column thead th,
+#widget_9 table.column th:nth-child(1),
+#widget_11 table.column thead th,
+#widget_11 table.column th:nth-child(1),
+#widget_14 table.column thead th,
+#widget_14 table.column th:nth-child(1),
+#widget_16 table.column thead th,
+#widget_16 table.column th:nth-child(1) {
+    background-color: #e2e2e2 !important;
+    color: #000 !important;
+}
+
+#widget_9 {
+    margin-top: 50px;
+    padding-top: 0px;
+}
+
+.page-container-row .template-widget.table.column-right {
+    padding-top: 50px;
+}
+
+.page-container-row .template-widget.table.column-right table th,
+.page-container-row .template-widget.table.column-right table td {
+    padding: 6px !important;
+    font-size: 11px;
+}
+
+
+/* Rater Distribution styling */
+
+.rd-header.rd-thead th:first-child {
+    width: 64%;
+}
+
+.rd-table tr td:nth-child(2),
+.rd-table tr td:nth-child(3),
+.rd-table tr td:nth-child(4),
+.rd-table tr td:nth-child(5),
+.rd-table tr td:nth-child(6),
+.rd-table tr td:nth-child(7) {
+    width: 6%;
+}
+
+.rd-table tr td:not(:first-child) {
+    text-align: center !important;
+    padding: 0;
+}
+
+.rd-table tr th:first-child {
+    padding-left: 10px;
+}
+
+.rd-header.rd-thead th:not(:first-child) {
+    display: none;
+}
+
+table#container td {
+    padding: 0px 5px;
+}
+
+
+/* ADAPTIVE STRATEGY */
+
+#widget_18 .rd-header.rd-thead {
+    background: #e31717 !important;
+}
+
+#widget_18.fr-view table th {
+    background: none;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#widget_18 .rd-color-1 {
+    background: #f54545;
+}
+
+#widget_18 .rd-color-2 {
+    background: #EF7474;
+}
+
+#widget_18 .rd-color-3 {
+    background: #F6A5A5;
+}
+
+
+/* FOCUSED OKRS */
+
+#widget_19 .rd-header.rd-thead {
+    background: #119090 !important;
+}
+
+#widget_19.fr-view table th {
+    background: none;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#widget_19 .rd-color-1 {
+    background: #1fb7b7;
+}
+
+#widget_19 .rd-color-2 {
+    background: #0ed9d9;
+}
+
+#widget_19 .rd-color-3 {
+    background: #A4eded;
+}
+
+
+/* ACTIONABLE CADENCE */
+
+#widget_21 .rd-header.rd-thead {
+    background: #094a5a !important;
+}
+
+#widget_21.fr-view table th {
+    background: none;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#widget_21 .rd-color-1 {
+    background: #0f738b;
+}
+
+#widget_21 .rd-color-2 {
+    background: #1b9ab9;
+}
+
+#widget_21 .rd-color-3 {
+    background: #79d8f0;
+}
+
+
+/* AGILE CULTURE */
+
+#widget_22 .rd-header.rd-thead {
+    background: #e7a431 !important;
+}
+
+#widget_22.fr-view table th {
+    background: none;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#widget_22 .rd-color-1 {
+    background: #FFC053;
+}
+
+#widget_22 .rd-color-2 {
+    background: #FFC96A;
+}
+
+#widget_22 .rd-color-3 {
+    background: #FFDC9F;
+}
