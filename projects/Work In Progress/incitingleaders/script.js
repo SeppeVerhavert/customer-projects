@@ -4,11 +4,11 @@ docReady(function() {
 
     for (var i = 0; i < group_labels.length; i++) {
         var score = group_labels[i].innerHTML.slice(0, (group_labels[i].innerHTML.length - 1));
-        group_labels[i].innerHTML = (Math.round((score / 20) * 10) / 10);
+        group_labels[i].innerHTML = (Math.round((score / 20) * 100) / 100);
     }
     for (var j = 0; j < value_labels.length; j++) {
         var score = value_labels[j].innerHTML
-        value_labels[j].innerHTML = (Math.round((score / 20) * 10) / 10);
+        value_labels[j].innerHTML = (Math.round((score / 20) * 100) / 100);
     }
 });
 

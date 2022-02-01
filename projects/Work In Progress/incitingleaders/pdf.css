@@ -77,11 +77,13 @@
 
 /* Chart grid */
 
-
-/* g#Circle g circle,
-g#Circle circle:nth-child(4) {
-    display: none;
-} */
+g#Circle g:nth-of-type(1),
+g#Circle g:nth-of-type(4),
+g#Circle circle:nth-of-type(3),
+g#Circle g:nth-of-type(7),
+g#Circle ellipse:nth-last-child(4) {
+    visibility: hidden;
+}
 
 
 /* CUSTOM CHART COLORS */
@@ -116,16 +118,15 @@ g#Circle circle:nth-child(4) {
 
 /* Small tables */
 
-#widget_9 table.column thead th,
-#widget_9 table.column th:nth-child(1),
-#widget_11 table.column thead th,
-#widget_11 table.column th:nth-child(1),
-#widget_14 table.column thead th,
-#widget_14 table.column th:nth-child(1),
-#widget_16 table.column thead th,
-#widget_16 table.column th:nth-child(1) {
+.template-widget.table.column-right table.column thead th,
+.template-widget.table.column-right table.column th:nth-child(1) {
     background-color: #e2e2e2 !important;
     color: #000 !important;
+}
+
+.template-widget.table.column-right table.column thead th:not(:first-child),
+.template-widget.table.column-right table.column td:not(:first-child) {
+    text-align: center;
 }
 
 #widget_9 {
@@ -205,34 +206,8 @@ table#container td {
 
 /* FOCUSED OKRS */
 
-#widget_19 .rd-header.rd-thead {
-    background: #119090 !important;
-}
-
-#widget_19.fr-view table th {
-    background: none;
-    color: white;
-    text-align: left;
-    padding-left: 10px;
-}
-
-#widget_19 .rd-color-1 {
-    background: #1fb7b7;
-}
-
-#widget_19 .rd-color-2 {
-    background: #0ed9d9;
-}
-
-#widget_19 .rd-color-3 {
-    background: #A4eded;
-}
-
-
-/* ACTIONABLE CADENCE */
-
 #widget_21 .rd-header.rd-thead {
-    background: #094a5a !important;
+    background: #119090 !important;
 }
 
 #widget_21.fr-view table th {
@@ -243,39 +218,65 @@ table#container td {
 }
 
 #widget_21 .rd-color-1 {
-    background: #0f738b;
+    background: #1fb7b7;
 }
 
 #widget_21 .rd-color-2 {
-    background: #1b9ab9;
+    background: #0ed9d9;
 }
 
 #widget_21 .rd-color-3 {
-    background: #79d8f0;
+    background: #A4eded;
 }
 
 
-/* AGILE CULTURE */
+/* ACTIONABLE CADENCE */
 
-#widget_22 .rd-header.rd-thead {
-    background: #e7a431 !important;
+#widget_24 .rd-header.rd-thead {
+    background: #094a5a !important;
 }
 
-#widget_22.fr-view table th {
+#widget_24.fr-view table th {
     background: none;
     color: white;
     text-align: left;
     padding-left: 10px;
 }
 
-#widget_22 .rd-color-1 {
+#widget_24 .rd-color-1 {
+    background: #0f738b;
+}
+
+#widget_24 .rd-color-2 {
+    background: #1b9ab9;
+}
+
+#widget_24 .rd-color-3 {
+    background: #79d8f0;
+}
+
+
+/* AGILE CULTURE */
+
+#widget_27 .rd-header.rd-thead {
+    background: #e7a431 !important;
+}
+
+#widget_27.fr-view table th {
+    background: none;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#widget_27 .rd-color-1 {
     background: #FFC053;
 }
 
-#widget_22 .rd-color-2 {
+#widget_27 .rd-color-2 {
     background: #FFC96A;
 }
 
-#widget_22 .rd-color-3 {
+#widget_27 .rd-color-3 {
     background: #FFDC9F;
 }
