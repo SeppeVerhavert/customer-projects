@@ -1,0 +1,96 @@
+.red {
+    background: lightcoral !important;
+}
+
+.yellow {
+    background: lightgoldenrodyellow !important;
+}
+
+.green {
+    background: lightgreen !important;
+}
+
+.dark-blue {
+    color: blue !important;
+}
+
+.dark-green {
+    color: darkgreen !important;
+}
+
+.dark-red {
+    color: darkred !important;
+}
+
+.dark-purple {
+    color: darkmagenta !important;
+}
+
+.dark-yellow {
+    color: black !important;
+}
+
+
+/* TABLE WIDTH */
+
+.header tbody th {
+    width: 33%;
+    font-weight: 300;
+}
+
+.header tbody tr:nth-child(even) {
+    height: 125px;
+}
+
+
+/* TABLE AVG SCORE */
+
+.score {
+    position: absolute;
+    top: 5%;
+    left: 1%;
+}
+
+
+/* TABLE OVERALL AVG SCORES */
+
+.overallavg {
+    font-weight: 600;
+    font-size: 12px !important;
+}
+
+.overallavg._2 {
+    left: 34%;
+}
+
+.overallavg._3 {
+    left: 67%;
+}
+
+.overallavg._4 {
+    top: 37%;
+}
+
+.overallavg._5 {
+    left: 34%;
+    top: 37%;
+}
+
+.overallavg._6 {
+    left: 67%;
+    top: 37%;
+}
+
+.overallavg._7 {
+    top: 70%;
+}
+
+.overallavg._8 {
+    left: 34%;
+    top: 70%;
+}
+
+.overallavg._9 {
+    left: 67%;
+    top: 70%;
+}
