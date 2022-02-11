@@ -1,0 +1,3 @@
+.template-widget.gauge_widget .highcharts-data-label span div span:after {
+    content: " %";
+}
