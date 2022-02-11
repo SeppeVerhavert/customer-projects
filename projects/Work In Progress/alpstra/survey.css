@@ -1,0 +1,35 @@
+.answer-content,
+.checkbox,
+.input,
+.radio,
+.select,
+.ui-state-default .answer-content,
+.ui-state-disabled .answer-content {
+    background-color: #fff;
+    border-color: #d3d3d3;
+}
+
+.form .checkbox:checked+.answer-content,
+.ranked.column-multi .column-sortable-2 .answer-content,
+.ranked.column-single-click .checkbox:checked+.answer-content,
+.text-choice .checkbox:checked+.answer-content,
+.text-choice .radio:checked+.answer-content {
+    color: #000;
+    background-color: #d3d3d3;
+    border-color: #d3d3d3;
+}
+
+.answer-container:not(.no-answer) .rangeslider--horizontal,
+.form .checkbox:checked,
+.ranked.column-single-click .checkbox:checked,
+.text-choice .checkbox:checked,
+.text-choice .radio:checked {
+    background-color: #a9a9a9;
+}
+
+body.design-version-3 .card-logo img,
+body.theme-template-light .card-logo img,
+body.theme-template-dark .card-logo img {
+    max-width: 300px;
+    max-height: 220px;
+}
