@@ -1,0 +1,3 @@
+div:not(#content0) .button.next {
+    visibility: hidden;
+}
