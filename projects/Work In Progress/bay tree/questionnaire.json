@@ -1,0 +1,399 @@
+{
+    "id": 51244301,
+    "timestamp": "2022-02-20 17:49:26",
+    "timestamp_utc": "2022-02-21 00:47:15",
+    "unique_identifier": "a3af97ea-ed2c-4531-a2f4-b2388fc2cf34",
+    "latitude": null,
+    "longitude": null,
+    "shared": 0,
+    "duration": 130,
+    "partial": false,
+    "quiz_time": null,
+    "user_agent": null,
+    "ip_address": null,
+    "device": null,
+    "score": null,
+    "max_score": null,
+    "custom_score": null,
+    "max_custom_score": null,
+    "custom_score_as_percentage": "0%",
+    "quiz_score_as_percentage": "0%",
+    "respondent": {
+        "name": null,
+        "last_name": null,
+        "email": null,
+        "external_id": null,
+        "unique_identifier": null
+    },
+    "campaign": {
+        "title": null,
+        "url": null
+    },
+    "language": {
+        "name": "English",
+        "code": "en"
+    },
+    "outcomes": [{
+        "title": "Sedona Wellness Retreat",
+        "text": "<p>The power is in your hands now!<br><br>We recommend *|outcome_title|*<br><br><a >Click to Learn More&lt;\/a&gt;&lt;\/p&gt;"
+    }],
+    "survey": {
+        "url": "smrcquestionnaire",
+        "unique_identifier": "d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN",
+        "title": "SMRC Site Questionnaire",
+        "last_update": "2021-12-28 03:37:56",
+        "user": "info@sedonamagoretreat.org"
+    },
+    "access_code": {
+        "code": null
+    },
+    "custom_fields": [],
+    "questions": [{
+            "unique_identifier": "Dp75dVjf86dWbieDuS02sxHLcuWIr4jn",
+            "order": 1,
+            "title": "I would like to transform my: (Max 2 choices)",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.image_choice.name",
+                "object_name": "image_choice"
+            },
+            "responses": [{
+                    "answer": {
+                        "unique_identifier": "GBowCbShQmnsNtqVxLaM8sIs9kouRfqW"
+                    },
+                    "text": "Physical Health",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/HjaXoOMtT0T7OzBWK9PS_Physical_Health_002.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "IY4cXjDzJRKjBe0c4JdtHLwdRev7SACm"
+                    },
+                    "text": "Emotional Well-being",
+                    "response": true,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/Bi4XZPLQQNWDRm8lqM9W_Emotional_003.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "cX4kam7Qn3XtTDe2rQwfGg4yRRNyNEze"
+                    },
+                    "text": "Spiritual Connection",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/77COx3vTDORKQEQQbIzA_Spiritual_002.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "X2CD3RZUkHnHQZIHIctt9TOTpTcSHdtA"
+                    },
+                    "text": "Relationships",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/WDDv32xVSjeIOcBSIwkn_Relationships_002.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "zKZxgzNmsrBa6FcMcsLWcAlvujLcIvxN"
+                    },
+                    "text": "Connection to Mother Earth",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/JaP7dueSbm4YY6kwlQZu_Mother_Earth_003.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "cWdoWYY0quVaRa7HJxAHJ4OufcblQEad"
+                    },
+                    "text": "Strength",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/j4NADOIRVWfCs1ULZTOO_Strength_002.jpg"
+                }
+            ],
+            "response": "Emotional Well-being",
+            "feedback": null,
+            "score": null
+        },
+        {
+            "unique_identifier": "5RPkNpDmzNMSOUe6nuL2URCD3cfOBku3",
+            "order": 2,
+            "title": "The most challenging thing in my life right now is: (Max 2 choices)",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.image_choice.name",
+                "object_name": "image_choice"
+            },
+            "responses": [{
+                    "answer": {
+                        "unique_identifier": "peDUQPscOWxqMs2k0IRlYtcloGOxtdXx"
+                    },
+                    "text": "an unhealthy body.",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/PFuqdeMaQiOR76qno3x8_Unhealthy_002.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "RuuDyOgEjR2oycSTzDoQJWySPVULdfTQ"
+                    },
+                    "text": "relationship conflicts.",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/qNY7cVv5TmGbDOA3rriW_Relationship_Conflict_002.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "W9ssPq4MiwjtIlDCjU3K0pIaeuY8KhK4"
+                    },
+                    "text": "feeling lost.",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/IUmbdKiRY6QRYE3Bx86q_Feeling_Lost_002.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "yBk4cTSKztIC0c8r1g5JAZaWSQBNFwnK"
+                    },
+                    "text": "exhaustion.",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/zrGlfiNNRjaE4Ir9AjQ1_Exhaustion_002.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "DoTRTb052bIzKM9yGz6eP9fCJRXuoDMK"
+                    },
+                    "text": "low energy.",
+                    "response": true,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/4OVKHnyMSJWvulIMFR4c_Low_Energy_002.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "zZyHWzcZYfhkiuAJWvpOEM2b0Q4DHQTp"
+                    },
+                    "text": "lack of focus.",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/DE660ZYVT1Orf7iWKmJM_Lack_Focus_002.jpg"
+                }
+            ],
+            "response": "low energy.",
+            "feedback": null,
+            "score": null
+        },
+        {
+            "unique_identifier": "oDhran0vwCiuUHyrtf1F8K2WnYdGt4AN",
+            "order": 3,
+            "title": "My Spiritual Goals are to: (Max 2 choices)",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [{
+                    "answer": {
+                        "unique_identifier": "9vhoHZcOaZ6PYgdbcvVPwzx3ftvgf0UL"
+                    },
+                    "text": "find my life purpose.",
+                    "response": false
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "bDkwfhFw7lWBoetcVvTxZqhHwqY16QZz"
+                    },
+                    "text": "feel more connected to my higher source.",
+                    "response": true
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "1zUsxxCdlKf8MnO9enp481uyFGNdVwGE"
+                    },
+                    "text": "awaken my intuition.",
+                    "response": true
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "boLeaQzgD5sc3rkOSxp4jCGuRPTXm42h"
+                    },
+                    "text": "feel more inner peace.",
+                    "response": false
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "jJqlylAeyMQbz6fUbV1HIaSkWQRO1zCr"
+                    },
+                    "text": "let go of the past.",
+                    "response": false
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "cM6fQIgD7qyYJW2hAvCw6cjooVzRJ6l5"
+                    },
+                    "text": "awaken my natural healing power.",
+                    "response": false
+                }
+            ],
+            "response": "feel more connected to my higher source., awaken my intuition.",
+            "feedback": null,
+            "score": null
+        },
+        {
+            "unique_identifier": "qCew47YcHzwjhvcr0WpBmLYQuOn1YUNC",
+            "order": 4,
+            "title": "The activities that most excite me are: (Max 2 choices)",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.image_choice.name",
+                "object_name": "image_choice"
+            },
+            "responses": [{
+                    "answer": {
+                        "unique_identifier": "FDYyVlRSQXKXwNoxRgRWLBYyht26hHIF"
+                    },
+                    "text": "Answer 1",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/DIXhWkTQzyYYgF4ohGKR_Nature_002.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "SFgN1Lbe1kxcnWPLSxzsqPvNEDayTZdh"
+                    },
+                    "text": "Answer 2",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/83tORG9yRCumD3uDtigL_Group_Workshop_002.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "ylmtA9JTqKH7Oe77XAxBKN1biKNJz3lK"
+                    },
+                    "text": "Answer 3",
+                    "response": true,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/j2w8KaKoSOmtKYmRblRQ_Tai_Chi_002.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "zJyMfnU1xkQnUDSMyCBqfac14rZmgLwj"
+                    },
+                    "text": "Answer 4",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/E9SYXcgsQCuGwRBKsKqC_Reading_002.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "jjg2aF0VlwIJmcYfFehxeRQY0uOIY21i"
+                    },
+                    "text": "Answer 5",
+                    "response": false,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/BN4SrN7xSmqxtlYzdR9j_Juicing_002.jpg"
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "YnMyvGxi7IKBttNhS5kBKdmUBLwqdcTV"
+                    },
+                    "text": "Answer 6",
+                    "response": true,
+                    "url": "\/\/assets.surveyanyplace.com\/survey\/d1sDDUlF3kmhv1e9CN6r3B75wcQXymNN\/questions\/answers\/media\/jJE2NgP8Su2UOBubg198_Prayer_Meditation_002.jpg"
+                }
+            ],
+            "response": "Answer 3, Answer 6",
+            "feedback": null,
+            "score": null
+        },
+        {
+            "unique_identifier": "69VsaVz8O0YBXvsvO1S6ibkWESaxmqQG",
+            "order": 5,
+            "title": "I am determined to commit to: (Max 2 choices)",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [{
+                    "answer": {
+                        "unique_identifier": "kCBOQm9GEkQU9Jqw20OGJ7Xl5KdvcF0S"
+                    },
+                    "text": "2 to 3 days.",
+                    "response": true
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "LAWkejF2nKEMLwP1ozjTFWPSVL5b3f8l"
+                    },
+                    "text": "4 to 5 days.",
+                    "response": false
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "xXSeXkwpErsglc471OO61uPCen3xCH2A"
+                    },
+                    "text": "6 to 7 days.",
+                    "response": false
+                }
+            ],
+            "response": "2 to 3 days.",
+            "feedback": null,
+            "score": null
+        },
+        {
+            "unique_identifier": "KpRPFTP5wpziG8YkIcSoV2iMBmWM1mcJ",
+            "order": 6,
+            "title": "Interested in joining our mailing list?&nbsp;Fill out the information below to sign up:\nClick 'complete' to see your results.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.form.name",
+                "object_name": "form"
+            },
+            "responses": [{
+                    "answer": {
+                        "unique_identifier": "bMrJuoHN9fGKgDQp6eG2r7nrX7YoCaMH",
+                        "answer_type_id": 3
+                    },
+                    "text": "First Name",
+                    "response": null
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "43ef9b5e-d373-4cfd-beb8-22edc7d54df2",
+                        "answer_type_id": 3
+                    },
+                    "text": "Last Name",
+                    "response": null
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "SrqoTofW0lh70zEbsFY0chtpuFYJLWuf",
+                        "answer_type_id": 4
+                    },
+                    "text": "Email",
+                    "response": null
+                },
+                {
+                    "answer": {
+                        "unique_identifier": "275c5a76-61ad-4521-8435-46a6d9d7aa07",
+                        "answer_type_id": 12
+                    },
+                    "text": "Privacy Policy and Terms of Use",
+                    "response": "unchecked"
+                }
+            ],
+            "response": "",
+            "feedback": null,
+            "score": null
+        }
+    ],
+    "question_blocks": [{
+            "title": "Question Block 1",
+            "order": 1,
+            "score": null
+        },
+        {
+            "title": "Question Block 2",
+            "order": 2,
+            "score": null
+        }
+    ],
+    "formula_results": []
+}
