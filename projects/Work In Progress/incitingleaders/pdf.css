@@ -1,0 +1,292 @@
+/* --- FONTS --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.title-poppins {
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+
+/* Custom chart */
+
+#gtext text {
+    font-family: 'Lato' !important;
+}
+
+
+/* Bar chart */
+
+.template-widget.bar svg.highcharts-root {
+    font-family: 'Lato' !important;
+}
+
+
+/* Rater distribution */
+
+.rd-header.rd-thead .focus-visible {
+    font-family: 'Lato' !important;
+}
+
+
+/* --- Custom chart --- */
+
+
+/* Chart labels */
+
+.data-group .category-labels g:nth-child(4) .wrapped text {
+    transform: translate(-20px, -20px) rotate(315deg);
+}
+
+.data-group .category-labels g:nth-child(1) .wrapped text {
+    transform: translate(20px, -20px) rotate(45deg);
+}
+
+.data-group .category-labels g:nth-child(2) .wrapped text {
+    transform: translate(20px, 20px) rotate(315deg);
+}
+
+.data-group .category-labels g:nth-child(3) .wrapped text {
+    transform: translate(-20px, 20px) rotate(45deg);
+}
+
+
+/* Chart Data */
+
+#Circle line {
+    stroke: #000 !important;
+}
+
+#Circle line:nth-child(1) {
+    transform-origin: 50% 50% !important;
+    transform: skew(-10deg, 8deg) !important;
+}
+
+#Circle line:nth-child(6) {
+    transform-origin: 50% 50% !important;
+    transform: skew(7deg, -9deg) !important;
+}
+
+#Circle line:nth-child(7) {
+    display: none !important;
+}
+
+#Circle line:nth-child(9) {
+    transform-origin: 50% 50% !important;
+    transform: skew(-6deg, 16deg) !important;
+}
+
+#Circle line:nth-child(10) {
+    transform-origin: 50% 50% !important;
+    transform: skew(-12deg, 16deg) !important;
+}
+
+#Circle line:nth-child(11) {
+    display: none !important;
+}
+
+
+/* Chart grid */
+
+g#Circle g:nth-of-type(1),
+g#Circle g:nth-of-type(4),
+g#Circle circle:nth-of-type(3),
+g#Circle g:nth-of-type(7),
+g#Circle ellipse:nth-last-child(4) {
+    visibility: hidden;
+}
+
+
+/* CUSTOM CHART COLORS */
+
+#Layer_1 ellipse {
+    stroke: #f2f2f2 !important;
+}
+
+#Circle_Categories_Labels .data-group .category-labels text {
+    fill: #000;
+}
+
+.category-labels g:nth-child(1) .wrapped text {
+    fill: #119090;
+}
+
+.category-labels g:nth-child(2) .wrapped text {
+    fill: #e7a431;
+}
+
+.category-labels g:nth-child(3) .wrapped text {
+    fill: #094a5a;
+}
+
+.category-labels g:nth-child(4) .wrapped text {
+    fill: #e31717;
+}
+
+
+/* --- RATER DISTRIBUTION --- */
+
+
+/* Small tables */
+
+.template-widget.table.column-right table.column thead th,
+.template-widget.table.column-right table.column th:nth-child(1) {
+    background-color: #e2e2e2 !important;
+    color: #000 !important;
+}
+
+.template-widget.table.column-right table.column thead th:not(:first-child),
+.template-widget.table.column-right table.column td:not(:first-child) {
+    text-align: center;
+}
+
+#widget_9 {
+    margin-top: 50px;
+    padding-top: 0px;
+}
+
+.page-container-row .template-widget.table.column-right {
+    padding-top: 50px;
+}
+
+.page-container-row .template-widget.table.column-right table th,
+.page-container-row .template-widget.table.column-right table td {
+    padding: 3px !important;
+    font-size: 11px;
+}
+
+
+/* Rater Distribution styling */
+
+.rd-header.rd-thead th:first-child {
+    width: 64%;
+}
+
+.rd-table tr td:nth-child(2),
+.rd-table tr td:nth-child(3),
+.rd-table tr td:nth-child(4),
+.rd-table tr td:nth-child(5),
+.rd-table tr td:nth-child(6),
+.rd-table tr td:nth-child(7) {
+    width: 6%;
+}
+
+.rd-table tr td:not(:first-child) {
+    text-align: center !important;
+    padding: 0;
+}
+
+.rd-table tr th:first-child {
+    padding-left: 10px;
+}
+
+.rd-header.rd-thead th:not(:first-child) {
+    display: none;
+}
+
+table#container td {
+    padding: 0px 5px;
+}
+
+
+/* ADAPTIVE STRATEGY */
+
+#widget_21 .rd-header.rd-thead {
+    background: #e31717 !important;
+}
+
+#widget_21.fr-view table th {
+    background: none;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#widget_21 .rd-color-1 {
+    background: #f54545;
+}
+
+#widget_21 .rd-color-2 {
+    background: #EF7474;
+}
+
+#widget_21 .rd-color-3 {
+    background: #F6A5A5;
+}
+
+
+/* FOCUSED OKRS */
+
+#widget_24 .rd-header.rd-thead {
+    background: #119090 !important;
+}
+
+#widget_24.fr-view table th {
+    background: none;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#widget_24 .rd-color-1 {
+    background: #1fb7b7;
+}
+
+#widget_24 .rd-color-2 {
+    background: #0ed9d9;
+}
+
+#widget_24 .rd-color-3 {
+    background: #A4eded;
+}
+
+
+/* ACTIONABLE CADENCE */
+
+#widget_27 .rd-header.rd-thead {
+    background: #094a5a !important;
+}
+
+#widget_27.fr-view table th {
+    background: none;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#widget_27 .rd-color-1 {
+    background: #0f738b;
+}
+
+#widget_27 .rd-color-2 {
+    background: #1b9ab9;
+}
+
+#widget_27 .rd-color-3 {
+    background: #79d8f0;
+}
+
+
+/* AGILE CULTURE */
+
+#widget_30 .rd-header.rd-thead {
+    background: #e7a431 !important;
+}
+
+#widget_30.fr-view table th {
+    background: none;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#widget_30 .rd-color-1 {
+    background: #FFC053;
+}
+
+#widget_30 .rd-color-2 {
+    background: #FFC96A;
+}
+
+#widget_30 .rd-color-3 {
+    background: #FFDC9F;
+}

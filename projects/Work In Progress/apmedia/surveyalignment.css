@@ -1,0 +1,12 @@
+@media (min-width: 1024px) {
+    .theme-layout-centered .card-logo {
+        position: relative !important;
+        right: auto;
+        left: 0;
+        margin: 0 auto;
+    }
+    .theme-layout-centered .card-actions {
+        left: 0;
+        right: 0;
+    }
+}

@@ -1,0 +1,12 @@
+.template-widget.text p.font-medium span,
+.template-widget.text p span.font-medium,
+.template-widget.text p.font-medium,
+.template-widget.text li,
+.template-widget.text li span.font-medium {
+    font-size: 14px !important;
+    line-height: 1.5em !important;
+}
+
+section.title-page .top-container {
+    font-size: 24px;
+}
