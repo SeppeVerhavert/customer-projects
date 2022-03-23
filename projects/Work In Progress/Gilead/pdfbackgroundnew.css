@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@700&display=swap');
+* {
+    font-family: 'Alef', sans-serif;
+}
+
+.page-header-space,
+.page-footer-space {
+    height: 0;
+}
+
+.page {
+    margin: 0 !important;
+}
+
+section#page_1 {
+    background-image: url(https://assets.surveyanyplace.com/survey/e95d5b46-dcd3-4dbb-8b78-1f8ee6087c0d/templates/6182cbf1-d146-41b6-a51e-251c68431bd9/moTO99hT00zCIJDWnSCQ_Gilead_regional_meeting_30th_March_certificate_v1_18Mar22.jpg);
+    background-repeat: no-repeat;
+    height: 790px;
+    background-size: cover;
+    width: 100%;
+    z-index: 6;
+}
+
+.respondent-name {
+    position: absolute;
+    top: 454px;
+    font-size: 35pt;
+    color: #55575B;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+
+.background_item {
+    background-size: cover;
+    background-repeat: no-repeat;
+}

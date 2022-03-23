@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@700&display=swap');
+* {
+    font-family: 'Alef', sans-serif;
+}
+
+.page-header-space,
+.page-footer-space {
+    height: 0;
+}
+
+.page {
+    margin: 0 !important;
+}
+
+section#page_1 {
+    background-image: url(https://surveyanyplace.s3.amazonaws.com/custom/Gilead+OSS/Gilead+webinar+invite+3+-+certificate+NO+NAME_v2-1.png);
+    background-repeat: no-repeat;
+    height: 790px;
+    background-size: cover;
+    width: 100%;
+    z-index: 6;
+}
+
+.respondent-name {
+    position: absolute;
+    top: 454px;
+    font-size: 35pt;
+    color: #55575B;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+
+.background_item {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
