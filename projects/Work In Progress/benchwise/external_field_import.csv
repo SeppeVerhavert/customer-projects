@@ -1,0 +1,11 @@
+Name;Type (spreadsheet, plain or custom_api);Data freshness (realtime, 1h, 4h, 12h or 1d);Value (if type is plain);Spreadsheet ID (if type is spreadsheet);Cell (if type is spreadsheet);Filter value (if type is spreadsheet);Comparison value (if type is spreadsheet);Endpoint (if type is custom_api);Tree (if type is custom_api)
+BW_OM;spreadsheet;realtime;;1IFwmxJqoLBGf0hw3Bt63L910m5wLxVQmrZOK8JywrBw;Calculations!A6:AW1003;*|intro_field1_response|*;;;
+BW_OM_BENCHMARK;spreadsheet;realtime;;1IFwmxJqoLBGf0hw3Bt63L910m5wLxVQmrZOK8JywrBw;Calculations!AW2;;;;
+BW_IR;spreadsheet;realtime;;1IFwmxJqoLBGf0hw3Bt63L910m5wLxVQmrZOK8JywrBw;Calculations!A6:AX1003;*|intro_field1_response|*;;;
+BW_IR_BENCHMARK;spreadsheet;realtime;;1IFwmxJqoLBGf0hw3Bt63L910m5wLxVQmrZOK8JywrBw;Calculations!AX2;;;;
+BW_CUSTOMERS;spreadsheet;realtime;;1IFwmxJqoLBGf0hw3Bt63L910m5wLxVQmrZOK8JywrBw;Calculations!A6:AY1003;*|intro_field1_response|*;;;
+BW_CUSTOMERS_BENCHMARK;spreadsheet;realtime;;1IFwmxJqoLBGf0hw3Bt63L910m5wLxVQmrZOK8JywrBw;Calculations!AY2;;;;
+BW_OPERATIONS;spreadsheet;realtime;;1IFwmxJqoLBGf0hw3Bt63L910m5wLxVQmrZOK8JywrBw;Calculations!A6:AZ1003;*|intro_field1_response|*;;;
+BW_OPERATIONS_BENCHMARK;spreadsheet;realtime;;1IFwmxJqoLBGf0hw3Bt63L910m5wLxVQmrZOK8JywrBw;Calculations!AZ2;;;;
+BW_MARKETS;spreadsheet;realtime;;1IFwmxJqoLBGf0hw3Bt63L910m5wLxVQmrZOK8JywrBw;Calculations!A6:BA1003;*|intro_field1_response|*;;;
+BW_MARKETS_BENCHMARK;spreadsheet;realtime;;1IFwmxJqoLBGf0hw3Bt63L910m5wLxVQmrZOK8JywrBw;Calculations!BA2;;;;
