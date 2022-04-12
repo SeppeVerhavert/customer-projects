@@ -1,0 +1,30 @@
+.ct-table thead tr th {
+    padding: 5px;
+    background-color: white;
+    border: none;
+}
+
+.ct-table tbody tr td {
+    padding: 10px !important;
+    border: none;
+}
+
+.ct-table thead tr th:nth-child(1) {
+    width: 40%;
+}
+
+.ct-table thead tr th:not(:nth-child(1)) {
+    width: 15%;
+}
+
+.ct-red {
+    background-color: darkred;
+}
+
+.ct-yellow {
+    background-color: darkorange;
+}
+
+.ct-green {
+    background-color: darkgreen;
+}
