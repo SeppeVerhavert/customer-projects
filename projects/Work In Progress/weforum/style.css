@@ -1,30 +1,36 @@
-.ct-table thead tr th {
-    padding: 5px;
-    background-color: white;
-    border: none;
+/* --- COVER PAGE --- */
+
+section.title-page p,
+section.title-page .bottom-container div,
+section.title-page .bottom-container div {
+    padding-top: 775px;
+    padding-left: 75px;
 }
 
-.ct-table tbody tr td {
-    padding: 10px !important;
-    border: none;
+
+/* --- PAGES --- */
+
+.template-widget.gauge_widget.column-left {
+    max-height: 150px;
 }
 
-.ct-table thead tr th:nth-child(1) {
-    width: 40%;
+.template-widget.gauge_widget text.highcharts-title {
+    transform: translateY(40px);
 }
 
-.ct-table thead tr th:not(:nth-child(1)) {
-    width: 15%;
+.chart-wrapper .chart-container {
+    margin-top: -50px;
 }
 
-.ct-red {
-    background-color: darkred;
+.template-widget.text.fr-view.column-right .font-medium {
+    margin-top: -25px;
 }
 
-.ct-yellow {
-    background-color: darkorange;
+.fr-view table td,
+.fr-view table th {
+    border: none !important;
 }
 
-.ct-green {
-    background-color: darkgreen;
+.template-widget.text.fr-view.column-center table th {
+    background: none;
 }
