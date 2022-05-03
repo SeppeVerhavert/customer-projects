@@ -1,0 +1,13 @@
+.header-container,
+.footer-container {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.header-container header p {
+    padding-left: 25px;
+}
+
+.footer-container footer {
+    left: 45px;
+}
