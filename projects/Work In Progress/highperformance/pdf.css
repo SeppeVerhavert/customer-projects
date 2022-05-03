@@ -1,0 +1,132 @@
+/* Main */
+
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2?styles=44818,44819,44822,44823,44817,44816,44820,44821,44812,44813,44814,44815,44810,44811');
+
+/* @import url('http://fonts.cdnfonts.com/css/proxima-nova-alt-lt-2?styles=14962,30166'); */
+
+#title-page,
+#page_1,
+#page_2,
+#page_3,
+#page_4,
+#page_5,
+#page_6,
+#page_7,
+#page_8,
+#page_9,
+#page_10,
+#page_11,
+#page_12,
+#page_13,
+#page_14,
+#page_15,
+#page_16,
+#page_17,
+#page_18,
+#page_19,
+#page_20,
+#page_21,
+#page_22,
+#page_23,
+#page_24,
+#page_25,
+#page_26,
+#page_27,
+#page_28,
+#page_29,
+#page_30,
+#page_31,
+#page_32,
+#page_33,
+#page_34,
+#page_35,
+#page_36,
+#page_37,
+#page_38,
+#page_39,
+#page_40,
+#page_41 {
+    height: 980px !important;
+    position: relative !important;
+}
+
+#title-page {
+    height: 950px !important;
+}
+
+div,
+p,
+a,
+span,
+li {
+    font-family: 'Proxima Nova', sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+.page-header-space,
+.page-footer-space {
+    display: none !important;
+}
+
+.header-container {
+    display: none !important;
+}
+
+.footer-container {
+    display: none !important;
+}
+
+
+/* Font -  Proxima Nova - Available for free as part of the Adobe package
+Headlines : Semibold
+Body copy : Regular */
+
+
+/* Colors */
+
+.primary {
+    color: #041326;
+}
+
+.secondary {
+    color: #5EB0BF;
+}
+
+.orange {
+    color: #EA5E21;
+}
+
+.yellow {
+    color: #FFDD00;
+}
+
+
+/* All */
+
+.title-section {
+    text-align: center;
+    font-size: 45px;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+
+/* Page 1 */
+
+.page1 .title:nth-child(3) {
+    margin-top: 60px;
+}
+
+
+/* Page 3 */
+
+.page3section2 {
+    padding-top: 15px;
+}
