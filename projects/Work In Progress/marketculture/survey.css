@@ -1,0 +1,4 @@
+.rangeslider-markers .marker:first-child,
+.rangeslider-markers .marker:last-child {
+    visibility: visible !important;
+}
