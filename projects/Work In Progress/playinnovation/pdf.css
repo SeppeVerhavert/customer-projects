@@ -1,0 +1,55 @@
+/* COVER PAGE */
+
+#title-page p {
+    padding-left: 30px;
+}
+
+
+/* CUSTOM TABLE */
+
+.template-widget.text table#table-widget thead th,
+.template-widget.text table#table-widget tbody td {
+    border: none;
+    text-align: center;
+}
+
+.template-widget.text table#table-widget thead th {
+    background-color: #fff !important;
+    border-top: #FFC845 1px solid;
+    border-bottom: #FFC845 1px solid;
+    padding: 5px;
+}
+
+.template-widget.text table#table-widget thead th:nth-child(2),
+.template-widget.text table#table-widget thead th:nth-child(5) {
+    width: 33%;
+}
+
+.template-widget.text table#table-widget tbody td ul {
+    text-align: left;
+}
+
+
+/* CHART ADJUSTMENTS */
+
+.template-widget.gauge_widget .highcharts-yaxis-labels,
+.template-widget.bar .highcharts-yaxis-labels,
+.template-widget.bar .highcharts-yaxis-grid,
+.template-widget.bar .highcharts-xaxis {
+    display: none;
+}
+
+.chart-wrapper span {
+    color: #58595B;
+}
+
+.chart-wrapper tspan {
+    fill: #58595B;
+}
+
+
+/* HIGHS AND LOWS TEXT */
+
+p.feedback-text {
+    padding-left: 50px;
+}
