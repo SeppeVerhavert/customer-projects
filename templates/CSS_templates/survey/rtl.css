@@ -1,5 +1,3 @@
-/*     -----     -----     .lang-43     -----     -----     */
-
 .lang-43 textarea.question.input {
     text-align: right;
 }
@@ -73,4 +71,25 @@
     border-right: .4em solid;
     border-top: .7em solid transparent;
     border-bottom: .7em solid transparent;
+}
+
+.lang-43 .option {
+    direction: rtl;
+    text-align: right;
+}
+
+.lang-43 .form-item-answer.form-select {
+    text-align: right;
+}
+
+.lang-43 .form-item {
+    text-align: right;
+}
+
+.lang-43 .input.form-item-answer {
+    text-align: right;
+}
+
+.lang-43 textarea.feedback.input {
+    text-align: right;
 }
