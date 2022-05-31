@@ -78,8 +78,7 @@ docReady(function() {
 
     const visible = document.querySelectorAll('.page_break:not(.invisible)');
     for (var i = 0; i < visible.length; i++) {
-        var number = i * 1122;
-        visible[i].style.top = number + 'px';
+        visible[i].classList.add('page' + i);
     }
 });
 

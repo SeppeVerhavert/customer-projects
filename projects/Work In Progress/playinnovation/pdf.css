@@ -81,3 +81,51 @@ p.feedback-text {
 .invisible {
     display: none;
 }
+
+.page0 {
+    top: 0px !important;
+}
+
+.page1 {
+    top: 1122px !important;
+}
+
+.page2 {
+    top: 2244px !important;
+}
+
+.page3 {
+    top: 3366px !important;
+}
+
+.page4 {
+    top: 4488px !important;
+}
+
+.page5 {
+    top: 5610px !important;
+}
+
+.page6 {
+    top: 6732px !important;
+}
+
+.page7 {
+    top: 7854px !important;
+}
+
+.page8 {
+    top: 8976px !important;
+}
+
+.page9 {
+    top: 10098px !important;
+}
+
+.page10 {
+    top: 11220px !important;
+}
+
+.page11 {
+    top: 12342px !important;
+}
