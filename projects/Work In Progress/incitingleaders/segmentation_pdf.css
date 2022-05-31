@@ -7,6 +7,13 @@
 }
 
 
+/* FOOTER ADJUSTMENT */
+
+.page-footer-space {
+    height: 50px;
+}
+
+
 /* Custom chart */
 
 #gtext text {
@@ -154,7 +161,7 @@ g#Circle ellipse:nth-last-child(4) {
 
 .page-container-row .template-widget.table.column-right table th,
 .page-container-row .template-widget.table.column-right table td {
-    padding: 2.75px !important;
+    padding: 3px !important;
     font-size: 11px;
 }
 
@@ -204,37 +211,70 @@ table .rd-header th:not(:first-child) {
 
 /* Large tables */
 
+.segmentation-table {
+    width: 90%;
+}
+
+.segmentation-table td {
+    padding: 3px !important;
+}
+
+.segmentation-table th:not(:first-child),
+.segmentation-table td:not(:first-child) {
+    max-width: 25px;
+}
+
 .template-widget.text table#table-widget th {
     background: none;
 }
 
 .hidden th {
     border: none !important;
-    border-bottom: 1px solid #ddd !important;
 }
 
-th.rotated {
-    height: 140px;
-    white-space: nowrap;
+.hidden th:first-child p {
+    border: none !important;
 }
-
-th.rotated>p {
-    transform: translate(13px, 54px) rotate(300deg);
-    width: 30px;
-    border-bottom: 1px solid #d3d3d3;
-}
-
-
-/* th.rotated>div>span {
-    border-bottom: 1px solid #ccc;
-    padding: 5px 10px;
-} */
 
 .question-text {
     line-height: initial;
     font-size: smaller;
     padding: 2px;
 }
+
+
+/* Rotated headers */
+
+#widget_85,
+#widget_87 {
+    overflow: auto;
+}
+
+.segmentation-table .hidden th {
+    height: 100px;
+    vertical-align: bottom;
+    text-align: left;
+    line-height: 1;
+}
+
+.segmentation-table-container {
+    width: 75px;
+}
+
+.segmentation-table-content {
+    white-space: nowrap;
+    transform-origin: bottom left;
+    transform: translateX(28px) rotate(-60deg);
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 5px;
+}
+
+.segmentation-table td:not(:first-child) {
+    text-align: right;
+}
+
+
+/* colors */
 
 .color-1 {
     background: #e31717 !important;
