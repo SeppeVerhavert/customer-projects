@@ -1,11 +1,18 @@
 .lang-43 textarea.question.input {
     text-align: right;
 }
+
 .lang-43 .answer-content {
     text-align: right;
     padding: .3em 2em .3em .3em;
 }
+
+
+/* this is a test */
+
+
 /* .royalSlider, */
+
 .ltr {
     direction: rtl;
 }
@@ -15,39 +22,43 @@
     left: auto;
     right: .6em;
     margin-right: 0;
-    
 }
+
 .lang-43 .answer.correct .radio+.answer-content:before,
 .lang-43 .answer.correct .checkbox+.answer-content:before,
 .lang-43 .answer.incorrect .radio+.answer-content:before,
 .lang-43 .answer.incorrect .checkbox+.answer-content:before,
 .lang-43 .radio:checked+.answer-content:before,
 .lang-43 .checkbox:checked+.answer-content:before {
-   
     top: 1.45em;
     margin-left: 2em;
 }
-}
+
 .lang-43 .card-actions-item {
     transform: rotate(180deg);
 }
+
 .lang-43 #content0 .card-actions-item {
     transform: rotate(0deg);
 }
+
 .lang-43 .button.next,
 .lang-43 .button.next.glow {
     transform: rotate(180deg);
 }
+
 .lang-43 .button.next:not(:disabled):not(.disabled):hover,
 .lang-43 .button.next:not(:disabled):not(.disabled):focus {
     transform: rotate(180deg) scale(1.05);
 }
+
 .lang-43 #progress,
 .lang-43 #session-upload-progress {
     left: auto;
     right: 0;
     text-align: left;
 }
+
 .lang-43 .progress-bar .progress-numbers:after {
     content: "";
     position: absolute;
@@ -61,29 +72,24 @@
     border-top: .7em solid transparent;
     border-bottom: .7em solid transparent;
 }
-.lang-43 .option { direction: rtl; text-align:right;}
-.lang-43 .form-item-answer.form-select
-{
 
-text-align:right;
-
+.lang-43 .option {
+    direction: rtl;
+    text-align: right;
 }
-.lang-43 .form-item
 
-{
-
-text-align:right;
-
+.lang-43 .form-item-answer.form-select {
+    text-align: right;
 }
-.lang-43 .input.form-item-answer
-{
 
-text-align:right;
-
+.lang-43 .form-item {
+    text-align: right;
 }
-.lang-43 textarea.feedback.input
-{
 
-text-align:right;
+.lang-43 .input.form-item-answer {
+    text-align: right;
+}
 
+.lang-43 textarea.feedback.input {
+    text-align: right;
 }

@@ -1,0 +1,73 @@
+<table align="center" id="table-widget" class="header">
+    <thead>
+        <tr>
+            <th>Stage</th>
+            <th>Includes activities like:</th>
+            <th>Current organisational efforts (/10)</th>
+            <th>AU FMCG average (/10)</th>
+            <th>Commentary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Explore</td>
+            <td>
+                <ul>
+                    <li>developing innovation goals</li>
+                    <li>identifying opportunities</li>
+                    <li>developing a future pipeline</li>
+                </ul>
+            </td>
+            <td>*|q39_field1_response|*</td>
+            <td>*|f43_result|*</td>
+            <td v-if="*|q39_field1_response|* < *|q40_field1_response|* && *|q39_field1_response|* < *|f43_result|*">Congratulations! You are in tune with your organisation's need to spend more resource in this stage of innovation</td>
+            <td v-else-if="*|q39_field1_response|* >= *|q40_field1_response|* && *|q39_field1_response|* < *|f43_result|*">Your score (versus the industry) suggests that your organisation might benefit from additional resource allocated here</td>
+            <td v-else>Woo hoo! Above average!</td>
+        </tr>
+        <tr>
+            <td>Develop</td>
+            <td>
+                <ul>
+                    <li>ideation</li>
+                    <li>idea screening and concept testing</li>
+                    <li>outlining go-to-market approaches</li>
+                </ul>
+            </td>
+            <td>*|q39_field2_response|*</td>
+            <td>*|f44_result|*</td>
+            <td v-if="*|q39_field2_response|* < *|q40_field2_response|* && *|q39_field2_response|* < *|f44_result|*">Congratulations! You are in tune with your organisation's need to spend more resource in this stage of innovation</td>
+            <td v-else-if="*|q39_field2_response|* >= *|q40_field2_response|* && *|q39_field2_response|* < *|f44_result|*">Your score (versus the industry) suggests that your organisation might benefit from additional resource allocated here</td>
+            <td v-else>Woo hoo! Above average!</td>
+        </tr>
+        <tr>
+            <td>Prove</td>
+            <td>
+                <ul>
+                    <li>consumer testing</li>
+                    <li>sizing, assembly and approval of business case</li>
+                    <li>readying for launch</li>
+                </ul>
+            </td>
+            <td>*|q39_field3_response|*</td>
+            <td>*|f45_result|*</td>
+            <td v-if="*|q39_field3_response|* < *|q40_field3_response|* && *|q39_field3_response|* < *|f45_result|*">Congratulations! You are in tune with your organisation's need to spend more resource in this stage of innovation</td>
+            <td v-else-if="*|q39_field3_response|* >= *|q40_field3_response|* && *|q39_field3_response|* < *|f45_result|*">Your score (versus the industry) suggests that your organisation might benefit from additional resource allocated here</td>
+            <td v-else>Woo hoo! Above average!</td>
+        </tr>
+        <tr>
+            <td>Monitor</td>
+            <td>
+                <ul>
+                    <li>monitoring performance</li>
+                    <li>adapting in-market</li>
+                    <li>learning and acting on it</li>
+                </ul>
+            </td>
+            <td>*|q39_field4_response|*</td>
+            <td>*|f46_result|*</td>
+            <td v-if="*|q39_field4_response|* < *|q40_field4_response|* && *|q39_field4_response|* < *|f46_result|*">Congratulations! You are in tune with your organisation's need to spend more resource in this stage of innovation</td>
+            <td v-else-if="*|q39_field4_response|* >= *|q40_field4_response|* && *|q39_field4_response|* < *|f46_result|*">Your score (versus the industry) suggests that your organisation might benefit from additional resource allocated here</td>
+            <td v-else>Woo hoo! Above average!</td>
+        </tr>
+    </tbody>
+</table>

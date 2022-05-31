@@ -1,6 +1,6 @@
 $(document).ready(function() {
     App.functions.onSurveyLoaded(function() {
-        var list = document.querySelectorAll('.input.form-item-answer');
+        var list = document.querySelectorAll('.input.form-item-answer[type="number"]');
 
         list.forEach(element => {
             element.addEventListener("input", () => { changevalue(element); }, false);
