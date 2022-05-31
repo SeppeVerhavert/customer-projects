@@ -5,6 +5,13 @@
 }
 
 
+/* CUSTOM VARIABLES */
+
+.custom-variable {
+    display: none;
+}
+
+
 /* CUSTOM TABLE */
 
 .template-widget.text table#table-widget thead th,
@@ -51,5 +58,26 @@
 /* HIGHS AND LOWS TEXT */
 
 p.feedback-text {
-    padding-left: 50px;
+    padding-left: 65px;
+}
+
+.back-img {
+    width: 100%;
+    z-index: -10;
+}
+
+.effort-table {
+    position: absolute;
+    top: -55rem;
+}
+
+.last-table {
+    margin: 50px 50px;
+}
+
+
+/* CONDITIONAL PAGES */
+
+.invisible {
+    display: none;
 }
