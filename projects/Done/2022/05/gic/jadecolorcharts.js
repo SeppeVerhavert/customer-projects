@@ -16,8 +16,8 @@ window.addEventListener("load", function() {
                     barStyle['fill'] = '#de6565';
                 } else if (1.74 <= legendValue && legendValue < 2.49) {
                     barStyle['fill'] = '#e79439';
-                }    else if (2.49 <= legendValue && legendValue < 3.24) {
-                        barStyle['fill'] = '#d0b323';
+                } else if (2.49 <= legendValue && legendValue < 3.24) {
+                    barStyle['fill'] = '#d0b323';
                 } else if (3.24 <= legendValue) {
                     barStyle['fill'] = '#397b21';
                 }
@@ -59,7 +59,7 @@ window.addEventListener("load", function() {
             } else if (1.74 <= cellValue && cellValue < 2.49) {
                 cellStyle['background-color'] = '#e79439';
             } else if (2.49 <= cellValue && cellValue < 3.24) {
-                cellStyle['background-color'] = '#d0b323';   
+                cellStyle['background-color'] = '#d0b323';
             } else if (3.24 <= cellValue) {
                 cellStyle['background-color'] = '#397b21';
             }
