@@ -1,6 +1,13 @@
 $(document).ready(function() {
     App.functions.onSurveyLoaded(function() {
         var list = document.querySelectorAll('.input.form-item-answer[type="number"]');
+        // var customValues = document.querySelectorAll('.comma-value');
+
+        // for (var i = 0; i < customValues.length; i++) {
+        //     customParent = customValues[i].parentNode;
+        //     commify(customValues[i], customParent);
+
+        // }
 
         list.forEach(element => {
             element.addEventListener("input", () => { changevalue(element); }, false);
