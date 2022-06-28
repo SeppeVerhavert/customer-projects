@@ -1,0 +1,74 @@
+[{
+    "statusCode": 200,
+    "headers": [{
+            "name": "date",
+            "value": "Fri, 24 Jun 2022 08:10:31 GMT"
+        },
+        {
+            "name": "content-type",
+            "value": "application/json"
+        },
+        {
+            "name": "transfer-encoding",
+            "value": "chunked"
+        },
+        {
+            "name": "connection",
+            "value": "close"
+        },
+        {
+            "name": "vary",
+            "value": "Accept-Encoding"
+        },
+        {
+            "name": "cache-control",
+            "value": "no-cache, private"
+        },
+        {
+            "name": "access-control-allow-origin",
+            "value": "*"
+        },
+        {
+            "name": "access-control-allow-credentials",
+            "value": "true"
+        },
+        {
+            "name": "access-control-request-headers",
+            "value": "SA-TOKEN, Authorization"
+        },
+        {
+            "name": "access-control-allow-methods",
+            "value": "GET, POST, PUT, DELETE, OPTIONS"
+        },
+        {
+            "name": "access-control-allow-headers",
+            "value": "Origin, X-Requested-With, Content-Type, Accept, cache-control, SA-TOKEN, Pragma, X-Requested-With, If-Modified-Since, Accept-Encoding, DNT, Accept-Language, Authorization"
+        },
+        {
+            "name": "access-control-max-age",
+            "value": "86400"
+        },
+        {
+            "name": "x-xss-protection",
+            "value": "1; mode=block"
+        },
+        {
+            "name": "x-content-type-options",
+            "value": "nosniff"
+        },
+        {
+            "name": "strict-transport-security",
+            "value": "max-age=15724800; includeSubDomains"
+        }
+    ],
+    "cookieHeaders": [],
+    "data": {
+        "surveys": [{
+            "id": 192792,
+            "url": "dwokfasv",
+            "title": "Team Connection - Payment",
+            "authorization": "no_access"
+        }]
+    },
+    "fileSize": 108
+}]

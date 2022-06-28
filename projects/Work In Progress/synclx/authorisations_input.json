@@ -1,0 +1,25 @@
+[{
+    "ca": null,
+    "qs": [],
+    "url": "https://api.pointerpro.com/v3/oauth/97688/surveys",
+    "data": null,
+    "gzip": true,
+    "method": "get",
+    "headers": [{
+        "name": "Authorization",
+        "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxOCIsImp0aSI6ImUwMjUxM2Y0YjE4OWI3NDE0MTExZDM0YmI4ZTg3MDEyNmIyZDk5NmJhOTVkZGJjNGE5ODQzMDdlNTI3MjY3OGM0YjgzN2IzOWRlMDllZjU4IiwiaWF0IjoxNjU2MDc2MDQ3Ljc3NjMxNCwibmJmIjoxNjU2MDc2MDQ3Ljc3NjMxNiwiZXhwIjoxNjg3NjEyMDQ3Ljc2MzU2LCJzdWIiOiIiLCJzY29wZXMiOlsiY2FuX2NyZWF0ZV91c2VyIiwiY2FuX2RlbGV0ZV91c2VyIl19.NUiTxWu3ylj_P6DZ7GiRI7UU8VLeN3GEOI8ttkc_OVyGxwMVLrF9FnIseS1Odd4X6JJIVUZO1-k6qtIXdEUJFley3okeUxFFl5yCtJgkuHsRkMQFUztZQCQqDKNEhSkZjDFWlN0cy-U6OpcdCDIyw7Z94PA-MmlsthlwdE11Q8D4N14kzbD3AB9drLXifR1m4PLV7dJi_4q538cRTp341L20HKqlVcRfXjsu2ZkVrTNoSUh-atRdWdWeo2n7eN_dNzYWdQLwUUVnqid6Xm5Tbw0PJsyqhyZynf2jOJWct_ffjXuUDwVRXOvUDey0xHmife2aL_20aUrsWvOH2GkBQqrlTtzjNgqkpXYByrhHc6ZRHLPdshA1L42BSwAe4lYh7-MBhyV0lmzC63YCYDrt4pZV3YxvX4GAQRpiRbFUzaSwEqjSrRoy_fLt7g18SKNjNYCfU9OyKoiK26cVuL-lCoNLzPSoL1-OFtTUmOdmTJVnQf5mC85OG3TWxAKS5zVFY7xOPhdj3Mk_-6zb4N7ArPmto1JOu68TqbIPQGO4WVRgTm-oG36uJmbbTwkYZ8pFxstPwx7BP_9QNmDtPSQA_5uK9JM5cbLlwRSy62_xkxzyLeCKcg6wSFry-cZJbg2QagLVe1fyP3ILS_aCx15LnX9mTHwIYeRQOny_Z_t7rf0"
+    }],
+    "timeout": null,
+    "useMtls": false,
+    "authPass": null,
+    "authUser": null,
+    "bodyType": "raw",
+    "contentType": "application/json",
+    "serializeUrl": false,
+    "shareCookies": false,
+    "parseResponse": true,
+    "followRedirect": true,
+    "useQuerystring": false,
+    "followAllRedirects": false,
+    "rejectUnauthorized": true
+}]
