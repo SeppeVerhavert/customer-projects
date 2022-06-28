@@ -1,0 +1,89 @@
+[{
+    "statusCode": 201,
+    "headers": [{
+            "name": "date",
+            "value": "Wed, 22 Jun 2022 08:22:43 GMT"
+        },
+        {
+            "name": "content-type",
+            "value": "application/json"
+        },
+        {
+            "name": "transfer-encoding",
+            "value": "chunked"
+        },
+        {
+            "name": "connection",
+            "value": "close"
+        },
+        {
+            "name": "cache-control",
+            "value": "no-cache, private"
+        },
+        {
+            "name": "access-control-allow-origin",
+            "value": "*"
+        },
+        {
+            "name": "access-control-allow-credentials",
+            "value": "true"
+        },
+        {
+            "name": "access-control-request-headers",
+            "value": "SA-TOKEN, Authorization"
+        },
+        {
+            "name": "access-control-allow-methods",
+            "value": "GET, POST, PUT, DELETE, OPTIONS"
+        },
+        {
+            "name": "access-control-allow-headers",
+            "value": "Origin, X-Requested-With, Content-Type, Accept, cache-control, SA-TOKEN, Pragma, X-Requested-With, If-Modified-Since, Accept-Encoding, DNT, Accept-Language, Authorization"
+        },
+        {
+            "name": "access-control-max-age",
+            "value": "86400"
+        },
+        {
+            "name": "x-xss-protection",
+            "value": "1; mode=block"
+        },
+        {
+            "name": "x-content-type-options",
+            "value": "nosniff"
+        },
+        {
+            "name": "strict-transport-security",
+            "value": "max-age=15724800; includeSubDomains"
+        }
+    ],
+    "cookieHeaders": [],
+    "data": {
+        "username": "seppe_E@surveyanyplace.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "role_id": 11,
+        "organization_id": 1403,
+        "newsletter": false,
+        "respondent_id": null,
+        "user_type": "organization_user",
+        "parent_id": 90838,
+        "default_language_id": 1,
+        "date_created": "2022-06-22 08:22:43",
+        "date_cancelsubscription": null,
+        "downgradeplan": null,
+        "is_trial": false,
+        "freshbooks_id": null,
+        "recurly_id": null,
+        "last_seen": "2022-06-22 08:22:43",
+        "data_enriched": false,
+        "editor_theme": "default",
+        "password_version": 2,
+        "reset_code_date": "2022-06-29 08:22:43",
+        "id": 97628,
+        "permissions": [
+            "respondents.index"
+        ]
+    },
+    "fileSize": 563
+}]
