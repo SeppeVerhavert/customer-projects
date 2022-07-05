@@ -1,2 +1,2 @@
-"First Name";"Last Name";"Email";"External ID";"Unique Identifier";"Company";"Role";
-"John";"Doe";"john@sample.com";"CBRE_TEST";"";"Sample Corp";"Founder";
+First name;Last name;Email;Personal ID;Custom data;List (optional);company;role
+John;Doe;john@example.net;123;987;list1|list2;Acme Company;Recruiter
