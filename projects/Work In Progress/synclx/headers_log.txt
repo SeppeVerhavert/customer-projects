@@ -1,0 +1,56 @@
+General
+---------
+
+Request URL: https://lesslonely.com/wp-json/wpsp/v2/paymentintent/create
+Request Method: POST
+Status Code: 400 
+Remote Address: 54.153.121.166:443
+Referrer Policy: strict-origin-when-cross-origin
+
+Response Headers
+---------
+
+access-control-allow-credentials: true
+access-control-allow-headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+access-control-allow-methods: OPTIONS, GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin: https://lesslonely.com
+access-control-expose-headers: X-WP-Total, X-WP-TotalPages, Link
+allow: POST
+content-encoding: gzip
+content-length: 70
+content-type: application/json; charset=UTF-8
+date: Tue, 28 Jun 2022 09:34:56 GMT
+link: <https://lesslonely.com/wp-json/>; rel="https://api.w.org/"
+server: LiteSpeed
+vary: Origin,Accept-Encoding
+x-content-type-options: nosniff
+x-litespeed-cache-control: no-cache
+x-litespeed-tag: 197_HTTP.400
+x-robots-tag: noindex
+x-wp-nonce: 46b277d1b8
+
+Request Headers
+---------
+
+:authority: lesslonely.com
+:method: POST
+:path: /wp-json/wpsp/v2/paymentintent/create
+:scheme: https
+accept: */*
+accept-encoding: gzip, deflate, br
+accept-language: en
+content-length: 13416
+content-type: application/x-www-form-urlencoded; charset=UTF-8
+cookie: cp-impression-added-forcp_id_bf7a7=true; __stripe_mid=62051070-f82b-49eb-859c-252fd6f421bd88afb6; __stripe_sid=e0d6378b-935d-4b07-97ab-571d9786a5b2206836; cp_id_bf7a7=true
+dnt: 1
+origin: https://lesslonely.com
+referer: https://lesslonely.com/assessment/
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-origin
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+x-requested-with: XMLHttpRequest
+x-wp-nonce: 435b725778
