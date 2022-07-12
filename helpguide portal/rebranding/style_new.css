@@ -6730,7 +6730,10 @@ img.fr-rounded {
     width: 25px;
     height: auto !important;
     vertical-align: middle !important;
-    float: right !important;
+}
+
+.plan span {
+    font-size: 22px !important;
 }
 
 .note {
@@ -6744,10 +6747,6 @@ img.fr-rounded {
     }
     .plan {
         width: fit-content;
-        margin-right: 2em;
-    }
-    .plan img {
-        float: none !important;
     }
 }
 
@@ -6757,10 +6756,6 @@ img.fr-rounded {
 .table-features-container {
     margin: 50px auto;
     border-radius: 0 0 1em 1em;
-}
-
-.table-features-container.desktop {
-    /*display: none;*/
 }
 
 .table-features-container.mobile {
@@ -6912,4 +6907,8 @@ img.fr-rounded {
 .search-results-count {
     font-size: 20px;
     padding-top: 20px;
+}
+
+button.btn.btn-primary[aria-label='Search'] {
+    border-radius: 0px !important;
 }
