@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+.progress-bar,
+.progress-bar .progress-numbers {
+    background: #99d8d8 !important;
+    color: #000000;
+}
+
+.progress-bar .progress-numbers:after {
+    border-left-color: #99d8d8 !important;
+}
+
+.button.next:hover,
+.button.prev:hover,
+.button:hover {
+    background-color: #00c9a7 !important;
+    color: #000000 !important;
+}
+
+.question-hint {
+    display: inherit !important;
+}
+
+.inline-hint:after {
+    content: "\e88e";
+    font-family: "Material Icons";
+    margin-left: 10px;
+    font-weight: 400 !important;
+}
+
+.inline-hint {
+    width: auto !important;
+}
+
+.icon-mandatory,
+.icon-question-hint {
+    display: none;
+}
+
+
+/* THOUSAND SEPARATOR */
+
+div[comma-value] {
+    position: relative;
+}
+
+div[comma-value]:before {
+    content: attr(comma-value);
+    position: absolute;
+    left: 3%;
+    bottom: 15%;
+}
+
+div[comma-value] input {
+    color: #fff;
+    -webkit-text-stroke-color: none;
+    -webkit-text-stroke-width: 0px;
+}
+
+input[type="number"] {
+    direction: ltr;
+    text-align: left;
+}
+
+
+/* FOCUS STYLE FORM */
+
+.form-item-answer.focus-visible,
+.form-item-answer:focus-visible {
+    outline: #99d8d8 solid 5px;
+    outline-offset: -1px;
+}
+
+select.form-item-answer.focus-visible,
+select.form-item-answer:focus-visible {
+    outline-offset: 3px;
+}
