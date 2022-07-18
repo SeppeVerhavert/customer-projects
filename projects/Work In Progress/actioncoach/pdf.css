@@ -1,0 +1,661 @@
+/* Main */
+
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2?styles=44818,44819,44822,44823,44817,44816,44820,44821,44812,44813,44814,44815,44810,44811');
+#title-page,
+#page_1,
+#page_2,
+#page_3,
+#page_4,
+#page_5,
+#page_6,
+#page_7,
+#page_8,
+#page_10,
+#page_11,
+#page_12,
+#page_13,
+#page_14,
+#page_15,
+#page_16,
+#page_17,
+#page_18,
+#page_19,
+#page_20,
+#page_21,
+#page_22,
+#page_23,
+#page_24,
+#page_25,
+#page_26,
+#page_27,
+#page_28,
+#page_29,
+#page_30,
+#page_31,
+#page_32,
+#page_33,
+#page_34,
+#page_35,
+#page_36,
+#page_37,
+#page_38,
+#page_39,
+#page_40,
+#page_41 {
+    height: 980px !important;
+    position: relative !important;
+}
+
+#page_9 {
+    height: 980px !important;
+    position: relative !important;
+    margin: 0 !important;
+}
+
+#title-page {
+    height: 950px !important;
+}
+
+p,
+a,
+li {
+    font-family: 'Proxima Nova', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 13.5px;
+}
+
+.page-content {
+    margin: 40px 60px 20px 60px;
+    position: relative;
+}
+
+.page-header-space,
+.page-footer-space {
+    display: none !important;
+}
+
+.cover-text {
+    font-size: 28px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.cover-name {
+    font-size: 20px;
+    margin-left: 60px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.cover-footer {
+    font-size: 19px;
+    font-weight: 600;
+    position: absolute;
+    top: 57rem;
+    left: 36.5rem;
+    color: white;
+}
+
+.custom-header {
+    text-align: right;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+.header-container {
+    display: none !important;
+}
+
+.footer-container {
+    display: none !important;
+}
+
+
+/* Font -  Proxima Nova - Available for free as part of the Adobe package
+Headlines : Semibold
+Body copy : Regular */
+
+
+/* Colors */
+
+.primary {
+    color: #041326;
+}
+
+.secondary {
+    color: #5EB0BF;
+}
+
+.orange {
+    color: #EA5E21;
+}
+
+.yellow {
+    color: #FFDD00;
+}
+
+
+/* All */
+
+.title-section {
+    text-align: center;
+    font-size: 45px;
+}
+
+.title {
+    font-size: 19px;
+}
+
+.subtitle {
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+
+
+/* Page 1 */
+
+.page1 .title:nth-child(3) {
+    margin-top: 60px;
+}
+
+
+/* Page 3 */
+
+.page3section2 {
+    padding-top: 15px;
+}
+
+.top-border {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.pink {
+    background-color: #fcd5bf;
+    padding: 10px 20px 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.small-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 35px;
+    margin-bottom: 0px;
+}
+
+.bot-border {
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.big-title {
+    font-size: 26px;
+    margin-top: 60px;
+    line-height: 1.2;
+}
+
+.overall-title {
+    margin-bottom: 20px;
+}
+
+.flex-graph {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.left-graph {
+    width: 40%;
+    text-align: center;
+    position: relative;
+}
+
+.abs-text {
+    position: absolute;
+    top: 110px;
+    left: 85px;
+    font-weight: 600;
+    font-size: 13px;
+    z-index: 100;
+}
+
+.right-graph {
+    /* padding-left:100px; */
+    border-left: 1px solid black;
+    width: 50%;
+    position: relative;
+}
+
+.right-graph .text {
+    width: 250px;
+    margin-left: 60px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.kpi-container {
+    margin-left: 20px;
+}
+
+.circle-container p {
+    display: none;
+}
+
+.progress-circle {
+    font-size: 35px;
+}
+
+.progress-circle span {
+    color: black;
+    font-weight: 600;
+}
+
+.value-bar {
+    border-color: #f47c3d;
+}
+
+.progress-circle.over50 .first50-bar {
+    background-color: #f47c3d;
+}
+
+.top-padder {
+    padding-top: 30px;
+}
+
+.big-marg {
+    margin-top: 60px;
+}
+
+.under {
+    margin-top: 71px;
+    max-width: 250px;
+    width: 250px;
+    height: 20px;
+    background-color: #eaeaea;
+    margin-left: 60px;
+}
+
+.score {
+    font-weight: 600;
+    max-width: 250px;
+    min-width: 21%;
+    width: 0%;
+    text-align: right;
+    padding-bottom: 10px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+#upper-total {
+    width: 0%;
+    height: 20px;
+    background-color: #f47c3d;
+}
+
+#upper-mindset {
+    width: 0%;
+    height: 20px;
+    background-color: #f47c3d;
+}
+
+#upper-feedback {
+    width: 0%;
+    height: 20px;
+    background-color: #f47c3d;
+}
+
+#upper-success {
+    width: 0%;
+    height: 20px;
+    background-color: #f47c3d;
+}
+
+#upper-habits {
+    width: 0%;
+    height: 20px;
+    background-color: #f47c3d;
+}
+
+#upper-beh {
+    width: 0%;
+    height: 20px;
+    background-color: #f47c3d;
+}
+
+#upper-comm {
+    width: 0%;
+    height: 20px;
+    background-color: #f47c3d;
+}
+
+.total-graph {
+    position: absolute;
+    width: 250px;
+    margin-left: 60px;
+}
+
+.title-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* padding-bottom:20px; */
+}
+
+.icon {
+    height: 110px;
+    /* margin-top:10px; */
+}
+
+.subtitle2 {
+    font-size: 29px;
+    padding-top: 55px;
+    margin-bottom: 0px;
+}
+
+.outer {
+    position: relative;
+}
+
+.last-text {
+    font-size: 18px;
+    position: absolute;
+    top: 13rem;
+    left: 31rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.last-link {
+    position: absolute;
+    top: 65.2rem;
+    left: 31rem;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.bot-logo {
+    position: absolute !important;
+    top: 58rem;
+    left: 26.9rem;
+    height: 165px;
+}
+
+.custom-footer {
+    position: absolute;
+    top: 64rem;
+    /* left:39.5rem; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 10px;
+    padding-top: 10px;
+    margin-left: 60px;
+}
+
+.footer-logo {
+    height: 25px;
+    margin-right: 60px;
+}
+
+#page_2 {
+    padding: 0px !important;
+}
+
+.image {
+    height: 500px;
+    margin: 0 auto;
+}
+
+.final-page {
+    width: 100%;
+    z-index: -10;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.highcharts-grid path {
+    stroke: #aac5e7 !important;
+}
+
+text {
+    color: black !important;
+    font-size: 14px;
+    font-weight: 600;
+    fill: black !important;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+
+/* Second to last page */
+
+.impact-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.impact-flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.impact-item {
+    width: 50%;
+}
+
+.impact-item1 {
+    /* width:50%; */
+    width: 80%;
+    text-align: center;
+    padding-right: 75px;
+    margin-left: 20px;
+}
+
+.impact-img {
+    /* height:190px; */
+    width: 60%;
+    float: right;
+    margin-left: 10px;
+}
+
+.impact-img1 {
+    height: 255px;
+    float: right;
+}
+
+.floating-img {
+    width: 50%;
+    float: right !important;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* .leftfloat{
+    text-align: justify;
+} */
+
+.outter-float {
+    margin-top: 40px;
+}
+
+.line-space {
+    line-height: 1.1;
+}
+
+.extra-marg {
+    margin-top: 60px;
+}
+
+.big-cell {
+    min-height: 100px !important;
+    color: white;
+}
+
+.img-title {
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.impact-img2 {
+    margin-left: 0px;
+}
+
+.table-img {
+    width: 94%;
+    /* margin: 0 auto; */
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.bot-space {
+    margin-bottom: 10px;
+}
+
+.highcharts-legend-item {
+    display: none;
+}
+
+.small-icon {
+    height: 45px;
+    margin-top: 70px;
+}
+
+.small-text {
+    font-size: 15px;
+}
+
+
+/*Table final*/
+
+table,
+th,
+td {
+    border: 1px solid black !Important;
+    border-collapse: collapse;
+}
+
+.sideheadertable {
+    font-family: 'Proxima Nova', sans-serif;
+    height: 155px;
+    width: 110px;
+    transform: rotate(-90deg);
+    text-align: center;
+    align-items: top;
+    font-size: 14px;
+    margin: none;
+    line-height: 0.9;
+}
+
+.sideheadertable>p {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 12px;
+}
+
+.sidebodytable {
+    height: 160px;
+    width: 165px;
+    transform: rotate(-90deg);
+}
+
+.sideextracolumn {
+    font-family: 'Proxima Nova', sans-serif;
+    height: 150px;
+    width: 30px;
+    text-align: center;
+    align-items: center;
+    transform: rotate(-90deg);
+    font-size: 14px;
+    border: none;
+}
+
+.finaltable {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.rightsidetabletext {
+    font-family: 'Proxima Nova', sans-serif;
+    position: absolute;
+    top: 450px;
+    left: 370px;
+    height: 50px;
+    width: 525px;
+    text-align: center;
+    align-items: center;
+    transform: rotate(-90deg);
+    font-size: 12px;
+}
+
+.datetexttable {
+    font-family: 'Proxima Nova', sans-serif;
+    position: absolute;
+    top: 940px;
+    left: 0px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    align-items: center;
+    transform: rotate(-90deg);
+    font-size: 14px;
+}
+
+.qtrtexttable {
+    font-family: 'Proxima Nova', sans-serif;
+    position: absolute;
+    top: 790px;
+    left: 0px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    align-items: center;
+    transform: rotate(-90deg);
+    font-size: 14px;
+}
