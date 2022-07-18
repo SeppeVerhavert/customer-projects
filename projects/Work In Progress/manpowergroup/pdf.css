@@ -1,0 +1,38 @@
+/* COVER PAGE */
+
+section.title-page .logo {
+    max-width: 250px;
+    max-height: none;
+    padding: 50px 0 0;
+    width: 100%;
+    padding-top: 750px;
+}
+
+section.title-page .top-container {
+    font-size: 25px;
+    max-width: 45%;
+    padding-left: 50px;
+    background-color: #38609780;
+}
+
+
+/* HEADER */
+
+.header-container header {
+    color: #c25700;
+}
+
+
+/* BULLET POINTS */
+
+li::marker {
+    color: #386097;
+}
+
+
+/* CHARTS */
+
+
+/* #widget_88 .highcharts-label.highcharts-data-label.highcharts-data-label-color-undefined tspan::after {
+    content: "%";
+} */
