@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Decimal Black";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/OTII/Decimal-Black.otf");
+}
+
+@font-face {
+    font-family: "Decimal Black Italic";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/OTII/Decimal-BlackItalic.otf");
+}
+
+@font-face {
+    font-family: "Decimal Bold";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/OTII/Decimal-Bold.otf");
+}
+
+@font-face {
+    font-family: "Decimal Bold Italic";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/OTII/Decimal-BoldItalic.otf");
+}
+
+@font-face {
+    font-family: "Decimal Book";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/OTII/Decimal-Book.otf");
+}
+
+@font-face {
+    font-family: "Decimal Book Italic";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/OTII/Decimal-BookItalic.otf");
+}
+
+@font-face {
+    font-family: "Decimal Light";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/OTII/Decimal-Light.otf");
+}
+
+@font-face {
+    font-family: "Decimal Light Italic";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/OTII/Decimal-LightItalic.otf");
+}
+
+@font-face {
+    font-family: "Decimal Medium";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/OTII/Decimal-Medium.otf");
+}
+
+@font-face {
+    font-family: "Decimal Medium Italic";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/OTII/Decimal-MediumItalic.otf");
+}
+
+@font-face {
+    font-family: "Decimal Semibold";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/OTII/Decimal-Semibold.otf");
+}
+
+@font-face {
+    font-family: "Decimal Semibold Italic";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/OTII/Decimal-SemiboldItalic.otf");
+}
+
+body {
+    font-family: "Decimal Black" !important;
+}
