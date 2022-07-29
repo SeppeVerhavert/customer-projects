@@ -1,7 +1,7 @@
 /* COVER PAGE */
 
 section.title-page .logo {
-    max-width: 250px;
+    max-width: 300px;
     max-height: none;
     padding: 50px 0 0;
     width: 100%;
@@ -10,23 +10,42 @@ section.title-page .logo {
 
 section.title-page .top-container {
     font-size: 25px;
-    max-width: 45%;
-    padding-left: 50px;
-    background-color: #38609780;
+    max-width: 250px;
+    background-color: #fff;
+    padding: 0 25px 25px 25px;
+    word-wrap: normal;
+}
+
+section.title-page p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+section.title-page .top-container .title {
+    color: #e87c22;
+    font-weight: bold;
+}
+
+section.title-page .top-container .header {
+    color: #6290c6;
+}
+
+section.title-page .top-container .company {
+    color: #466da4;
 }
 
 
 /* HEADER */
 
 .header-container header {
-    color: #c25700;
+    color: #e87c22;
 }
 
 
 /* BULLET POINTS */
 
 li::marker {
-    color: #386097;
+    color: #466da4;
 }
 
 

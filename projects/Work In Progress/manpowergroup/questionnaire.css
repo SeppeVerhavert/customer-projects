@@ -2,12 +2,16 @@
     background-color: #8d8e93;
 }
 
-.theme-layout-compact .card:not(.intro) .card-logo {
+.theme-layout-compact .card.intro .card-logo {
     margin: auto;
     margin-top: 1.5em;
 }
 
-.theme-layout-compact .card:not(.intro) .card-logo img {
+.theme-layout-compact .card.intro .card-logo img {
     max-height: 200px;
     height: 200px;
+}
+
+.theme-layout-compact .card:not(.intro) .card-logo {
+    display: none;
 }
