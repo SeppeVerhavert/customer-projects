@@ -1,0 +1,65 @@
+/* HEADERS */
+
+h1 {
+    background: linear-gradient(90deg, #fde439, #e86346, #a11217);
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Roboto Slab';
+    border-radius: 25px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    color: #a11217 !important;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+
+
+/* TEXT */
+
+.title-page-text span {
+    font-size: 50px;
+}
+
+p,
+li {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+/* IMAGES */
+
+.keep-ratio-28 {
+    height: 500px !important;
+}
+
+.image-container {
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    left: 75px;
+}
+
+
+/* DNA SCORE */
+
+div.dna-score>span {
+    font-size: 185px;
+    line-height: 185px;
+}
+
+.dna-score {
+    text-align: center;
+}
