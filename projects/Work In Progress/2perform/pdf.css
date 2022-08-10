@@ -1,0 +1,95 @@
+#widget_1.template-widget.text p:nth-child(1) {
+    border: 1px #000 solid;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+#widget_3.template-widget.text p:nth-child(1) {
+    border: 1px #000 solid;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+#widget_5.template-widget.text p:nth-child(2) {
+    border: 1px #000 solid;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+#widget_7.template-widget.text p:nth-child(2) {
+    border: 1px #000 solid;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+#widget_10.template-widget.text p:nth-child(1) {
+    border: 1px #000 solid;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+#widget_12.template-widget.text p:nth-child(1) {
+    border: 1px #000 solid;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+#widget_16.template-widget.text p:nth-child(1) {
+    border: 1px #000 solid;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+#widget_11 table th:nth-child(1) {
+    width: 18%;
+}
+
+#widget_11 table th:nth-child(3) {
+    width: 12%;
+}
+
+#widget_11 table th:nth-child(4) {
+    width: 14%;
+}
+
+#widget_19.template-widget.text p:nth-child(1) {
+    border: 1px #000 solid;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+#widget_22.template-widget.text p:nth-child(1) {
+    border: 1px #000 solid;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+#widget_32.template-widget.text p:nth-child(1) {
+    border: 1px #000 solid;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+#widget_35.template-widget.text p:nth-child(1) {
+    border: 1px #000 solid;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+
+/* TABLE CELL COLORS */
+
+#widget_11 table tbody tr:nth-child(3) td:nth-child(7) {
+    background: #f08080;
+}
