@@ -31,5 +31,25 @@ section.title-page .bottom-container div {
 
 .template-widget.text hr {
     page-break-after: avoid !important;
-    width: 200%;
+    width: 205%;
+}
+
+.template-widget.text.column-left {
+    width: 55%;
+}
+
+.template-widget.pie_widget.column-right {
+    width: 45%;
+}
+
+p span.colored.red {
+    background-color: #e41f1f;
+}
+
+p span.colored.yellow {
+    background-color: #f6e90c;
+}
+
+p span.colored.green {
+    background-color: #56db3d;
 }
