@@ -1,0 +1,3 @@
+#page-breaks .page_break div:only-child {
+    height: calc((1050px - 12.5mm) - 12.5mm);
+}
