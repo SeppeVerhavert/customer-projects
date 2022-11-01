@@ -1,0 +1,31 @@
+.answer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#question-1 .answer-container.question-stripe {
+    display: block;
+}
+
+#content0 .answer-container {
+    flex-direction: column;
+}
+
+#content16 .answer-container {
+    display: inline-block;
+}
+
+#content16 .card-container {
+    padding: 0 3em;
+}
+
+#content16 .card-content {
+    max-width: 44em;
+}
+
+.slide-type-final .button-container {
+    position: relative !important;
+    right: unset !important;
+    bottom: unset !important;
+}

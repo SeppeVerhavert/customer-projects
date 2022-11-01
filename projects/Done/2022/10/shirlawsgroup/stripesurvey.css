@@ -1,0 +1,87 @@
+.slide-type-final .button-container {
+    position: relative !important;
+    right: unset !important;
+    bottom: unset !important;
+}
+
+#question-1 .container figure {
+    margin: auto;
+}
+
+.icon-mandatory::before {
+    content: "" !important;
+}
+
+.input {
+    border-color: #555555;
+    border: 1px solid #e7e9ec;
+}
+
+hr {
+    margin: 0.2em auto;
+    border-top: 0px;
+}
+
+.form-item label:not(.answer) {
+    font-size: 1em;
+}
+
+.text-container {
+    font-size: 1em;
+}
+
+.button {
+    font-size: 1em;
+}
+
+body.design-version-3.theme-rounded-corners .button,
+body.theme-template-light.theme-rounded-corners .button,
+body.theme-template-dark.theme-rounded-corners .button {
+    border-radius: 30px;
+}
+
+body.design-version-3 .card-actions .button,
+body.theme-template-light .card-actions .button,
+body.theme-template-dark .card-actions .button {
+    padding: 1em;
+    height: auto;
+}
+
+body.design-version-3.theme-rounded-corners .input,
+body.theme-template-light.theme-rounded-corners .input,
+body.theme-template-dark.theme-rounded-corners .input,
+body.design-version-3.theme-rounded-corners .select,
+body.theme-template-light.theme-rounded-corners .select,
+body.theme-template-dark.theme-rounded-corners .select,
+body.design-version-3.theme-rounded-corners .image-choice .image,
+body.theme-template-light.theme-rounded-corners .image-choice .image,
+body.theme-template-dark.theme-rounded-corners .image-choice .image,
+body.design-version-3.theme-rounded-corners .form-item .answer-content,
+body.theme-template-light.theme-rounded-corners .form-item .answer-content,
+body.theme-template-dark.theme-rounded-corners .form-item .answer-content,
+body.design-version-3.theme-rounded-corners .signature .canvas-container canvas,
+body.theme-template-light.theme-rounded-corners .signature .canvas-container canvas,
+body.theme-template-dark.theme-rounded-corners .signature .canvas-container canvas,
+body.design-version-3.theme-rounded-corners .slotmachine .message-wrap,
+body.theme-template-light.theme-rounded-corners .slotmachine .message-wrap,
+body.theme-template-dark.theme-rounded-corners .slotmachine .message-wrap,
+body.design-version-3.theme-rounded-corners .question-puzzle .rsArrow,
+body.theme-template-light.theme-rounded-corners .question-puzzle .rsArrow,
+body.theme-template-dark.theme-rounded-corners .question-puzzle .rsArrow,
+body.design-version-3.theme-rounded-corners .question-puzzle .auto-complete-button,
+body.theme-template-light.theme-rounded-corners .question-puzzle .auto-complete-button,
+body.theme-template-dark.theme-rounded-corners .question-puzzle .auto-complete-button,
+body.design-version-3.theme-rounded-corners .slide-type-final .button,
+body.theme-template-light.theme-rounded-corners .slide-type-final .button,
+body.theme-template-dark.theme-rounded-corners .slide-type-final .button,
+body.design-version-3.theme-rounded-corners .language-button,
+body.theme-template-light.theme-rounded-corners .language-button,
+body.theme-template-dark.theme-rounded-corners .language-button,
+body.design-version-3.theme-rounded-corners .campaign-survey-button,
+body.theme-template-light.theme-rounded-corners .campaign-survey-button,
+body.theme-template-dark.theme-rounded-corners .campaign-survey-button,
+body.design-version-3.theme-rounded-corners #status-message .button,
+body.theme-template-light.theme-rounded-corners #status-message .button,
+body.theme-template-dark.theme-rounded-corners #status-message .button {
+    border-radius: 4px;
+}

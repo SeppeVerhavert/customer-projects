@@ -1,0 +1,7 @@
+section.title-page .logo {
+    max-width: 450px;
+}
+
+.template-widget.spiderchart .highcharts-series-0.highcharts-column-series.highcharts-dense-data.highcharts-tracker path {
+    fill: #DF5353;
+}
