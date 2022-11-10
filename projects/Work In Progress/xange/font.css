@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Nixie One";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/Xange/nixie-one/NixieOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Work Sans";
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/Xange/work-sans/WorkSans-Black.otf");
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/Xange/work-sans/WorkSans-Bold.otf");
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/Xange/work-sans/WorkSans-ExtraBold.otf");
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/Xange/work-sans/WorkSans-ExtraLight.otf");
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/Xange/work-sans/WorkSans-Hairline.otf");
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/Xange/work-sans/WorkSans-Light.otf");
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/Xange/work-sans/WorkSans-Medium.otf");
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/Xange/work-sans/WorkSans-Regular.otf");
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/Xange/work-sans/WorkSans-SemiBold.otf");
+    src: url("https://surveyanyplace.s3.amazonaws.com/custom/Xange/work-sans/WorkSans-Thin.otf");
+}
+
+body {
+    font-family: "Nixie One" !important;
+    font-family: "Work Sans" !important;
+}
