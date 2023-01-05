@@ -1,0 +1,27 @@
+/* g.highcharts-axis-labels.highcharts-yaxis-labels.highcharts-radial-axis-labels,
+g.highcharts-axis.highcharts-xaxis.highcharts-radial-axis,
+g.highcharts-axis.highcharts-yaxis.highcharts-radial-axis,
+g.highcharts-grid.highcharts-xaxis-grid.highcharts-radial-axis-grid,
+g.highcharts-grid.highcharts-yaxis-grid.highcharts-radial-axis-grid,
+g.highcharts-data-labels.highcharts-series-1.highcharts-line-series,
+g.highcharts-label.highcharts-data-label.highcharts-data-label-color-undefined,
+.highcharts-pane {
+    display: none !important;
+    fill: none;
+    stroke: none;
+} */
+
+.highcharts-background {
+    background-image: url(https://assets.pointerpro.com/media-library/production/98598/8qFI6HB1StawCAWjpDhg_planeEngine.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 290px 290px;
+}
+
+div[type="spider-component"] .highcharts-pane {
+    fill: none;
+}
+
+.highcharts-pane {
+    fill: none;
+}

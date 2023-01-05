@@ -1,0 +1,7 @@
+.highcharts-axis-labels.highcharts-xaxis-labels {
+    transform: translate(-105px, -60px);
+}
+
+.highcharts-axis-labels.highcharts-xaxis-labels text {
+    transform: scale(1.25);
+}
