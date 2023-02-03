@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+.cover-logo{
+    position:absolute !important;
+    top:0px !important;
+    z-index:202;
+    text-align:center;
+    width:100%;
+}
+
+
+
+.wide{
+    min-width:300px;
+}
+
+.wide2{
+    min-width:342px;
+}
+
+.cover-text{
+    position:relative;
+    font-size:17px;
+    font-weight:600;
+    margin-left:50px;
+    z-index:108;
+    color:white;
+}
+
+.top-margin{
+     margin-top:130px;
+     margin-bottom:5px;
+}
+
+.cover-band{
+    position:relative;
+    padding:35px;
+    background-color:white;
+    margin-top:790px;
+    z-index:103;
+}
+
+.cover-title{
+    width:100%;
+    
+    font-size:28px;
+    font-weight:600;
+    text-align:center;
+}
+
+.small-title{
+    width:100%;
+    margin-top:10px;
+    text-align:center;
+    color:#ea564b;
+    font-size:17px;
+}
+
+.logo-img{
+    height:170px;
+    z-index:210;
+    position:relative !important;
+    /* top:40px; */
+    left:50%;
+    transform:translateX(-50%);
+}
+
+#io5igf{
+    display:none;
+}
+
+.cover-bubble1{
+    position:absolute !important;
+    z-index:104;
+    top:750px;
+    left:30px;
+
+}
+
+.cover-bubble2{
+    position:absolute !important;
+    z-index:104;
+    top:750px;
+    left:430px;
+
+}
+
+.bubbles{
+    height:180px;
+    z-index:104;
+    transform:rotate(40deg);
+}
+
+.bubbles2{
+    height:180px;
+    z-index:104;
+    transform:rotate(-50deg);
+}
+
+.footer-container, .header-container{
+    display:none !important;
+}
+
+.page-footer-space, .page-header-space{
+    height:0px !important;
+}
+
+.red-bullet{
+    list-style: none;
+}
+
+.red-bullet li:before{
+content: "\2022";  
+  color: #ea564b; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 30px;
+  margin-left:-30px;
+  margin-top:-30px;
+  font-size:45px;
+  position:relative;
+  top:10px;
+}
+
+.page-content{
+    padding:50px 50px 0px 50px;
+}
+
+.logo{
+    height:110px;
+}
+
+.cover-img{
+    width:100%;
+    height:942px;
+    position:absolute;
+    background-image:url('https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/marbl/cover.png');
+    background-size:cover;
+    top:180px;
+    z-index:50;
+}
+
+.cover{
+    height:1100px;
+    z-index:1;
+}
+
+.custom-header{
+    position:absolute;
+    top:40px;
+    left:40px;
+}
+
+
+
+.title{
+    width:100%;
+    text-align:center;
+    font-size:24px;
+    font-weight:600;
+    color:#00B2D2;
+    margin-bottom:50px;
+}
+
+.underlined-title{
+    width:130px;
+    margin:0 auto;
+    text-align:center;
+    font-size:24px;
+    font-weight:600;
+    color:black;
+    margin-bottom:50px;
+    border-bottom:4px solid #ea564b;
+    padding-bottom:5px;
+}
+
+.title2{
+    width:100%;
+    text-align:center;
+    font-size:24px;
+    font-weight:600;
+    color:#00B2D2;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    /* font-size:20px; */
+    font-size:30px;
+    font-weight:800;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.small-subtitle{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.text{
+    font-size:15px;
+    line-height:1.1;
+    font-weight:300;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.custom-footer{
+    position:absolute;
+    /* font-family: 'Zeyada',sans-serif; */
+    font-size:17px;
+    color:black;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    top:64.6rem;
+}
+
+.custom-footer2 {
+    position: absolute;
+    top: 68.9rem;
+    width: 100%;
+    height: 20px;
+    background-color: #f9837b;
+}
+
+.footer-text{
+    font-size:16px;
+    text-align:center;
+    padding-top:33px;
+    font-weight:500;
+}
+
+.footer-img{
+    height:60px;
+}
+
+
+
+.footer-item{
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.ordered-list li,.unordered-list li{
+    padding:5px;
+    font-size:17px;
+}
+
+.intro-list li{
+    font-size:15px;
+    padding:3px;
+}
+
+.red{
+    color:#ea564b;
+}
+
+.blue{
+    color:black;
+}
+
+.spacer{
+    margin-top:100px;
+}
+
+.spacer2{
+    margin-top:140px;
+}
+
+.image{
+    width:100%;
+    text-align:center;
+}
+
+.positivity-img{
+    height:250px;
+    margin:0 auto;
+}
+
+.no-padding{
+    padding-top:0px;
+}
+
+.custom-table{
+    width:100%;
+    border-collapse: collapse !important;
+    font-size:16px !important;
+}
+
+.custom-table th{
+    border:1px solid black !important;
+    text-align:center;
+    padding:7px !important;
+    background-color:white !important;
+
+}
+
+.custom-table td{
+    border:1px solid black !important;
+    color:#00B2D2;
+    text-align:center;
+    padding:7px !important;
+}
+
+.small-cell{
+    width:90px;
+    min-width:90px;
+}
+
+
+.left-text{
+    text-align:left !important;
+}
+
+.black{
+    color:black !important;
+}
+
+.small-cell{
+    display:table-cell;
+    vertical-align: top;
+    text-align:left !important;
+    padding:7px !important;
+}
+
+.medium-cell{
+    display:table-cell;
+    vertical-align: top;
+    max-width:315px;
+    width:315px;
+}
+
+.custom-table .text{
+    font-size:15px;
+    font-weight:300!important;
+}
+
+#iu8ak,#iyt5l{
+    overflow:hidden !important;
+}
+
+section{
+    height:1122px!important;
+}
+
+.no-header th{
+    display:none;
+}
+
+/* .icon{
+    display:inline-block;
+    height:30px;
+    width:30px;
+    margin-right:10px;
+    background-image:url('https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/marbl/icon_book.png') !important;
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+
+.icon2{
+    display:inline-block;
+    height:30px;
+    width:30px;
+    margin-right:10px;
+    background-image:url('https://surveyanyplace.s3.amazonaws.com/app/editor/reports/pdf/custom/marbl/icon_arm.png') !important;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.table-flex{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.icon-img{
+    height:20px;
+    padding-right:5px;
+}
+
+/* .blue-border{
+    padding:5px;
+    border:1.5px solid black;
+    border-radius:20px;
+} */
+
+.battery-flex{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.battery-level{
+    width:30px;
+    height:50px;
+    border:1px solid black;
+}
+
+.battery-tip{
+    width:7px;
+    height:20px;
+    border:1px solid black;
+}
+
+.back1{
+    background-color: rgb(148, 5, 5);
+}
+
+.back2{
+    background-color: rgb(226, 38, 38);
+}
+
+.back3{
+    background-color:orange;
+}
+
+.back4{
+    background-color:yellow;
+}
+
+.back5{
+    background-color: green;
+}
+
+.back6{
+    background-color: rgb(31, 226, 31);
+}
+
+.no-back{
+    background-color:white !important;
+}
+
+#it1tpl,#i55dzi,#iqllyz,#iwd2w4,#idkgsi,#iuupoc,#idk4vk,#im6c5u,
+#itx7e3,#ibye3i,#ir5aas,#iwlsbd,#icn8pn,#ijspwf,#iuxxf8,#ig0lut,#isiuwz,
+#iffsmh,#iohn0f,#i93lld,#itc4p7{
+    width:20%!important;
+}
+
+#ijq1vn,#ib1w31,#ioeprk,#iph7i8,#i31bau,#imv45g,#i4oibr,#ij9w95,
+#imthqi,#iv4b0y,#iln07l,#iulhsj,#iul2ar,#iapk7x,#ixs4g9,#i6mjtv,#isx612,
+#imjjrw,#i5x0ow,#idcac6,#irogg4{
+    width:80%!important;
+    max-width:80% !important;
+    flex:0 1 80% !important;
+}
+
+.no-margin-title{
+    margin-bottom:3px;
+}
+
+.no-margin-text{
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+.no-padding-sub{
+    margin-bottom:5px;
+    /* font-weight:300!important; */
+}
+
+.pagenum{
+    padding-top:35px;
+    color:black;
+    font-size:14px;
+}
+
+.centered-text{
+    text-align:center;
+}
+
+.disclaimer{
+    border: 3px solid #ea564b;
+    margin-top: 50px;
+    padding:20px;
+    text-align: center;
+    line-height:1.5;
+}
+
+.underline-short{
+    width: 102px !important;
+}
+
+.disclaimer-list{
+    margin-left:8px !important;
+}
+
+sup{
+    vertical-align:top !important;
+}
+
+.no-margin-p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.new-icon{
+    background-color: #ff6900;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto;
+    margin-bottom:30px;
+}
+
+.new-icon-img{
+    height:50px;
+    margin:0 auto;
+    
+}
+
+.new-icon-img2{
+    height:60px;
+    margin:0 auto;
+    padding-top:10px;
+    margin-top:5px;
+}
+
+.bot-marg{
+    margin-bottom:50px;
+}
+
+.icon,.icon2{
+    display:inline-block;
+    width:40px;
+    background-color:white;
+    height:5px;
+}
+
+.battery-container p {
+    font-size: 14px !important;
+}
+
+.title-size {
+    font-size: 30px !important;
+    font-weight: 800 !important;
+}
+
+.wide3 {
+    min-width: 427px;
+}
+
+
+/* HORIZONTAL LINE STYLING */
+
+#id8lfh {
+    width: 116%;
+}
+
+#i92n4f {
+    width: 116%;
+}
