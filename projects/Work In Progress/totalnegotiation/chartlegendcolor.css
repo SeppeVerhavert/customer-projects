@@ -1,0 +1,182 @@
+body {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+}
+    
+.header-container {
+      padding: 15px; 
+      background-color: #0C2444;
+      width: 100%;
+      height: 80px;
+    }
+    .template-widget.gauge_widget { 
+        font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+        font-size: 1.5em;
+        color: #0C2444;
+    }
+    
+    .highcharts-title{
+        text-transform: uppercase;
+        color: #0c2444 !important;
+        fill: #0c2444 !important;
+        font-weight: 700;
+    }
+    
+    
+    .chart-wrapper {
+        padding-bottom: 5px;
+        margin-top: 30px;
+        margin-left: auto !important;
+    }
+    #widget_5 .chart-wrapper {
+        margin-left:auto !important;
+        margin-top:300px !important;
+        padding-top:300px !important;
+        
+    }
+    
+    
+    .pheader {
+        text-align: left;
+        color: #fff;
+        font-size: 2.5em;
+    }
+    .pfooter {
+        text-align: left;
+        color: #0C2444;
+        font-size: 0.75em;
+    }
+    
+    .recos{
+    background-color: #0C2444;
+    color: #fff;
+    padding: 10px;
+    width:100%;
+    
+    
+    }
+    
+    .recosIntro{
+    background-color: #0C2444;
+    color: #fff;
+    padding: 20px;
+    margin-inline-start: -20px;
+    width:100%;
+    }
+    
+    
+    .center {
+      margin: auto;
+      width: 60%;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    section.title-page .logo {
+        max-width: 450px;
+        max-height: 850px;
+        padding: 50px 0;
+        width: 100%;
+        margin: auto;
+    }
+    
+    h1 { 
+    font-size: 2em; 
+    font-style: normal; 
+    text-transform: uppercase;
+    font-weight: 700; 
+    } 
+    
+    p { 
+    font-size: 1.0em; 
+    
+    } 
+    .pageTitle {
+      color: #0C2444;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: left;
+    }
+    .pageTitleLast {
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: left;
+    }
+    
+    .footer-container {
+      padding: 15px; 
+    }
+    
+    #final-page {
+      background-image: url("https://assets.surveyanyplace.com/survey/a8905edc-0a5b-4301-8747-ca6a5100afab/templates/da5ba682-3524-4f3a-9dbe-853dcb30a9ae/SVPQ7aUTNC5FhHz1DeCR_Background2.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+     background-color: #0C2444;
+     height:81vh;
+    
+    }
+    
+    #final-page ol.lastpage {
+        list-style-type: square;
+        color: #fff;
+        line-height: 160%;
+    }
+    
+    .divLast {
+        margin-left: 40px;
+    }
+    
+    /*
+    #widget_17{
+        position: absolute;
+        top: 25%;
+        right: 0;
+    }
+    #widget_18{
+        position: absolute;
+        top: 43%;
+        right: 0;
+    }
+    #widget_19,#widget_20,#widget_21,#widget_22{
+        position: absolute;
+        top: 74.8%;
+        right: 0;
+    }
+    
+    
+    
+    #widget_30{
+        position: absolute;
+        top: 23%;
+        right: 0;
+    }
+    #widget_31{
+        position: absolute;
+        top: 43%;
+        right: 0;
+    }
+    #widget_32,#widget_33,#widget_34,#widget_35{
+        position: absolute;
+        top: 74.8%;
+        right: 0;
+    }
+    
+    #widget_43{
+        position: absolute;
+        top: 19.8%;
+        right: 0;
+    }
+    #widget_44{
+        position: absolute;
+        top: 35%;
+        right: 0;
+    }
+    #widget_45,#widget_46,#widget_47,#widget_48{
+        position: absolute;
+        top: 62%;
+        right: 0;
+    }*/
+    
+    div.highcharts-solidgauge-series div.highcharts-label.highcharts-data-label.highcharts-tracker span {
+        color:#000 !important;
+    }

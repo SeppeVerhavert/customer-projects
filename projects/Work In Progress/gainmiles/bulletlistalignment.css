@@ -1,0 +1,7 @@
+.text-container ul > li, .branding-container ul > li, .result-container ul > li {
+    text-align: left;
+}
+
+p {
+    margin: auto;
+}

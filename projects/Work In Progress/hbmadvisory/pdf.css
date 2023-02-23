@@ -1,0 +1,7 @@
+g.highcharts-label.highcharts-data-label.highcharts-data-label-color-undefined text {
+    fill: black !important;
+}
+
+tspan.highcharts-text-outline {
+    stroke: none;
+}

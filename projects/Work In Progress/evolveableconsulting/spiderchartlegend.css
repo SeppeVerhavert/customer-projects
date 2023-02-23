@@ -1,0 +1,58 @@
+/*Chart title*/
+text.highcharts-axis-title {
+    fill:white !important;
+    font-weight: bold !important;
+}
+
+/*Chart axis values*/
+g.highcharts-yaxis-labels text {
+    fill: white !important;
+}
+
+/*Spider chart actual values*/
+g.highcharts-label.highcharts-data-label.highcharts-data-label-color-undefined text {
+    fill: grey !important;
+    transform: translateX(15px) !important;
+}
+
+/*Gauge chart actual value*/
+/*Removes the line around text*/
+tspan.highcharts-text-outline {
+    stroke: none;
+}
+/*Changes text properties*/
+g.highcharts-label.highcharts-data-label.highcharts-data-label-color-0 text {
+    fill: white !important;
+}
+
+/*Aligns the page-header to the top right of the page*/
+/*Number of pixels is the distance to the right/top edge of the page*/
+div.header-container {
+    right: 20px !important;
+    top: 10px !important;
+}
+
+/*Moves the axis labels down a bit*/
+/*NOTE: this is for all charts*/
+g.highcharts-radial-axis-labels {
+    transform: translateY(10px);
+}
+
+/*Undo for spider chart*/
+#iczafd g.highcharts-radial-axis-labels {
+    transform: translateY(0px) !important;
+}
+
+li {
+    color: white
+}
+
+/*White legend for spider chart*/
+div.spiderchart g.highcharts-xaxis-labels text,
+div.spiderchart g.highcharts-legend-item.highcharts-area-series.highcharts-color-undefined text {
+    fill: #fff !important;
+}
+
+.header-container img {
+    display: inline-block;
+}
