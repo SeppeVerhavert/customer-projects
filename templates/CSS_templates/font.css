@@ -1,16 +1,31 @@
+/*Define font*/
 @font-face {
-    font-family: "Gotham Book";
-    src: url("https://surveyanyplace.s3.amazonaws.com/custom/crs/GothamBook.ttf");
+    font-family: 'Nasa';
+    src: url('https://fonts.cdnfonts.com/s/56439/Nasa.woff');
 }
 
+
+/*Apply font to all text elements*/
 body {
-    font-family: "Gotham Book" !important;
+    font-family: 'Nasa', sans-serif !important;
 }
+
+
+/*Apply custom font to chart elements*/
+svg.highcharts-root {
+    font-family: 'Nasa', sans-serif !important;
+}
+
+
+/*----------------------------------------------*/
 
 
 /* OR ALTERNATIVELY */
-
+/*Define font*/
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+
+/*Apply font to all text elements*/
 body {
     font-family: 'Karla', sans-serif;
 }
