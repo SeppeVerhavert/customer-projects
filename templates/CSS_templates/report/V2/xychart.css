@@ -1,3 +1,8 @@
+/* NOTES */
+/* Want a specific chart and not all xy charts : replace "div.xy_widget" at the start by "#<widgetid>" */
+
+/*-------------------------------------------------------------------*/
+
 /*XY chart - hide axis (x, y, ticks, labels)*/
 /*Only applied in preview and PDF*/
 div.xy_widget div.chart-wrapper div.chart-container div.highcharts-container 
@@ -13,6 +18,7 @@ svg.highcharts-root g.highcharts-axis path {
     stroke-width: 0px !important;
 }
 
+/*-------------------------------------------------------------------*/
 
 /*XY chart marker size and color - DIM 1*/
 /*Only applied in preview and PDF*/
