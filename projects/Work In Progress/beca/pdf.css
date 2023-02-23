@@ -1,0 +1,36 @@
+/* COVER PAGE */
+section.title-page .top-container {
+    border-bottom:none !important;
+}
+
+.cover-text {
+    color:black;
+    font-size:16px;
+    position:absolute;
+    top:37rem;
+    left:120px;
+    text-align:left;
+}
+
+.cover-img {
+    position:absolute !important;
+    top:48rem;
+}
+
+/* PAGE 2 */
+
+.template-widget.image.column-center {
+    margin-bottom: 10px;
+}
+
+/* PAGE 3 */
+
+p.percentage:after {
+    content: '%';
+}
+
+/* PAGES 5 - 15 */
+
+div.template-widget.text.fr-view.column-right td {
+    border:none;
+}
