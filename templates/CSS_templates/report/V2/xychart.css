@@ -15,6 +15,7 @@ svg.highcharts-root g.highcharts-axis path {
 
 
 /*XY chart marker size and color - DIM 1*/
+/*Only applied in preview and PDF*/
 div.xy_widget div.chart-wrapper div.chart-container div.highcharts-container 
 svg.highcharts-root g.highcharts-series-group g.highcharts-series-0 path.highcharts-point {
     stroke-width: 10px;
@@ -23,6 +24,7 @@ svg.highcharts-root g.highcharts-series-group g.highcharts-series-0 path.highcha
 
 
 /*XY chart marker size and color - DIM 2*/
+/*Only applied in preview and PDF*/
 div.xy_widget div.chart-wrapper div.chart-container div.highcharts-container 
 svg.highcharts-root g.highcharts-series-group g.highcharts-series-1 path.highcharts-point {
     stroke-width: 6px;
