@@ -1,0 +1,30 @@
+/*XY chart - hide axis (x, y, ticks, labels)*/
+/*Only applied in preview and PDF*/
+div.xy_widget div.chart-wrapper div.chart-container div.highcharts-container 
+svg.highcharts-root g.highcharts-plot-lines-0 path.highcharts-plot-line {
+    stroke-width: 0px !important;
+}
+div.xy_widget div.chart-wrapper div.chart-container div.highcharts-container 
+svg.highcharts-root g.highcharts-axis-labels text{
+    opacity: 0 !important
+}
+div.xy_widget div.chart-wrapper div.chart-container div.highcharts-container 
+svg.highcharts-root g.highcharts-axis path {
+    stroke-width: 0px !important;
+}
+
+
+/*XY chart marker size and color - DIM 1*/
+div.xy_widget div.chart-wrapper div.chart-container div.highcharts-container 
+svg.highcharts-root g.highcharts-series-group g.highcharts-series-0 path.highcharts-point {
+    stroke-width: 10px;
+    stroke: red;
+}
+
+
+/*XY chart marker size and color - DIM 2*/
+div.xy_widget div.chart-wrapper div.chart-container div.highcharts-container 
+svg.highcharts-root g.highcharts-series-group g.highcharts-series-1 path.highcharts-point {
+    stroke-width: 6px;
+    stroke: black;
+}
