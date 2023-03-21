@@ -1,0 +1,27 @@
+#widget_cover_section_bottom {
+    font-size: 25px;
+    text-align: center;
+    color: #160284;
+    line-height: 1.2;
+}
+
+#widget_cover_section_top {
+    font-size: 45px;
+    text-align: center;
+    color: #f6a40f;
+    line-height: 1.2;
+}
+
+/* Gauge chart legends */
+#ilfulm #highcharts-30hdc3e-0>svg>g.highcharts-data-labels.highcharts-series-0.highcharts-solidgauge-series.highcharts-tracker>g>text {
+    font-size: 40px !important;
+}
+
+.gauge_widget .highcharts-yaxis-labels.highcharts-radial-axis-labels text {
+    transform: translateY(10px);
+}
+
+.gauge_widget .highcharts-data-labels.highcharts-solidgauge-series.highcharts-tracker .highcharts-data-label text {
+    font-size: 50px !important;
+    transform: translateX(-15px);
+}
