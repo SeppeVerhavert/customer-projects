@@ -1,0 +1,8 @@
+div.card-logo.card-status-info {
+    position: absolute;
+    top: 0 !important;
+}
+
+div#content1 div.card-logo.card-status-info {
+    visibility: hidden;
+}
