@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@font-face {
+    font-family: 'Libel Suit Extra Light';
+    src: url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-el-webfont.woff") format("woff"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-el-webfont.ttf") format("truetype"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-el-webfont.svg#libel_suitextralight") format("svg");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libel Suit Extra Light';
+    src: url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-el-it-webfont.woff") format("woff"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-el-it-webfont.ttf") format("truetype"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-el-it-webfont.svg#libel_suitextralight_italic") format("svg");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libel Suit Light';
+    src: url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-lt-webfont.woff") format("woff"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-lt-webfont.ttf") format("truetype"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-lt-webfont.svg#libel_suitlight") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libel Suit Light';
+    src: url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-lt-it-webfont.woff") format("woff"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-lt-it-webfont.ttf") format("truetype"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-lt-it-webfont.svg#libel_suitlight_italic") format("svg");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libel Suit Regular';
+    src: url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-rg-webfont.woff") format("woff"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-rg-webfont.ttf") format("truetype"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-rg-webfont.svg#libel_suitregular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libel Suit Regular';
+    src: url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-rg-it-webfont.woff") format("woff"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-rg-it-webfont.ttf") format("truetype"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-rg-it-webfont.svg#libel_suititalic") format("svg");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libel Suit Book';
+    src: url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-bk-webfont.woff") format("woff"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-bk-webfont.ttf") format("truetype"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-bk-webfont.svg#libel_suitbook") format("svg");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libel Suit Book';
+    src: url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-bk-it-webfont.woff") format("woff"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-bk-it-webfont.ttf") format("truetype"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-bk-it-webfont.svg#libel_suitbook_italic") format("svg");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libel Suit Semibold';
+    src: url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-sb-webfont.woff") format("woff"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-sb-webfont.ttf") format("truetype"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-sb-webfont.svg#libel_suitsemibold") format("svg");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libel Suit Semibold';
+    src: url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-sb-it-webfont.woff") format("woff"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-sb-it-webfont.ttf") format("truetype"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-sb-it-webfont.svg#libel_suitsemibold_italic") format("svg");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libel Suit Bold';
+    src: url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-bd-webfont.woff") format("woff"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-bd-webfont.ttf") format("truetype"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-bd-webfont.svg#libel_suitbold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libel Suit Bold';
+    src: url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-bd-it-webfont.woff") format("woff"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-bd-it-webfont.ttf") format("truetype"), url("https://mindinsurance.com.au/wp-content/uploads/fonts/libel-suit-bd-it-webfont.svg#libel_suitbold_italic") format("svg");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Overpass';
+    src: url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+}
+
+body {
+    font-family: 'Overpass', sans-serif !important;
+}
+
+.header-container {
+    display: none;
+}
+
+header {
+    display: none !important;
+}
+
+.footer-container {
+    margin-bottom: 20px;
+    border-top: 0px !important;
+    border-style: none;
+}
+
+
+.formula-ranking-container {
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+    border-color: #737373;
+}
+
+.formula-ranking-title {
+    font-family: 'Overpass', sans-serif;
+}
+
+.highcharts-title {
+    font-family: 'Overpass', sans-serif;
+}
+
+.highcharts-subtitle {
+    font-family: 'Overpass', sans-serif;
+}
+
+.highcharts-caption {
+    font-family: 'Overpass', sans-serif;
+}
+
+.highcharts-axis-labels {
+    font-family: 'Overpass', sans-serif;
+}
