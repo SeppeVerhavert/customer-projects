@@ -1,0 +1,3 @@
+.footer-container {
+    content: counter(page) !important;
+}
