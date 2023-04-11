@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+
+/*Apply font to all text elements*/
+body {
+    font-family: 'Alegreya+Sans', sans-serif !important;
+}
+
+/* TOC Breadcrumb */
+
+div.card-logo.card-status-info {
+    position: absolute;
+    top: 0 !important;
+}
+
+div#content1 div.card-logo.card-status-info {
+    visibility: hidden;
+}

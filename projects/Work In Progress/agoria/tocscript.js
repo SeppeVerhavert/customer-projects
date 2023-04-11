@@ -1,12 +1,4 @@
 require(['jquery', 'underscore'], function ($, _) {
-    // Split the question blocks in different categories.
-    // Key is the order of the question block the category needs to start from.
-    var categories = {
-        1: 'Category 1',
-        3: 'Category 2',
-        5: 'Category 3',
-    };
-
     var createTableOfContentsInFirstQuestion = function () {
         var questionBlocks = App.quiz.get('questionblocks');
         var firstQuestion = questionBlocks.first().get('questions').first();
@@ -15,20 +7,25 @@ require(['jquery', 'underscore'], function ($, _) {
         $tableOfContentAnswerContainer.classList.add('text-choice');
 
         $tableOfContentAnswerContainer.innerHTML = '';
+        var previousCategory = null;
 
         questionBlocks.each(function (questionBlock, i) {
             if (i === 0) {
                 return;
             }
 
-            if (categories.hasOwnProperty(i)) {
-                const categoryElement = document.createElement('h2');
-                categoryElement.innerHTML = categories[i];
+            var firstQuestion = questionBlock.get('questions').first();
+            var currentCategory = firstQuestion.getTranslations('question_tag');
 
+            if (currentCategory && currentCategory.length > 0 && currentCategory !== previousCategory) {
+                const categoryElement = document.createElement('h2');
+                categoryElement.innerHTML = currentCategory;
                 $tableOfContentAnswerContainer.appendChild(categoryElement);
+
+                previousCategory = currentCategory;
             }
 
-            const answerElement = document.createElement('label');
+            var answerElement = document.createElement('label');
             answerElement.classList.add('answer');
             answerElement.setAttribute('for', 'questionblock-' + questionBlock.get('order'));
             answerElement.setAttribute('order', questionBlock.get('order'));
@@ -38,7 +35,7 @@ require(['jquery', 'underscore'], function ($, _) {
                 var questionBlockOrder = parseInt(this.getAttribute('order'));
                 var selectedQuestionBlock = questionBlocks.find((questionBlock) => questionBlock.get('order') === questionBlockOrder);
 
-                App.Slides.slider.goTo(App.Slides.getSlideModelByQuestion(selectedQuestionBlock.get('questions').first()).id);
+                App.Slides.slider.goTo(App.Slides.getSlideBySlideModel(App.Slides.getSlideModelByQuestion(selectedQuestionBlock.get('questions').first())).id);
             });
 
             $tableOfContentAnswerContainer.appendChild(answerElement);
@@ -60,12 +57,47 @@ require(['jquery', 'underscore'], function ($, _) {
                 var $questionBlockPreviousButton = $container.find('.prev-2');
 
                 if ($questionBlockPreviousButton.length === 0) {
-                    var previousButtonTemplate = '<div class="button prev-2"> Table of Contents </div>';
+                    var previousButtonTemplate = '<div class="button prev-2"> &lt;&lt; HOME</div>';
                     $questionBlockPreviousButton = $(previousButtonTemplate).prependTo($container);
 
                     $questionBlockPreviousButton.click(function () {
-                        App.Slides.slider.goTo(App.Slides.getSlideModelByQuestion(firstQuestion).id);
+                        App.Slides.slider.goTo(App.Slides.getSlideBySlideModel(App.Slides.getSlideModelByQuestion(firstQuestion)).id);
                     });
+                }
+            });
+        });
+    }
+
+    var addBreadcrumbs = function () {
+        var questionBlocks = App.quiz.get('questionblocks');
+
+        questionBlocks.each(function (questionBlock, i) {
+            if (i === 0) {
+                return;
+            }
+
+            questionBlock.get('questions').each(function (question, j) {
+                var slideView = App.Slides.getSlideModelByQuestion(question).view;
+                var $container = slideView.$el.find('.card-container').first();
+                var breadcrumbsElementExists = $container.find('.card-breadcrumbs').length !== 0;
+
+                if (breadcrumbsElementExists === false) {
+                    var breadcrumbsElement = document.createElement('ul');
+                    breadcrumbsElement.classList.add('card-breadcrumbs');
+
+                    var questionTag = question.getTranslations('question_tag');
+
+                    if (questionTag && questionTag.length > 0) {
+                        var categoryElement = document.createElement('li');
+                        categoryElement.innerHTML = questionTag;
+                        breadcrumbsElement.append(categoryElement);
+                    }
+
+                    var questionBlockElement = document.createElement('li');
+                    questionBlockElement.innerHTML = questionBlock.getTitle();
+                    breadcrumbsElement.append(questionBlockElement);
+
+                    $(breadcrumbsElement).prependTo($container);
                 }
             });
         });
@@ -74,5 +106,6 @@ require(['jquery', 'underscore'], function ($, _) {
     App.functions.onSurveyLoaded(function () {
         createTableOfContentsInFirstQuestion();
         addBackToTableOfContentsButton();
+        addBreadcrumbs();
     });
 });
