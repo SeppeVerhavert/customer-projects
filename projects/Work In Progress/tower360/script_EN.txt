@@ -1,0 +1,249 @@
+docReady(function () {
+
+    $('#widget_4 .kpi-container').detach().appendTo('#page_2 .status-graph');
+	$('#widget_5 .kpi-container').detach().appendTo('#page_2 .small-graph1');
+	$('#widget_6 .kpi-container').detach().appendTo('#page_2 #small-graph2');
+	$('#widget_7 .kpi-container').detach().appendTo('#page_2 #small-graph3');
+	$('#widget_8 .kpi-container').detach().appendTo('#page_2 #small-graph4');
+	$('#widget_9 .kpi-container').detach().appendTo('#page_2 #small-graph5');
+	$('#widget_12 .kpi-container').detach().appendTo('#page_3 #section-graph1');
+	$('#widget_13 .kpi-container').detach().appendTo('#page_3 #section-graph2');
+	$('#widget_14 .kpi-container').detach().appendTo('#page_3 #section-graph3');
+	$('#widget_15 .kpi-container').detach().appendTo('#page_3 #section-graph4');
+	$('#widget_18 .kpi-container').detach().appendTo('#page_4 #section-graph5');
+	$('#widget_21 .chart-wrapper').detach().appendTo('#page_5 .spider-graph');
+
+	const percent= parseInt(document.getElementById('percent').innerText);
+	const tenant= parseInt(document.getElementById('tenant').innerText);
+	const mark= parseInt(document.getElementById('mark').innerText);
+	const prop= parseInt(document.getElementById('prop').innerText);
+	const lease= parseInt(document.getElementById('lease').innerText);
+	const report= parseInt(document.getElementById('report').innerText);
+
+	var commaCheck = false;
+	var andCheck = false;
+	let text = "";
+	let counter = 0;
+ 	
+	
+	if ( percent >= 80){
+		document.getElementById('status-stage').innerHTML += ` <strong>Mature</strong>`;
+		document.getElementById('status-text').innerHTML += `Being at a mature stage of digital transformation deserves a 
+		congratulatory note. Few organizations can claim the honor of reaching this level of sophistication. 
+		However, even at this phase, there may be certain elements of your current technology that need 
+		enhancement. So, it is important to have the right set of tools to build upon an already world-class 
+		management function.`;
+	} else if ( percent >= 40 && percent <80){
+		document.getElementById('status-stage').innerHTML += ` <strong>Evolving</strong>`;
+		document.getElementById('status-text').innerHTML += `You may have a basic tool kit needed for building an efficient 
+		and effective management program. But your functional capabilities are still at an evolving stage. That is because 
+		there are clear gaps in your deployed technology, for example. These inhibit your ability to build a worldclass 
+		management function to deliver on business outcomes.`;
+	} else {
+		document.getElementById('status-stage').innerHTML += ` <strong>Nascent</strong>`;
+		document.getElementById('status-text').innerHTML += `When your asset management function is at a nascent stage of 
+		digital transformation, more than likely, there are rather significant deficits with your current management program. 
+		It should be effective and efficient enough to meet your current needs while helping you to deliver on business outcomes. 
+		All of this needs addressing to build a long-term, sustainable management.`;
+	}
+
+	if ( tenant >= 80 ){
+		document.getElementById('tenant-text').innerHTML += `<div class="category"><strong>Status Mature - </strong>Your tenant 
+		relationship process are in line with best practices. To further improve your tenant relationship management, check to see if
+		you can incorporate your tenant feedback through customizable surveys and track the changing requirements of your tenants 
+		on a regular basis.</div>`
+	} else if ( tenant <80 && tenant >= 40){
+		document.getElementById('tenant-text').innerHTML += `<div class="category"><strong>Status Evolving - </strong>There is inefficiency 
+		in your tenant relationship management process. Best practice is to use an integrated solution that allows you to aggregate 
+		your tenants on a group level, and thereby having a centralized view of all your tenants, their contact persons and risk metrics, 
+		allowing you to proactively measure the satisfaction of your tenants and to manage proactively manage renewal risks.</div>`
+	} else {
+		document.getElementById('tenant-text').innerHTML += `<div class="category"><strong>Status Nascent - </strong>There is a clear deficit 
+		in your asset management processes as it relates to the management of your tenants. You should aim to procure an integrated solution 
+		that allows you to aggregate your tenants on a group level, and thereby having a centralized view of all your tenants, their contact 
+		persons and risk metrics, allowing you to proactively measure the satisfaction of your tenants and to manage proactively manage renewal 
+		risks.</div>`
+	}
+
+	if ( mark >= 80 ){
+		document.getElementById('mark-text').innerHTML += `<div class="category"><strong>Status Mature - </strong>Your lease and marketing 
+		process are in line with best practices.</div>`
+	} else if ( mark <80 && mark >= 40){
+		document.getElementById('mark-text').innerHTML += `<div class="category"><strong>Status Evolving - </strong>There is inefficiency in your 
+		lease and marketing process. Best practice is to use an end-to-end lease administration tool that will allow you to manage your 
+		availabiliies, marketing activities, and the management of your tenant opportunities in central location. Your system should be 
+		integrated with with other process steps such as the generation of proposals, approvals and lease agreements.</div>`
+	} else {
+		document.getElementById('mark-text').innerHTML += `<div class="category"><strong>Status Nascent - </strong>There is a clear deficit 
+		in your asset management readiness as it relates to using a tool to manage your lease and marketing related activities. 
+		You should aim to procure an end-to-end lease administration tool that will allow you to manage your availabiliies, marketing 
+		activities, and the management of your tenant opportunities in central location. Your system should be integrated with other 
+		process steps such as the generation of proposals, approvals and lease agreements.</div>`
+	}
+
+	if ( prop >= 80 ){
+		document.getElementById('prop-text').innerHTML += `<div class="category"><strong>Status Mature - </strong>Your proposals and 
+		approval process are in line with best practices.</div>`
+	} else if ( prop <80 && prop >= 40){
+		document.getElementById('prop-text').innerHTML += `<div class="category"><strong>Status Evolving - </strong>There is inefficiency 
+		in your process regarding proposals and approvals. Best practice is to use a system that automatically allows you to generate 
+		proposals and approvals. The system should also integrate with in your entire lease administration process in an end-to-end 
+		fashion including the generation of lease agreement templates.</div>`
+	} else {
+		document.getElementById('prop-text').innerHTML += `<div class="category"><strong>Status Nascent - </strong>There is a clear 
+		deficit in your asset management readiness as it relates to the management of proposals and approvals. You should aim to 
+		procure a system that automatically allows you to generate proposals and approvals. The system should also integrate with 
+		in your entire lease administration process in an end-to-end fashion including the generation of lease agreement templates.</div>`
+	}
+
+	if ( lease >= 80 ){
+		document.getElementById('lease-text').innerHTML += `<div class="category"><strong>Status Mature - </strong>Your contract digitization 
+		process is in line with best practices.</div>`
+	} else if ( lease <80 && lease >= 40){
+		document.getElementById('lease-text').innerHTML += `<div class="category"><strong>Status Evolving - </strong>There is inefficiency 
+		in your lease contract generation process. Best practice is an easy-to-use, dynamic lease agreement generation tool, with the 
+		capacity for sophisticated logic, to handle the generation of complex contracts on your entire portfolio. This tool should be 
+		'self-serviced' for users across your enterprise and integrate into your lease administration and approval workflows in an 
+		end-to-end fashion.</div>`
+	} else {
+		document.getElementById('lease-text').innerHTML += `<div class="category"><strong>Status Nascent - </strong>There is a clear 
+		deficit in your lease agreement management as it relates to using an automation tool to efficiently generate lease agreement 
+		drafts contracts. You should aim to procure an easy-to-use, dynamic lease agreement generation tool, with the capacity for 
+		sophisticated logic, to handle the generation of complex contracts on your entire portfolio. This tool should be 'self-serviced' 
+		for users across your enterprise and integrate into your lease administration and approval workflows in an end-to-end fashion.</div>`
+	}
+
+	if ( report >= 80 ){
+		document.getElementById('report-text').innerHTML += `<div class="category"><strong>Status Mature - </strong>Your reporting process 
+		are in line with best practices.To further improve your digital asset management readiness, determine if you can
+		configure your visualized analytics using a low code logic, and the extent to which the generated insights are 
+		actionable for business impact.</div>`
+	} else if ( report <80 && report >= 40){
+		document.getElementById('report-text').innerHTML += `<div class="category"><strong>Status Evolving - </strong>There is inefficiency 
+		in your reporting and analytics process. Best practice is using a solution, with robust analytics and visualization, for insight 
+		generation and ease of executive reporting / visibility. The solution should have fully-configurable custom reporting and visualized 
+		dashboards, on portfolio and asset level, and allow to drill down till the unit level. This should include analytics around tenants, 
+		vacancies and lease pipeline for example. The solution also should be able to track and report your organization's letting and asset 
+		management related process performance (e.g., cycle times for leases, renewal rates, and performance vs. benchmark, etc.). This 
+		enables quantification of your asset management successes.</div>`
+	} else {
+		document.getElementById('report-text').innerHTML += `<div class="category"><strong>Status Nascent - </strong>There is a clear deficit in 
+		your real estate asset management as it relates to reporting and analytics.You should aim to procure a solution, with robust analytics 
+		and visualization, for insight generation and ease of executive reporting / visibility. The solution should have fully-configurable 
+		custom reporting and visualized dashboards, on portfolio and asset level, and allow to drill down till the unit level. This should 
+		include analytics around tenants, vacancies and lease pipeline for example. The solution also should be able to track and report your 
+		organization's letting and asset management related process performance (e.g., cycle times for leases, renewal rates, and performance 
+		vs. benchmark, etc.). This enables quantification of your asset management successes.</div>`
+	}
+
+	var topScore = (percent == 100);
+	var lowTenant = (tenant < 100);
+	var lowMark = (mark < 100);
+	var lowProp = (prop < 100);
+	var lowLease = (lease < 100);
+	var lowReport = (report < 100);
+
+	var afterTenant = 0;
+	var afterMark = 0;
+	var afterProp = 0;
+	var afterLease = 0;
+	
+	if (lowMark) {
+		afterTenant += 1;
+	}
+	if (lowProp) {
+		afterTenant += 1;
+		afterMark += 1;
+	}
+	if (lowLease) {
+		afterTenant += 1;
+		afterMark += 1;
+		afterProp += 1;
+	}
+	if (lowReport) {
+		afterTenant += 1;
+		afterMark += 1;
+		afterProp += 1;
+		afterLease += 1;
+	}
+	
+
+	
+	if (topScore) {
+		text += " Your setup in the field of asset management software is at an advanced stage compared to other real estate asset managers. You have achieved the maximum score of XXX % in the areas of Tenant Management, Lease & Marketing, Proposals & Approvals, Lease Agreements and Reporting & Analytics, but even here there is room for improvement in certain elements. It is therefore important that you continuously adapt your asset management software solution to the most advanced standard.";
+	} else {
+		text = " For your setup in the area of asset management software in the areas of ";
+		
+		if (lowTenant) {
+			text += "Tenant Management";
+			commaCheck = true;
+		}
+		if (lowMark) {
+			if (commaCheck) {
+				if (afterTenant == 1) {
+					text += " and ";
+				} else {
+					text += ", ";
+				}
+			}	
+			commaCheck = true;		
+			text += "Lease & Marketing";
+		}
+		if (lowProp) {
+			if (commaCheck) {
+				if (afterMark == 1) {
+					text += " and ";
+				} else {
+					text += ", ";
+				}
+			}
+			commaCheck = true;
+			text += "Proposals & Approvals";
+		}
+		if (lowLease) {
+			if (commaCheck) {
+				if (afterProp == 1) {
+					text += " and ";
+				} else {
+					text += ", ";
+				}
+			}
+			commaCheck = true;
+			text += "Lease Agreements";
+		}
+		if (lowReport) {
+			if (commaCheck) {
+				if (afterLease == 1) {
+					text += " and ";
+				} else {
+					text += ", ";
+				}
+			}
+			text += "Reporting & Analytics";
+		}
+
+		text += " there is extensive potential for optimisation. It is therefore important that you continuously software solution in asset management to the most advanced standard.";
+	}
+	document.getElementById('spider-text').innerHTML += text;
+	
+	
+});
+
+		
+
+function docReady(fn) {
+	console.log("pretimeout");
+
+	if (document.readyState === "complete" || document.readyState === "interactive") {
+		// call on next available tick
+		setTimeout(fn, 1);
+
+	} else {
+		document.addEventListener("DOMContentLoaded", fn, false);
+		/////////////////////////////////////////////////////////////////
+		//********************* **********************//
+		window.addEventListener('load', (event) => {
+			console.log('DOM fully loaded and parsed');
+		});
+	}
+}

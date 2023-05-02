@@ -1,0 +1,43 @@
+<div v-if="*|f10_avg_result|* >= 4.21">
+    <p><span class="font-medium"><strong><span style="color: rgb(13,113,20);"><br></span></strong></span></p>
+    <p><span class="font-medium"><strong><span style="color: rgb(13,113,20);"><br></span></strong></span></p>
+    <p><span class="font-medium"><strong><span style="color: rgb(13,113,20);">THRIVING:&nbsp;</span></strong>A score of
+            <strong>4.21 to 5.00</strong><strong>&nbsp;</strong>suggests that your team is world class in this
+            dimension. Proven with sustainable high performance, this is your team’s brand which other teams look up
+            to.</span></p>
+    <p><span class="font-medium"><br></span></p>
+</div>
+<div v-if="*|f10_avg_result|* < 4.20 && *|f10_avg_result|* >= 3.41">
+    <p><span class="font-medium"><span style="color: rgb(81,169,49);"><strong><span
+                        style="color: rgb(81,169,49);"><br></span></strong></span></span></p>
+    <p><span class="font-medium"><span style="color: rgb(81,169,49);"><strong><span
+                        style="color: rgb(81,169,49);">PERFORMING:</span></strong> </span>A score of <strong>3.41 to
+                4.20 </strong>suggests that your team is performing well in this dimension. This is a strength of your
+            team and should be carefully preserved and built on to sustain your performance.</span></p>
+    <p><span class="font-medium"><br></span></p>
+</div>
+<div v-if="*|f10_avg_result|* < 3.40 && *|f10_avg_result|* >=2.61">
+    <p><span class="font-medium"><span style="color: rgb(255,192,0);"><br></span></span></p>
+    <p><span class="font-medium"><span style="color: rgb(255,192,0);"><span
+                    style="color: rgb(255,192,0);"></span></span><strong><span
+                    style="color: rgb(255,192,0) ;">STRIVING:</span></strong> A score of <strong>2.61 to
+                3.40</strong>&nbsp;suggests that your team is performing well in this dimension. This is a strength of
+            your team and should be carefully preserved and built on to sustain your performance.</span></p>
+    <p><span class="font-medium"><br></span></p>
+</div>
+<div v-if="*|f10_avg_result|* < 2.61 && *|f10_avg_result|* >= 1.81">
+    <p><span class="font-medium"><strong><span style="color: rgb(255,149,36);"><br></span></strong></span></p>
+    <p><span class="font-medium"><strong><span style="color: rgb(255,149,36);">SURVIVING:&nbsp;</span></strong>A score
+            of
+            <strong>1.81 to 2.60</strong> suggests that team health in this dimension needs to be addressed. It is
+            crucial to work on this dimension to expand the team's potential and avoid the risk of falling into
+            burnout.</span></p>
+    <p><span class="font-medium"><br></span></p>
+</div>
+<div v-if="*|f10_avg_result|* < 1.81">
+    <p><span class="font-medium"><strong><span style="color: rgb(192,0,0);"><br></span></strong></span></p>
+    <p><span class="font-medium"><strong><span style="color: rgb(192,0,0);">BURN OUT:&nbsp;</span></strong>A score of
+            <strong>1 to 1.80</strong> suggests that there are significant obstacles standing in the way of this
+            dimension. Long term weakness in this dimension will lead to below par performance, low engagement and
+            burnout.<br></span> </p>
+</div>

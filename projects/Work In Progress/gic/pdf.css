@@ -1,0 +1,52 @@
+/* BARCHARTS */
+div.template-widget.bar g.highcharts-legend-item.highcharts-bar-series,
+div.template-widget.bar .highcharts-axis.highcharts-yaxis {
+    display: none !important;
+}
+
+div.template-widget.bar:not(div#ie9f3m) g.highcharts-xaxis-labels {
+    display: none !important;
+}
+
+/* BAR CHARTS */
+
+/* div.template-widget.bar:not(div#ie9f3m) g.highcharts-series-group g.highcharts-bar-series.highcharts-tracker:not(:has(:nth-child(4))) rect {
+    transform: scaleX(1.1) translateX(-10px) !important;
+} */
+
+
+div.template-widget.bar#ice3w9 svg.highcharts-root,
+div.template-widget.bar#i65c95 svg.highcharts-root,
+div.template-widget.bar#it5t4m svg.highcharts-root,
+div.template-widget.bar#iv0vr8 svg.highcharts-root {
+    transform: scaleY(1.3) translateY(35px);
+}
+
+div.template-widget.bar:not(div#ie9f3m) g.highcharts-series-group g.highcharts-bar-series.highcharts-tracker:not(:has(:nth-child(3))) rect {
+    transform: scaleX(0.9) translateX(15px) !important;
+}
+
+div.template-widget.bar:not(div#ie9f3m) g.highcharts-series-group g.highcharts-bar-series.highcharts-tracker:not(:has(:nth-child(2))) rect {
+    transform: scaleX(0.6) translateX(75px) !important;
+}
+
+/* TABLES - left side*/
+.col-6 table {
+    border-collapse: separate !important;
+    border-spacing: 0 5px !important;
+}
+
+.col-6 table,
+.col-6 tr,
+.col-6 td {
+    border: none !important;
+}
+
+.col-6 table td:last-child {
+    text-align: center !important;
+}
+
+.col-6 table td {
+    padding: 7px 0 !important;
+    vertical-align: middle;
+}

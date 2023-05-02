@@ -1,0 +1,25 @@
+<div class="traffic-light-container">
+        <p style="text-align: center;"
+                v-if="*|f17_result|* <= *|EXTERNAL_FIELD_GREEN_BELOW|* && *|f17_result|* > *|EXTERNAL_FIELD_GREEN_ABOVE|*">
+                <img style="margin:auto;"
+                        src="https://assets.pointerpro.com/media-library/production/100164/DgGj5Zz1SquVQsOh1YjJ_Green_light.png">
+        </p>
+        <p style="text-align: center;" v-if="*|f17_result|* > 0.331 && *|f17_result|* <= 0.400"><img
+                        style="margin:auto;"
+                        src="https://assets.pointerpro.com/survey/4ffc53c1-8d54-49dd-83a5-840379b70448/templates/e1017fa4-e542-4654-a8cd-3c64a96d09a2/iScQ6SqSlKx43ZFfoSff_Amber_light.png">
+        </p>
+        <p style="text-align: center;" v-if="*|f17_result|* > 0.400 && *|f17_result|* <= 0.460"><img
+                        style="margin:auto;"
+                        src="https://assets.pointerpro.com/survey/4ffc53c1-8d54-49dd-83a5-840379b70448/templates/a59f515f-473c-47de-93e9-9a60e518b519/PAUJAn1zTRimrRSyXswg_Half_red_better.png">
+        </p>
+        <p style="text-align: center;" v-if="*|f17_result|* > 0.460 && *|f17_result|* <= 0.530"><img
+                        style="margin:auto;"
+                        src="https://assets.pointerpro.com/survey/4ffc53c1-8d54-49dd-83a5-840379b70448/templates/e1017fa4-e542-4654-a8cd-3c64a96d09a2/YjVMHcYTwGwhhq4BtZrA_Red_light.png">
+        </p>
+        <p style="text-align: center;" v-if="*|f17_result|* > 0.530"><img style="margin:auto;"
+                        src="https://assets.pointerpro.com/survey/4ffc53c1-8d54-49dd-83a5-840379b70448/templates/e1017fa4-e542-4654-a8cd-3c64a96d09a2/SGfzUdJQw6cExqA2fJiF_Blank_light.png">
+        </p>
+        <p style="text-align: center;" v-if="*|f17_result|* == 0.000"><img style="margin:auto;"
+                        src="https://assets.pointerpro.com/survey/4ffc53c1-8d54-49dd-83a5-840379b70448/templates/a59f515f-473c-47de-93e9-9a60e518b519/K3zqSw2OSm6K8hNpBCeG_Half_green_best.png">
+        </p>
+</div>

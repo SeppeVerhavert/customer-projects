@@ -1,0 +1,72 @@
+/*Column Chart title*/
+div.column_chart text.highcharts-title {
+    fill: rgb(0, 49, 99) !important;
+    font-weight: bold !important;
+}
+
+/*Chart axis values*/
+g.highcharts-yaxis-labels text {
+    fill: rgb(0, 49, 99) !important;
+}
+
+/*Spider chart actual values*/
+g.highcharts-label.highcharts-data-label.highcharts-data-label-color-undefined text {
+    fill: grey !important;
+    transform: translateX(15px) !important;
+}
+
+/*Gauge chart actual value*/
+/*Removes the line around text*/
+tspan.highcharts-text-outline {
+    stroke: none;
+}
+
+/*Changes text properties*/
+g.highcharts-label.highcharts-data-label.highcharts-data-label-color-0 text {
+    fill: rgb(0, 49, 99) !important;
+}
+
+/*Aligns the page-header to the top right of the page*/
+/*Number of pixels is the distance to the right/top edge of the page*/
+div.header-container {
+    right: 20px !important;
+    top: 10px !important;
+}
+
+/*Moves the axis labels down a bit*/
+/*NOTE: this is for all charts*/
+g.highcharts-radial-axis-labels {
+    transform: translateY(10px);
+}
+
+/*Undo for spider chart*/
+#iczafd g.highcharts-radial-axis-labels {
+    transform: translateY(0px) !important;
+}
+
+/*Colour of bullets points in report*/
+li {
+    color: rgb(0, 49, 99)
+}
+
+/*White legend for spider chart*/
+div.spiderchart g.highcharts-xaxis-labels text,
+div.spiderchart g.highcharts-legend-item.highcharts-area-series.highcharts-color-undefined text {
+    fill: rgb(0, 49, 99)e !important;
+}
+
+.header-container img {
+    display: inline-block;
+}
+
+/*Column Chart title*/
+.chart-title {
+    fill: rgb(0, 49, 99) !important;
+    font-weight: bold !important;
+}
+
+/*Column Chart axis*/
+.axis-title {
+    fill: rgb(0, 49, 99) !important;
+    font-weight: bold !important;
+}

@@ -1,0 +1,15 @@
+<div v-if="*|f1_result|* < 7">
+    <p>Lower than 7 score text</p>
+</div>
+<div v-if="*|f1_result|* <= 7">
+    <p>Lower than or equal to 7 score text</p>
+</div>
+<div v-if="*|f1_result|* < 7 && *|f1_result|* > 5">
+    <p>Between 5 and 7score text</p>
+</div>
+<div v-if="*|f1_result|* == 7 || *|f1_result|* == 8">
+    <p>Equal to 7 or equal to 8 score text</p>
+</div>
+<div v-if="*|f1_result|* === `text`">
+    <p>Equal to string score text</p>
+</div>
