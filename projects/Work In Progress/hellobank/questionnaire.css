@@ -1,0 +1,7 @@
+.card:not(.intro) .card-logo,
+.card:not(.intro-card) .card-logo {
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1 !important;
+    height: auto !important;
+}

@@ -1,0 +1,600 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'ProximaNovaCond-Regular';
+    src: url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/fonts/ProximaNovaCond-Regular.eot');
+    src:
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/fonts/ProximaNovaCond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/css/fonts/ProximaNovaCond-Regular.woff2') format('woff2'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/css/fonts/ProximaNovaCond-Regular.woff') format('woff'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/fonts/ProximaNovaCond-Regular.ttf') format('truetype'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/fonts/ProximaNovaCond-Regular.svg#ProximaNovaCond-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima-Nova-Regular';
+    src: url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/fonts/Proxima-Nova-Regular.eot');
+    src:
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/fonts/Proxima-Nova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/css/fonts/Proxima-Nova-Regular.woff2') format('woff2'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/css/fonts/Proxima-Nova-Regular.woff') format('woff'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/css/fonts/Proxima-Nova-Regular.ttf') format('truetype'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/fonts/Proxima-Nova-Regular.svg#Proxima-Nova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'Proxima-Nova-Semibold';
+    src: url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/fonts/Proxima-Nova-Semibold.eot');
+    src:
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/fonts/Proxima-Nova-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/css/fonts/Proxima-Nova-Semibold.woff2') format('woff2'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/css/fonts/Proxima-Nova-Semibold.woff') format('woff'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/css/fonts/Proxima-Nova-Semibold.ttf') format('truetype'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/fonts/Proxima-Nova-Semibold.svg#Proxima-Nova-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima-Nova-Bold';
+    src: url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/fonts/Proxima-Nova-Bold.eot');
+    src:
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/fonts/Proxima-Nova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/css/fonts/Proxima-Nova-Bold.woff2') format('woff2'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/css/fonts/Proxima-Nova-Bold.woff') format('woff'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/css/fonts/Proxima-Nova-Bold.ttf') format('truetype'),
+        url('../content/dam/intelligentcontent/unbranded/airsupra-dtc/en/fonts/Proxima-Nova-Bold.svg#Proxima-Nova-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body,
+p {
+    font-family: 'Proxima-Nova-Regular' !important;
+}
+
+.rsContainer {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 100%);
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px #69696929;
+    height: 631px;
+}
+
+.card-wrapper {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 100%);
+}
+
+/* .card-content .container {background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 100%);} */
+
+.card-content {
+    padding: 0px;
+}
+
+
+.rsSlide:not(.rsActiveSlide) .card-container {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 100%);
+}
+
+/* #view{background: rgb(255,255,255);
+    background: linear-gradient(4deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 23%, rgba(245,245,245,1) 69%);} */
+
+body.theme-template-simple #status-message.active,
+body.theme-template-simple .card {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 100%);
+}
+
+.theme-progress-show-page-numbers .card-wrapper {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 100%);
+}
+
+.theme-layout-centered .card-container {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 100%);
+}
+
+
+.theme-layout-centered .card-body {
+    padding: 10px 0px 0px 0px;
+}
+
+/* .theme-font-size-small .text-container{background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 100%);} */
+
+.card-content .container p.take-quiz {
+    margin-top: 25px;
+}
+
+.number-wrapper {
+    padding-bottom: 35px;
+    padding-top: 40px;
+}
+
+.correct-text {
+    margin-top: 20px;
+}
+
+.almost-text {
+    margin-top: 30px;
+}
+
+#yes-text.number-wrapper {
+    padding-bottom: 0px;
+}
+
+#no-text.number-wrapper {
+    padding-bottom: 0px;
+}
+
+.number-wrapper .num2 {
+    padding-bottom: 35px;
+    padding-top: 40px;
+}
+
+
+.number-wrapper .num3 {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+
+.card-content .container p.forget-text {
+    max-width: 373px;
+}
+
+
+/*.next-button{    margin-top: 65px;}*/
+
+.text-container .header span.font-xlarge {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2D2A2B;
+    font-family: 'Proxima-Nova-Bold' !important;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 867px;
+    /* max-width: 100%; */
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+.text-container .header p {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #3B3B3B;
+    font-family: 'Proxima-Nova-Regular' !important;
+}
+
+/* .number-wrapper {
+    padding-bottom: 60px;
+} */
+
+.number-wrapper .num {
+    color: white;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 4px;
+    height: 23px;
+    width: 22px;
+    display: inline-block;
+    margin-right: 18px;
+    line-height: 14px;
+}
+
+.card-content .container p.unfortune {
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.card-content .container p.keep-scroll {
+    line-height: 26px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-top: 56px;
+    max-width: 297px;
+}
+
+.number-wrapper .num.active {
+    background: #DE2E15;
+    border: #DE2E15;
+}
+
+span.display-inline-block.font-small.mandatory-indicator {
+    display: none;
+}
+
+.question {
+    padding-bottom: 15px;
+}
+
+.question span {
+    font-size: 24px;
+}
+
+
+.font-large,
+.question p {
+    font-size: 24px;
+    font-family: 'Proxima-Nova-Semibold' !important;
+    font-weight: 300;
+    color: #3B3B3B;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    display: inline-block;
+
+}
+
+.ans span {
+    padding-bottom: 10px;
+}
+
+/* .ans {
+    padding: 20px 0px 30px;
+} */
+
+.ans p,
+.question span.font-large {
+    font-size: 24px;
+    color: #3B3B3B;
+    font-family: 'Proxima-Nova-Regular' !important;
+    line-height: 32px;
+    max-width: 455px;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-content .container p.true-false {
+    font-size: 24px;
+    color: #3B3B3B;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+
+.card-content .container p.true-sec {
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.question span.uncontrol {
+    max-width: 400px;
+}
+
+.question span.daily {
+    max-width: 400px;
+}
+
+.question .relieve {
+    max-width: 453px;
+    display: block;
+}
+
+.text-choice .radio,
+.text-choice .checkbox {
+    display: none;
+}
+
+.text-choice .radio:checked+.answer-content:before {
+    content: '';
+}
+
+.text-choice.column-multi .answer {
+    min-width: 42%;
+    margin-top: 20px;
+    max-width: 100%;
+    width: 231px;
+    min-height: 44px;
+}
+
+.card-content .container p.false-text {
+    max-width: 514px;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.card-content .container p.true-text {
+    max-width: 514px;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.text-choice .answer {
+    border: 2px solid #DE2E15;
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto 24px;
+    border-radius: 8px;
+    max-width: 36%;
+}
+
+.vertical-center {
+    overflow-y: hidden;
+}
+
+.cmp-iframe {
+    height: 631px;
+}
+
+.text-choice .answer-content {
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #2D2A2B;
+    border: none;
+    font-family: 'Proxima-Nova-Bold' !important;
+}
+
+.theme-layout-centered .card-actions {
+    display: none;
+}
+
+button.button.next {
+    position: relative;
+    width: 231px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    border: 2px solid #DE2E15;
+    border-radius: 8px;
+    min-height: 44px;
+    background: transparent;
+    font-size: 16px;
+}
+
+button.button.next:before {
+    position: absolute;
+    /* content: 'NEXT QUESTION'; */
+    font-size: 18px;
+    line-height: 26px;
+    top: 4px;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    background: transparent;
+}
+
+.card-content .container p {
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 18px;
+
+    /* margin-top: 20px;  */
+    margin-bottom: 9px;
+
+}
+
+.theme-layout-centered .card-content {
+    padding: 0 1em;
+}
+
+
+/* media query*/
+
+@media screen and (min-width: 480px) {}
+
+
+@media screen and (max-width: 767px) {
+
+
+    .card-content .container p.contribute {
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        max-width: 285px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    /* .card-content .container p {
+        max-width: 250px;
+    } */
+
+    .card-content .container p.false-text {
+        max-width: 277px;
+        font-size: 18px;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+
+    /* .card-content .container p.medic{    max-width: 320px; margin: 0 auto; padding: 0px;} */
+
+    .card-content .container p.tight {
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        max-width: 257px;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+    .almost-text {
+        max-width: 270px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .almost-text p {
+        line-height: 26px;
+    }
+
+    .theme-layout-centered .card-body {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .card-content .container p.take-quiz {
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .text-container .header span.font-xlarge {
+        font-size: 29px;
+
+        width: 100%;
+        left: 0;
+        right: 0;
+        text-align: left;
+        line-height: 34px;
+
+    }
+
+    iframe#quiz {
+        margin-left: 10px;
+    }
+
+    .text-choice .answer {
+        max-width: 82%;
+        margin: 0 auto 16px;
+    }
+
+    .ans p,
+    .question span.font-large {
+        max-width: 257px;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .question span.relieve {
+        max-width: 272px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+
+        padding-bottom: 70px;
+
+    }
+
+    .card-content .container p.almost-text {
+        max-width: 273px;
+    }
+
+    #quiz-section #quiz {
+        width: 90%;
+    }
+
+
+
+    #resources {
+        margin-top: 584px;
+    }
+
+    .number-wrapper {
+        padding-top: 30px;
+    }
+
+
+    .text-choice.column-multi .answer {
+        min-width: 51%;
+        margin-top: 2px;
+    }
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+
+    .theme-layout-centered .card-content {
+        padding: 0px;
+    }
+
+    .question span.relieve {
+        padding-bottom: 47px;
+    }
+
+    #content6 .next-button {
+        margin-top: 28px;
+    }
+
+    #content8 .next-button {
+        margin-top: 54px;
+    }
+
+    #content9 .next-button {
+        margin-top: 28px;
+    }
+
+    #content5 .next-button {
+        margin-top: 15px;
+    }
+
+    #content2 .next-button {
+        margin-top: 41px;
+    }
+
+    #content3 .next-button {
+        margin-top: 85px;
+    }
+
+    #content6 .header {
+        padding-left: 10px;
+        max-width: 309px;
+    }
+
+    #content6 .card-body {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #content11 .next-button {
+        margin-top: 30px;
+    }
+
+    .card-content .container p.keep-scroll {
+        margin-top: 44px;
+    }
+
+
+    .card-content .container p.contribute {
+        max-width: 326px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .almost-text {
+        max-width: 326px;
+    }
+
+    .card-content .container p.false-text {
+        max-width: 327px;
+    }
+
+    .theme-layout-centered .card-body {
+        padding-right: 11px;
+    }
+
+
+}
