@@ -1,0 +1,223 @@
+/* Font */
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    Src: url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif !important;
+}
+
+.font-xsmall {
+    font-size: 12px !important;
+}
+
+.font-small {
+    font-size: 16px !important;
+}
+
+.font-medium {
+    font-size: 19px !important;
+}
+
+.font-large {
+    font-size: 24px !important;
+}
+
+.font-xlarge {
+    font-size: 45px !important;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap'); */
+
+/* Colour declaration */
+
+:root {
+    --blue: #1600FF;
+    --green: #00AC00;
+    --white: #FFFFFF;
+}
+
+/* Logo adjustment */
+
+.card-logo {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media (min-width: 1025px) and (max-width: 1349px) {
+    .card-logo img {
+        margin: 0;
+    }
+
+    .card:not(.intro) .card-logo {
+        max-width: 200px;
+    }
+}
+
+@media (min-width: 1350px) {
+    .card-logo img {
+        margin: 0;
+    }
+
+    .card:not(.intro) .card-logo {
+        max-width: 250px;
+    }
+}
+
+/* Button intro screen */
+
+.slide-type-intro .card-actions .button {
+    border: 1px solid var(--blue);
+}
+
+/* Questions & Answer borders */
+
+.rangeslider__fill,
+.rangeslider__handle:before,
+.ui-sortable-placeholder .answer-content {
+    border: solid 1px var(--blue);
+}
+
+.answer-content,
+.checkbox,
+.input,
+.radio,
+.select,
+.ui-state-default .answer-content,
+.ui-state-disabled .answer-content {
+    border: solid 1px var(--blue);
+}
+
+.not-applicable-container .radio:checked+.answer-content {
+    color: var(--blue);
+}
+
+.not-applicable-container .radio:checked {
+    background-color: var(--blue);
+}
+
+body.design-version-3 .not-applicable-container .radio:checked+.answer-content:before,
+body.theme-template-light .not-applicable-container .radio:checked+.answer-content:before,
+body.theme-template-dark .not-applicable-container .radio:checked+.answer-content:before {
+    color: var(--white);
+}
+
+/* Rangeslider */
+
+.rangeslider__fill,
+.rangeslider__handle:before,
+.ui-sortable-placeholder .answer-content {
+    background-color: var(--blue);
+}
+
+/* General styling */
+
+#status-message,
+.button,
+.card-content .button,
+.grid .bar .inner,
+.rsArrow {
+    background: var(--blue);
+    color: var(--white);
+}
+
+/* Answer options */
+
+.form .checkbox:checked+.answer-content,
+.ranked.column-multi .column-sortable-2 .answer-content,
+.ranked.column-single-click .checkbox:checked+.answer-content,
+.text-choice .checkbox:checked+.answer-content,
+.text-choice .radio:checked+.answer-content {
+    color: var(--blue);
+    background-color: #e2e2e2;
+    border-color: var(--blue);
+}
+
+.answer-container:not(.no-answer) .rangeslider--horizontal,
+.form .checkbox:checked,
+.ranked.column-single-click .checkbox:checked,
+.text-choice .checkbox:checked,
+.text-choice .radio:checked {
+    background-color: var(--blue);
+}
+
+body.design-version-3 .text-choice .radio:checked+.answer-content:before,
+body.theme-template-light .text-choice .radio:checked+.answer-content:before,
+body.theme-template-dark .text-choice .radio:checked+.answer-content:before {
+    color: var(--white);
+}
+
+/* Breadcrumbs */
+
+ul.card-breadcrumbs {
+    line-height: 1.5rem;
+    text-align: left;
+    color: var(--blue);
+}
+
+ul.card-breadcrumbs li:first-child {
+    font-size: 24px;
+}
+
+ul.card-breadcrumbs li:nth-child(2) {
+    font-size: 19px;
+}
+
+/* Progress Bar */
+
+div.progress-bar,
+div.progress-bar .progress-numbers {
+    background: var(--blue);
+    color: var(--white);
+}
+
+div.progress-bar .progress-numbers:after {
+    border-left-color: var(--blue);
+}
+
+/* Buttons */
+
+button.button.next,
+.button.language-button {
+    border: 1px solid var(--blue);
+    background: none;
+    color: var(--blue);
+}
+
+button.button.next:hover,
+.button.language-button:hover {
+    background: var(--blue) !important;
+    color: var(--white) !important;
+    border: 1px solid var(--blue) !important;
+}
+
+.button.prev-2 {
+    border: 1px solid var(--blue);
+    background: none;
+    color: var(--blue);
+}
+
+.button.prev-2:hover {
+    border: 1px solid var(--blue);
+    background: var(--blue);
+    color: var(--white);
+}
+
+.button.button.prev {
+    border: 1px solid var(--blue);
+    background: none;
+    color: var(--blue);
+}
+
+.button.button.prev:hover {
+    background: var(--blue);
+    color: var(--white);
+    border: 1px solid var(--blue);
+}
+
+.not-applicable-container input.radio {
+    border-color: #9C9B9B;
+    opacity: 1;
+}

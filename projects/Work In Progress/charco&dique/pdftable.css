@@ -1,0 +1,4 @@
+div.template-widget.table table th,
+div.template-widget.table table td {
+    width: 50%;
+}

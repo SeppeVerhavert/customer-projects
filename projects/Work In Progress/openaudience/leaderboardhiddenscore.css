@@ -1,0 +1,3 @@
+.leaderboard-scores-empty.list.leaderboard-custom div.row span.cell:nth-child(2) div {
+    visibility: hidden;
+}
