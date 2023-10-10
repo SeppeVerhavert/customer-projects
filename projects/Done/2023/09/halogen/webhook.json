@@ -1,0 +1,925 @@
+{
+    "id": 84400880,
+    "timestamp": "2023-09-28 14:36:38",
+    "timestamp_utc": "2023-09-28 06:34:50",
+    "unique_identifier": "e9048b9d-3551-4461-a51c-c5bbca9b9f81",
+    "latitude": null,
+    "longitude": null,
+    "shared": 0,
+    "duration": 103,
+    "partial": false,
+    "quiz_time": null,
+    "user_agent": null,
+    "ip_address": null,
+    "device": null,
+    "score": null,
+    "max_score": null,
+    "custom_score": 132,
+    "max_custom_score": 144,
+    "custom_score_as_percentage": "92%",
+    "quiz_score_as_percentage": "0%",
+    "respondent": {
+        "name": "Muralidharan",
+        "last_name": "Ramakrishnan",
+        "email": "muralidharan.ramakrishnan@fitchratings.com",
+        "external_id": "FGTP23_Mentor_11",
+        "custom_data": null,
+        "unique_identifier": "uxVrR3BH4",
+        "do_not_mail": false,
+        "user_id": 100193,
+        "organization_id": 1905,
+        "updated_at": "2023-09-19T11:11:58.000000Z",
+        "has_additional_data": false,
+        "fields": []
+    },
+    "campaign": {
+        "title": null,
+        "url": null
+    },
+    "language": {
+        "name": "English",
+        "code": "en"
+    },
+    "outcomes": [],
+    "survey": {
+        "url": "fgtp23mentorpre",
+        "unique_identifier": "75043430-d64c-48cd-91fc-d756e38af320",
+        "title": "FGTP 23 Mentor Pre Survey",
+        "last_update": "2023-09-27 10:22:40",
+        "user": "eunice@halogen.sg"
+    },
+    "access_code": {
+        "code": null
+    },
+    "custom_fields": [
+        {
+            "name": "cf1",
+            "text": "School",
+            "value": null
+        },
+        {
+            "name": "cf2",
+            "text": "Role",
+            "value": null
+        },
+        {
+            "name": "cf3",
+            "text": "Gender",
+            "value": null
+        },
+        {
+            "name": "cf4",
+            "text": "Age/ Level",
+            "value": null
+        },
+        {
+            "name": "cf5",
+            "text": "Ethnicity",
+            "value": null
+        }
+    ],
+    "questions": [
+        {
+            "unique_identifier": "abf1799c-d9b1-4187-84ee-1e5a640d060e",
+            "order": 1,
+            "title": "Before we start, please complete the Mentor Agreement Form. If you have already physically submitted the form, you may skip this question.\nFirst, click here to download the Mentor Agreement Form\nNext, upload a signed copy of the Mentor Agreement Form; rename the file to NAME.PDF when uploading&nbsp;",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.file_upload.name",
+                "object_name": "file_upload"
+            },
+            "responses": [],
+            "response": {
+                "text": "https:///cdn-assets/survey/237525/question_4635538/responses/files/Halogen-foundation-form-Murali65151e9747414.pdf",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": null
+        },
+        {
+            "unique_identifier": "d0d5c08a-c36b-4510-a34b-f3c31ad54f40",
+            "order": 2,
+            "title": "Let's get started!&nbsp;For these questions, think about how much you agree or disagree with the statements. There are no right or wrong answers, so answer as honestly as you can!",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_only.name",
+                "object_name": "plaintext"
+            },
+            "responses": [],
+            "response": {
+                "text": null,
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": null
+        },
+        {
+            "unique_identifier": "4fdef2b6-d56a-4158-a765-ba789c360bd8",
+            "order": 3,
+            "title": "I am effective in identifying the talents/strengths of others.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "0b3a6bce-8b60-4a34-b637-f46506190745"
+                },
+                "text": "5",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "5.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "83.33%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "5c34db47-fc4d-4b05-b927-9ffec65df0a8",
+            "order": 4,
+            "title": "I encourage others to be intentional with their talents/strengths.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "c7e597a6-9eb3-4e54-b866-fa192d73a210"
+                },
+                "text": "6 - Strongly Agree",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "6.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "100%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "289c3e78-7eae-4bc0-b6d0-edd656695209",
+            "order": 5,
+            "title": "I am effective in guiding others on how to set up their personal branding (eg. resume and LinkedIn profile).",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "ffacf865-e90e-4936-87e5-f5d4528b8f2f"
+                },
+                "text": "5",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "5.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "83.33%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "b54dc5c9-8c07-4bba-9997-2b7beac02915",
+            "order": 6,
+            "title": "I am effective in challenging others on how they can grow their talents/strengths.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "f9df123e-a92e-4d8c-8b7f-d228fc281337"
+                },
+                "text": "6 - Strongly Agree",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "6.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "100%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "db4c2622-3237-4ab2-848a-00e19ca361d0",
+            "order": 7,
+            "title": "People are comfortable to approach me whenever they have questions.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "e6fdbf6f-8110-44cc-864e-a0b9abc74395"
+                },
+                "text": "6 - Strongly Agree",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "6.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "100%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "873ca717-caa6-454c-a309-2cc67f91cb18",
+            "order": 8,
+            "title": "I am flexible to have a different conversation should someone bring up something new/unplanned.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "e4c3b6d1-9d79-4425-b6f6-788b0be38acf"
+                },
+                "text": "6 - Strongly Agree",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "6.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "100%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "e0df9961-b77d-43b0-9a8e-b7a5f456e5e2",
+            "order": 9,
+            "title": "I am effective in identifying the core values of others.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "ca248fa0-9779-4d2f-9e0d-11bac5684b12"
+                },
+                "text": "5",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "5.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "83.33%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "b61ac5c6-f77e-4a6a-af8f-65b97cde3b25",
+            "order": 10,
+            "title": "I encourage others to act on their core values.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "a68929be-5eb9-43db-9384-ebd0a2877cad"
+                },
+                "text": "5",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "5.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "83.33%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "79f042a8-70ca-4f28-8b01-3fe374941f26",
+            "order": 11,
+            "title": "I am effective in guiding others on how to set specific, measurable goals and deadlines for them.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "b900414b-49cc-4824-b675-d5eb12735a01"
+                },
+                "text": "5",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "5.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "83.33%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "01109460-c4f6-4ace-8322-35c41a06a8e3",
+            "order": 12,
+            "title": "I am effective in challenging others on how they can act on their core values.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "5b4d71af-e917-411c-b1c3-21a428fdacc9"
+                },
+                "text": "5",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "5.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "83.33%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "c68fbc8f-9349-4dc4-936b-3425cd3324d2",
+            "order": 13,
+            "title": "I am easy to approach for advice.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "76b829a1-ca88-4dd6-b8e0-6ac3a6e3ebe2"
+                },
+                "text": "6 - Strongly Agree",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "6.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "100%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "a88a3573-c6dc-4ac4-b322-37c7cd5c1369",
+            "order": 14,
+            "title": "I give relevant advice based on how the conversation goes.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "7d91913b-763b-487d-a7e1-0e1f441ea875"
+                },
+                "text": "6 - Strongly Agree",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "6.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "100%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "aaa701ee-3094-44f3-81ca-9642fe3bdcfa",
+            "order": 15,
+            "title": "I am effective in helping others know themselves better.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "b380f353-ff3c-4774-8190-185604bfa7f5"
+                },
+                "text": "6 - Strongly Agree",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "6.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "100%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "a20cef1f-9183-45bc-bd14-21b65f83c383",
+            "order": 16,
+            "title": "I affirm others for who they aspire to be as professionals.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "9fb237ff-7e0f-4425-9b08-17277f3f1b79"
+                },
+                "text": "5",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "5.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "83.33%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "fa596c11-00e3-4d8f-b6b5-c5fb530096ef",
+            "order": 17,
+            "title": "I am effective in guiding others on what their priorities should be when they plan for the future.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "f9b15b1e-507a-4947-aa79-a389417aeecc"
+                },
+                "text": "5",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "5.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "83.33%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "cc54679e-613c-4bfe-8560-03b0a0d79db7",
+            "order": 18,
+            "title": "I am effective in teaching skills that will help others in their career.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "4b0e82b3-3177-4651-ad97-1a586a6a8f94"
+                },
+                "text": "5",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "5.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "83.33%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "e98be59b-b9ed-430e-b6fc-02e628f0c283",
+            "order": 19,
+            "title": "I have a good rapport with my juniors/those less senior to me.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "8b0bc5c7-f257-428e-a184-7eda8ee8d137"
+                },
+                "text": "6 - Strongly Agree",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "6.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "100%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "6fb5f86b-f23b-4085-9062-38fec09fb408",
+            "order": 20,
+            "title": "I check with others if they have anything else they want to discuss outside the agenda.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "0379a2f1-9bbf-404d-8bf4-75afbef00f15"
+                },
+                "text": "6 - Strongly Agree",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "6.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "100%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "791b350f-9e7f-40c8-8be5-3d36abe17459",
+            "order": 21,
+            "title": "People leave conversations with me feeling encouraged.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "cb196972-4aad-427c-a973-66853fc5c31e"
+                },
+                "text": "6 - Strongly Agree",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "6.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "100%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "c70f2a3e-819d-4870-8f73-c083969e1aec",
+            "order": 22,
+            "title": "People trust me.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "a3dbd956-f420-4939-9e01-c7f116301bac"
+                },
+                "text": "6 - Strongly Agree",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "6.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "100%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "8f8061df-5b23-4820-8d99-19bcafbd1b64",
+            "order": 23,
+            "title": "I am a good listener.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "3d6f8c6a-543d-417d-a637-c763dc6dd6b5"
+                },
+                "text": "6 - Strongly Agree",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "6.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "100%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "e53b8207-c760-41ca-a680-e220f7a77f82",
+            "order": 24,
+            "title": "I am effective in asking questions that elicit self reflection.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "3b2b5a7c-cd39-4771-84a9-be6aed269f52"
+                },
+                "text": "5",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "5.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "83.33%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "e0f42ad8-a670-4d4a-9fae-cc47e713c549",
+            "order": 25,
+            "title": "I am effective in providing or pointing others toward resources.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "2dba81ac-4ac3-4c1a-883a-cf5b45bc5a0d"
+                },
+                "text": "5",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "5.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "83.33%",
+                "score_quiz_as_percentage": null
+            }
+        },
+        {
+            "unique_identifier": "fd472f45-db8b-4268-878b-55a1f41e7362",
+            "order": 26,
+            "title": "I am effective in developing the character of others.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_choice.name",
+                "object_name": "text_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": "fc32e58d-0b63-4254-b915-ebe1c7e4ec54"
+                },
+                "text": "5",
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": {
+                "score_value": "5.00",
+                "score_max": "6.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "83.33%",
+                "score_quiz_as_percentage": null
+            }
+        }
+    ],
+    "question_blocks": [
+        {
+            "title": "Question Block 1",
+            "order": 1,
+            "score": {
+                "score_value": "132.00",
+                "score_max": "144.00",
+                "score_value_weighted": null,
+                "score_max_weighted": null,
+                "score_value_converted": null,
+                "score_max_converted": null,
+                "score_custom_as_percentage": "91.67%",
+                "score_quiz_as_percentage": "91.67%"
+            }
+        }
+    ],
+    "formula_results": [
+        {
+            "formula_order": 1,
+            "name": "Counsel",
+            "unique_identifier": "947adfca-8be2-4bb0-8a4b-ceb00bd091e5",
+            "formula": "(*|q3_custom_score|*+*|q9_custom_score|*+*|q15_custom_score|*+*|q24_custom_score|*)/24*100",
+            "result": "88"
+        },
+        {
+            "formula_order": 2,
+            "name": "Encourage",
+            "unique_identifier": "9ad9ee5c-075b-403c-b38b-63032a19a231",
+            "formula": "(*|q4_custom_score|*+*|q10_custom_score|*+*|q16_custom_score|*+*|q21_custom_score|*)/24*100",
+            "result": "92"
+        },
+        {
+            "formula_order": 3,
+            "name": "Guidance",
+            "unique_identifier": "6f6efa79-295a-42d5-9aeb-8be743228850",
+            "formula": "(*|q5_custom_score|*+*|q11_custom_score|*+*|q17_custom_score|*+*|q25_custom_score|*)/24*100",
+            "result": "83"
+        },
+        {
+            "formula_order": 4,
+            "name": "Nurture",
+            "unique_identifier": "f2d9a439-a8de-4dbd-aec6-1d262abdea16",
+            "formula": "(*|q6_custom_score|*+*|q12_custom_score|*+*|q18_custom_score|*+*|q26_custom_score|*)/24*100",
+            "result": "88"
+        },
+        {
+            "formula_order": 5,
+            "name": "Relationship Management",
+            "unique_identifier": "3b9f427a-c00a-4ee8-96e4-5f6065c22b1d",
+            "formula": "(*|q7_custom_score|*+*|q13_custom_score|*+*|q19_custom_score|*+*|q22_custom_score|*)/24*100",
+            "result": "100"
+        },
+        {
+            "formula_order": 6,
+            "name": "Response to Needs",
+            "unique_identifier": "bd6a9bee-52d4-4cab-8e2c-a57f282ade99",
+            "formula": "(*|q8_custom_score|*+*|q14_custom_score|*+*|q20_custom_score|*+*|q23_custom_score|*)/24*100",
+            "result": "100"
+        }
+    ]
+}
