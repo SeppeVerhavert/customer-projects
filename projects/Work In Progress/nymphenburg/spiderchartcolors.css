@@ -1,0 +1,51 @@
+/* color spider chart segments */
+
+div#icg0qm g.highcharts-series-group g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-dense-data.highcharts-tracker path:nth-child(1) {
+    fill: #3F8653;
+}
+
+div#icg0qm g.highcharts-series-group g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-dense-data.highcharts-tracker path:nth-child(2) {
+    fill: #A8D19E;
+}
+
+div#icg0qm g.highcharts-series-group g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-dense-data.highcharts-tracker path:nth-child(3) {
+    fill: #F1DD38;
+}
+
+div#icg0qm g.highcharts-series-group g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-dense-data.highcharts-tracker path:nth-child(4) {
+    fill: #FF8B58;
+}
+
+div#icg0qm g.highcharts-series-group g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-dense-data.highcharts-tracker path:nth-child(5) {
+    fill: #861A22;
+}
+
+div#icg0qm g.highcharts-series-group g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-dense-data.highcharts-tracker path:nth-child(6) {
+    fill: #7C959B;
+}
+
+div#icg0qm g.highcharts-series-group g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-dense-data.highcharts-tracker path:nth-child(7) {
+    fill: #1A4C32;
+}
+
+/* Hide grid lines & legends */
+
+div#icg0qm g.highcharts-grid.highcharts-yaxis-grid.highcharts-radial-axis-grid {
+    visibility: hidden;
+}
+
+div#icg0qm g.highcharts-grid.highcharts-xaxis-grid.highcharts-radial-axis-grid {
+    visibility: hidden;
+}
+
+div#icg0qm g.highcharts-axis-labels.highcharts-yaxis-labels.highcharts-radial-axis-labels {
+    visibility: hidden;
+}
+
+div#icg0qm g.highcharts-legend.highcharts-no-tooltip {
+    visibility: hidden;
+}
+
+div#icg0qm g.highcharts-data-labels.highcharts-series-0.highcharts-column-series.highcharts-tracker {
+    display: none;
+}

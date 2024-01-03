@@ -1,0 +1,71 @@
+/*table*/
+#izyd9 {
+    padding: 2px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+/*centers images in widgets*/
+.row-with-background {
+    position: relative;
+}
+
+/*adjust axis*/
+.highcharts-xaxis-grid>.highcharts-grid-line {
+    display: none;
+}
+
+
+/*spiderchart items*/
+
+.highcharts-legend-item {
+    display: none;
+}
+
+.highcharts-legend-item>.highcharts-point {
+    opacity: 0;
+}
+
+/*legend items*/
+.highcharts-legend-item.highcharts-series-0 {
+    transform: translate(120px, -210px);
+}
+
+.highcharts-legend-item.highcharts-series-1 {
+    transform: translate(170px, -140px);
+}
+
+.highcharts-legend-item.highcharts-series-2 {
+    transform: translate(170px, -30px);
+}
+
+.highcharts-legend-item.highcharts-series-3 {
+    transform: translate(120px, 30px);
+}
+
+.highcharts-legend-item.highcharts-series-4 {
+    transform: translate(-70px, 30px);
+}
+
+.highcharts-legend-item.highcharts-series-5 {
+    transform: translate(-170px, -30px);
+    overflow-wrap: break-word;
+}
+
+.highcharts-legend-item.highcharts-series-6 {
+    transform: translate(-130px, -140px);
+}
+
+.highcharts-legend-item.highcharts-series-7 {
+    transform: translate(-120px, -210px);
+}
+
+/* Spider chart colors */
+
+div#izs9f g.highcharts-series-group g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-dense-data.highcharts-tracker path:nth-child(1) {
+    fill: #02a2ac;
+}
+
+div#izs9f g.highcharts-series-group g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-dense-data.highcharts-tracker path:nth-child(2) {
+    fill: red;
+}
