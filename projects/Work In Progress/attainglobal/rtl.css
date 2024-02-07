@@ -1,0 +1,97 @@
+/* Hide save on exit button on final question */
+
+div.card-actions.rsNoDrag>div:nth-child(2)>button {
+    display: none !important;
+}
+
+/* RTL */
+
+.lang-162 textarea.question.input {
+    text-align: right;
+}
+
+.lang-162 .answer-content {
+    text-align: right;
+    padding: .3em 2em .3em .3em;
+}
+
+.ltr {
+    direction: rtl;
+}
+
+.lang-162 .answer .radio,
+.lang-162 .answer .checkbox {
+    left: auto;
+    right: .6em;
+    margin-right: 0;
+}
+
+.lang-162 .answer.correct .radio+.answer-content:before,
+.lang-162 .answer.correct .checkbox+.answer-content:before,
+.lang-162 .answer.incorrect .radio+.answer-content:before,
+.lang-162 .answer.incorrect .checkbox+.answer-content:before,
+.lang-162 .radio:checked+.answer-content:before,
+.lang-162 .checkbox:checked+.answer-content:before {
+    top: 1.45em;
+    margin-left: 2em;
+}
+
+.lang-162 .card-actions-item {
+    transform: rotate(180deg);
+}
+
+.lang-162 #content0 .card-actions-item {
+    transform: rotate(0deg);
+}
+
+.lang-162 .button.next,
+.lang-162 .button.next.glow {
+    transform: rotate(180deg);
+}
+
+.lang-162 .button.next:not(:disabled):not(.disabled):hover,
+.lang-162 .button.next:not(:disabled):not(.disabled):focus {
+    transform: rotate(180deg) scale(1.05);
+}
+
+.lang-162 #progress,
+.lang-162 #session-upload-progress {
+    left: auto;
+    right: 0;
+    text-align: left;
+}
+
+.lang-162 .progress-bar .progress-numbers:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    right: 100%;
+    left: auto;
+    top: 0;
+    bottom: 0;
+    border-left: none;
+    border-right: .4em solid;
+    border-top: .7em solid transparent;
+    border-bottom: .7em solid transparent;
+}
+
+.lang-162 .option {
+    direction: rtl;
+    text-align: right;
+}
+
+.lang-162 .form-item-answer.form-select {
+    text-align: right;
+}
+
+.lang-162 .form-item {
+    text-align: right;
+}
+
+.lang-162 .input.form-item-answer {
+    text-align: right;
+}
+
+.lang-162 textarea.feedback.input {
+    text-align: right;
+}

@@ -1,0 +1,17 @@
+div[widget_id="4653055"] div.header-container,
+div[widget_id="4653055"] div.footer-container {
+    display: none !important;
+}
+
+/* Test */
+
+/* 
+.header-container[name="page"]:nth-child(1) div[name="Header"], 
+.footer-container[name="page"]:nth-child(1) div[name="Footer"] {
+    display: none !important;
+}
+*/
+
+.header-container[name="page"]:nth-child(1) {
+    background-color: blue !important;
+}

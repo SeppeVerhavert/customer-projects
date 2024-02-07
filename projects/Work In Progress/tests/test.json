@@ -1,29 +1,43 @@
 {
-    "id": 75100924,
-    "timestamp": "2023-04-18 16:11:55",
-    "timestamp_utc": "2023-04-18 20:11:11",
-    "unique_identifier": "7b56dde0-f549-43a3-b0d4-f701d2967c87",
+    "id": 90615085,
+    "timestamp": "2024-01-04 18:02:17",
+    "timestamp_utc": "2024-01-04 12:27:01",
+    "unique_identifier": "779a9fcb-161a-408d-9c4e-f6dec9610579",
     "latitude": null,
     "longitude": null,
     "shared": 0,
-    "duration": 42,
+    "duration": 314,
     "partial": false,
     "quiz_time": null,
-    "user_agent": null,
-    "ip_address": null,
-    "device": null,
+    "user_agent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/120.0.0.0 Safari\/537.36",
+    "ip_address": "122.171.182.251",
+    "device": {
+        "browser": "Chrome",
+        "browser_version": "120",
+        "os": "Linux",
+        "os_version": "",
+        "device": "",
+        "type": "desktop"
+    },
     "score": null,
     "max_score": null,
-    "custom_score": 120,
-    "max_custom_score": 120,
-    "custom_score_as_percentage": "100%",
+    "custom_score": null,
+    "max_custom_score": null,
+    "custom_score_as_percentage": "0%",
     "quiz_score_as_percentage": "0%",
     "respondent": {
-        "name": null,
-        "last_name": null,
-        "email": null,
-        "external_id": null,
-        "unique_identifier": null
+        "name": "test",
+        "last_name": "test",
+        "email": "48,934",
+        "external_id": "87jZF7eR4",
+        "custom_data": null,
+        "unique_identifier": "87jZF7eR4",
+        "do_not_mail": false,
+        "user_id": 104128,
+        "organization_id": 10589,
+        "updated_at": "2024-01-04T12:31:52.000000Z",
+        "has_additional_data": false,
+        "fields": []
     },
     "campaign": {
         "title": null,
@@ -33,1072 +47,29 @@
         "name": "English",
         "code": "en"
     },
-    "outcomes": [
-        {
-            "title": "Revenue Marketing",
-            "text": "<p style=\"text-align:center\"><img src=\"https:\/\/assets.pointerpro.com\/media-library\/production\/100572\/RM6\/kZ2TjmgfTperwPeVCJhm_1564944_RM6Branding_1_020923.png\"><\/p>\n<p style=\"text-align:center\"><br><\/p>\n<p style=\"text-align:center\"><span class=\"font-xlarge\">Thank You<\/span><\/p>\n<p style=\"text-align:center\" class=\"font-medium\">Thank you for completing the assessment! A Revenue Marketing expert is currently reviewing your work and will reach out to schedule a read out analysis.<\/p>\n<p style=\"text-align:center\">You will shortly be redirected to a page where you can schedule time with a The Pedowitz Group Strategist to review your results.<\/p><p style=\"text-align:center\"><img src=\"https:\/\/assets.pointerpro.com\/media-library\/production\/100572\/RM6\/UOkalBsnTzmGgMv9KhPP_4_Revenue_Marketing.png\"><\/p>"
-        }
-    ],
+    "outcomes": [],
     "survey": {
-        "url": "pdykoqxh",
-        "unique_identifier": "4ab3121f-4e9a-445c-9983-918a96843567",
-        "title": "RM6 Assessment",
-        "last_update": "2023-04-13 14:17:40",
-        "user": "virginia.crandall@pedowitzgroup.com"
+        "url": "coqyzmev",
+        "unique_identifier": "41973e2a-6ee6-47c8-974d-ba05afdaa4f0",
+        "title": "Form2 Introduction",
+        "last_update": "2024-01-04 08:24:05",
+        "user": "amanda@activatorlearning.com"
     },
     "access_code": {
         "code": null
     },
-    "custom_fields": [],
+    "custom_fields": [
+        {
+            "name": "cf1",
+            "text": "START FORM",
+            "value": null
+        }
+    ],
     "questions": [
         {
-            "unique_identifier": "fd8d75e8-cf5d-4b12-b32d-f201ab764ce1",
+            "unique_identifier": "96c2a59e-e878-4450-a807-014705ad094e",
             "order": 1,
-            "title": "Strategy\nFor the following statements, please select the answer that best fits the description of your organization:",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_only.name",
-                "object_name": "plaintext"
-            },
-            "responses": [],
-            "response": {
-                "text": null,
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": null
-        },
-        {
-            "unique_identifier": "b5c43637-84cd-4b3f-a2e3-05e8d9931d44",
-            "order": 2,
-            "title": "1. Business Alignment defines how well marketing aligns with the needs of the business, including alignment across organizational, sales, and strategic product\/service priorities.&nbsp;&nbsp;In our organization, marketing is _______________  to organizational, sales, and strategic product\/service priorities.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "e6aa20b8-4e45-4ccb-abe8-d5da41e626b3"
-                },
-                "text": "fully aligned",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "fd5dab68-11c7-4fab-8cf6-d1704583cb69",
-            "order": 3,
-            "title": "2. Organizational Readiness reflects a company's ability to implement new initiatives and absorb change effectively.  It includes assessing the company's history of adopting technology for competitive advantage, innovation, and customer focus.  In our organization, are ______________  in implementing new initiatives and absorbing change.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "d9122386-ec18-404a-8f09-4fb34f555da0"
-                },
-                "text": "fully effective",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "f0c5167e-e146-4d48-aeff-5f7018ba9da9",
-            "order": 4,
-            "title": "3. Operational Readiness reflects how ready existing business operations are to implement new initiatives, including process maturity, organizational structure, and the required people and technology. Our business operations are ________ to implement new initiatives.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "89c44bff-5a37-4cb8-87eb-d4d4b1f58e30"
-                },
-                "text": "fully ready",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "f750bb9c-cbab-4a9a-ab7b-e6ae7cbe15a1",
-            "order": 5,
-            "title": "4. Leadership Effectiveness identifies, defines, manages, and leads change to influence others and successfully implement new initiatives. Our marketing leadership is __________ in managing change, influencing others, and successfully implementing new initiatives.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "a8ab6f12-6c66-48eb-888c-36e9c08b01a8"
-                },
-                "text": "fully effective",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "733db9cf-6ac5-4f47-928a-fbdbf91f8a65",
-            "order": 6,
-            "title": "5. Sales and Marketing Alignment facilitates sales and marketing working as a single revenue team, having a common customer orientation, common definitions, aligned processes, and working in a complementary organizational structure. In our organization, sales and marketing _____ function as a single revenue team, have a common customer orientation, or work in a complementary organizational structure.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "6ad6e93b-c4dc-4b04-8cc3-4c91106485bf"
-                },
-                "text": "completely",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "8a323eff-31ab-46cd-97dc-898dcf5e08fa",
-            "order": 7,
-            "title": "People\nFor the following statements, please select the answer that best fits the description of your organization:",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_only.name",
-                "object_name": "plaintext"
-            },
-            "responses": [],
-            "response": {
-                "text": null,
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": null
-        },
-        {
-            "unique_identifier": "2ae92468-3599-4bda-a51d-3ada4eca5c5d",
-            "order": 8,
-            "title": "6. Stakeholder Alignment involves aligning and building collaboration with all key stakeholders. For Revenue Marketers, this includes aligning with sales, finance, executives, and IT. Marketing is not aligned or building collaboration with critical stakeholders affected by Revenue Marketing.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "1f3f6fd0-e3be-41cb-ab53-b271cb837d3a"
-                },
-                "text": "fully aligned",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "bab36a24-b2a0-4a6d-8704-368c267ded26",
-            "order": 9,
-            "title": "7. Marketing Operations is the team that deploys technology, process, metrics, and data to enable the marketing team to operate at optimal efficiency and effectiveness while driving business performance.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "ef11d28a-2f96-4e07-9b27-1c6f1441d8dc"
-                },
-                "text": "We have a dedicated Marketing Operations capability that gives our CMO a seat at the CxO table.",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "e84925b1-d636-443d-9358-04da322b835e",
-            "order": 10,
-            "title": "8. Talent Acquisition defines required roles and capabilities, evaluates options and candidates, and selects the optimal strategy for securing talent. In Revenue Marketing terms, this means hiring, training, or outsourcing fully qualified talent. We would define our process as:",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "d1514bbb-81fb-488b-a281-31cc120087e1"
-                },
-                "text": "formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "c4c67fd2-e0cd-4d58-92d7-9574bd075974",
-            "order": 11,
-            "title": "9. Talent Management is aligning employees with strategic goals and objectives; implementing learning and development programs; developing career pathing; providing opportunities for professional growth and development; and rewarding and recognizing achievement. We _______ processes in place for managing Revenue Marketing talent.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "2f6bf6c3-c49f-49a3-9961-f4d74f1a5603"
-                },
-                "text": "have formal and optimized processes",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "9c7e24b8-c435-416c-b748-49c9306d081a",
-            "order": 12,
-            "title": "10. Talent Management is aligning employees with strategic goals and objectives; implementing learning and development programs; developing career pathing; providing opportunities for professional growth and development; and rewarding and recognizing achievement. We __________ for managing Revenue Marketing talent.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "b0d90532-3238-4940-b4c6-6ce45a2cdeec"
-                },
-                "text": "regularly assess processes",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "d3eeb250-98fb-494c-bbcc-194055def418",
-            "order": 13,
-            "title": "Process\nFor the following statements, please select the answer that best fits the description of your organization:",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_only.name",
-                "object_name": "plaintext"
-            },
-            "responses": [],
-            "response": {
-                "text": null,
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": null
-        },
-        {
-            "unique_identifier": "e7965f27-311c-4f09-ac3e-695c03755108",
-            "order": 14,
-            "title": "11. Demand Management is the shared capability between marketing and sales that optimizes funnel and lead management processes, enables holistically coordinated customer experiences, and drives revenue. Marketing and sales _________ shared demand management capability.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "13bb271b-c334-447f-99e9-813dd10943e2"
-                },
-                "text": "have a formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "b4c30b05-4266-47b9-8892-4c3555e07d83",
-            "order": 15,
-            "title": "12. Program Management aligns marketing activities, strategies, and metrics with business goals to drive a business outcome. Marketing ________  program management capability.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "f24807c0-266d-4269-9efd-a86e6bf65489"
-                },
-                "text": "has a formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "fa259a99-1542-42b4-aa29-e1486ad93f66",
-            "order": 16,
-            "title": "13. Specific to Revenue Marketing, Campaign Management is an operational capability that includes planning, executing, tracking, analyzing, and measuring customer-centric, multi-channel marketing campaigns that deliver a program result. Marketing _______ Revenue Marketing campaign management capability.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "32923ca9-5fd5-4a3c-a1be-fc4bbd96aa38"
-                },
-                "text": "has a formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "bf31be6d-68b7-4f26-80fb-275ef1120174",
-            "order": 17,
-            "title": "14. Marketing Best Practices Management is a collaborative environment to capture, develop, document, share, and effectively apply marketing knowledge. Marketing __________  best practices management capability.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "adccc77f-8410-461f-ba2f-367f895267dd"
-                },
-                "text": "has a formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "03f5a9f7-ac25-4052-9758-e198a749fe8d",
-            "order": 18,
-            "title": "15. Data Quality Management includes the development, execution, and supervision of plans, policies, programs, and practices that control, protect, deliver and enhance the value of data for improved revenue marketing performance. Marketing ___________ data management capability.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "66692da1-28e3-49a9-9918-c875fcb8ced2"
-                },
-                "text": "has a formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "3597c5c2-6851-4ec8-8312-b668411eaa15",
-            "order": 19,
-            "title": "Technology\nFor the following statements, please select the answer that best fits the description of your organization:",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_only.name",
-                "object_name": "plaintext"
-            },
-            "responses": [],
-            "response": {
-                "text": null,
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": null
-        },
-        {
-            "unique_identifier": "ba3ef3f5-d16e-48d5-892f-9ab9014df151",
-            "order": 20,
-            "title": "16. Technology Awareness identifies current and emerging technology to help marketers achieve their objectives. It involves defining clear organizational needs, matching potential technology, educating team members about potential benefits, and formalizing a role to own this process. Marketing  _______ technology awareness capability in place.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "398f7bfc-6a0f-499a-9c3e-2bc1b5f42769"
-                },
-                "text": "has a formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "127446e5-5f61-405a-a78f-c23ec27146b9",
-            "order": 21,
-            "title": "17. Revenue Marketing Architecture defines the specific collection and integration of ever-changing technology that enables and optimizes marketing performance for customer centricity and financial performance. It includes active governance and frequent adaptation of the associated processes, data, and workflows. Marketing _________ Revenue Marketing Architecture in place.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "347a0a70-300e-4dd4-8694-0b5761f4651e"
-                },
-                "text": "has a formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "75d718ed-4a21-47e7-9b02-64521f8519c4",
-            "order": 22,
-            "title": "18. Planning, Selection, and Implementation define how to build and maintain a Revenue Marketing Architecture. It includes conducting a proper evaluation and needs analysis, developing use cases, and measuring performance. Marketing ______Revenue Marketing planning, selection, and implementation capability.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "443fe1df-28d8-4455-b00e-837519f58d0d"
-                },
-                "text": "has a formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "93224f09-7bc3-457f-a81e-61baee6ed429",
-            "order": 23,
-            "title": "19. Vendor Management maximizes vendor relationships and enables organizations to control costs, optimize technology, increase performance, drive service excellence, and mitigate risks. Marketing does not have a vendor management capability in place.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "a75a4db3-ea48-493a-875a-7148bc17acc6"
-                },
-                "text": "has a formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "5469a50f-fe47-412a-9617-bab1160b618b",
-            "order": 24,
-            "title": "20. Technology Adoption ensures the adoption or acceptance of a Revenue Marketing Architecture that drives business results. It includes communication, strategic planning, senior leadership commitment, project management, standard operating procedures, training and education, and business process reengineering. Our team has ________ of the current marketing technologies.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "3eed7eea-8fa5-4d26-9f1f-b41ce33117e7"
-                },
-                "text": "optimized adoption rates from an expert grasp",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "080eb7a3-9651-4536-916c-b07955f1fb29",
-            "order": 25,
-            "title": "Customer\nFor the following statements, please select the answer that best fits the description of your organization:",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_only.name",
-                "object_name": "plaintext"
-            },
-            "responses": [],
-            "response": {
-                "text": null,
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": null
-        },
-        {
-            "unique_identifier": "477ac805-569b-4b01-9665-e954db2c3b79",
-            "order": 26,
-            "title": "21. Customer Journey Management addresses the development, application, and optimization of the entire customer journey, from awareness to loyalty. In Revenue Marketing, this capability involves every key stakeholder group and the 24x7 availability of customer insights from the journey data. Our customer journey is _____________________.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "ee5bee58-89ff-4cd7-bd1e-560be40f2b91"
-                },
-                "text": "holistic and produces 24x7 insights",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "f9545dbf-2a73-4564-8090-353b7e4bd721",
-            "order": 27,
-            "title": "22. Customer Knowledge Management is the cross-functional collecting, organizing, sharing, and gaining insight from market and customer information that drives stronger customer relationships and improved customer experiences, resulting in increased revenue, profit, and competitive advantage. Our Customer Knowledge Management capability is ______________________.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "ef414c04-bdc6-4b9f-b8ac-8a1f31a19f43"
-                },
-                "text": "formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "71702473-ea33-4f1b-9ec1-c72c37776fc1",
-            "order": 28,
-            "title": "23. Customer Engagement uses content across multiple channels to create a digital relationship that actively and appropriately engages prospects and customers and produces a measurable business result. Our Customer Engagement capability is __________________.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "a5c15a3e-5795-4864-be85-cbf68988bb52"
-                },
-                "text": "formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "a8c3f32b-b45b-42f1-9da9-7eb62c29b7c7",
-            "order": 29,
-            "title": "24. Persona Management develops, manages, and optimizes fictional characters to represent the different customer types that might use a company's products or services. Marketing develops programs, campaigns, and content for each Persona and market segmentation to create qualitative targeting. Our Persona Management capability __________________.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "9479e48f-c582-43d1-800e-2452240886c4"
-                },
-                "text": "formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "273732a0-c9dc-4c9c-9750-f13184c61d2f",
-            "order": 30,
-            "title": "25. Content Operations supports the production, collection, management, publishing, and measurement of customer or prospect-oriented information in any form or medium. Marketing manages content to support the successful execution and optimization of multi-channel programs and campaigns. Our Content Operations is\t______________.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "bf358ca3-4245-45cf-bba0-d3a44b998dac"
-                },
-                "text": "formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "5ed5ff72-b3a8-4b8e-8ac2-243064bb74b0",
-            "order": 31,
-            "title": "Results\nFor the following statements, please select the answer that best fits the description of your organization:",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_only.name",
-                "object_name": "plaintext"
-            },
-            "responses": [],
-            "response": {
-                "text": null,
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": null
-        },
-        {
-            "unique_identifier": "f1686b18-1f02-4c04-ba7d-6cfb03f47b28",
-            "order": 32,
-            "title": "26. Measurement, Analytics, and Reporting demonstrate proficiency in measurement, analysis, reporting, and the discipline to take action to improve business results. Marketing's Measurement, Analytics and Reporting capability is ________________.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "3010f1a7-8ee5-4cc0-9de5-0a67f5b8001f"
-                },
-                "text": "formal and optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "e9e12a82-ea96-4d97-8530-7103a7a63fb0",
-            "order": 33,
-            "title": "27. Measurement Accountability drives the personal, team, or departmental accountability tied to measurable and transparent business results. In Revenue Marketing, this involves tying some part of the team's compensation to financial performance.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "5d95f175-eb68-44af-abb7-6eb4033f270e"
-                },
-                "text": "Marketing has measurement accountability tied to business results, and to compensation of all marketing team members.",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "888da172-7354-4b71-941b-aed83a167642",
-            "order": 34,
-            "title": "28. Making data-driven decisions involves using data vs. intuition to make decisions and take action at every level of marketing. We _______ data-driven decisions.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "c6a75200-9319-4d1c-8352-1a1937d5c2c6"
-                },
-                "text": "are passionate about",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "5d32ea33-fb44-408c-9c43-fe016cdabc47",
-            "order": 35,
-            "title": "29. Operational Outcomes measure marketing's ability to improve operational efficiencies and effectiveness. In Revenue Marketing, optimizing efficiency and effectiveness is the foundation for revenue and margin contribution. Marketing __________ operational efficiency and effectiveness.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "01e91b7f-2793-4c28-9af4-1c48b9c101bf"
-                },
-                "text": "drives revenue and margin contribution through optimized",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "34933568-4729-4a3d-88b9-ca807bfb26e3",
-            "order": 36,
-            "title": "30. Financial Outcomes measure marketing's ability to drive financial performance based on increasing adoption and maturity of Revenue Marketing within the organization. Marketing ____________ financial outcomes.",
-            "explanation": null,
-            "hint": null,
-            "media": [],
-            "type": {
-                "name": "editor.questions.types.text_choice.name",
-                "object_name": "text_choice"
-            },
-            "responses": [],
-            "response": {
-                "answer": {
-                    "unique_identifier": "81a23a45-9820-4c9b-a44b-79cf77e3e361"
-                },
-                "text": "drives all",
-                "not_applicable": false
-            },
-            "feedback": null,
-            "score": {
-                "score_value": "4.00",
-                "score_max": "4.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": null
-            }
-        },
-        {
-            "unique_identifier": "e9ab074a-17ea-49f0-ae3b-4275e232d173",
-            "order": 37,
-            "title": "31. You're almost done! Simply complete this contact us form so we can show you your results.",
+            "title": "Tell Us About Yourself! Understanding some basics about your grade level will help us calibrate the questions in future versions of this inventory.",
             "explanation": null,
             "hint": null,
             "media": [],
@@ -1109,170 +80,113 @@
             "responses": [
                 {
                     "answer": {
-                        "unique_identifier": "aa2de6b9-80ed-41a2-9166-92a83300b3e5",
+                        "unique_identifier": "9222a7c2-a694-445a-923d-d9ced285bbe3",
                         "answer_type_id": 3
                     },
-                    "text": "First Name",
-                    "response": "Michelle"
+                    "text": "School",
+                    "response": "test"
                 },
                 {
                     "answer": {
-                        "unique_identifier": "5d409bac-89a4-448c-b92e-19a15b8a01e6",
+                        "unique_identifier": "5419dd69-b91b-47d0-a3e6-687fec283717",
                         "answer_type_id": 3
                     },
-                    "text": "Last Name",
-                    "response": "Lewis"
+                    "text": "District (Type 'N\/A' if unknown or does not apply)",
+                    "response": "test"
                 },
                 {
                     "answer": {
-                        "unique_identifier": "bb4b9af2-b03d-47ad-ac80-0e8dba0dd17f",
-                        "answer_type_id": 3
+                        "unique_identifier": "04b8943d-c9a8-4aec-b6ea-eff32ec79c15",
+                        "answer_type_id": 9
                     },
-                    "text": "Company",
-                    "response": "The Pedowitz Group"
-                },
-                {
-                    "answer": {
-                        "unique_identifier": "fc25ed94-8e36-4421-bd3b-bf78aa05734c",
-                        "answer_type_id": 4
-                    },
-                    "text": "Email",
-                    "response": "michellelewisuwg4@gmail.com"
+                    "text": "Grade Level",
+                    "response": "9-Teacher \/ Admin \/ Staff"
                 }
             ],
             "response": "",
+            "feedback": null,
+            "score": null
+        },
+        {
+            "unique_identifier": "264859a6-4e63-4972-9dcd-c9d15185724b",
+            "order": 2,
+            "title": "Do's and Don't",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.text_only.name",
+                "object_name": "plaintext"
+            },
+            "responses": [],
+            "response": {
+                "text": null,
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": null
+        },
+        {
+            "unique_identifier": "69f7c824-6080-458d-bf12-1452367a86b3",
+            "order": 4,
+            "title": "On some pages of the inventory, you will be asked to view a video once and then respond to questions on the next page or later on in the inventory.\nWe recommend you first expand the video by clicking on the icon that looks like this:Once you have viewed it, click the Esc button to close it and move to the next page.Let's practice below:",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.image_choice.name",
+                "object_name": "image_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": null
+                },
+                "text": null,
+                "url": null,
+                "not_applicable": false
+            },
+            "feedback": null,
+            "score": null
+        },
+        {
+            "unique_identifier": "5deeb3bf-da1a-4c54-a462-89666b4572fc",
+            "order": 3,
+            "title": "Watch the video below.",
+            "explanation": null,
+            "hint": null,
+            "media": [],
+            "type": {
+                "name": "editor.questions.types.image_choice.name",
+                "object_name": "image_choice"
+            },
+            "responses": [],
+            "response": {
+                "answer": {
+                    "unique_identifier": null
+                },
+                "text": null,
+                "url": null,
+                "not_applicable": false
+            },
             "feedback": null,
             "score": null
         }
     ],
     "question_blocks": [
         {
-            "title": "Strategy",
+            "title": "Question Block 1",
             "order": 1,
-            "score": {
-                "score_value": "20.00",
-                "score_max": "20.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": "100%"
-            }
-        },
-        {
-            "title": "People",
-            "order": 2,
-            "score": {
-                "score_value": "20.00",
-                "score_max": "20.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": "100%"
-            }
-        },
-        {
-            "title": "Process",
-            "order": 3,
-            "score": {
-                "score_value": "20.00",
-                "score_max": "20.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": "100%"
-            }
-        },
-        {
-            "title": "Technology",
-            "order": 4,
-            "score": {
-                "score_value": "20.00",
-                "score_max": "20.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": "100%"
-            }
-        },
-        {
-            "title": "Customer",
-            "order": 5,
-            "score": {
-                "score_value": "20.00",
-                "score_max": "20.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": "100%"
-            }
-        },
-        {
-            "title": "Results",
-            "order": 6,
-            "score": {
-                "score_value": "20.00",
-                "score_max": "20.00",
-                "score_value_weighted": null,
-                "score_max_weighted": null,
-                "score_value_converted": null,
-                "score_max_converted": null,
-                "score_custom_as_percentage": "100%",
-                "score_quiz_as_percentage": "100%"
-            }
+            "score": null
         }
     ],
     "formula_results": [
         {
             "formula_order": 1,
-            "name": "Strategy",
-            "unique_identifier": "c2c5edc4-20ec-4b0a-8ab3-f6c832050c24",
-            "formula": "*|qb1_custom_score|*",
-            "result": "20"
-        },
-        {
-            "formula_order": 2,
-            "name": "People",
-            "unique_identifier": "dedbb4c8-0b2d-48ee-8a29-57f978e8e7a1",
-            "formula": "*|qb2_custom_score|*",
-            "result": "20"
-        },
-        {
-            "formula_order": 3,
-            "name": "Process",
-            "unique_identifier": "3a7ca6e8-2b2b-4fa8-80e4-5ce239d587ce",
-            "formula": "*|qb3_custom_score|*",
-            "result": "20"
-        },
-        {
-            "formula_order": 4,
-            "name": "Technology",
-            "unique_identifier": "d2912289-ed96-48aa-aaf5-f8671908cd7a",
-            "formula": "*|qb4_custom_score|*",
-            "result": "20"
-        },
-        {
-            "formula_order": 5,
-            "name": "Customer",
-            "unique_identifier": "eb0a1a46-7f88-4ccf-a1ea-7c96856a4e5e",
-            "formula": "*|qb5_custom_score|*",
-            "result": "20"
-        },
-        {
-            "formula_order": 6,
-            "name": "Results",
-            "unique_identifier": "fa1c9446-85e2-42b9-b09f-89264faddc10",
-            "formula": "*|qb6_custom_score|*",
-            "result": "20"
+            "name": "RandomNumber",
+            "unique_identifier": "21dc73cf-69d5-47fc-92bd-296411a70130",
+            "formula": "Math.random() * 50000",
+            "result": "48,934"
         }
     ]
 }
