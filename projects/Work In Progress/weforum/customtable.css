@@ -1,0 +1,35 @@
+/* General table settings */
+
+div#iegv.template-widget.text table th,
+div#iegv.template-widget.text table td p {
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div#iegv.template-widget.text table tr:nth-child(6) td {
+    padding-top: 10px;
+}
+
+div#iegv.template-widget.text table tr td {
+    width: 16.66%;
+}
+
+/* Color table header */
+
+div#iegv.template-widget.text table thead th {
+    background-color: #c12a2c;
+    color: white;
+}
+
+/* Table cell background color */
+
+div#iegv.template-widget.text table tr:not(:nth-child(6)) p {
+    background-color: #c12a2c;
+}
+
+/* No borders on last table row */
+
+div#iegv.template-widget.text table tr:nth-child(6) td {
+    border: none;
+}

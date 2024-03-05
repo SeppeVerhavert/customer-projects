@@ -1,0 +1,39 @@
+/* Bar chart colors */
+
+div#ibq8d.template-widget.bar .highcharts-series-0.highcharts-tracker rect:nth-child(1) {
+    fill: #861A22;
+}
+
+div#ibq8d.template-widget.bar .highcharts-series-0.highcharts-tracker rect:nth-child(2) {
+    fill: #1A4C32;
+}
+
+div#ibq8d.template-widget.bar .highcharts-series-0.highcharts-tracker rect:nth-child(3) {
+    fill: #7C959B;
+}
+
+div#ibq8d.template-widget.bar .highcharts-series-0.highcharts-tracker rect:nth-child(4) {
+    fill: #3F8653;
+}
+
+div#ibq8d.template-widget.bar .highcharts-series-0.highcharts-tracker rect:nth-child(5) {
+    fill: #A8D19E;
+}
+
+div#ibq8d.template-widget.bar .highcharts-series-0.highcharts-tracker rect:nth-child(6) {
+    fill: #F1DD38;
+}
+
+div#ibq8d.template-widget.bar .highcharts-series-0.highcharts-tracker rect:nth-child(7) {
+    fill: #FF8B58;
+}
+
+div#ibq8d.template-widget.bar g.highcharts-legend {
+    visibility: hidden;
+}
+
+/* Hide pie chart legend */
+
+div.template-widget.pie_widget .highcharts-legend {
+    display: none;
+}
