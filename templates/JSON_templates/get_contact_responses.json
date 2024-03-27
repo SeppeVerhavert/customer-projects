@@ -1,0 +1,70 @@
+{
+    "data": [
+        {
+            "complete": true,
+            "custom_score": 14,
+            "date_created": "2022-03-09 17:41:32",
+            "duration": 17,
+            "max_custom_score": 14,
+            "max_score": 0,
+            "partial": false,
+            "score": null,
+            "server_date_completed": "2022-03-09 16:41:32",
+            "server_date_created": "2022-03-09 16:41:14",
+            "unique_identifier": "aff8a9cd-d28a-47d3-84c5-b5d472c86b11",
+            "survey": {
+                "unique_identifier": "bd58ff7a-7c98-4d4e-9995-000b5709c025",
+                "title": "Disc Assessment Example"
+            }
+        },
+        {
+            "complete": true,
+            "custom_score": 14,
+            "date_created": "2022-03-08 14:53:18",
+            "duration": 28,
+            "max_custom_score": 14,
+            "max_score": 0,
+            "partial": false,
+            "score": null,
+            "server_date_completed": "2022-03-08 13:53:18",
+            "server_date_created": "2022-03-08 13:52:48",
+            "unique_identifier": "501b22fd-7042-4995-8a77-fb36fb997b87",
+            "survey": {
+                "unique_identifier": "bd58ff7a-7c98-4d4e-9995-000b5709c025",
+                "title": "Disc Assessment Example"
+            }
+        }
+    ],
+    "links": {
+        "first": "https://api.pointerpro.com/v3/oauth/sessions/e4SaW7GQg?page=1",
+        "last": "https://api.pointerpro.com/v3/oauth/sessions/e4SaW7GQg?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://api.pointerpro.com/v3/oauth/sessions/e4SaW7GQg?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://api.pointerpro.com/v3/oauth/sessions/e4SaW7GQg",
+        "per_page": 15,
+        "to": 2,
+        "total": 2
+    }
+}
