@@ -1,0 +1,11 @@
+/* Hide legends for all bar charts */
+
+div.template-widget.bar .highcharts-legend {
+    display: none;
+}
+
+/* Hide legend for a specific bar charts with widget ID*/
+
+div#i8xeil .highcharts-legend {
+    display: none;
+}

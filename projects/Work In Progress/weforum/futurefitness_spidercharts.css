@@ -1,0 +1,7 @@
+div.spiderchart g.highcharts-xaxis-labels.highcharts-radial-axis-labels {
+    transform: scale(1.1) translate(-30px, -20px);
+}
+
+div#ikbq7.spiderchart g.highcharts-legend {
+    transform: translate(220px, 365px);
+}

@@ -1,0 +1,67 @@
+/*main table*/
+#ipxef6 table th:nth-child(1) {
+    width: 70% !important;
+}
+
+#ipxef6 table th:nth-child(2) {
+    width: 30% !important;
+}
+
+/*NA Comments table*/
+#iwn2f table th:nth-child(1),
+#ikq6xb table th:nth-child(1) {
+    width: 40% !important;
+}
+
+#iwn2f table th:nth-child(2),
+#ikq6xb table th:nth-child(2) {
+    width: 50% !important;
+}
+
+#iwn2f table th:nth-child(3),
+#ikq6xb table th:nth-child(3) {
+    width: 10% !important;
+}
+
+/*MNC and other scoring tables*/
+#iu44j table th:nth-child(1),
+#i1oxhe table th:nth-child(1),
+#ijkks4 table th:nth-child(1),
+#ip5dwi table th:nth-child(1) {
+    width: 30% !important;
+}
+
+#iu44j table th:nth-child(2),
+#i1oxhe table th:nth-child(2),
+#ijkks4 table th:nth-child(2),
+#ip5dwi table th:nth-child(2) {
+    width: 5% !important;
+}
+
+#iu44j table th:nth-child(3),
+#i1oxhe table th:nth-child(3),
+#ijkks4 table th:nth-child(3),
+#ip5dwi table th:nth-child(3) {
+    width: 60% !important;
+}
+
+#iu44j table th:nth-child(4),
+#i1oxhe table th:nth-child(4),
+#ijkks4 table th:nth-child(4),
+#ip5dwi table th:nth-child(4) {
+    width: 5% !important;
+}
+
+/*Recommendations table*/
+#ixo96h table th:nth-child(1) {
+    width: 10% !important;
+}
+
+#ixo96h table th:nth-child(2) {
+    width: 90% !important;
+}
+
+.header-container img {
+    display: block;
+    margin-left: auto;
+}

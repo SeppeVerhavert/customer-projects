@@ -1,0 +1,39 @@
+/* Tomato Grotesk Regular */
+@font-face {
+    font-family: "Tomato Grotesk";
+    src: url('https://www.unisys.com/assets/fonts/tomato/eot/Tomato Grotesk Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('https://www.unisys.com/assets/fonts/tomato/eot/Tomato Grotesk Regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('https://www.unisys.com/assets/fonts/tomato/woff2/Tomato Grotesk Regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('https://www.unisys.com/assets/fonts/tomato/woff/Tomato Grotesk Regular.woff') format('woff');
+    /* Pretty Modern Browsers */
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body.design-version-3.theme-rounded-corners .button,
+body.theme-template-light.theme-rounded-corners .button,
+body.theme-template-dark.theme-rounded-corners .button {
+    border-radius: 16px;
+    color: #ffffff;
+}
+
+.form .checkbox:checked+.answer-content,
+.ranked.column-multi .column-sortable-2 .answer-content,
+.ranked.column-single-click .checkbox:checked+.answer-content,
+.text-choice .checkbox:checked+.answer-content,
+.text-choice .radio:checked+.answer-content {
+    background-color: #e5eaeb;
+}
+
+.rangeslider__fill {
+    background-color: #00E28B;
+}
+
+p,
+div {
+    font-family: "Tomato Grotesk";
+}

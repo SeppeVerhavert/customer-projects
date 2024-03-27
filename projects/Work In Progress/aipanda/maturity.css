@@ -1,0 +1,4 @@
+div.template-widget.column_chart g.highcharts-yaxis-labels,
+div.template-widget.column_chart g.highcharts-data-labels.highcharts-column-series {
+    display: none;
+}
