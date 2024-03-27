@@ -1,0 +1,149 @@
+/* Hide save on exit button on final question */
+
+div.card-actions.rsNoDrag>div:nth-child(2)>button {
+    display: none !important;
+}
+
+/* RTL */
+
+.lang-162 textarea.question.input {
+    text-align: right;
+}
+
+.lang-162 .answer-content {
+    text-align: right;
+    padding: .3em 2em .3em .3em;
+}
+
+.ltr {
+    direction: rtl;
+}
+
+.lang-162 .answer .radio,
+.lang-162 .answer .checkbox {
+    left: auto;
+    right: .9em;
+    margin-right: 0;
+}
+
+.lang-162 .answer.correct .radio+.answer-content:before,
+.lang-162 .answer.correct .checkbox+.answer-content:before,
+.lang-162 .answer.incorrect .radio+.answer-content:before,
+.lang-162 .answer.incorrect .checkbox+.answer-content:before,
+.lang-162 .radio:checked+.answer-content:before,
+.lang-162 .checkbox:checked+.answer-content:before {
+    top: 1em;
+    right: 1em;
+    /* margin-left: 2em; */
+    position: absolute;
+}
+
+.text-choice .radio,
+.text-choice .checkbox {
+    top: 1.05em;
+    right: 1em;
+}
+
+
+
+.lang-162 .card-actions-item {
+    transform: rotate(180deg);
+}
+
+.lang-162 #content0 .card-actions-item {
+    transform: rotate(0deg);
+}
+
+.lang-162 .button.next,
+.lang-162 .button.next.glow {
+    transform: rotate(180deg);
+}
+
+.lang-162 .button.next:not(:disabled):not(.disabled):hover,
+.lang-162 .button.next:not(:disabled):not(.disabled):focus {
+    transform: rotate(180deg) scale(1.05);
+}
+
+.lang-162 #progress,
+.lang-162 #session-upload-progress {
+    left: auto;
+    right: 0;
+    text-align: left;
+}
+
+.lang-162 .progress-bar .progress-numbers:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    right: 100%;
+    left: auto;
+    top: 0;
+    bottom: 0;
+    border-left: none;
+    border-right: .4em solid;
+    border-top: .7em solid transparent;
+    border-bottom: .7em solid transparent;
+}
+
+.lang-162 .option {
+    direction: rtl;
+    text-align: right;
+}
+
+.lang-162 .form-item-answer.form-select {
+    text-align: right;
+}
+
+.lang-162 .form-item {
+    text-align: right;
+}
+
+.lang-162 .input.form-item-answer {
+    text-align: right;
+}
+
+.lang-162 textarea.feedback.input {
+    text-align: right;
+}
+
+/* New CSS */
+
+/* #question-6 .answer-content,#question-10 .answer-content,#question-12 .answer-content, 
+#question-14 .answer-content,#question-15 .answer-content,#question-16 .answer-content {
+    direction: rtl !important;
+} */
+
+.rtl-direction {
+    direction: rtl !important;
+}
+
+.ltr-direction {
+    direction: ltr !important;
+}
+
+.text-choice .answer-content {
+    padding: 0.7em 2.5em 0.7em 2.5em;
+}
+
+.answer.correct .radio+.answer-content:before,
+.answer.correct .checkbox+.answer-content:before,
+.answer.incorrect .radio+.answer-content:before,
+.answer.incorrect .checkbox+.answer-content:before,
+.radio:checked+.answer-content:before,
+.checkbox:checked+.answer-content:before {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    left: unset;
+}
+
+/* Adjustments by Seppe */
+
+.lang-162 div.card-actions div.card-actions-item {
+    flex-direction: row;
+}
+
+.lang-162 div.text-container,
+.lang-162 div.answers-container label.answer {
+    direction: rtl;
+}
